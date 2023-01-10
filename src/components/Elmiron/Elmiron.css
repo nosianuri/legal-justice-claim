@@ -1,0 +1,8 @@
+.elmiron-box {
+    color: #fff;
+    padding: 2rem;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 2rem;
+    border-radius: 10px;
+}
