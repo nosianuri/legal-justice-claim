@@ -19,4 +19,7 @@
     .lawsuit_blog{
         /* grid-template-columns: repeat(2, 1fr); */
     }
+    .lawsuit_body{
+display: block;
+    }
 }

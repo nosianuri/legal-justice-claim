@@ -1,19 +1,23 @@
 import React from 'react';
-import Navbar from '../../components/Navbar/Navbar';
+// import Navbar from '../../components/Navbar/Navbar';
+import Navbar from '../../components/Shared/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer';
-import Attention from '../../components/Attention/Attention';
 import Hero from '../../components/Hero/Hero';
 import MainBody from '../../components/MainBody/MainBody';
-import Elmiron from '../../components/Elmiron/Elmiron';
+import { Helmet } from 'react-helmet';
+
 
 const Home = () => {
   return (
     <div>
-        <Navbar />
-        <Attention />
-        <Hero />
-        <MainBody />
-        <Footer />
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Legal Justice Claim | Ray Advertising LLC</title>
+      </Helmet>
+      <Navbar />
+      <Hero />
+      <MainBody />
+      <Footer />
     </div>
   )
 }

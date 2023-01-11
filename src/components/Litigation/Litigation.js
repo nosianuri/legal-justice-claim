@@ -14,7 +14,7 @@ const Litigation = () => {
         <div>
           <h4>ELMIRON LAWSUITS ARE NOW BEING FILED</h4>
           <p>Recent lawsuit filed May 19, 2020 claims Elmiron® linked to severe eye damage</p>
-          <p className='underline text-lg text-blue-800'>Read More »</p>
+          <p className='underline text-md font-semibold text-[#BD902D]'>Read More »</p>
         </div>
       </div>
       <div className='grid lg:grid-cols-2 grid-cols-1 gap-10 my-10'>
@@ -26,47 +26,47 @@ const Litigation = () => {
           <div className='flex space-x-5 mt-5'>
             <img className='w-auto h-auto' src={litigation1} alt="" />
             <div>
-              <h3 className='text-blue-800 text-lg'>Zantac Lawsuits</h3>
+              <h3 className='text-[#13100E] text-lg'>Zantac Lawsuits</h3>
               <h5 className='text-green-800 text-md leading-none mb-1'>FDA calls for Zantac to be pulled from market immediately</h5>
-              <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-red-800 font-bold'>MORE »</span></p>
+              <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-[#BD902D] font-bold'>MORE »</span></p>
             </div>
           </div>
           <div className='flex space-x-5 mt-5'>
             <img className='w-auto' src={litigation2} alt="" />
             <div>
-              <h3 className='text-blue-800 text-lg'>Zantac Lawsuits</h3>
+              <h3 className='text-[#13100E] text-lg'>Elmiron Lawsuits</h3>
               <h5 className='text-green-800 text-md leading-none mb-1'>FDA calls for Zantac to be pulled from market immediately</h5>
-              <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-red-800 font-bold'>MORE »</span></p>
+              <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-[#BD902D] font-bold'>MORE »</span></p>
             </div>
           </div>
           <div className='flex space-x-5 mt-5'>
             <img className='w-auto' src={litigation3} alt="" />
             <div>
-              <h3 className='text-blue-800 text-lg'>Zantac Lawsuits</h3>
+              <h3 className='text-[#13100E] text-lg'>Belviq Lawsuits</h3>
               <h5 className='text-green-800 text-md leading-none mb-1'>FDA calls for Zantac to be pulled from market immediately</h5>
-              <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-red-800 font-bold'>MORE »</span></p>
+              <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-[#BD902D] font-bold'>MORE »</span></p>
             </div>
           </div>
         </div>
         <div>
-        <div className='bg-gray-800 rounded'>
-        <h2 className='text-xl  text-white pl-5 py-2'>Medical Litigation</h2>
-        </div>
-          
+          <div className='bg-gray-800 rounded'>
+            <h2 className='text-xl  text-white pl-5 py-2'>Medical Litigation</h2>
+          </div>
+
           <div className='flex space-x-5 mt-5'>
             <img className='w-auto h-auto' src={litigation4} alt="" />
             <div>
-              <h3 className='text-blue-800 text-lg'>Zantac Lawsuits</h3>
+              <h3 className='text-[#13100E] text-lg'>Hernia Mesh Lawsuits</h3>
               <h5 className='text-green-800 text-md leading-none mb-1'>FDA calls for Zantac to be pulled from market immediately</h5>
-              <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-red-800 font-bold'>MORE »</span></p>
+              <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-[#BD902D] font-bold'>MORE »</span></p>
             </div>
           </div>
           <div className='flex space-x-5 mt-5'>
             <img className='w-auto h-auto' src={litigation5} alt="" />
             <div>
-              <h3 className='text-blue-800 text-lg'>Zantac Lawsuits</h3>
+              <h3 className='text-[#13100E] text-lg'>Surgical Stapler Lawsuits</h3>
               <h5 className='text-green-800 text-md leading-none mb-1'>FDA calls for Zantac to be pulled from market immediately</h5>
-              <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-red-800 font-bold'>MORE »</span></p>
+              <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-[#BD902D] font-bold'>MORE »</span></p>
             </div>
           </div>
           <div className='mt-6'>

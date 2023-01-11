@@ -6,3 +6,10 @@
     margin: 2rem;
     border-radius: 10px;
 }
+
+
+@media screen and (max-width: 780px) {
+    .elmiron-box {
+        padding: 1rem;
+    }
+}
