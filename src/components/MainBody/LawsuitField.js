@@ -7,12 +7,20 @@ const LawsuitField = () => {
       <div className='bg-[#13100E] p-3'>
         <label className='text-white text-lg py-1'>Select Lawsuit</label>
         <select name="status" id="form-select" class="border border-gray-400 block py-2 px-4 w-full rounded focus:outline-none font-semibold">
-          <option value="">Select Status</option>
-          <option value="in Progress">In Progress</option>
-          <option value="completed">Completed</option>
-          <option value="pending">Pending</option>
-          <option value="cancelled">Cancelled</option>
-          <option value="out-for-delivery">Out for delivery</option>
+          <option value="">Select a Lawsuit</option>
+          <option value="earplugs">3M Earplugs</option>
+          <option value="fire-fighting">Fire Fighting</option>
+          <option value="medical-malpractice">Medical Malpractice</option>
+          <option value="car-accident">Car Accident</option>
+          <option value="mesothelioma">Mesothelioma</option>
+          <option value="motorcycle-accident">Motorcycle Accident</option>
+          <option value="nec">NEC</option>
+          <option value="zantac">Zantac</option>
+          <option value="truck-accident">Truck Accident</option>
+          <option value="talcum-powder">Talcum Powder</option>
+          <option value="sex-abuse">Sex Abuse</option>
+          <option value="roundup">Roundup</option>
+          <option value="personal-injury">Personal Injury</option>
         </select>
       </div>
       <div className='mt-4 bg-gray-200'>

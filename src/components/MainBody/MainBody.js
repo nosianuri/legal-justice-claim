@@ -47,9 +47,9 @@ const MainBody = () => {
                         You may claim millions of dollars for your pain and suffering. You probably didn't know you could be owed money for your situation, and it is time to speak up! Don't let you or your family suffer in silence.
                     </div>
                     <div className='space-y-2'>
-                        <div className='flex space-x-2'><img className='w-8' src={marker} alt="" /><p className='lg:text-lg font-semibold'>Receive the Compensation You Deserve!</p></div>
-                        <div className='flex space-x-2'><img className='w-8' src={marker} alt="" /><p className='lg:text-lg font-semibold'>FREE No Obligation Consultation Pay Nothing!</p></div>
-                        <div className='flex space-x-2'><img className='w-8' src={marker} alt="" /><p className='lg:text-lg font-semibold'>Your Contact Information and Case are Confidential!</p></div>
+                        <div className='flex space-x-2'><img className='lg:w-8 ' src={marker} alt="" /><p className='lg:text-lg font-semibold'>Receive the Compensation You Deserve!</p></div>
+                        <div className='flex space-x-2'><img className='lg:w-8' src={marker} alt="" /><p className='lg:text-lg font-semibold'>FREE No Obligation Consultation Pay Nothing!</p></div>
+                        <div className='flex space-x-2'><img className='lg:w-8 ' src={marker} alt="" /><p className='lg:text-lg font-semibold'>Your Contact Information and Case are Confidential!</p></div>
                     </div>
                 </div>
                 <Elmiron />
