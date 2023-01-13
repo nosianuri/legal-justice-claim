@@ -1,5 +1,4 @@
 import React from 'react';
-import ehero from '../../../assets/bg-masthead.jpg';
 import EForm from './EForm';
 
 const EHero = () => {

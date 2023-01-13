@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-const Ehelp = () => {
+const FiHelp = () => {
   return (
     <div className='mb-5 ' >
         <div className='text-center mb-5'>
@@ -13,4 +13,4 @@ const Ehelp = () => {
   )
 }
 
-export default Ehelp;
+export default FiHelp

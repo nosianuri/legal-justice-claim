@@ -5,6 +5,7 @@ import Footer from '../../components/Footer/Footer';
 import Hero from '../../components/Hero/Hero';
 import MainBody from '../../components/MainBody/MainBody';
 import { Helmet } from 'react-helmet';
+import Banner from '../../components/Banner/Banner';
 
 
 const Home = () => {
@@ -14,8 +15,8 @@ const Home = () => {
         <meta charSet="utf-8" />
         <title>Legal Justice Claim | Ray Advertising LLC</title>
       </Helmet>
-      <Navbar />
-      <Hero />
+      <Banner />
+      
       <MainBody />
       <Footer />
     </div>
