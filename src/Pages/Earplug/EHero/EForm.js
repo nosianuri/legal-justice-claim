@@ -11,7 +11,7 @@ const EForm = () => {
                 </div>
                 <div className='grid lg:grid-cols-2 grid-cols-1 py-5 lg:gap-8'>
                     <div className='space-y-3 mb-3 lg:mb-0'>
-                        <input className='px-2 rounded w-full py-2' type="text" name='first_name' placeholder='First Name' />
+                        <input className='px-2 rounded w-full py-2 focus:outline-red' type="text" name='first_name' placeholder='First Name' />
                         <input className='px-2 rounded w-full py-2' type="text" name='last_name' placeholder='Last Name' />
                         <input className='px-2 rounded w-full py-2' type="text" name='email' placeholder='Email' />
                     </div>

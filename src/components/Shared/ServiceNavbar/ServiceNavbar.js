@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/Asset 1@320x-8.png';
 
-const Enavbar = () => {
+const ServiceNavbar = () => {
   return (
     <div className='bg-[#13100E]'>
         <div className='py-3'>
@@ -14,4 +14,4 @@ const Enavbar = () => {
   )
 }
 
-export default Enavbar
+export default ServiceNavbar

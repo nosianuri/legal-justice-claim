@@ -1,5 +1,14 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import ServiceFooter from '../../components/Shared/ServiceNavbar/ServiceFooter'
+import ServiceNavbar from '../../components/Shared/ServiceNavbar/ServiceNavbar'
+import MmAbout from './MmAbout/MmAbout'
+import MmFind from './MmFind/MmFind'
+import MmFooter from './MmFooter/MmFooter'
+import MmHelp from './MmHelp/MmHelp'
+import MmHero from './MmHero/MmHero'
+import MmNews from './MmNews/MmNews'
+import MmSign from './MmSign/MmSign'
 
 const MedicalMalpractice = () => {
   return (
@@ -9,7 +18,14 @@ const MedicalMalpractice = () => {
         <title>Medical Malpractice | Legal Justice Claim</title>
       </Helmet>
       <div>
-      MedicalMalpractice
+     <ServiceNavbar />
+     <MmHero />
+     <MmFind />
+     <MmHelp />
+     <MmAbout />
+     <MmSign />
+     <MmNews />
+     <ServiceFooter />
       </div>
     </div>
   )

@@ -5,11 +5,10 @@ import { motion } from 'framer-motion';
 import { heroData } from '../Shared/Header/data';
 
 const Banner = () => {
-  // destructure hero data
-  const { pretitle, title, subtitle, btnText } = heroData;
+  
   return (
     <section style={{
-        background: `url(https://i.ibb.co/mXCCgLP/legal-justice-claim.jpg)`
+        background: `url(https://i.ibb.co/hDkRLss/Legal-Hero.png)`
       }} className='lg:min-h-[650px] min-h-[450px] bg-hero !bg-cover'>
       {/* header */}
       <Header />

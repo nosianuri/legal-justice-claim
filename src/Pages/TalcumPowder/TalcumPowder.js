@@ -1,5 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import ServiceFooter from '../../components/Shared/ServiceNavbar/ServiceFooter'
+import ServiceNavbar from '../../components/Shared/ServiceNavbar/ServiceNavbar'
 
 const TalcumPowder = () => {
   return (
@@ -9,7 +11,8 @@ const TalcumPowder = () => {
         <title>Talcum Powder | Legal Justice Claim</title>
       </Helmet>
       <div>
-      TalcumPowder
+      <ServiceNavbar />
+      <ServiceFooter />
       </div>
     </div>
   )

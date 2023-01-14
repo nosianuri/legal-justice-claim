@@ -1,11 +1,11 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import ServiceFooter from '../../components/Shared/ServiceNavbar/ServiceFooter'
+import ServiceNavbar from '../../components/Shared/ServiceNavbar/ServiceNavbar'
 import EAbout from './EAbout/EAbout'
 import EFind from './EFind/EFind'
-import EFooter from './Efooter/EFooter'
 import Ehelp from './Ehelp/Ehelp'
 import EHero from './EHero/EHero'
-import Enavbar from './ENavbar/Enavbar'
 import ENews from './ENews/ENews'
 import ESign from './ESign/ESign'
 
@@ -17,14 +17,14 @@ const Earplug = () => {
         <title>Earplug | Legal Justice Claim</title>
       </Helmet>
       <div>
-        <Enavbar />
+        <ServiceNavbar />
         <EHero />
         <EFind />
         <Ehelp />
         <EAbout />
         <ESign />
         <ENews />
-        <EFooter />
+        <ServiceFooter />
       </div>
     </div>
   )

@@ -1,5 +1,8 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import ServiceFooter from '../../components/Shared/ServiceNavbar/ServiceFooter'
+import ServiceNavbar from '../../components/Shared/ServiceNavbar/ServiceNavbar'
+import RuHero from './RuHero/RuHero'
 
 const RoundUp = () => {
   return (
@@ -9,7 +12,9 @@ const RoundUp = () => {
         <title>Round Up | Legal Justice Claim</title>
       </Helmet>
       <div>
-      RoundUp
+     <ServiceNavbar />
+     <RuHero />
+     <ServiceFooter />
       </div>
     </div>
   )

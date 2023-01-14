@@ -28,7 +28,7 @@ const FiForm = () => {
             </div>
         </div>
         <div className='flex gap-10 py-1 lg:px-3 mt-3 '>
-            <p>Did you or a loved one use 3M Dual-Ended Combat Arms Earplugs?</p>
+            <p>Were you a firefighter or U.S. Military Servicemember exposed to firefighting foam (AFFF)?</p>
             <div className='flex gap-5'>
                 <p>Yes</p>
                 <p>No</p>
@@ -36,28 +36,30 @@ const FiForm = () => {
         </div>
         <div className='lg:w-full w-full h-[1px] bg-gray-300 '></div>
         <div className='flex gap-10 py-1 lg:px-3'>
-            <p>Were you or a loved one diagnosed with hearing loss?</p>
-            <div className='flex gap-5'>
-                <p>Yes</p>
-                <p>No</p>
+            <p>Have you or a loved one developed any of the following conditions after being exposed to Firefighting Foam (AFFF)?</p>
+            <div>
+            <div class="inline-block relative w-40">
+  <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
+    <option>[Select]</option>
+    <option>Option 2</option>
+    <option>Option 3</option>
+  </select>
+  <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+  </div>
+</div>
             </div>
         </div>
         <div className='lg:w-full w-full h-[1px] bg-gray-300 '></div>
         <div className='flex gap-10 py-1 lg:px-3'>
-            <p>Did you or a loved one serve in the U.S. Military between 2003 and 2015?</p>
+            <p>Do you currently have a lawyer
+representing your claim?</p>
             <div className='flex gap-5'>
                 <p>Yes</p>
                 <p>No</p>
             </div>
         </div>
-        <div className='lg:w-full w-full h-[1px] bg-gray-300 '></div>
-        <div className='flex gap-10 py-1 lg:px-3'>
-            <p>Do you currently have a lawyer representing your claim?</p>
-            <div className='flex gap-5'>
-                <p>Yes</p>
-                <p>No</p>
-            </div>
-        </div>
+        
         <div className='lg:px-10 mt-3'>
             <textarea className='rounded w-full p-2' name="" id="" cols="50" rows="2" placeholder='More details about your claim' ></textarea>
         </div>

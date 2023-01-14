@@ -1,4 +1,8 @@
 import React from 'react';
+import Category from '../Shared/Category';
+import SocialMedia from '../Shared/SocialMedia';
+import Subscribe from '../Shared/Subscribe';
+import Tpost from '../Shared/Tpost/Tpost';
 import './MainBody.css';
 
 const LawsuitField = () => {
@@ -6,7 +10,7 @@ const LawsuitField = () => {
     <div className='lawsuit_filed'>
       <div className='bg-[#13100E] p-3'>
         <label className='text-white text-lg py-1'>Select Lawsuit</label>
-        <select name="status" id="form-select" class="border border-gray-400 block py-2 px-4 w-full rounded focus:outline-none font-semibold">
+        <select name="status" id="form-select" class="border border-gray-400 block py-2 px-4 w-full rounded focus:outline-none font-semibold mt-3">
           <option value="">Select a Lawsuit</option>
           <option value="earplugs">3M Earplugs</option>
           <option value="fire-fighting">Fire Fighting</option>
@@ -42,6 +46,10 @@ const LawsuitField = () => {
         </div>
 
       </div>
+      <SocialMedia />
+      <Subscribe />
+      <Tpost />
+      <Category />
     </div>
   )
 }

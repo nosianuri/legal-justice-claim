@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './ESign.css';
 
 const ESign = () => {
     return (
@@ -8,7 +9,7 @@ const ESign = () => {
                     <h1 className='lg:my-8 my-4 lg:text-4xl text-2xl text-center'>SIGNS & SYMPTOMS</h1>
                     <div className='lg:w-full w-full h-[1px] bg-gray-400'></div>
                     <p className='mt-5'>Some military service members may have suffered serious hearing damage when the 3M earplugs they depended on loosened and exposed them to dangerous sound levels. The dual-ended ear plugs were too short to be properly inserted into users’ ears. When the ear plugs are not firmly in place, it can lead to hearing loss or tinnitus. According to the Department of Defense, symptoms of combat-related hearing problems include:</p>
-                    <ul>
+                    <ul className='terms-article'>
                         <li>Difficulty hearing someone talking three feet away</li>
                         <li>Difficulty understanding what people are saying</li>
                         <li>Buzzing or ringing in the ears</li>

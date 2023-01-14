@@ -1,10 +1,12 @@
 import React from 'react';
+import Heading from '../Shared/Heading/Heading';
 
 const Additional = () => {
     return (
         <div>
-            <div className='bg-gray-500 py-2 pl-5 rounded'>
-                <h3 className='text-xl text-gray-300'>Additional Lawsuit</h3>
+            <div className=''>
+            <Heading title='Additional Lawsuit' />
+                {/* <h3 className='text-xl text-gray-300'>Additional Lawsuit</h3> */}
             </div>
             <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 mt-5'>
                 <div>

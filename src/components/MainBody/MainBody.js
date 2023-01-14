@@ -8,6 +8,7 @@ import Litigation from '../Litigation/Litigation';
 import Additional from '../Additional/Additional';
 import LawsuitField from './LawsuitField';
 import ElmironSlide from '../Elmiron/ElmironSlide';
+import SocialMedia from '../Shared/SocialMedia';
 
 const MainBody = () => {
     return (
@@ -33,9 +34,9 @@ const MainBody = () => {
                         <option value="roundup">Roundup</option>
                         <option value="personal-injury">Personal Injury</option>
                     </select>
-                    <button className='bg-[#BD902D] px-2 py-1 rounded'><a className='text-white text-lg font-semibold' href="/">Submit</a></button>
+                    <button className='bg-[#BD902D] py-2 px-4 rounded'><a className='text-white text-lg font-semibold' href="/">Submit</a></button>
 
-                    <p className='underline text-white mr-10 text-xl'>Latest News</p>
+                    <p className='underline text-white mr-10 text-xl'><a className='hover:text-[#BD902D]' href="/">Latest News</a></p>
 
                 </div>
                 <div className='my-5'>

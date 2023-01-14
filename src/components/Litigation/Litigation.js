@@ -5,6 +5,7 @@ import litigation2 from '../../assets/litigation-bg-elmiron.jpg';
 import litigation3 from '../../assets/litigation-bg-belviq.jpg';
 import litigation4 from '../../assets/litigation4.jpg';
 import litigation5 from '../../assets/litigation5.jpg';
+import Heading from '../Shared/Heading/Heading';
 
 const Litigation = () => {
   return (
@@ -19,8 +20,9 @@ const Litigation = () => {
       </div>
       <div className='grid lg:grid-cols-2 grid-cols-1 gap-10 my-10'>
         <div className=''>
-          <div className='bg-gray-800 rounded'>
-            <h2 className='text-xl text-white pl-5 py-2 '>Drug Litigation</h2>
+          <div className=''>
+          <Heading title='Drug Litigation' />
+            {/* <h2 className='text-xl text-white pl-5 py-2 '>Drug Litigation</h2> */}
           </div>
 
           <div className='flex space-x-5 mt-5'>
@@ -49,8 +51,9 @@ const Litigation = () => {
           </div>
         </div>
         <div>
-          <div className='bg-gray-800 rounded'>
-            <h2 className='text-xl  text-white pl-5 py-2'>Medical Litigation</h2>
+          <div className=''>
+          <Heading title='Medical Litigation' />
+            {/* <h2 className='text-xl  text-white pl-5 py-2'>Medical Litigation</h2> */}
           </div>
 
           <div className='flex space-x-5 mt-5'>

@@ -4,7 +4,7 @@ import EForm from './EForm';
 const EHero = () => {
     return (
         <div style={{
-            background: `url(https://i.ibb.co/hdrGfND/bg-masthead.jpg)`
+            background: `url(https://i.ibb.co/tYHQkPn/3-M-Earplugs.png)`
         }} class="bg-no-repeat !bg-cover">
             <div className='lg:px-32 px-8'>
                 <div className='grid lg:grid-cols-2 grid-cols-1 gap-10'>
