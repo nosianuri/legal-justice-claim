@@ -12,19 +12,19 @@ const LawsuitField = () => {
         <label className='text-white text-lg py-1'>Select Lawsuit</label>
         <select name="status" id="form-select" class="border border-gray-400 block py-2 px-4 w-full rounded focus:outline-none font-semibold mt-3">
           <option value="">Select a Lawsuit</option>
-          <option value="earplugs">3M Earplugs</option>
+          <option value="earplug">3M Earplugs</option>
+          <option value="caraccident">Car Accident</option>
           <option value="fire-fighting">Fire Fighting</option>
           <option value="medical-malpractice">Medical Malpractice</option>
-          <option value="car-accident">Car Accident</option>
           <option value="mesothelioma">Mesothelioma</option>
           <option value="motorcycle-accident">Motorcycle Accident</option>
-          <option value="nec">NEC</option>
-          <option value="zantac">Zantac</option>
-          <option value="truck-accident">Truck Accident</option>
-          <option value="talcum-powder">Talcum Powder</option>
-          <option value="sex-abuse">Sex Abuse</option>
-          <option value="roundup">Roundup</option>
+          <option value="out-for-delivery">NEC</option>
           <option value="personal-injury">Personal Injury</option>
+          <option value="roundup">Roundup</option>
+          <option value="sex-abuse">Sex Abuse</option>
+          <option value="talcum-powder">Talcum Powder</option>
+          <option value="truck-accident">Truck Accident</option>
+          <option value="zantac">Zantac</option>
         </select>
       </div>
       <div className='mt-4 bg-gray-200'>

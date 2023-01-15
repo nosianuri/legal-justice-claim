@@ -20,19 +20,19 @@ const MainBody = () => {
 
                     <select name="status" id="form-select" class="border border-gray-400 block py-2 px-4 w-1/2 rounded focus:outline-none font-semibold">
                         <option value="">Select a Lawsuit</option>
-                        <option value="in Progress">3M Earplugs</option>
-                        <option value="completed">Fire Fighting</option>
-                        <option value="pending">Medical Malpractice</option>
-                        <option value="cancelled">Car Accident</option>
-                        <option value="out-for-delivery">Mesothelioma</option>
-                        <option value="out-for-delivery">Motorcycle Accident</option>
+                        <option value="earplug">3M Earplugs</option>
+                        <option value="caraccident">Car Accident</option>
+                        <option value="fire-fighting">Fire Fighting</option>
+                        <option value="medical-malpractice">Medical Malpractice</option>
+                        <option value="mesothelioma">Mesothelioma</option>
+                        <option value="motorcycle-accident">Motorcycle Accident</option>
                         <option value="out-for-delivery">NEC</option>
-                        <option value="out-for-delivery">Zantac</option>
-                        <option value="out-for-delivery">Truck Accident</option>
-                        <option value="talcum-powder">Talcum Powder</option>
-                        <option value="sex-abuse">Sex Abuse</option>
-                        <option value="roundup">Roundup</option>
                         <option value="personal-injury">Personal Injury</option>
+                        <option value="roundup">Roundup</option>
+                        <option value="sex-abuse">Sex Abuse</option>
+                        <option value="talcum-powder">Talcum Powder</option>
+                        <option value="truck-accident">Truck Accident</option>
+                        <option value="zantac">Zantac</option>
                     </select>
                     <button className='bg-[#BD902D] py-2 px-4 rounded'><a className='text-white text-lg font-semibold' href="/">Submit</a></button>
 
@@ -53,7 +53,10 @@ const MainBody = () => {
                         <div className='flex space-x-2'><img className='lg:w-8 ' src={marker} alt="" /><p className='lg:text-lg font-semibold'>Your Contact Information and Case are Confidential!</p></div>
                     </div>
                 </div>
+                <div className='my-10'>
                 <Elmiron />
+                </div>
+               
                 <RoundUp />
                 <RoundUpProduct />
                 <Litigation />

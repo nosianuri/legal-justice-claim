@@ -1,10 +1,10 @@
 import React from 'react';
-import d1 from '../../../assets/d1.jpg';
-import d2 from '../../../assets/d2.jpg';
-import d3 from '../../../assets/d3.jpg';
-import d4 from '../../../assets/d4.jpg';
-import d5 from '../../../assets/d5.jpg';
-import d6 from '../../../assets/d6.jpg';
+import d1 from '../../../assets/Personal Injury.jpg';
+import d2 from '../../../assets/Zantac (1).jpg';
+import d3 from '../../../assets/Fire Fighting (1).jpg';
+import d4 from '../../../assets/Car Accident.jpg';
+import d5 from '../../../assets/Sex Abuse (1).jpg';
+import d6 from '../../../assets/NEC (1).jpg';
 import Heading from '../../../components/Shared/Heading/Heading';
 
 const RuNews = () => {
@@ -16,7 +16,7 @@ const RuNews = () => {
         <p className='my-3 hover:underline'><a className=' text-blue-800' href="/">https://www.justice.gov/opa/pr/3m-company-agrees-pay-91-million-resolve-allegations-it-supplied-united-states-defective-dual</a></p>
         <p className='mb-10 hover:underline'><a className=' text-blue-800' href="/">https://www.justice.gov/opa/pr/3m-company-agrees-pay-91-million-resolve-allegations-it-supplied-united-states-defective-dual</a></p>
         <div className='mb-10'>
-            <Heading title='Other Services' />
+            <Heading title='Additional Lawsuit' />
             <div className=''>
                 <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6'>
                     <div>
@@ -24,7 +24,7 @@ const RuNews = () => {
                             <div className='img'>
                                 <img src={d1} alt='' />
                             </div>
-                            <h1 className='title'>3M Earplugs</h1>
+                            <h1 className='title'>Personal Injury</h1>
                         </div>
                     </div>
                     <div>
@@ -32,7 +32,7 @@ const RuNews = () => {
                             <div className='img'>
                                 <img src={d2} alt='' />
                             </div>
-                            <h1 className='title'>Medical Malpractice</h1>
+                            <h1 className='title'>Zantac</h1>
                         </div>
                     </div>
                     <div>
@@ -40,7 +40,7 @@ const RuNews = () => {
                             <div className='img'>
                                 <img src={d3} alt='' />
                             </div>
-                            <h1 className='title'>Car Accident</h1>
+                            <h1 className='title'>Fire Fighting</h1>
                         </div>
                     </div>
                     <div>
@@ -48,15 +48,15 @@ const RuNews = () => {
                             <div className='img'>
                                 <img src={d4} alt='' />
                             </div>
-                            <h1 className='title'>Mesothelioma</h1>
+                            <h1 className='title'>Car Accident</h1>
                         </div>
                     </div>
                     <div>
                         <div className='box'>
                             <div className='img'>
-                                <img src={d1} alt='' />
+                                <img src={d5} alt='' />
                             </div>
-                            <h1 className='title'>Motorcycle Accident</h1>
+                            <h1 className='title'>Sex Abuse</h1>
                         </div>
                     </div>
                     <div>

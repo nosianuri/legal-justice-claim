@@ -1,4 +1,4 @@
-import img1 from '../../assets/hero-elmiron.jpg';
+
 import img2 from '../../assets/grid-bg-roundup.png';
 import img3 from '../../assets/roundup.jpg';
 import img4 from '../../assets/grid-bg-truvada.jpg';
@@ -9,7 +9,7 @@ export const elmiron = {
       {
         name: 'Have you used Elmiron?',
         description: 'Have You Experienced Vision & Eye Problems After Long Term Elmiron Use?',
-        image: img1,
+        image: img2,
       },
       {
         name: 'Have you used Elmiron?',

@@ -11,7 +11,7 @@ const Tpost = () => {
    
     <>
       <section className='tpost'>
-        <Heading title='Tiktok post' />
+        <Heading title='Facebook post' />
         <div>
         <div className='box flex'>
               <div className='img'>
