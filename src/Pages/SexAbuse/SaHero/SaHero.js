@@ -4,7 +4,7 @@ import SaForm from './SaForm'
 const SaHero = () => {
   return (
     <div style={{
-        background: `url(https://i.ibb.co/SQXVT5P/Sex-Abuse.png)`
+        background: `url(https://i.ibb.co/VT1XYWg/Sex-Abuse.jpg)`
     }} class="bg-no-repeat !bg-cover">
         <div className='lg:px-32 px-8'>
             <div className='grid lg:grid-cols-2 grid-cols-1 gap-10'>

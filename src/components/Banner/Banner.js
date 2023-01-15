@@ -21,13 +21,12 @@ const Banner = () => {
           className='text-center flex flex-col items-center'
         >
           {/* pretitle */}
-          <motion.div
-            variants={fadeIn('down', 'tween', 0.2, 1.1)}
+          <div
             className='text-white text-[24px] lg:text-[58px] font-primary italic lg:font-medium mb-1 lg:px-36 lg:mx-36'
           >
           <p className='lg:mx-16 mt-32'> <span className='text-[#BD902D]'>Attention:</span>  Lawsuits are now being filed in your area!</p>
            
-          </motion.div>
+          </div>
          
         </motion.div>
       </div>

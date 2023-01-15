@@ -1,5 +1,5 @@
 import React from 'react';
-import marker from '../../../assets/marker.png';
+import marker from '../../../assets/mark.png';
 
 const NecFind = () => {
   return (

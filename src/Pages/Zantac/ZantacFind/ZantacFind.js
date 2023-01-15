@@ -1,6 +1,5 @@
 import React from 'react';
-import marker from '../../../assets/marker.png';
-
+import marker from '../../../assets/mark.png';
 const ZantacFind = () => {
   return (
     <div className='py-10 bg-[#f0f0f0]'>

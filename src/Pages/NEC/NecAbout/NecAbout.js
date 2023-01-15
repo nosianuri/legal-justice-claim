@@ -3,7 +3,7 @@ import React from 'react'
 const NecAbout = () => {
   return (
     <div  style={{
-        background: `url(https://i.ibb.co/Swt0hQb/bg-masthead-2.jpg)`
+        background: `url(https://i.ibb.co/tLqnQSD/about-bg.png)`
       }} class="bg-no-repeat !bg-cover">
       <div className='lg:px-36 lg:mx-16 mx-5 pt-10 pb-28'>
       <h1 className='text-center text-white lg:text-5xl text-3xl py-3'>About Necrotizing Enterocolitis (NEC)</h1>

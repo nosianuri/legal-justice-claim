@@ -4,7 +4,7 @@ import NecForm from './NecForm'
 const NecHero = () => {
   return (
     <div style={{
-        background: `url(https://i.ibb.co/QNKsfTC/NEC.png)`
+        background: `url(https://i.ibb.co/xqB5YWT/imgpsh-fullsize-anim-1.jpg)`
     }} class="bg-no-repeat !bg-cover">
         <div className='lg:px-32 px-8'>
             <div className='grid lg:grid-cols-2 grid-cols-1 gap-5'>

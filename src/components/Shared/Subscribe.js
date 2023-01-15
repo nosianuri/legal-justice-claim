@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from './Heading/Heading';
 import '../MainBody/MainBody.css';
-import sideimg from '../../assets/sidebar-banner-new.jpg';
+import sideimg from '../../assets/law.png';
 
 const Subscribe = () => {
     return (

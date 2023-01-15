@@ -4,13 +4,13 @@ import ZantacForm from './ZantacForm';
 const ZantacHero = () => {
   return (
     <div style={{
-        background: `url(https://i.ibb.co/K9tsnRx/Zantac.png)`
+        background: `url(https://i.ibb.co/j5DwYBn/zantac.jpg)`
     }} class="bg-no-repeat !bg-cover">
-        <div className='lg:px-32 px-8'>
+        <div className='lg:px-32 px-8 bg-black bg-opacity-25'>
             <div className='grid lg:grid-cols-2 grid-cols-1 gap-10'>
                 <div className='lg:py-16 py-5 lg:mx-16'>
-                    <h1 className='lg:text-5xl text-4xl text-center'>Zantac® lawsuits are now being filed!</h1>
-                    <h3 className='text-[#300303] lg:text-[35px] text-2xl text-center my-5 leading-tight'>FDA calls for heartburn drug Zantac to be pulled from market immediately, April 1, 2020*</h3>
+                    <h1 className='lg:text-5xl text-4xl text-center font-semibold'>Zantac® lawsuits are now being filed!</h1>
+                    <h3 className='text-[#300303] lg:text-[35px] text-2xl text-center my-5 leading-tight font-semibold'>FDA calls for heartburn drug Zantac to be pulled from market immediately, April 1, 2020*</h3>
                     <div className='bg-slate-50 border-l-4 border-gray-300 lg:mx-10 p-10 rounded'>
                         <h2 className='lg:text-4xl text-2xl mb-3'>Signs & Symptoms</h2>
                         <div className='lg:w-full w-full h-[1px] bg-gray-700'></div>
