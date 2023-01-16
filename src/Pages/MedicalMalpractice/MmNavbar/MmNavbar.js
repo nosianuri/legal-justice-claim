@@ -13,7 +13,7 @@ const MmNavbar = () => {
         </div>
         <div className='font-bold lg:pr-36 pr-5'>
           <p className='lg:text-xl text-[#BD902D]'>Free Consultation . Call 24/7</p>
-          <p className='lg:text-3xl text-center hover:text-[#BD902D] text-white'><a href="/">(800) 1111111</a></p>
+          <p className='lg:text-3xl text-center hover:text-[#BD902D] text-white'><a href="/"><i class="fa-solid fa-phone pr-3"></i>(800) 1111111</a></p>
         </div>
     </div>
         
