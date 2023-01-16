@@ -6,6 +6,7 @@ import EAbout from './EAbout/EAbout'
 import EFind from './EFind/EFind'
 import Ehelp from './Ehelp/Ehelp'
 import EHero from './EHero/EHero'
+import ENavbar from './ENavbar/ENavbar'
 import ENews from './ENews/ENews'
 import ESign from './ESign/ESign'
 
@@ -17,7 +18,7 @@ const Earplug = () => {
         <title>Earplug | Legal Justice Claim</title>
       </Helmet>
       <div>
-        <ServiceNavbar />
+        <ENavbar />
         <EHero />
         <EFind />
         <Ehelp />

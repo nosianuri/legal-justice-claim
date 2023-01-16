@@ -6,6 +6,7 @@ import ZantacAbout from './ZantacAbout/ZantacAbout'
 import ZantacFind from './ZantacFind/ZantacFind'
 import ZantacHelp from './ZantacHelp/ZantacHelp'
 import ZantacHero from './ZantacHero/ZantacHero'
+import ZantacNavbar from './ZantacNavbar/ZantacNavbar'
 import ZantacNews from './ZantacNews/ZantacNews'
 import ZantacSign from './ZantacSign/ZantacSign'
 
@@ -17,7 +18,7 @@ const Zantac = () => {
         <title>Zantac | Legal Justice Claim</title>
       </Helmet>
       <div>
-      <ServiceNavbar />
+     <ZantacNavbar />
       <ZantacHero />
       <ZantacFind />
       <ZantacHelp />

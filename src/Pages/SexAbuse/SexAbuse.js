@@ -6,6 +6,7 @@ import SaAbout from './SaAbout/SaAbout'
 import SaFind from './SaFind/SaFind'
 import SaHelp from './SaHelp/SaHelp'
 import SaHero from './SaHero/SaHero'
+import SaNavbar from './SaNavbar/SaNavbar'
 import SaNews from './SaNews/SaNews'
 import SaSign from './SaSign/SaSign'
 
@@ -17,7 +18,7 @@ const SexAbuse = () => {
         <title>Sex Abuse | Legal Justice Claim</title>
       </Helmet>
       <div>
-      <ServiceNavbar />
+      <SaNavbar />
       <SaHero />
       <SaFind />
       <SaHelp />

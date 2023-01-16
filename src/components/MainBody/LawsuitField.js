@@ -28,18 +28,18 @@ const LawsuitField = () => {
         </select>
       </div>
       <div className='mt-4 bg-gray-200'>
-        <h3 className='uppercase text-2xl bg-gray-700 text-white text-center py-1'>Lawsuits Being Filed</h3>
+        <h3 className='uppercase lg:text-2xl text-xl bg-gray-700 text-white text-center py-1'>Lawsuits Being Filed</h3>
         <div className='p-5'>
           <p><a className='hover:text-[#BD902D]' href="/earplug">3M Earplugs</a> </p>
           <p><a className='hover:text-[#BD902D]' href="/firefighting">Fire Fighting</a> </p>
-          <p><a className='hover:text-[#BD902D]' href="/medicalmalpractice">Medical Malpractice</a> </p>
-          <p><a className='hover:text-[#BD902D]' href="/caraccident">Car Accident</a> </p>
-          <p><a className='hover:text-[#BD902D]' href="/mesothelioma">Mesothelioma</a> </p>
-          <p><a className='hover:text-[#BD902D]' href="/motorcycleaccident">Motorcycle Accident</a> </p>
+          <p><a className='hover:text-[#BD902D]' href="/personalinjury">Medical Malpractice</a> </p>
+          <p><a className='hover:text-[#BD902D]' href="/personalinjury">Car Accident</a> </p>
+          <p><a className='hover:text-[#BD902D]' href="/">Mesothelioma</a> </p>
+          <p><a className='hover:text-[#BD902D]' href="/personalinjury">Motorcycle Accident</a> </p>
           <p><a className='hover:text-[#BD902D]' href="/nec">NEC</a> </p>
           <p><a className='hover:text-[#BD902D]' href="/zantac">Zantac</a> </p>
-          <p><a className='hover:text-[#BD902D]' href="/truckaccident">Truck Accident</a> </p>
-          <p><a className='hover:text-[#BD902D]' href="/talcumpowder">Talcum Powder</a> </p>
+          <p><a className='hover:text-[#BD902D]' href="/personalinjury">Truck Accident</a> </p>
+          <p><a className='hover:text-[#BD902D]' href="/">Talcum Powder</a> </p>
           <p><a className='hover:text-[#BD902D]' href="/sexabuse">Sex Abuse</a> </p>
           <p><a className='hover:text-[#BD902D]' href="/roundup">Roundup</a> </p>
           <p><a className='hover:text-[#BD902D]' href="/personalinjury">Personal Injury</a> </p>

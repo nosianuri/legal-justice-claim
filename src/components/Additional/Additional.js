@@ -2,6 +2,7 @@ import React from 'react';
 import Heading from '../Shared/Heading/Heading';
 import Ap1 from '../../assets/Medical Malpractice (1).jpg';
 import Ap2 from '../../assets/talcom powder.jpg';
+import Ap3 from '../../assets/Roundup (1).jpg';
 import Ap4 from '../../assets/Sex Abuse (1).jpg';
 import Ap5 from '../../assets/Personal Injury.jpg';
 import Ap6 from '../../assets/Zantac (1).jpg';
@@ -35,7 +36,7 @@ const Additional = () => {
                     </div>
                 </div>
                 <div>
-                    <img className='w-48' src="https://i.ibb.co/3pqW4ww/roundup-bg.jpg" alt="" />
+                    <img className='w-48' src={Ap3} alt="" />
                     <div>
                         <h5 className='text-md font-semibold text-[#300303]'>RoundUp RoundUp®</h5>
                         <p className='text-xs'>Millions of consumers have used the weed killer in their home gardens and lawns since it was introduced in 1976 and, unfortunately, it has been found to contain harmful chemicals that may cause cancer...
@@ -54,7 +55,7 @@ const Additional = () => {
                 </div>
                 
                 <div>
-                    <img className='w-40' src="https://i.ibb.co/yQJsddQ/personal-injuryjpg.jpg" alt="" />
+                    <img className='w-48' src="https://i.ibb.co/yQJsddQ/personal-injuryjpg.jpg" alt="" />
                     <div>
                         <h5 className='text-md font-semibold text-[#300303]'>Personal Injury</h5>
                         <p className='text-xs'>People get injured every day, in automobiles, motorcycles, a slip and fall, work-related accidents, medical malpractice, a faulty/defective product. You may be entitled to compensation...
@@ -67,7 +68,7 @@ const Additional = () => {
                     <img src={Ap6} alt="" />
                     <div>
                         <h5 className='text-md font-semibold text-[#300303]'>Zantac</h5>
-                        <p className='text-xs'>Since 2010, the FDA has received more than 1,600 reports of Paragard® complications where the copper IUD broke or fractured, including at least 700 serious injuries. Many women have filed complaints...
+                        <p className='text-xs'>The FDA told all manufacturers to stop selling Zantac made with ranitidine in the United States in April 2020 because NDMA contamination can increase over time....
                         </p>
                         <button className='underline text-xs text-[#BD902D] font-semibold'>READ MORE »</button>
                     </div>
@@ -76,7 +77,7 @@ const Additional = () => {
                     <img src={Ap7} alt="" />
                     <div>
                         <h5 className='text-md font-semibold text-[#300303]'>NEC</h5>
-                        <p className='text-xs'>Gileads’s TDF/PreP drugs belong to a class of antiretroviral drugs that are prescribed to treat HIV in combination with other medications.TDF drugs are also used to slow the progression of HIV as well...
+                        <p className='text-xs'>Necrotizing enterocolitis is a gastrointestinal disease that almost exclusively affects infants born before the 37th week of pregnancy. It creates intestinal inflammation, causing cells to die and holes to form...
                         </p>
                         <button className='underline text-xs text-[#BD902D] font-semibold'>READ MORE »</button>
                     </div>
@@ -85,7 +86,7 @@ const Additional = () => {
                     <img src={Ap8} alt="" />
                     <div>
                         <h5 className='text-md font-semibold text-[#300303]'>Fire Fighting</h5>
-                        <p className='text-xs'>Lawsuits are currently being filed by abuse victims across the United States. So far dioceses and religious orders have been forced to pay settlements totaling more than $3 billion.
+                        <p className='text-xs'>AFFF is an effective firefighting agent used mostly by airport firefighters and military personnel to suppress flammable-liquid fires. However, this popular firefighting foam contains harmful chemicals... 
                         </p>
                         <button className='underline text-xs text-[#BD902D] font-semibold'>READ MORE »</button>
                     </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import elmiron from '../../assets/elmiron.jpg';
+import elmiron from '../../assets/necl.jfif';
 import litigation1 from '../../assets/zantac.webp';
 import litigation2 from '../../assets/litigation-bg-elmiron.jpg';
 import litigation3 from '../../assets/litigation-bg-belviq.jpg';
@@ -13,9 +13,9 @@ const Litigation = () => {
       <div className='flex mt-10 space-x-6'>
         <img src={elmiron} alt="" />
         <div>
-          <p className='font-semibold text-[#300303] text-lg'><a className='hover:text-[#BD902D]' href="/"><span>ELMIRON</span> <span className=''>LAWSUITS ARE NOW BEING FILED</span></a></p>
-          <p>Recent lawsuit filed May 19, 2020 claims Elmiron® linked to severe eye damage</p>
-          <p className='underline text-md font-semibold text-[#BD902D]'>Read More »</p>
+          <p className='font-semibold text-[#300303] text-lg'><a className='hover:text-[#BD902D]' href="/"><span>NEC</span> <span className=''>LAWSUITS ARE NOW BEING FILED</span></a></p>
+          <p>TOXIC BABY FORMULA NEC LAWSUIT UPDATE JANUARY 2023 | NEC FORMULA LAWSUIT</p>
+          <p className='underline text-md font-semibold text-[#BD902D]'><a className='hover:text-[#13100E]' href="/">Read More »</a></p>
         </div>
       </div>
       <div className='grid lg:grid-cols-2 grid-cols-1 gap-10 my-10'>
@@ -79,7 +79,7 @@ const Litigation = () => {
             }}>
               <div className='py-3 pl-5'>
                 <h4 className='text-white text-xl'>Think You Have a Claim?</h4>
-                <p className='underline text-yellow-500'><a className='hover:text-[#13100E]' href="/">Click Here for a FREE Claim Review</a></p>
+                <p className='underline text-yellow-500'><a className='hover:text-[#fff]' href="/">Click Here for a FREE Claim Review</a></p>
               </div>
             </div>
           </div>

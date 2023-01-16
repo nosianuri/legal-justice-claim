@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/Asset 1@320x-8.png';
 
-const ServiceNavbar = () => {
+const ZantacNavbar = () => {
   return (
     <div className='bg-[#13100E]'>
     <div className='flex justify-between items-center'>
@@ -21,4 +21,4 @@ const ServiceNavbar = () => {
   )
 }
 
-export default ServiceNavbar
+export default ZantacNavbar

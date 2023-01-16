@@ -6,6 +6,7 @@ import FiAbout from './FiAbout/FiAbout'
 import FiFind from './FiFind/FiFind'
 import FiHelp from './FiHelp/FiHelp'
 import FiHero from './FiHero/FiHero'
+import FiNavbar from './FiNavbar/FiNavbar'
 import FiNews from './FiNews/FiNews'
 import FiSign from './FiSign/FiSign'
 
@@ -17,7 +18,7 @@ const FireFighting = () => {
         <title>Fire Fighting | Legal Justice Claim</title>
       </Helmet>
       <div>
-      <ServiceNavbar />
+      <FiNavbar />
       <FiHero />
       <FiFind />
       <FiHelp />

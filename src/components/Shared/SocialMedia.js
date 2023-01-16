@@ -7,7 +7,7 @@ const SocialMedia = () => {
     <Heading title='Stay Connected' />
       <section className='social '>
         <div className='socBox'>
-        <a href="/">
+        <a href="https://www.facebook.com/LegalJusticeClaim">
           <i className='fab fa-facebook-f'></i>
           <span>12,740 Likes</span>
           </a>

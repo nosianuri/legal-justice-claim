@@ -7,6 +7,7 @@ import MmFind from './MmFind/MmFind'
 import MmFooter from './MmFooter/MmFooter'
 import MmHelp from './MmHelp/MmHelp'
 import MmHero from './MmHero/MmHero'
+import MmNavbar from './MmNavbar/MmNavbar'
 import MmNews from './MmNews/MmNews'
 import MmSign from './MmSign/MmSign'
 
@@ -18,7 +19,7 @@ const MedicalMalpractice = () => {
         <title>Medical Malpractice | Legal Justice Claim</title>
       </Helmet>
       <div>
-     <ServiceNavbar />
+     <MmNavbar />
      <MmHero />
      <MmFind />
      <MmHelp />

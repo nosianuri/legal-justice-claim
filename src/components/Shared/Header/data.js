@@ -8,24 +8,24 @@ import {
 
 
 export const navData = [
-    { href: '/', name: '3M Earplugs' },
-    { href: '/', name: 'Car Accident' },
-    { href: '/', name: 'Fire Fighting' },
-    { href: '/', name: 'Medical Malpractice' },
+    { href: '/earplug', name: '3M Earplugs' },
+    { href: '/personalinjury', name: 'Car Accident' },
+    { href: '/firefighting', name: 'Fire Fighting' },
+    { href: '/personalinjury', name: 'Medical Malpractice' },
     { href: '/', name: 'Mesothelioma' },
-    { href: '/', name: 'Motorcycle Accident' },
-    { href: '/', name: 'NEC' },
-    { href: '/', name: 'Personal Injury' },
-    { href: '/', name: 'Roundup' },
-    { href: '/', name: 'Sex Abuse' },
-    { href: '/', name: 'Talcum Powder' },
-    { href: '/', name: 'Truck Accident' },
-    { href: '/', name: 'Zantac' },
+    { href: '/personalinjury', name: 'Motorcycle Accident' },
+    { href: '/nec', name: 'NEC' },
+    { href: '/personalinjury', name: 'Personal Injury' },
+    { href: '/roundup', name: 'Roundup' },
+    { href: '/sexabuse', name: 'Sex Abuse' },
+    { href: '/talcumpowder', name: 'Talcum Powder' },
+    { href: '/personalinjury', name: 'Truck Accident' },
+    { href: '/zantac', name: 'Zantac' },
   ];
 
   export const socialData = [
     { href: '/', icon: <FaYoutube /> },
-    { href: '/', icon: <FaFacebookF /> },
+    { href: 'https://www.facebook.com/LegalJusticeClaim', icon: <FaFacebookF /> },
     { href: '/', icon: <FaInstagram /> },
     { href: '/', icon: <FaPinterestP /> },
     { href: '/', icon: <FaDiscord /> },

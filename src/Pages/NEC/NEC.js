@@ -6,6 +6,7 @@ import NecAbout from './NecAbout/NecAbout'
 import NecFind from './NecFind/NecFind'
 import NecHelp from './NecHelp/NecHelp'
 import NecHero from './NecHero/NecHero'
+import NecNavbar from './NecNavbar/NecNavbar'
 import NecNews from './NecNews/NecNews'
 import NecSign from './NecSign/NecSign'
 
@@ -17,7 +18,7 @@ const NEC = () => {
         <title>NEC | Legal Justice Claim</title>
       </Helmet>
       <div>
-     <ServiceNavbar />
+     <NecNavbar />
      <NecHero />
      <NecFind />
      <NecHelp />

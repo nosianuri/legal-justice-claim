@@ -1,6 +1,6 @@
 import React from 'react';
 import d1 from '../../../assets/Personal Injury.jpg';
-import d2 from '../../../assets/3M Earplugs (1).jpg';
+import d2 from '../../../assets/3M Earplugs (1).jfif';
 import d3 from '../../../assets/Mesothelioma.jpg';
 import d4 from '../../../assets/NEC (1).jpg';
 import d5 from '../../../assets/Truck Accident.jpg';
@@ -20,52 +20,64 @@ const FiNews = () => {
                 <div className='mb-10'>
                     <Heading title='Additional Lawsuit' />
                     <div className=''>
-                        <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6'>
+                        <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3'>
                             <div>
                                 <div className='box'>
+                                <a href="/personalinjury">
                                     <div className='img'>
                                         <img src={d1} alt='' />
                                     </div>
+                                    </a>
                                     <h1 className='title'>Personal Injury</h1>
                                 </div>
                             </div>
                             <div>
                                 <div className='box'>
+                                <a href="/earplug">
                                     <div className='img'>
                                         <img src={d2} alt='' />
                                     </div>
+                                    </a>
                                     <h1 className='title'>3M Earplugs</h1>
                                 </div>
                             </div>
                             <div>
                                 <div className='box'>
+                                <a href="/">
                                     <div className='img'>
                                         <img src={d3} alt='' />
                                     </div>
+                                    </a>
                                     <h1 className='title'>Mesothelioma</h1>
                                 </div>
                             </div>
                             <div>
                                 <div className='box'>
+                                <a href="/nec">
                                     <div className='img'>
                                         <img src={d4} alt='' />
                                     </div>
+                                    </a>
                                     <h1 className='title'>NEC</h1>
                                 </div>
                             </div>
                             <div>
                                 <div className='box'>
+                                <a href="/personalinjury">
                                     <div className='img'>
                                         <img src={d5} alt='' />
                                     </div>
+                                    </a>
                                     <h1 className='title'>Truck Accident</h1>
                                 </div>
                             </div>
                             <div>
                                 <div className='box'>
+                                <a href="/">
                                     <div className='img'>
                                         <img src={d6} alt='' />
                                     </div>
+                                    </a>
                                     <h1 className='title'>Talcom powder</h1>
                                 </div>
                             </div>

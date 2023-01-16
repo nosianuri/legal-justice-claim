@@ -6,6 +6,7 @@ import RuAbout from './RuAbout/RuAbout'
 import RuFind from './RuFind/RuFind'
 import RuHelp from './RuHelp/RuHelp'
 import RuHero from './RuHero/RuHero'
+import RuNavbar from './Runavbar/RuNavbar'
 import RuNews from './RuNews/RuNews'
 import RuSign from './RuSign/RuSign'
 
@@ -17,7 +18,7 @@ const RoundUp = () => {
         <title>Round Up | Legal Justice Claim</title>
       </Helmet>
       <div>
-     <ServiceNavbar />
+     <RuNavbar />
      <RuHero />
      <RuFind />
      <RuHelp />

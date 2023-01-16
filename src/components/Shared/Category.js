@@ -9,29 +9,34 @@ const Category = () => {
       <section className='catgorys mt-16'>
         <Heading title='Categorys' />
         <div>
-          <a href="/medical-malpractice">
+          <a href="/earplug">
+            <div className='category category1'>
+              <span>3M Earplugs</span>
+            </div>
+          </a>
+          <a href="/firefighting">
+            <div className='category category1'>
+              <span>Fire Fighting</span>
+            </div>
+          </a>
+          <a href="/personalinjury">
             <div className='category category1'>
               <span>Medical Malpractice</span>
             </div>
           </a>
-          <a href="/mesothelioma">
+          <a href="/personalinjury">
             <div className='category category1'>
-              <span>Mesothelioma</span>
+              <span>Car Accident</span>
             </div>
           </a>
-          <a href="/talcom-powder">
-            <div className='category category1'>
-              <span>Talcum Powder</span>
-            </div>
-          </a>
-          <a href="/roundup">
-            <div className='category category1'>
-              <span>Roundup</span>
-            </div>
-          </a>
-          <a href="/injury">
+          <a href="/personalinjury">
             <div className='category category1'>
               <span>Personal Injury</span>
+            </div>
+          </a>
+          <a href="/personalinjury">
+            <div className='category category1'>
+              <span>Motorcycle Accident</span>
             </div>
           </a>
           <a href="/nec">
@@ -39,16 +44,28 @@ const Category = () => {
               <span>NEC</span>
             </div>
           </a>
-          <a href="/earplug">
-            <div className='category category1'>
-              <span>3M Earplugs</span>
-            </div>
-          </a>
           <a href="/zantac">
             <div className='category category1'>
               <span>Zantac</span>
             </div>
           </a>
+          <a href="/personalinjury">
+            <div className='category category1'>
+              <span>Truck Accident</span>
+            </div>
+          </a>
+          <a href="/sexabuse">
+            <div className='category category1'>
+              <span>Sex Abuse</span>
+            </div>
+          </a>
+          <a href="/roundup">
+            <div className='category category1'>
+              <span>Roundup</span>
+            </div>
+          </a>
+          
+          
         </div>
         {/* {catgeory.map((val) => {
           return (

@@ -18,52 +18,64 @@ const RuNews = () => {
         <div className='mb-10'>
             <Heading title='Additional Lawsuit' />
             <div className=''>
-                <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6'>
+                <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3'>
                     <div>
                         <div className='box'>
+                        <a href="/personalinjury">
                             <div className='img'>
                                 <img src={d1} alt='' />
                             </div>
+                            </a>
                             <h1 className='title'>Personal Injury</h1>
                         </div>
                     </div>
                     <div>
                         <div className='box'>
+                        <a href="/zantac">
                             <div className='img'>
                                 <img src={d2} alt='' />
                             </div>
+                            </a>
                             <h1 className='title'>Zantac</h1>
                         </div>
                     </div>
                     <div>
                         <div className='box'>
+                        <a href="/firefighting">
                             <div className='img'>
                                 <img src={d3} alt='' />
                             </div>
+                            </a>
                             <h1 className='title'>Fire Fighting</h1>
                         </div>
                     </div>
                     <div>
                         <div className='box'>
+                        <a href="/personalinjury">
                             <div className='img'>
                                 <img src={d4} alt='' />
                             </div>
+                            </a>
                             <h1 className='title'>Car Accident</h1>
                         </div>
                     </div>
                     <div>
                         <div className='box'>
+                        <a href="/sexabuse">
                             <div className='img'>
                                 <img src={d5} alt='' />
                             </div>
+                            </a>
                             <h1 className='title'>Sex Abuse</h1>
                         </div>
                     </div>
                     <div>
                         <div className='box'>
+                        <a href="/nec">
                             <div className='img'>
                                 <img src={d6} alt='' />
                             </div>
+                            </a>
                             <h1 className='title'>NEC</h1>
                         </div>
                     </div>
