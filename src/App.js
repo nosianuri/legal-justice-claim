@@ -21,7 +21,7 @@ function App() {
       <Route path='/personalinjury' element={<MedicalMalpractice />} />
       <Route path='/nec' element={<NEC />} />
       <Route path='/zantac' element={<Zantac />} />
-      <Route path='/talcumpowder' element={<TalcumPowder />} />
+      <Route path='/' element={<TalcumPowder />} />
       <Route path='/sexabuse' element={<SexAbuse />} />
       <Route path='/roundup' element={<RoundUp />} />
       <Route path="*" element={<Notfound />} />
