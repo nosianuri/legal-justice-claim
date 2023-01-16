@@ -8,17 +8,17 @@ const NecFind = () => {
             <div className='grid lg:grid-cols-3 grid-cols-1 gap-10 lg:mx-36 mt-10'>
                 <div className='p-5' >
                     <img className='mx-auto w-16' src={marker} alt="" />
-                    <p className='text-xl mt-3'>Receive the Compensation
+                    <p className='text-xl mt-3 text-center'>Receive the Compensation
                         You Deserve!</p>
                 </div>
                 <div className='p-5'>
                     <img className='mx-auto w-16' src={marker} alt="" />
-                    <p className='text-xl mt-3'>FREE No Obligation
+                    <p className='text-xl mt-3 text-center'>FREE No Obligation
                         Consultation - Pay Nothing!</p>
                 </div>
                 <div className='p-5'>
                     <img className='mx-auto w-16' src={marker} alt="" />
-                    <p className='text-xl mt-3'>Your Contact Information
+                    <p className='text-xl mt-3 text-center'>Your Contact Information
                         and Your Claim are Confidential!</p>
                 </div>
             </div>

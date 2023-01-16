@@ -13,9 +13,7 @@ const TalcumPowder = () => {
       </Helmet>
       <div>
       <ServiceNavbar />
-      <div className='text-center'>
-      <TelcomInjury />
-      </div>
+      
       
       <ServiceFooter />
       </div>
