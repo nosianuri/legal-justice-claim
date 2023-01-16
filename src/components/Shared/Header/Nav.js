@@ -4,7 +4,7 @@ import { navData } from './data';
 const Nav = () => {
   return (
     <nav className='w-full h-full bg-[#BD902D]'>
-      <ul className='h-full flex flex-col justify-center items-center gap-y-1'>
+      <ul className='h-full flex flex-col justify-center items-center '>
         {navData.map((item, index) => {
           return (
             <li key={index}>

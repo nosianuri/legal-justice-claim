@@ -10,4 +10,4 @@ const ServiceFooter = () => {
   )
 }
 
-export default ServiceFooter
+export default ServiceFooter;
