@@ -13,7 +13,7 @@ const Home = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Legal Justice Claim | Ray Advertising LLC</title>
+        <title>Legal Justice Claim </title>
       </Helmet>
       <Banner />
       
