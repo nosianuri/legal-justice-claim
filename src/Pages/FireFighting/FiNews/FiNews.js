@@ -1,7 +1,7 @@
 import React from 'react';
 import d1 from '../../../assets/Personal Injury.jpg';
 import d2 from '../../../assets/3M Earplugs (1).jfif';
-import d3 from '../../../assets/Mesothelioma.jpg';
+import d3 from '../../../assets/camp-lejeune.png';
 import d4 from '../../../assets/NEC (1).jpg';
 import d5 from '../../../assets/Truck Accident.jpg';
 import d6 from '../../../assets/talcom powder.jpg';
@@ -48,12 +48,12 @@ const FiNews = () => {
                             </div>
                             <div>
                                 <div className='box'>
-                                    <a href="/">
+                                    <a href="https://camplejeuneus.com/">
                                         <div className='img'>
                                             <img src={d3} alt='' />
                                         </div>
                                     </a>
-                                    <h1 className='title'>Mesothelioma</h1>
+                                    <h1 className='title'>Camp Lejeune</h1>
                                 </div>
                             </div>
                             <div>

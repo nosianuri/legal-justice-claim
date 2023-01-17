@@ -1,7 +1,7 @@
 import React from 'react';
 import d1 from '../../../assets/3M Earplugs (1).jfif';
 import d2 from '../../../assets/Zantac (1).jpg';
-import d3 from '../../../assets/talcom powder.jpg';
+import d3 from '../../../assets/camp-lejeune.png';
 import d4 from '../../../assets/Mesothelioma.jpg';
 import d5 from '../../../assets/Fire Fighting (1).jpg';
 import d6 from '../../../assets/Roundup (1).jpg';
@@ -47,12 +47,12 @@ const MmNews = () => {
                             </div>
                             <div>
                                 <div className='box'>
-                                    <a href="/talcumpowder">
+                                    <a href="https://camplejeuneus.com/">
                                         <div className='img'>
                                             <img src={d3} alt='' />
                                         </div>
                                     </a>
-                                    <h1 className='title'>talcom powder</h1>
+                                    <h1 className='title'>Camp Lejeune</h1>
                                 </div>
                             </div>
                             <div>

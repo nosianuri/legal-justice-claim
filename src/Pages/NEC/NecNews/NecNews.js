@@ -1,10 +1,16 @@
 import React from 'react';
 import d1 from '../../../assets/Mesothelioma.jpg';
 import d2 from '../../../assets/Motorcycle Accident.jpg';
-import d3 from '../../../assets/talcom powder.jpg';
+import d3 from '../../../assets/camp-lejeune.png';
 import d4 from '../../../assets/Roundup (1).jpg';
 import d5 from '../../../assets/Zantac (1).jpg';
 import d6 from '../../../assets/3M Earplugs (1).jfif';
+import d7 from '../../../assets/Sex Abuse (1).jpg';
+import d8 from '../../../assets/Personal Injury.jpg';
+import d9 from '../../../assets/Fire Fighting (1).jpg';
+import d10 from '../../../assets/Truck Accident.jpg';
+import d11 from '../../../assets/Medical Malpractice (1).jpg';
+import d12 from '../../../assets/Car Accident.jpg';
 import Heading from '../../../components/Shared/Heading/Heading';
 
 const NecNews = () => {
@@ -41,12 +47,12 @@ const NecNews = () => {
                     </div>
                     <div>
                         <div className='box'>
-                        <a href="/talcumpowder">
+                        <a href="https://camplejeuneus.com/">
                             <div className='img'>
                                 <img src={d3} alt='' />
                             </div>
                             </a>
-                            <h1 className='title'>Talcom powder</h1>
+                            <h1 className='title'>Camp Lejeune</h1>
                         </div>
                     </div>
                     <div>
@@ -77,6 +83,66 @@ const NecNews = () => {
                             </div>
                             </a>
                             <h1 className='title'>3M Earplugs</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='box'>
+                        <a href="/sexabuse">
+                            <div className='img'>
+                                <img src={d7} alt='' />
+                            </div>
+                            </a>
+                            <h1 className='title'>Sex Abuse</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='box'>
+                        <a href="/personalinjury">
+                            <div className='img'>
+                                <img src={d8} alt='' />
+                            </div>
+                            </a>
+                            <h1 className='title'>Personal Injury</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='box'>
+                        <a href="/firefighting">
+                            <div className='img'>
+                                <img src={d9} alt='' />
+                            </div>
+                            </a>
+                            <h1 className='title'>Fire Fighting</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='box'>
+                        <a href="/personalinjury">
+                            <div className='img'>
+                                <img src={d10} alt='' />
+                            </div>
+                            </a>
+                            <h1 className='title'>Truck Accident</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='box'>
+                        <a href="/personalinjury">
+                            <div className='img'>
+                                <img src={d11} alt='' />
+                            </div>
+                            </a>
+                            <h1 className='title'>Medical Malpractice</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='box'>
+                        <a href="/personalinjury">
+                            <div className='img'>
+                                <img src={d12} alt='' />
+                            </div>
+                            </a>
+                            <h1 className='title'>Car Accident</h1>
                         </div>
                     </div>
                 </div>

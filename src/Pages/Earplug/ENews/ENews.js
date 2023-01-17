@@ -9,7 +9,7 @@ import d7 from '../../../assets/Car Accident.jpg';
 import d8 from '../../../assets/NEC (1).jpg';
 import d9 from '../../../assets/Truck Accident.jpg';
 import d10 from '../../../assets/talcom powder.jpg';
-import d11 from '../../../assets/Mesothelioma.jpg';
+import d11 from '../../../assets/camp-lejeune.png';
 import d12 from '../../../assets/Personal Injury.jpg';
 import Heading from '../../../components/Shared/Heading/Heading';
 
@@ -127,12 +127,12 @@ const ENews = () => {
                             </div>
                             <div>
                                 <div className='box'>
-                                <a href="/">
+                                <a href="https://camplejeuneus.com/">
                                     <div className='img'>
                                         <img src={d11} alt='' />
                                     </div>
                                     </a>
-                                    <h1 className='title'>Mesothelioma</h1>
+                                    <h1 className='title'>Camp Lejeune</h1>
                                 </div>
                             </div>
                             <div>

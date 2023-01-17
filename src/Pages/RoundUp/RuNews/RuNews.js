@@ -5,6 +5,12 @@ import d3 from '../../../assets/Fire Fighting (1).jpg';
 import d4 from '../../../assets/Car Accident.jpg';
 import d5 from '../../../assets/Sex Abuse (1).jpg';
 import d6 from '../../../assets/NEC (1).jpg';
+import d7 from '../../../assets/camp-lejeune.png';
+import d8 from '../../../assets/3M Earplugs (1).jfif';
+import d9 from '../../../assets/Medical Malpractice (1).jpg';
+import d10 from '../../../assets/Truck Accident.jpg';
+import d11 from '../../../assets/Motorcycle Accident.jpg';
+import d12 from '../../../assets/Mesothelioma.jpg';
 import Heading from '../../../components/Shared/Heading/Heading';
 
 const RuNews = () => {
@@ -77,6 +83,66 @@ const RuNews = () => {
                             </div>
                             </a>
                             <h1 className='title'>NEC</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='box'>
+                        <a href="https://camplejeuneus.com/">
+                            <div className='img'>
+                                <img src={d7} alt='' />
+                            </div>
+                            </a>
+                            <h1 className='title'>Camp lejeune</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='box'>
+                        <a href="/earplug">
+                            <div className='img'>
+                                <img src={d8} alt='' />
+                            </div>
+                            </a>
+                            <h1 className='title'>3M Earplugs</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='box'>
+                        <a href="/personalinjury">
+                            <div className='img'>
+                                <img src={d9} alt='' />
+                            </div>
+                            </a>
+                            <h1 className='title'>Medical Malpractice</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='box'>
+                        <a href="/personalinjury">
+                            <div className='img'>
+                                <img src={d10} alt='' />
+                            </div>
+                            </a>
+                            <h1 className='title'>Truck Accident</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='box'>
+                        <a href="/personalinjury">
+                            <div className='img'>
+                                <img src={d11} alt='' />
+                            </div>
+                            </a>
+                            <h1 className='title'>Motorcycle Accident</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='box'>
+                        <a href="/">
+                            <div className='img'>
+                                <img src={d12} alt='' />
+                            </div>
+                            </a>
+                            <h1 className='title'>Mesothelioma</h1>
                         </div>
                     </div>
                 </div>
