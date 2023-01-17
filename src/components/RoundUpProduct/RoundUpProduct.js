@@ -16,7 +16,7 @@ const RoundUpProduct = () => {
                 </div>
             </div>
             <div>
-                <h2 className='lg:text-[26px] text-[22px] font-semibold'>Zantac Lawsuits are being filed</h2>
+                <h2 className='lg:text-[26px] text-[22px] font-semibold'>Zantac Lawsuits and Settlements updates</h2>
                 <div className='lg:w-full w-full h-[1px] bg-gray-700'></div>
                 <h5 className='font-bold'>FDA calls for heartburn drug Zantac to be pulled from market immediately, April 1, 2020</h5>
                 <p>In September 2019, Valisure, an online pharmacy based in Connecticut, informed the U.S. Food and Drug Administration that it had found the cancer-causing chemical NDMA in some batches of Zantac® (ranitidine)… <span className='font-bold underline text-[#BD902D]'><a className='hover:text-[#13100E]' href="/">Read More »</a></span></p>

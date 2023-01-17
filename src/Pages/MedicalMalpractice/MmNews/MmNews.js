@@ -79,6 +79,1146 @@ const MmNews = () => {
                                     <h1 className='title'>NEC</h1>
                                 </div>
                             </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/earplug">
+                                        <div className='img'>
+                                            <img src={d1} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>3M Earplugs</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/zantac">
+                                        <div className='img'>
+                                            <img src={d2} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Zantac</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/talcumpowder">
+                                        <div className='img'>
+                                            <img src={d3} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>talcom powder</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/">
+                                        <div className='img'>
+                                            <img src={d4} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Mesothelioma</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/firefighting">
+                                        <div className='img'>
+                                            <img src={d5} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>Fire Fighting</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <div className='box'>
+                                    <a href="/nec">
+                                        <div className='img'>
+                                            <img src={d6} alt='' />
+                                        </div>
+                                    </a>
+                                    <h1 className='title'>NEC</h1>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
