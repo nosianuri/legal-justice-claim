@@ -24,7 +24,7 @@ const Category = () => {
               <span>Medical Malpractice</span>
             </div>
           </a>
-          <a href="https://camplejeuneus.com/">
+          <a href="/camplejeune">
             <div className='category category1'>
               <span>Camp Lejeune</span>
             </div>
