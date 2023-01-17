@@ -34,7 +34,7 @@ const LawsuitField = () => {
           <p><a className='hover:text-[#BD902D]' href="/firefighting">Fire Fighting</a> </p>
           <p><a className='hover:text-[#BD902D]' href="/personalinjury">Medical Malpractice</a> </p>
           <p><a className='hover:text-[#BD902D]' href="/personalinjury">Car Accident</a> </p>
-          <p><a className='hover:text-[#BD902D]' href="https://camplejeuneus.com/">Camp Lejeune</a> </p>
+          <p><a className='hover:text-[#BD902D]' href="/camplejeune">Camp Lejeune</a> </p>
           <p><a className='hover:text-[#BD902D]' href="/">Mesothelioma</a> </p>
           <p><a className='hover:text-[#BD902D]' href="/personalinjury">Motorcycle Accident</a> </p>
           <p><a className='hover:text-[#BD902D]' href="/nec">NEC</a> </p>

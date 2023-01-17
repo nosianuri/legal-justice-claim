@@ -8,10 +8,6 @@
   margin: 50px 50px;
 }
 
-/* .lawsuit_filed label {
-    margin-bottom: 40px;
-} */
-
 .lawsuit_blog {
   margin: 50px 50px;
 }
@@ -130,10 +126,12 @@
 
 @media screen and (max-width:1100px) {
   .lawsuit_blog {
-    /* grid-template-columns: repeat(2, 1fr); */
+    order: -2;
   }
-
+  
   .lawsuit_body {
-    display: block;
+    display: grid;
+  grid-template-columns: 1fr;
+  
   }
 }

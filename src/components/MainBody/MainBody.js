@@ -12,10 +12,13 @@ import SocialMedia from '../Shared/SocialMedia';
 
 const MainBody = () => {
     return (
-        <div className='lawsuit_body'>
-            <LawsuitField />
+        <div className='lawsuit_body '>
+        <div className='  '>
+        <LawsuitField />
+        </div>
+            
 
-            <div className='lawsuit_blog'>
+            <div className='lawsuit_blog  '>
                 <div class="lg:flex space-y-3 justify-between bg-[#13100E] p-5">
 
                     <select name="status" id="form-select" class="border border-gray-400 block py-2 px-4 w-1/2 rounded focus:outline-none font-semibold">

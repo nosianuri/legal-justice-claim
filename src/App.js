@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import CampLejeune from './Pages/CampLejeune/CampLejeune';
 import Earplug from './Pages/Earplug/Earplug';
 import FireFighting from './Pages/FireFighting/FireFighting';
 import Home from './Pages/Home/Home';
@@ -24,6 +25,7 @@ function App() {
       <Route path='/' element={<TalcumPowder />} />
       <Route path='/sexabuse' element={<SexAbuse />} />
       <Route path='/roundup' element={<RoundUp />} />
+      <Route path='/camplejeune' element={<CampLejeune />} />
       <Route path="*" element={<Notfound />} />
       </Routes>
     </>

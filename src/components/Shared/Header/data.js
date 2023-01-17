@@ -10,7 +10,7 @@ import {
 export const navData = [
     { href: '/earplug', name: '3M Earplugs' },
     { href: '/personalinjury', name: 'Car Accident' },
-    { href: 'https://camplejeuneus.com/', name: 'Camp Lejeune' },
+    { href: '/camplejeune', name: 'Camp Lejeune' },
     { href: '/firefighting', name: 'Fire Fighting' },
     { href: '/personalinjury', name: 'Medical Malpractice' },
     { href: '/personalinjury', name: 'Motorcycle Accident' },
