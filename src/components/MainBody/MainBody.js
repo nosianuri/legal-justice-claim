@@ -19,7 +19,7 @@ const MainBody = () => {
             
 
             <div className='lawsuit_blog  '>
-                <div class="lg:flex space-y-3 justify-between bg-[#13100E] p-5">
+                <div class="flex space-y-3 justify-between bg-[#13100E] p-5">
 
                     <select name="status" id="form-select" class="border border-gray-400 block py-2 px-4 w-1/2 rounded focus:outline-none font-semibold">
                         <option value="">Select a Lawsuit</option>
@@ -39,7 +39,7 @@ const MainBody = () => {
                     </select>
                     <button className='bg-[#BD902D] py-2 px-4 rounded'><a className='text-white text-lg font-semibold' href="/">Submit</a></button>
 
-                    <p className='underline text-white mr-10 text-xl'><a className='hover:text-[#BD902D]' href="/">Latest News</a></p>
+                    <p className='underline lg:block hidden  text-white mr-10 text-xl'><a className='hover:text-[#BD902D]' href="/">Latest News</a></p>
 
                 </div>
                 <div className='my-5'>

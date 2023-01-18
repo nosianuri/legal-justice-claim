@@ -13,9 +13,9 @@ const Litigation = () => {
       <div className='flex mt-10 space-x-6'>
         <img src={elmiron} alt="" />
         <div>
-          <p className='font-semibold text-[#300303] text-lg'><a className='hover:text-[#BD902D]' href="/"><span>NEC</span> <span className=''>LAWSUITS ARE NOW BEING FILED</span></a></p>
+          <p className='font-semibold text-[#300303] text-lg'><a className='hover:text-[#BD902D]' href="/nec"><span>NEC</span> <span className=''>LAWSUITS ARE NOW BEING FILED</span></a></p>
           <p>TOXIC BABY FORMULA NEC LAWSUIT UPDATE JANUARY 2023 | NEC FORMULA LAWSUIT</p>
-          <p className='underline text-md font-semibold text-[#BD902D]'><a className='hover:text-[#13100E]' href="/">Read More »</a></p>
+          <p className='underline text-md font-semibold text-[#BD902D]'><a className='hover:text-[#13100E]' href="/nec">Read More »</a></p>
         </div>
       </div>
       <div className='grid lg:grid-cols-2 grid-cols-1 gap-10 my-10'>
@@ -29,9 +29,9 @@ const Litigation = () => {
           <div className='flex space-x-5 mt-5'>
             <img className='w-20' src={litigation1} alt="" />
             <div>
-              <h3 className='text-[#13100E]  text-lg'><a className='hover:text-[#BD902D]' href="/">Zantac Lawsuits</a></h3>
+              <h3 className='text-[#13100E]  text-lg'><a className='hover:text-[#BD902D]' href="/zantac">Zantac Lawsuits</a></h3>
               <h5 className='text-[#300303] text-md leading-none mb-1'>FDA calls for Zantac to be pulled from market immediately</h5>
-              <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-[#BD902D] font-bold'><a className='hover:text-[#13100E]' href="/"> MORE »</a></span></p>
+              <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-[#BD902D] font-bold'><a className='hover:text-[#13100E]' href="/zantac"> MORE »</a></span></p>
             </div>
           </div>
           <div className='flex space-x-5 mt-5'>
