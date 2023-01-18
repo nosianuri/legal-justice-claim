@@ -13,7 +13,7 @@ const ClNavbar = () => {
         </div>
         <div className='font-bold lg:pr-36 pr-5'>
           <p className='lg:text-xl text-[#BD902D]'>Free Consultation . Call 24/7</p>
-          <p className='lg:text-3xl text-center hover:text-[#BD902D] text-white'><a href="/"><i class="fa-solid fa-phone pr-3"></i>(855) 939-0621</a></p>
+          <p className='lg:text-3xl text-center hover:text-[#BD902D] text-white'><a href="tel:+18559390621"><i class="fa-solid fa-phone pr-3"></i>(855) 939-0621</a></p>
         </div>
     </div>
         

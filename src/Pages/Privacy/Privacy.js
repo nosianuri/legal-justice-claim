@@ -11,7 +11,7 @@ const Privacy = () => {
 
       <div className='my-5 mx-3'>
         <div className='container'>
-          <h2 className='text-center text-2xl font-bold mb-5'>legal-justice-claim Privacy Policy</h2>
+          <h2 className='text-center text-2xl font-bold mb-5'>Legal-justice-claim Privacy Policy</h2>
           <p className='mb-3'>Updated and effective january 18, 2023</p>
           <p className='text-sm mb-3'>Thank you for visiting legal-justice-claim ("Company") located at www.legal-justice-claim.com (the "Site"). This Privacy Policy outlines the privacy practices associated with the Site, and you hereby agree to it in its entirety, including but not limited to: (i) access or use the Site; (ii) agree to receive e-mail from us via the Site, or any other means; (iii) register on the Site to receive related products and/or services from third party service providers; and/or (iv) obtain, or attempt to obtain, any products and/or services. Your use of the Site is conditioned upon your acceptance of the terms contained herein. If you do not agree to the terms contained herein, please do not access or use the Site.</p>
           <p className='font-bold mb-3'>Collection of Personal Information</p>
