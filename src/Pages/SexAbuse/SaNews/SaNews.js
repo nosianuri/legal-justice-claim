@@ -97,7 +97,7 @@ const SaNews = () => {
                     </div>
                     <div>
                         <div className='box'>
-                        <a href="https://camplejeuneus.com/">
+                        <a href="/camplejeune">
                             <div className='img'>
                                 <img src={d8} alt='' />
                             </div>
