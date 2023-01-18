@@ -4,7 +4,7 @@ import ClForm from './ClForm'
 const ClHero = () => {
   return (
     <div style={{
-        background: `url(https://i.ibb.co/9yq0Q28/Fire-fighting.jpg)`
+        background: `url(https://i.ibb.co/hV2NqgT/camp.jpg)`
     }} class="bg-no-repeat !bg-cover">
         <div className='lg:px-32 px-8 bg-black bg-opacity-25'>
             <div className='grid lg:grid-cols-2 grid-cols-1 gap-5'>
