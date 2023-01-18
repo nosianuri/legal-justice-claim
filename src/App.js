@@ -31,7 +31,7 @@ function App() {
       <Route path='/camplejeune' element={<CampLejeune />} />
       <Route path='/thanks' element={<Thanks />} />
       <Route path='/terms&condition' element={<TermsCondition />} />
-      <Route path='/privacy' element={<Privacy />} />
+      <Route path='/privacy-policy' element={<Privacy />} />
       <Route path="*" element={<Notfound />} />
       </Routes>
     </>
