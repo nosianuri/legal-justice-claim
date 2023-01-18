@@ -20,8 +20,8 @@ const FiNews = () => {
             <div className='lg:mx-36 mt-16 px-5 lg:px-0'>
                 <h1 className='my-5 lg:text-5xl text-2xl'>IN THE NEWS</h1>
                 <div className='lg:w-full w-full h-[1px] bg-gray-400'></div>
-                <p className='my-3 hover:underline'><a className=' text-blue-800' href="/">https://www.justice.gov/opa/pr/3m-company-agrees-pay-91-million-resolve-allegations-it-supplied-united-states-defective-dual</a></p>
-                <p className='mb-10 hover:underline'><a className=' text-blue-800' href="/">https://www.justice.gov/opa/pr/3m-company-agrees-pay-91-million-resolve-allegations-it-supplied-united-states-defective-dual</a></p>
+                <p className='my-3 hover:underline'><a className=' text-blue-800' href="https://www.atsdr.cdc.gov/pfas/health-effects/index.html?CDC_AA_refVal=https%3A%2F%2Fwww.atsdr.cdc.gov%2Fpfas%2Fhealth-effects.html">Centers for Disease Control and Prevention</a></p>
+                <p className='mb-10 hover:underline'><a className=' text-blue-800' href="https://www.cancer.org/healthy/cancer-causes/chemicals/teflon-and-perfluorooctanoic-acid-pfoa.html">American Cancer Society</a></p>
                 <div className='mb-10'>
                     <Heading title='Additional Lawsuit' />
                     <div className=''>

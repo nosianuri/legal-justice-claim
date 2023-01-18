@@ -19,8 +19,8 @@ const SaNews = () => {
     <div className='lg:mx-36 mt-16 px-5 lg:px-0'>
         <h1 className='my-5 lg:text-5xl text-2xl'>IN THE NEWS</h1>
         <div className='lg:w-full w-full h-[1px] bg-gray-400'></div>
-        <p className='my-3 hover:underline'><a className=' text-blue-800' href="/">https://www.justice.gov/opa/pr/3m-company-agrees-pay-91-million-resolve-allegations-it-supplied-united-states-defective-dual</a></p>
-        <p className='mb-10 hover:underline'><a className=' text-blue-800' href="/">https://www.justice.gov/opa/pr/3m-company-agrees-pay-91-million-resolve-allegations-it-supplied-united-states-defective-dual</a></p>
+        <p className='my-3 hover:underline'><a className=' text-blue-800' href="https://www.pewresearch.org/fact-tank/2019/06/07/7-facts-about-southern-baptists/">7 facts about Southern Baptists</a></p>
+        <p className='mb-10 hover:underline'><a className=' text-blue-800' href="https://static1.squarespace.com/static/6108172d83d55d3c9db4dd67/t/628a9326312a4216a3c0679d/1653248810253/Guidepost+Solutions+Independent+Investigation+Report.pdf">SBC | Report of the Independent Investigation</a></p>
         <div className='mb-10'>
             <Heading title='Additional Lawsuit' />
             <div className=''>

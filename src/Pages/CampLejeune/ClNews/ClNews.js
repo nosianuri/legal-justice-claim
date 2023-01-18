@@ -20,6 +20,7 @@ const ClNews = () => {
         <h1 className='my-5 lg:text-5xl text-2xl'>IN THE NEWS</h1>
         <div className='lg:w-full w-full h-[1px] bg-gray-400'></div>
         <p className='my-3 hover:underline'><a className=' text-blue-800' href="https://www.lawsuit-information-center.com/camp-lejeune-water-lawsuit.html">Lawsuit Information Center - Camp Lejeune Lawsuit - June 16, 2022</a></p>
+        <p className='my-3 hover:underline'><a className=' text-blue-800' href="https://www.facebook.com/CamplejeuneU.S">Lawsuit Information Center - Camp Lejeune Lawsuit (facebook)</a></p>
         
         <div className='mb-10'>
             <Heading title='Additional Lawsuit' />
