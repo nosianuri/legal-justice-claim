@@ -21,9 +21,9 @@ const ESign = () => {
                     <h1 className='lg:my-8 my-4 lg:text-4xl text-2xl text-center'>TAKE ACTION</h1>
                     <div className='lg:w-full w-full h-[1px] bg-gray-400 '></div>
                     <p className='my-5'>In July 2018, 3M paid $9.1 million to resolve Department of Defense allegations that the company sold dangerous and defective Combat Arms Earplugs ™ (CAEv2) to the military for more than a decade without warning they were defective. Although that case has been resolved, all claims within the settlement were allegations only, and there was no determination of liability, according to the Department of Justice.</p>
-                    <p>If you or a loved one have been diagnosed with, or are suffering from, hearing loss or tinnitus after serving in the military between 2003 and 2015 and wearing defective earplugs; you need to speak up! You might be eligible for financial compensation for your pain and suffering. Don’t suffer in silence. Fill out a no-cost claim review to see if you are eligible to receive compensation. – <a className='text-blue-800 hover:underline' href="/">complete the free and easy claim review form today</a>.</p>
+                    <p>If you or a loved one have been diagnosed with, or are suffering from, hearing loss or tinnitus after serving in the military between 2003 and 2015 and wearing defective earplugs; you need to speak up! You might be eligible for financial compensation for your pain and suffering. Don’t suffer in silence. Fill out a no-cost claim review to see if you are eligible to receive compensation. – <a className='text-blue-800 hover:underline' href="#page-form">complete the free and easy claim review form today</a>.</p>
                     <div className='text-center my-10'>
-                        <a href="/">
+                        <a href="#page-form">
                             <button className='uppercase py-3 px-5 rounded-full bg-[#BD902D] text-white text-xl'>Get Help Now!</button>
                         </a>
                     </div>

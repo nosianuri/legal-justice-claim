@@ -4,7 +4,7 @@ const MmForm = () => {
     return (
         <div className='mb-16 bg-[#f0f0f0] border-8 border-[#f0f0f0] lg:mt-[-20px] rounded-t-xl shadow-xl'>
             <div className='p-5'>
-                <div className='bg-[#BD902D] lg:px-10 px-2 rounded-t-xl text-white py-3'>
+                <div className='bg-[#BD902D] lg:px-10 px-2 rounded-t-xl text-white py-3' id="page-form">
                     <h2 className='text-center lg:text-xl'>FILL OUT THE FORM BELOW</h2>
                     <h5 className='text-center lg:text-2xl text-xl'>TO GET YOUR FREE CLAIM REVIEW</h5>
                     <p className='text-center lg:text-xl'>You may be entitled to <span className='underline'>financial compensation!</span></p>

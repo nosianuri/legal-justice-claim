@@ -29,9 +29,9 @@ const NecSign = () => {
             <div className='lg:w-full w-full h-[1px] bg-gray-400 '></div>
             <p className='my-5'>As early as 1990, a study found that babies may be 6 to 10 times more likely to develop NEC when fed cow’s milk products, compared to breast milk. Having disclosed these findings, manufacturers could have offered safer alternatives to parents and hospitals.</p>
             <p>Despite years of research linking cow-milk based formulas to NEC, manufacturers failed to warn parents, doctors and hospitals about the risks of their products. Instead, they promoted their product as safe and effective. With countless babies now stricken with NEC symptoms after using these formulas, many are turning to the courts and filing lawsuits to hold the manufacturers accountable.</p>
-            <p>If your loved one has been diagnosed with any of these serious NEC symptoms after using one of these products, you need to speak up! You might be eligible for financial compensation for your pain and suffering. Don’t suffer in silence. Fill out a no-cost claim review to see if you are eligible to receive compensation. – <a className='text-blue-800 hover:underline' href="/">complete the free and easy claim review form today</a>.</p>
+            <p>If your loved one has been diagnosed with any of these serious NEC symptoms after using one of these products, you need to speak up! You might be eligible for financial compensation for your pain and suffering. Don’t suffer in silence. Fill out a no-cost claim review to see if you are eligible to receive compensation. – <a className='text-blue-800 hover:underline' href="#page-form">complete the free and easy claim review form today</a>.</p>
             <div className='text-center my-10'>
-                <a href="/">
+                <a href="#page-form">
                     <button className='uppercase py-3 px-5 rounded-full bg-[#BD902D] text-white text-xl'>Get Help Now!</button>
                 </a>
             </div>

@@ -27,9 +27,9 @@ const FiSign = () => {
                     <h1 className='lg:my-8 my-4 lg:text-4xl text-2xl text-center'>TAKE ACTION</h1>
                     <div className='lg:w-full w-full h-[1px] bg-gray-400 '></div>
                     <p className='my-5'>Today, the companies that produced firefighting foams with PFAS are coming under legal and medical scrutiny. 3M, the manufacturer credited with first producing this firefighting foam, was aware the foam was dangerous for more than 40 years and did nothing. The company had records showing the dangers PFAS presented to people & the environment dating back to 1970. However, they hid this information from the public. Furthermore, when 3M sold the chemicals to DuPont, they included the label "Cancer Warning: Contains a chemical which can cause cancer."</p>
-                    <p>If you or a loved one have developed cancer after being exposed to Firefighting Foam (AFFF); you need to speak up! You might be eligible for financial compensation for your pain and suffering. Don’t suffer in silence. Fill out a no-cost claim review to see if you are eligible to receive compensation. – . <a className='text-blue-800 hover:underline' href="/">complete the free and easy claim review form today</a>.</p>
+                    <p>If you or a loved one have developed cancer after being exposed to Firefighting Foam (AFFF); you need to speak up! You might be eligible for financial compensation for your pain and suffering. Don’t suffer in silence. Fill out a no-cost claim review to see if you are eligible to receive compensation. – . <a className='text-blue-800 hover:underline' href="#page-form">complete the free and easy claim review form today</a>.</p>
                     <div className='text-center my-10'>
-                        <a href="/">
+                        <a href="#page-form">
                             <button className='uppercase py-3 px-5 rounded-full bg-[#BD902D] text-white text-xl'>Get Help Now!</button>
                         </a>
                     </div>

@@ -44,9 +44,9 @@ const ClSign = () => {
                     <h1 className='lg:my-8 my-4 lg:text-4xl text-2xl text-center'>TAKE ACTION</h1>
                     <div className='lg:w-full w-full h-[1px] bg-gray-400 '></div>
                     <p className='my-5'>Most Camp Lejeune victims have previously not had access to the kind of compensation needed to take care of their and their families' injuries. The Camp Lejeune Justice Act of 2022 may now allow victims to recover significant compensation.</p>
-                    <p>If you lived or worked at Camp Lejeune between 1953 and 1987 and developed cancer or another serious illness; you need to speak up! You might be eligible for financial compensation for your pain and suffering. Don’t suffer in silence. Fill out a no-cost claim review to see if you are eligible to receive compensation. – <a className='text-blue-800 hover:underline' href="/">complete the free and easy claim review form today</a>.</p>
+                    <p>If you lived or worked at Camp Lejeune between 1953 and 1987 and developed cancer or another serious illness; you need to speak up! You might be eligible for financial compensation for your pain and suffering. Don’t suffer in silence. Fill out a no-cost claim review to see if you are eligible to receive compensation. – <a className='text-blue-800 hover:underline' href="#left-form">complete the free and easy claim review form today</a>.</p>
                     <div className='text-center my-10'>
-                        <a href="/">
+                        <a href="#page-form">
                             <button className='uppercase py-3 px-5 rounded-full bg-[#BD902D] text-white text-xl'>Get Help Now!</button>
                         </a>
                     </div>
