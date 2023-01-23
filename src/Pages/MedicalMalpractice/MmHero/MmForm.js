@@ -1,6 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { useState } from 'react';
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 const MmForm = () => {
+    const [selectedDate, setSelectedDate] = useState(null);
     return (
         <div className='mb-16 bg-[#f0f0f0] border-8 border-[#f0f0f0] lg:mt-[-20px] rounded-t-xl shadow-xl'>
             <div className='p-5'>
@@ -9,21 +13,26 @@ const MmForm = () => {
                     <h5 className='text-center lg:text-2xl text-xl'>TO GET YOUR FREE CLAIM REVIEW</h5>
                     <p className='text-center lg:text-xl'>You may be entitled to <span className='underline'>financial compensation!</span></p>
                 </div>
-                <div className='grid lg:grid-cols-2 grid-cols-1 py-5 lg:gap-8'>
+                <div className='grid lg:grid-cols-2 grid-cols-1 pt-5 pb-3 lg:gap-8'>
                     <div className='space-y-3 mb-3 lg:mb-0'>
                         <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="text" name='first_name' placeholder='First Name' />
                         <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="text" name='last_name' placeholder='Last Name' />
                         <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="text" name='email' placeholder='Email' />
-                        <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="text" name='zip' placeholder='ZIP' />
+                        {/* <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="text" name='zip' placeholder='ZIP' /> */}
                     </div>
                     <div className='space-y-3'>
                         <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="text" name='phone' placeholder='Phone' />
                         <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="text" name='address' placeholder='City' />
                         <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="text" name='state' placeholder='State' />
-                        <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="date" name='date'  />
+                        {/* <DatePicker className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' selected={selectedDate} onChange={date => setSelectedDate(date)}  dateFormat='yyyy/mm/dd' placeholder='Incident Date' /> */}
+                        {/* <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="date" name='date'  /> */}
                     </div>
                     
                 </div>
+                <div className='mb-5'>
+                <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="text" name='zip' placeholder='ZIP' />
+                </div>
+                
                 <div className='lg:w-full w-full h-[1px] bg-gray-300'></div>
                 <div className='bg-[#BD902D] lg:mx-16 rounded-xl'>
                     <h3 className='mt-5 lg:text-lg py-1 text-center text-white'>Your Information is 100% Confidential</h3>
@@ -65,7 +74,7 @@ const MmForm = () => {
                 <div className='grid grid-cols-2 lg:gap-10 py-1 lg:px-3 my-2 justify-center items-center'>
                     <p>At Fault !</p>
                     <div>
-                        <div class="inline-block relative lg:w-40">
+                        <div class="inline-block relative lg:w-40 ">
                             <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
                                 <option>[Select]</option>
                                 <option>Yes</option>
@@ -75,6 +84,13 @@ const MmForm = () => {
                                 <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className='lg:w-full w-full h-[1px] bg-gray-300 '></div>
+                <div className='grid grid-cols-2 lg:gap-10 py-1 lg:px-3 my-2 justify-center items-center'>
+                    <p>Incident Date !</p>
+                    <div>
+                    <DatePicker className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D] lg:w-40' selected={selectedDate} onChange={date => setSelectedDate(date)}  dateFormat='yyyy/mm/dd' required />
                     </div>
                 </div>
                 
