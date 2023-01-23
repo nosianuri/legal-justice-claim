@@ -20,7 +20,7 @@ const MmForm = () => {
                         <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="text" name='phone' placeholder='Phone' />
                         <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="text" name='address' placeholder='City' />
                         <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="text" name='state' placeholder='State' />
-                        <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="text" name='date' placeholder='Incident Date (YYYY-MM-DD)' />
+                        <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="date" name='date'  />
                     </div>
                     
                 </div>
@@ -30,10 +30,10 @@ const MmForm = () => {
                     <div>
                     </div>
                 </div>
-                <div className='grid grid-cols-2 gap-10 py-1 lg:px-3 my-2 justify-center items-center'>
+                <div className='grid grid-cols-2 lg:gap-10 py-1 lg:px-3 my-2 justify-between items-center'>
                     <p>Physical Injury !</p>
                     <div>
-                        <div class="inline-block relative w-40">
+                        <div class="inline-block relative lg:w-40">
                             <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
                                 <option>[Select]</option>
                                 <option>Yes</option>
@@ -46,10 +46,10 @@ const MmForm = () => {
                     </div>
                 </div>
                 <div className='lg:w-full w-full h-[1px] bg-gray-300 '></div>
-                <div className='grid grid-cols-2 gap-10 py-1 lg:px-3 justify-center items-center my-2'>
+                <div className='grid grid-cols-2 lg:gap-10 py-1 lg:px-3 justify-center items-center my-2'>
                     <p>Currently Represented !</p>
                     <div>
-                        <div class="inline-block relative w-40">
+                        <div class="inline-block relative lg:w-40">
                             <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
                                 <option>[Select]</option>
                                 <option>Yes</option>
@@ -62,10 +62,10 @@ const MmForm = () => {
                     </div>
                 </div>
                 <div className='lg:w-full w-full h-[1px] bg-gray-300 '></div>
-                <div className='grid grid-cols-2 gap-10 py-1 lg:px-3 my-2 justify-center items-center'>
+                <div className='grid grid-cols-2 lg:gap-10 py-1 lg:px-3 my-2 justify-center items-center'>
                     <p>At Fault !</p>
                     <div>
-                        <div class="inline-block relative w-40">
+                        <div class="inline-block relative lg:w-40">
                             <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
                                 <option>[Select]</option>
                                 <option>Yes</option>
