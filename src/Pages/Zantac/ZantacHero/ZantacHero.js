@@ -5,7 +5,7 @@ const ZantacHero = () => {
   return (
     <div style={{
         background: `url(https://i.ibb.co/j5DwYBn/zantac.jpg)`
-    }} class="bg-no-repeat !bg-cover">
+    }} className="bg-no-repeat !bg-cover">
         <div className='lg:px-32 px-8 bg-black bg-opacity-25'>
         <div className='grid lg:grid-cols-2 grid-cols-1 gap-10'>
                 <div className='lg:py-16 py-5 lg:mx-16 order-2'>
