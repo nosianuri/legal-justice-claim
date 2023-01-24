@@ -1,14 +1,12 @@
 import React from 'react';
 import './MainBody.css';
-import marker from '../../assets/marker.png';
 import Elmiron from '../Elmiron/Elmiron';
 import RoundUp from '../RoundUp/RoundUp';
 import RoundUpProduct from '../RoundUpProduct/RoundUpProduct';
 import Litigation from '../Litigation/Litigation';
 import Additional from '../Additional/Additional';
 import LawsuitField from './LawsuitField';
-import ElmironSlide from '../Elmiron/ElmironSlide';
-import SocialMedia from '../Shared/SocialMedia';
+
 
 const MainBody = () => {
     return (

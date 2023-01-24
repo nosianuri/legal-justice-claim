@@ -4,7 +4,6 @@ import Ap1 from '../../assets/Medical Malpractice (1).jpg';
 import Ap2 from '../../assets/talcom powder.jpg';
 import Ap3 from '../../assets/Roundup (1).jpg';
 import Ap4 from '../../assets/Sex Abuse (1).jpg';
-import Ap5 from '../../assets/Personal Injury.jpg';
 import Ap6 from '../../assets/Zantac (1).jpg';
 import Ap7 from '../../assets/NEC (1).jpg';
 import Ap8 from '../../assets/Fire Fighting (1).jpg';

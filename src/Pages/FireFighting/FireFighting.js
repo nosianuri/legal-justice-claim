@@ -1,7 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import ServiceFooter from '../../components/Shared/ServiceNavbar/ServiceFooter'
-import ServiceNavbar from '../../components/Shared/ServiceNavbar/ServiceNavbar'
 import FiAbout from './FiAbout/FiAbout'
 import FiFind from './FiFind/FiFind'
 import FiHelp from './FiHelp/FiHelp'

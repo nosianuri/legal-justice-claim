@@ -1,7 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import ServiceFooter from '../../components/Shared/ServiceNavbar/ServiceFooter'
-import ServiceNavbar from '../../components/Shared/ServiceNavbar/ServiceNavbar'
 import RuAbout from './RuAbout/RuAbout'
 import RuFind from './RuFind/RuFind'
 import RuHelp from './RuHelp/RuHelp'

@@ -1,8 +1,5 @@
 import React from 'react'
 import Header from '../Shared/Header/Header';
-import { fadeIn, staggerContainer } from '../Shared/variants';
-import { motion } from 'framer-motion';
-import { heroData } from '../Shared/Header/data';
 
 const Banner = () => {
 

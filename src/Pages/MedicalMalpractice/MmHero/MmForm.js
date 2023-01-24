@@ -226,7 +226,7 @@ const MmForm = () => {
                     <div className='grid grid-cols-2 lg:gap-10 py-1 lg:px-3 my-2 justify-center items-center'>
                         <p>Incident Date !</p>
                         <div className='inline-block relative w-40'>
-                            <DatePicker className='block appearance-none px-2 rounded  py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D] w-40' selected={selectedDate} onChange={date => setSelectedDate(date)} dateFormat='yyyy/mm/dd' required 
+                            <DatePicker className='block appearance-none px-2 rounded  py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D] w-40' selected={selectedDate} onChange={date => setSelectedDate(date)} dateFormat='yyyy/MM/dd' required 
                               />
                               <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                                     <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
