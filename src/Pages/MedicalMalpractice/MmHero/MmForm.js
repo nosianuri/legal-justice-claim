@@ -2,22 +2,22 @@ import React from 'react';
 import { useState } from 'react';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import moment from 'moment';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
 const MmForm = () => {
     const navigate = useNavigate();
-    // const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(false);
     const [selectedDate, setSelectedDate] = useState(new Date());
     console.log(selectedDate);
-    // const setDate = setSelectedDate(Date.parse(selectedDate))
-    // const selectDate = new Date(selectedDate);
-    // const date = selectDate.setDate(selectDate.getDate);
-    // console.log(date);
+    const FormatedDate = selectedDate.getFullYear() + "/" + parseInt(selectedDate.getMonth() + 1) + "/" + selectedDate.getDate();
+    console.log(FormatedDate);
     const { register, reset, formState: { errors }, handleSubmit } = useForm();
-    const onSubmit = formData => {
 
+    const onSubmit = formData => {
+        setLoading(true)
         const data = {
             first_name: formData.first_name,
             last_name: formData.last_name,
@@ -26,7 +26,7 @@ const MmForm = () => {
             city: formData.city,
             state: formData.state,
             zip_code: formData.zip_code,
-            incident_date: selectedDate,
+            incident_date: FormatedDate,
             physical_injury: formData.physical_injury,
             currently_represented: formData.currently_represented,
             at_fault: formData.at_fault,
@@ -44,13 +44,14 @@ const MmForm = () => {
                 if (data) {
                     toast.success('succesfuly post data');
                     reset();
-                    // setLoading(false)
+                    setLoading(false)
                     navigate("/thanks");
                 }
                 else {
                     toast.error('Something is wrong');
+                    setLoading(false)
                 }
-
+                // setLoading(false)
             })
     }
 
@@ -110,7 +111,7 @@ const MmForm = () => {
                             <p>
                                 {errors.email?.type === 'required' && <span className="text-xs text-red-500">{errors.email.message}</span>}
                             </p>
-                            {/* <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="text" name='zip' placeholder='ZIP' /> */}
+                           
                         </div>
                         <div className='space-y-3'>
                             <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="number"
@@ -276,12 +277,12 @@ const MmForm = () => {
                             <DatePicker
                                 className='block appearance-none px-2 rounded  py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D] w-40'
                                 placeholderText='YYYY/MM/DD'
+                                dateFormat='yyyy/MM/dd'
                                 filterDate={d => {
                                     return new Date() > d;
                                 }}
                                 selected={selectedDate}
                                 onChange={(date) => setSelectedDate(date)}
-                                dateFormat='yyyy/MM/dd'
                                 required={true}
                             />
                             <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
@@ -289,8 +290,6 @@ const MmForm = () => {
                             </div>
                         </div>
                     </div>
-
-
                     <div className='lg:px-10 mt-3'>
                         <textarea className='rounded w-full p-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' id="" cols="50" rows="2" placeholder='More details about your claim' type="message"
                             {...register("case_description", {
@@ -305,16 +304,16 @@ const MmForm = () => {
                             {errors.case_description?.type === 'required' && <span className="text-xs text-red-500">{errors.case_description.message}</span>}
                         </p>
                     </div>
-                    {/* {!loading && (
+                    {!loading && (
                     <button id='form-submit' className="uppercase font-semibold bg-[#BD902D] rounded my-5 w-full text-xl text-center py-2 text-white" >Submit My Claim </button>
                   )}
                   {loading && (
                     <button id='form-submit' className="uppercase font-semibold bg-[#BD902D] rounded my-5 w-full text-xl text-center py-2 text-white" disabled> <i className='fas fa-spinner fa-spin'></i>{" "} Submit My Claim... </button>
-                  )} */}
+                  )}
                     {/* <input className='btn w-full bg-[#BD902D] rounded max-w-xs text-white uppercase text-xl py-2' type="submit" value="Submit My Claim" /> */}
-                    <div>
+                    {/* <div>
                         <button className='uppercase font-semibold bg-[#BD902D] rounded my-5 w-full text-xl text-center py-2 text-white'>Submit My Claim</button>
-                    </div>
+                    </div> */}
                 </form>
                 <p className='text-xs text-gray-400 lg:px-10'>By clicking the “Submit My Claim” button, you certify that you have provided your legal name and your own phone number, you agree to the <a className='text-[#BD902D] hover:underline' href="/terms&condition">Terms and Conditions</a> and <a className='text-[#BD902D]' href="/privacy-policy">Privacy Policy</a> and authorize Lawsuit-Winning and its <a className='text-[#BD902D]' href="/">partners</a> to contact you by email or at the phone number you entered using automated technology including recurring auto-dialers, pre-recorded messages, and text messages, even if your phone is a mobile number or is currently listed on any state, federal, or corporate “Do Not Call” list. You understand that your telephone company may impose charges on you for these contacts, and that you can revoke this consent at any time. For SMS campaigns Text STOP to cancel and HELP for help. Message and data rates may apply. By clicking the “Submit My Claim” button and submitting this form, I affirm that I have read and agree to this Site’s <a className='text-[#BD902D]' href="/terms&condition">Terms and Conditions</a> (including the arbitration provision and the E-SIGN consent) and Privacy Policy.</p>
             </div>

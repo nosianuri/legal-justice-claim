@@ -14,7 +14,6 @@ const Home = () => {
         <title>Legal Justice Claim </title>
       </Helmet>
       <Banner />
-      
       <MainBody />
       <Footer />
     </div>
