@@ -3,12 +3,18 @@ import { useState } from 'react';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { useForm } from 'react-hook-form';
+import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
 const MmForm = () => {
+    const navigate = useNavigate();
+    // const [loading, setLoading] = useState(false);
     const [selectedDate, setSelectedDate] = useState(new Date());
-   
-    // console.log(selectedDate);
+    console.log(selectedDate);
+    // const setDate = setSelectedDate(Date.parse(selectedDate))
+    // const selectDate = new Date(selectedDate);
+    // const date = selectDate.setDate(selectDate.getDate);
+    // console.log(date);
     const { register, reset, formState: { errors }, handleSubmit } = useForm();
     const onSubmit = formData => {
 
@@ -27,7 +33,7 @@ const MmForm = () => {
             case_description: formData.case_description,
             landing_page: 'https://legaljusticeclaim.com/',
         }
-        // console.log(data);
+        console.log(data);
         fetch('https://leadmanager.rayadvertising.com/api/post-mva', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
@@ -38,6 +44,8 @@ const MmForm = () => {
                 if (data) {
                     toast.success('succesfuly post data');
                     reset();
+                    // setLoading(false)
+                    navigate("/thanks");
                 }
                 else {
                     toast.error('Something is wrong');
@@ -120,7 +128,6 @@ const MmForm = () => {
                                         message: 'Must be 10 characters longer'
                                     }
                                 })}
-
                                 placeholder='Phone' />
                             <p>
                                 {errors.phone?.type === 'required' && <span className="text-xs text-red-500">{errors.phone.message}</span>}
@@ -135,7 +142,6 @@ const MmForm = () => {
                                     },
 
                                 })}
-
                                 placeholder='City' />
                             <p>
                                 {errors.city?.type === 'required' && <span className="text-xs text-red-500">{errors.city.message}</span>}
@@ -146,12 +152,15 @@ const MmForm = () => {
                                         value: true,
                                         message: 'State Name is required'
                                     },
-
+                                    maxLength: {
+                                        value: 2,
+                                        message: 'Must be 2 characters longer'
+                                    },
                                 })}
-
                                 placeholder='State' />
                             <p>
                                 {errors.state?.type === 'required' && <span className="text-xs text-red-500">{errors.state.message}</span>}
+                                {errors.state?.type === 'maxLength' && <span className="text-xs text-red-500">{errors.state.message}</span>}
                             </p>
                             {/* <DatePicker className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' selected={selectedDate} onChange={date => setSelectedDate(date)}  dateFormat='yyyy/mm/dd' placeholder='Incident Date' /> */}
                             {/* <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D]' type="date" name='date'  /> */}
@@ -204,8 +213,8 @@ const MmForm = () => {
                         </div>
                     </div>
                     <p>
-                            {errors.physical_injury?.type === 'required' && <span className="text-xs text-red-500">{errors.physical_injury.message}</span>}
-                        </p>
+                        {errors.physical_injury?.type === 'required' && <span className="text-xs text-red-500">{errors.physical_injury.message}</span>}
+                    </p>
                     <div className='lg:w-full w-full h-[1px] bg-gray-300 '></div>
                     <div className='grid grid-cols-2 lg:gap-10 py-1 lg:px-3 justify-center items-center my-2'>
                         <p>Currently Represented !</p>
@@ -231,8 +240,8 @@ const MmForm = () => {
                         </div>
                     </div>
                     <p>
-                            {errors.currently_represented?.type === 'required' && <span className="text-xs text-red-500">{errors.currently_represented.message}</span>}
-                        </p>
+                        {errors.currently_represented?.type === 'required' && <span className="text-xs text-red-500">{errors.currently_represented.message}</span>}
+                    </p>
                     <div className='lg:w-full w-full h-[1px] bg-gray-300 '></div>
                     <div className='grid grid-cols-2 lg:gap-10 py-1 lg:px-3 my-2 justify-center items-center'>
                         <p>At Fault !</p>
@@ -246,7 +255,7 @@ const MmForm = () => {
                                         },
 
                                     })}
-                                     required >
+                                    required >
                                     <option>[Select]</option>
                                     <option>Yes</option>
                                     <option>No</option>
@@ -264,7 +273,16 @@ const MmForm = () => {
                     <div className='grid grid-cols-2 lg:gap-10 py-1 lg:px-3 my-2 justify-center items-center'>
                         <p>Incident Date !</p>
                         <div className='inline-block relative w-40'>
-                            <DatePicker className='block appearance-none px-2 rounded  py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D] w-40' selected={selectedDate} onChange={date => setSelectedDate(date)} dateFormat='yyyy/MM/dd'  required
+                            <DatePicker
+                                className='block appearance-none px-2 rounded  py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D] w-40'
+                                placeholderText='YYYY/MM/DD'
+                                filterDate={d => {
+                                    return new Date() > d;
+                                }}
+                                selected={selectedDate}
+                                onChange={(date) => setSelectedDate(date)}
+                                dateFormat='yyyy/MM/dd'
+                                required={true}
                             />
                             <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                                 <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
@@ -287,6 +305,12 @@ const MmForm = () => {
                             {errors.case_description?.type === 'required' && <span className="text-xs text-red-500">{errors.case_description.message}</span>}
                         </p>
                     </div>
+                    {/* {!loading && (
+                    <button id='form-submit' className="uppercase font-semibold bg-[#BD902D] rounded my-5 w-full text-xl text-center py-2 text-white" >Submit My Claim </button>
+                  )}
+                  {loading && (
+                    <button id='form-submit' className="uppercase font-semibold bg-[#BD902D] rounded my-5 w-full text-xl text-center py-2 text-white" disabled> <i className='fas fa-spinner fa-spin'></i>{" "} Submit My Claim... </button>
+                  )} */}
                     {/* <input className='btn w-full bg-[#BD902D] rounded max-w-xs text-white uppercase text-xl py-2' type="submit" value="Submit My Claim" /> */}
                     <div>
                         <button className='uppercase font-semibold bg-[#BD902D] rounded my-5 w-full text-xl text-center py-2 text-white'>Submit My Claim</button>

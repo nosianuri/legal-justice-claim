@@ -43,7 +43,7 @@ const ClForm = () => {
         })
       }).then(response2 => response2.json())
           .then(data2 => {
-            console.log(data2);
+            // console.log(data2);
             setLoading(false)
             navigate("/thanks");
 
@@ -69,7 +69,7 @@ const ClForm = () => {
           event: "lead_submitted",
           "data": data,
         })
-        console.log("Form Data Pushed!")
+        // console.log("Form Data Pushed!")
       }
       else{
         toast.warning("Input fields can't be empty", {
@@ -95,14 +95,14 @@ const ClForm = () => {
         })
       }).then(response3 => response3.json())
           .then(data3 => {
-            console.log(data3);
+            // console.log(data3);
             setLoading(false)
             navigate("/thanks");
 
           })
           .catch(error2 => console.log(error2))
 
-      console.log("YES NO")
+      // console.log("YES NO")
       // navigate("/thanks")
     }
     else{
@@ -124,7 +124,7 @@ const ClForm = () => {
           event: "lead_submitted",
           "data": data,
         })
-        console.log("Form Data Pushed!")
+        // console.log("Form Data Pushed!")
       }
       else{
         toast.warning("Input fields can't be empty", {
@@ -150,12 +150,12 @@ const ClForm = () => {
         })
       }).then(response3 => response3.json())
           .then(data3 => {
-            console.log(data3);
+            // console.log(data3);
             setLoading(false)
             navigate("/thanks");
           })
           .catch(error2 => console.log(error2))
-      console.log("ELSE WORKING FINE")
+      // console.log("ELSE WORKING FINE")
       navigate("/thanks")
     }
     }
@@ -168,7 +168,7 @@ const ClForm = () => {
     window.dataLayer.push({
       event: "call_button"
     })
-    console.log("clicked")
+    // console.log("clicked")
   }
 
 
@@ -179,7 +179,7 @@ const ClForm = () => {
       window.dataLayer.push({
         event: "review_clicked"
       })
-      console.log("clicked")
+      // console.log("clicked")
     }
 
 
