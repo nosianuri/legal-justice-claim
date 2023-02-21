@@ -20,7 +20,7 @@ function App() {
     <>
       <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='/earplug' element={<Earplug />} />
+      {/* <Route path='/earplug' element={<Earplug />} />
       <Route path='/firefighting' element={<FireFighting />} />
       <Route path='/personalinjury' element={<MedicalMalpractice />} />
       <Route path='/nec' element={<NEC />} />
@@ -29,7 +29,7 @@ function App() {
       <Route path='/sexabuse' element={<SexAbuse />} />
       <Route path='/roundup' element={<RoundUp />} />
       <Route path='/camplejeune' element={<CampLejeune />} />
-      <Route path='/thanks' element={<Thanks />} />
+      <Route path='/thanks' element={<Thanks />} /> */}
       <Route path='/terms&condition' element={<TermsCondition />} />
       <Route path='/privacy-policy' element={<Privacy />} />
       <Route path="*" element={<Notfound />} />
