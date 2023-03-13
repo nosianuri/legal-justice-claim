@@ -11,7 +11,7 @@ const Final = () => {
   return (
     <div className="flex flex-col w-full">
     <h2 className='text-2xl font-semibold text-center'>Contact Information?  <em className='text-red-700'>*</em></h2>
-      
+      <div className='flex gap-1'>
       <div className=" mx-2 flex-1">
         <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
           City <em className='text-red-700'>*</em>
@@ -42,6 +42,8 @@ const Final = () => {
         />
       </div>
     </div>
+      </div>
+     
     <div className=" mx-2 flex-1">
       <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
         Zip Code <em className='text-red-700'>*</em>
