@@ -1,6 +1,6 @@
 div.cac-gamified-header-logo:after {
     position: absolute;
-    content: "You May be Entitled to Maximum Accident Compensation"!important;
+    content: "Lawsuits for Personal Injury are currently being filed!"!important;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
@@ -16,7 +16,7 @@ div.cac-gamified-header-logo:after {
     height: 100%;
     position: fixed;
     opacity: 1!Important;
-    background: url(https://i.ibb.co/zhv54yr/carheader.png) no-repeat!important;
+    background: url(https://i.ibb.co/7QTGg1J/car-bg.png) no-repeat!important;
     filter: none!Important;
     background-size: cover!important;
     z-index: -1;
@@ -25,14 +25,14 @@ div.cac-gamified-header-logo:after {
 
 div#headline h1 span {
     text-decoration: underline;
-    text-decoration-color: #FF670F;
+    text-decoration-color: #fac705;
     text-underline-offset: 8px;
 }
 
 .cac-badges p {
     font-style: italic;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 21px;
     text-align: center;
     color: #FFFFFF;
@@ -40,9 +40,9 @@ div#headline h1 span {
 
 .cac-badges span {
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900 !important;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 28px;
     text-align: center;
     color: #FFFFFF;
 }

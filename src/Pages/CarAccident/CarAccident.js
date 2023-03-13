@@ -8,18 +8,24 @@ const CarAccident = () => {
             <div className='p-5 bg-[#273c5d]'>
                 <div className='flex gap-3 items-center cac-gamified-header-logo'>
                     <img src="https://i.ibb.co/ZcRnXkX/Asset-1-320x-8.png" alt="" className='w-10' />
-                    <p className='font-bold text-white text-xl '>Car Accident Counsel</p>
+                    <p className='font-bold text-white text-xl '>Legal Justice Claim</p>
                 </div>
             </div>
 
             <div id='headline' className='max-w-[700px] mx-auto text-white sm:text-3xl text-xl my-10 !leading-normal text-center px-2'>
-                <h1>Receive <span>Maximum Accident Injury Payout</span> with the Help of Trusted Personal Injury Lawyers</h1>
-                <p className='sm:text-xl text-lg my-5'>Take this quick assessment to get a <span className='text-[#FF670F]'>FREE CASE CONSULTATION </span> and <span className='text-[#FF670F]'>know how much is owed to you</span>
+                <h1>Numerous USA studies have suggested the average compensation earned for <span> Car Accident or Vehicle related accident claims </span> is approximately $24,000 <span className='text-[#fac705]  !no-underline'>*</span></h1>
+                {/* <h1>Receive <span>Maximum Accident Injury Payout</span> with the Help of Trusted Personal Injury Lawyers</h1> */}
+
+                <p className='sm:text-xl text-lg my-5'>Take this quick assessment to get a <span className='text-[#fac705]'>FREE CASE CONSULTATION </span> and <span className='text-[#fac705]'>know how much is owed to you</span>
                 </p>
                 <StepFormBody />
                 <div className='cac-badges'>
-                    <p>FREE No Obligation Consultation Pay Nothing!</p>
+                    <p className='!font-bold'>FREE No Obligation Consultation Pay Nothing!</p>
+                    <p className='sm:text-xl text-lg my-5'>Are you the victim of an accident and unsure of what compensation you may be entitled to? Look no further than our trusted Personal Injury Lawyers! With our help, you can receive the maximum payout for your accident injury. Take our quick assessment today to receive a Free Case Consultation and discover how much you may be owed. Don't let your accident go uncompensated - let us fight for your rights and help you receive the compensation you deserve. Contact us today to take the first step towards a brighter future!
+                    </p>
                     <span>Our Expert Lawyers Have Been Rated 5-stars</span>
+                    <p className='mb-8'>Our expert lawyers have been rated 5-stars and we're proud to offer a FREE no-obligation consultation - meaning you pay nothing to speak with us! Whether you're dealing with a personal injury case or need legal advice, our team is here to help. We understand that legal matters can be overwhelming and confusing, which is why we're dedicated to providing you with the support you need. With our years of experience and proven track record of success, you can trust us to handle your case with professionalism and care. Contact us today to schedule your free consultation and take the first step towards resolution.
+                    </p>
                     <div className='flex gap-3'>
                         <div>
                             <img src="https://i.ibb.co/k897fM6/yelp.png" alt="" />
@@ -33,11 +39,12 @@ const CarAccident = () => {
                     </div>
                 </div>
             </div>
+
             <div id='cac-footer-legal'>
-                <p> <br /> This site is not a part of the Facebook website or Facebook Inc. Additionally, This site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc. <br />
-                This site is not a part of the YouTube website or Google, LLC. Additionally, This site is NOT endorsed by Google in any way. YouTube is a trademark of Google, LLC. <br /> <br /> PAID ATTORNEY ADVERTISEMENT: This Web site is a group advertisement. It is not a lawyer referral service or prepaid legal services plan. This website is not a law firm. The sole basis for the inclusion of the participating lawyers or law firms is the payment of a fee for exclusive geographical advertising rights. Our company does not endorse or recommend any lawyer or law firm who participates in the network. It does not make any representation and has not made any judgment as to the qualifications, expertise or credentials of any participating lawyer. The information contained herein is not legal advice. Any information you submit to this website may not be protected by attorney-client privilege. All photos are of models and do not depict clients. All case evaluations are performed by participating attorneys. This website is for informational purposes only. By filling out the free consultation form, you are NOT forming an attorney-client relationship. You can only retain a lawyer by entering into a written retainer agreement with an attorney. Our services may not be available in all states.
+                <p> <br /> This website is not affiliated with or endorsed by Facebook, Inc. or YouTube, a subsidiary of Google, LLC. The use of Facebook and YouTube trademarks is solely for informational purposes, and we are not associated with these companies in any way. <br />
+                    This website is a group advertisement and is not a lawyer referral service or prepaid legal services plan. We are not a law firm and do not endorse or recommend any participating lawyer or law firm. Our sole criteria for including participating lawyers or law firms is the payment of a fee for exclusive geographical advertising rights. We have not made any judgment regarding the qualifications, expertise, or credentials of any participating lawyer. <br /> <br /> This website is a group advertisement and is not a lawyer referral service or prepaid legal services plan. We are not a law firm and do not endorse or recommend any participating lawyer or law firm. Our sole criteria for including participating lawyers or law firms is the payment of a fee for exclusive geographical advertising rights. We have not made any judgment regarding the qualifications, expertise, or credentials of any participating lawyer. <br /> <br /> The information contained on this website is not legal advice, and any information you submit to us may not be protected by attorney-client privilege. All photos on this website are of models and do not depict actual clients. All case evaluations are conducted by participating attorneys. Please note that filling out the free consultation form does not establish an attorney-client relationship. To retain a lawyer, a written retainer agreement with an attorney is necessary. Additionally, our services may not be available in all states.
                 </p>
-                <p className='text-center mt-5 text-gray-600 text-xs'>Copyright © 2023 Car Accident Counsel | All rights reserved</p>
+                <p className='text-center mt-10 text-gray-600 text-xs '>Copyright © 2023 Legal Justice Claim | All rights reserved</p>
             </div>
         </div>
     )

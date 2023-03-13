@@ -10,12 +10,12 @@ const Final = () => {
   };
   return (
     <div className="flex flex-col w-full">
-    <h2 className='text-2xl font-semibold text-center'>Personal Information? *</h2>
+    <h2 className='text-2xl font-semibold text-center'>Contact Information?  <em className='text-red-700'>*</em></h2>
       <div className=" mx-2 flex-1">
         <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
-          Email
+          Email <em className='text-red-700'>*</em>
         </div>
-        <div className="bg-white my-2 p-1 flex border border-gray-200 rounded">
+        <div className="bg-white my-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">
           <input
             onChange={handleChange}
             value={userData["card"] || ""}
@@ -27,9 +27,9 @@ const Final = () => {
       </div>
       <div className=" mx-2 flex-1">
         <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
-          Phone Number
+          Phone Number <em className='text-red-700'>*</em>
         </div>
-        <div className="bg-white my-2 p-1 flex border border-gray-200 rounded">
+        <div className="bg-white my-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">
           <input
             onChange={handleChange}
             value={userData["exp"] || ""}
