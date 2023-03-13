@@ -1,0 +1,75 @@
+div.cac-gamified-header-logo:after {
+    position: absolute;
+    content: "You May be Entitled to Maximum Accident Compensation"!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 5px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF;
+}
+.body.sg-body:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    opacity: 1!Important;
+    background: url(https://i.ibb.co/zhv54yr/carheader.png) no-repeat!important;
+    filter: none!Important;
+    background-size: cover!important;
+    z-index: -1;
+    top: 0;
+}
+
+div#headline h1 span {
+    text-decoration: underline;
+    text-decoration-color: #FF670F;
+    text-underline-offset: 8px;
+}
+
+.cac-badges p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cac-badges span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#cac-footer-legal {
+    background: #fff;
+    min-width: 100vw;
+    padding: 50px 50px;
+    margin-top: 80px;
+}
+#cac-footer-legal {
+    /* padding-top: 150px; */
+    max-width: 1280px;
+    margin: auto;
+    width: 90%;
+}
+
+button, input, optgroup, select, textarea {
+    font-size: 50%;
+}
+
+@media screen and (max-width: 780px) {
+    div.cac-gamified-header-logo:after {
+        display: none;
+    }
+    #cac-footer-legal {
+        padding: 10px 20px;
+        margin-top: 80px;
+    }
+}
