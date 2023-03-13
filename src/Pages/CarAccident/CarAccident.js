@@ -13,7 +13,7 @@ const CarAccident = () => {
             </div>
 
             <div id='headline' className='max-w-[700px] mx-auto text-white sm:text-3xl text-xl my-10 !leading-normal text-center px-2'>
-                <h1>Numerous USA studies have suggested the average compensation earned for <span> Car Accident or Vehicle related accident claims </span> is approximately $24,000 <span className='text-[#fac705]  !no-underline'>*</span></h1>
+                <h1 className='font-bold'>Numerous USA studies have suggested the average compensation earned for <span> Car Accident or Vehicle related accident claims </span> is approximately $24,000 <span className='text-[#fac705]  !no-underline'>*</span></h1>
                 {/* <h1>Receive <span>Maximum Accident Injury Payout</span> with the Help of Trusted Personal Injury Lawyers</h1> */}
 
                 <p className='sm:text-xl text-lg my-5'>Take this quick assessment to get a <span className='text-[#fac705]'>FREE CASE CONSULTATION </span> and <span className='text-[#fac705]'>know how much is owed to you</span>
