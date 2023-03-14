@@ -59,8 +59,9 @@ const StepFormBody = () => {
             <div className="mx-auto rounded-2xl bg-[#fff] text-gray-900 ">
                 {/* Stepper */}
                 <div className="horizontal container mt-5 ">
+                
                     {/* <Stepper steps={steps} currentStep={currentStep} /> */}
-                    <img src="https://i.ibb.co/m6yGNqR/hands-gesture-ph-blue.png" alt="" className='mx-auto' />
+                    {/* <img src="https://i.ibb.co/m6yGNqR/hands-gesture-ph-blue.png" alt="" className='mx-auto' /> */}
                     <div className="my-3 px-10 ">
                         <UseContextProvider>{displayStep(currentStep)}</UseContextProvider>
                     </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './CarAccident.css'
+import MultiForm from './MultiForm'
 import StepFormBody from './StepFormBody'
 
 const CarAccident = () => {
@@ -18,8 +19,9 @@ const CarAccident = () => {
 
                 <p className='sm:text-xl text-lg my-5'>Take this quick assessment to get a <span className='text-[#fac705]'>FREE CASE CONSULTATION </span> and <span className='text-[#fac705]'>know how much is owed to you</span>
                 </p>
-                <StepFormBody />
-                <div className='cac-badges'>
+                <MultiForm />
+                {/* <StepFormBody /> */}
+                <div className='cac-badges mt-5'>
                     <p className='!font-bold'>FREE No Obligation Consultation Pay Nothing!</p>
                     <p className='sm:text-xl text-lg my-5'>Are you the victim of an accident and unsure of what compensation you may be entitled to? Look no further than our trusted Personal Injury Lawyers! With our help, you can receive the maximum payout for your accident injury. Take our quick assessment today to receive a Free Case Consultation and discover how much you may be owed. Don't let your accident go uncompensated - let us fight for your rights and help you receive the compensation you deserve. Contact us today to take the first step towards a brighter future!
                     </p>
