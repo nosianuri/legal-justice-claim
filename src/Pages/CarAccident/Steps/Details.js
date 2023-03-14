@@ -1,7 +1,13 @@
 import React from 'react'
 import { useStepperContext } from '../Context/StepperContext';
+import {
+  useForm,
+  formProvider,
+  useFormContext,
+  Controller,
+} from "react-hook-form";
 
-const Details = () => {
+const Details = ({ register, errors }) => {
   const { userData, setUserData } = useStepperContext();
 
   const handleChange = (e) => {
@@ -10,72 +16,118 @@ const Details = () => {
   };
   return (
     <div className="flex flex-col w-full">
-    <h2 className='text-2xl font-semibold text-center'>Personal Information?  <em className='text-red-700'>*</em></h2>
+      <h2 className='text-2xl font-semibold text-center'>Personal Information?  <em className='text-red-700'>*</em></h2>
 
-    <div className='flex gap-1'>
-    <div className=" mx-2 flex-1">
-    <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
-      First Name <em className='text-red-700'>*</em>
-    </div>
-    <div className="bg-white my-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">
-      <input
-        onChange={handleChange}
-        value={userData["address"] || ""}
-        name="address"
-        placeholder="First Name"
-        className="p-1 px-2 appearance-none outline-none w-full text-gray-800"
-      />
-    </div>
-  </div>
-  <div className=" mx-2 flex-1">
-    <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
-      Last Name <em className='text-red-700'>*</em>
-    </div>
-    <div className="bg-white my-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">
-      <input
-        onChange={handleChange}
-        value={userData["city"] || ""}
-        name="city"
-        placeholder="Last Name"
-        type="text"
-        className="p-1 px-2 appearance-none outline-none w-full text-gray-800"
-      />
-    </div>
-  </div>
-    </div>
-    <div className='flex gap-1'>
-    <div className=" mx-2 flex-1">
-        <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
-          Email <em className='text-red-700'>*</em>
+      <div className='flex gap-1'>
+        <div className=" mx-2 flex-1">
+          <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
+            First Name <em className='text-red-700'>*</em>
+          </div>
+          <div className="bg-white my-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">
+            <input
+              name="first_name"
+              className="p-1 px-2 appearance-none outline-none w-full text-gray-800"
+              {...register("first_name", {
+                required: {
+                  value: true,
+                  message: 'First Name is required'
+                },
+                minLength: {
+                  value: 3,
+                  message: 'Must be 3 characters longer'
+                }
+              })}
+
+              placeholder='First Name' />
+            <p>
+              {errors.first_name?.type === 'required' && <span className="text-xs text-red-500">{errors.first_name.message}</span>}
+            </p>
+          </div>
         </div>
-        <div className="bg-white my-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">
-          <input
-            onChange={handleChange}
-            value={userData["card"] || ""}
-            name="card"
-            placeholder="Email"
-            className="p-1 px-2 appearance-none outline-none w-full text-gray-800"
-          />
-        </div>
-      </div>
-      <div className=" mx-2 flex-1">
-        <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
-          Phone Number <em className='text-red-700'>*</em>
-        </div>
-        <div className="bg-white my-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">
-          <input
-            onChange={handleChange}
-            value={userData["exp"] || ""}
-            name="exp"
-            placeholder="Phone Number"
-            type="text"
-            className="p-1 px-2 appearance-none outline-none w-full text-gray-800"
-          />
+        <div className=" mx-2 flex-1">
+          <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
+            Last Name <em className='text-red-700'>*</em>
+          </div>
+          <div className="bg-white my-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">
+            <input
+              name="last_name"
+              type="text"
+              className="p-1 px-2 appearance-none outline-none w-full text-gray-800"
+              {...register("last_name", {
+                required: {
+                  value: true,
+                  message: 'Last Name is required'
+                },
+                minLength: {
+                  value: 3,
+                  message: 'Must be 3 characters longer'
+                }
+              })}
+
+              placeholder='Last Name' />
+            <p>
+              {errors.last_name?.type === 'required' && <span className="text-xs text-red-500">{errors.last_name.message}</span>}
+            </p>
+          </div>
         </div>
       </div>
+      <div className='flex gap-1'>
+        <div className=" mx-2 flex-1">
+          <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
+            Email <em className='text-red-700'>*</em>
+          </div>
+          <div className="bg-white my-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">
+            <input
+              name="email"
+              className="p-1 px-2 appearance-none outline-none w-full text-gray-800"
+              {...register("email", {
+                required: {
+                  value: true,
+                  message: 'Email is required'
+                },
+
+              })}
+
+              placeholder='Email' />
+            <p>
+              {errors.email?.type === 'required' && <span className="text-xs text-red-500">{errors.email.message}</span>}
+            </p>
+          </div>
+        </div>
+        <div className=" mx-2 flex-1">
+          <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
+            Phone Number <em className='text-red-700'>*</em>
+          </div>
+          <div className="bg-white my-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">
+            <input
+              name="phone"
+              type="text"
+              className="p-1 px-2 appearance-none outline-none w-full text-gray-800"
+              {...register("phone", {
+                required: {
+                  value: true,
+                  message: 'Phone Number is required'
+                },
+                maxLength: {
+                  value: 10,
+                  message: 'Must be 10 characters longer'
+                },
+                minLength: {
+                  value: 10,
+                  message: 'Must be 10 characters longer'
+                }
+              })}
+              placeholder='Phone' />
+            <p>
+              {errors.phone?.type === 'required' && <span className="text-xs text-red-500">{errors.phone.message}</span>}
+              {errors.phone?.type === 'maxLength' && <span className="text-xs text-red-500">{errors.phone.message}</span>}
+              {errors.phone?.type === 'minLength' && <span className="text-xs text-red-500">{errors.phone.message}</span>}
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
-    
-  </div>
   )
 }
 

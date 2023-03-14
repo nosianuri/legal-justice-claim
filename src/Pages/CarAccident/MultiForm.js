@@ -7,19 +7,101 @@ import Injury from './Steps/Injury';
 import InjuryDate from './Steps/InjuryDate';
 import Represent from './Steps/Represent';
 import './CarAccident.css';
+import {
+    useForm,
+    formProvider,
+    useFormContext,
+    Controller,
+} from "react-hook-form";
+import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 const MultiForm = () => {
+    const navigate = useNavigate();
+    const [loading, setLoading] = useState(false);
+    const [selectedDate, setSelectedDate] = useState(new Date());
+    console.log(selectedDate);
+    const FormatedDate = selectedDate.getFullYear() + "/" + parseInt(selectedDate.getMonth() + 1) + "/" + selectedDate.getDate();
+    console.log(FormatedDate);
+    const { register, reset, formState: { errors }, handleSubmit } = useForm();
     const [page, setPage] = useState(0);
-    const [formData, setFormData] = useState({
-        email: "",
-        password: "",
-        confirmPassword: "",
-        firstName: "",
-        lastName: "",
-        username: "",
-        nationality: "",
-        other: "",
-    });
+    const [yes, no] = useState('yes');
+    // const [formData, setFormData] = useState({
+    //     first_name: "",
+    //     last_name: "",
+    //     last_name: "",
+    //     firstName: "",
+    //     lastName: "",
+    //     username: "",
+    //     nationality: "",
+    //     other: "",
+    // });
+    // const methods = useForm();
+    const onSubmit = formData => {
+
+        setLoading(true)
+        const data = {
+            first_name: formData.first_name,
+            last_name: formData.last_name,
+            phone: formData.phone,
+            email: formData.email,
+            city: formData.city,
+            state: formData.state,
+            zip_code: formData.zip_code,
+            incident_date: FormatedDate,
+            physical_injury: formData.physical_injury,
+            currently_represented: formData.currently_represented,
+            at_fault: formData.at_fault,
+            case_description: formData.case_description,
+            landing_page: 'https://legaljusticeclaim.com/',
+        }
+        if (page > 7) {
+            console.log(data, page);
+            return setPage(page + 1);
+        } else if (page === 7) {
+            console.log(data);
+            fetch('https://api.leadprosper.io/api-specs?hash=mp12bxxmarmmx', {
+                method: 'POST',
+                headers: { 'content-type': 'application/json' },
+                body: JSON.stringify(data)
+            })
+                .then(res => res.json())
+                .then(data => {
+                    if (data) {
+                        toast.success('successful post data');
+                        reset();
+                        setLoading(false)
+                        navigate("/thanks");
+                    }
+                    else {
+                        toast.error('Something is wrong');
+                        setLoading(false)
+                    }
+
+                })
+        }
+        // console.log(data);
+        // fetch('https://api.leadprosper.io/api-specs?hash=mp12bxxmarmmx', {
+        //     method: 'POST',
+        //     headers: { 'content-type': 'application/json' },
+        //     body: JSON.stringify(data)
+        // })
+        //     .then(res => res.json())
+        //     .then(data => {
+        //         if (data) {
+        //             toast.success('successful post data');
+        //             reset();
+        //             setLoading(false)
+        //             navigate("/thanks");
+        //         }
+        //         else {
+        //             toast.error('Something is wrong');
+        //             setLoading(false)
+        //         }
+
+        //     })
+    }
+
 
     const FormTitles = ["Physical Injury",
         "Currently Represented",
@@ -31,60 +113,53 @@ const MultiForm = () => {
         "Final",];
     const PageDisplay = () => {
         if (page === 0) {
-            return <Injury formData={formData} setFormData={setFormData} />;
+            return <Injury register={register} errors={errors} />;
         } else if (page === 1) {
-            return <Represent formData={formData} setFormData={setFormData} />;
+            return <Represent register={register} errors={errors} />;
         } else if (page === 2) {
-            return <Fault formData={formData} setFormData={setFormData} />;
+            return <Fault register={register} errors={errors} />;
         } else if (page === 3) {
-            return <InjuryDate formData={formData} setFormData={setFormData} />;
+            return <InjuryDate register={register} errors={errors} />;
         } else if (page === 4) {
-            return <Description formData={formData} setFormData={setFormData} />;
+            return <Description register={register} errors={errors} />;
         } else if (page === 5) {
-            return <Details formData={formData} setFormData={setFormData} />;
+            return <Details register={register} errors={errors} />;
         } else {
-            return <Final formData={formData} setFormData={setFormData} />;
+            return <Final register={register} errors={errors} />;
         }
     };
 
     return (
         <div className='mx-auto rounded-2xl bg-[#fff] text-gray-900'>
-            <div className="form horizontal container px-10">
+            <form onSubmit={handleSubmit(onSubmit)}>
+                <div className="form horizontal container sm:px-10 px-3">
 
-                <div className="progressbar">
-                    <div
-                        style={{ width: page === 0 ? "20%" : page == 1 ? "40%" : page == 2 ? "50%" : page == 3 ? "60%" : page == 4 ? "80%" : page == 5 ? "90%" : "100%" }}
-                    ></div>
-                </div>
-                <div className="form-container pb-5">
-                    {/* <div className="header">
+                    <div className="progressbar">
+                        <div
+                            style={{ width: page === 0 ? "20%" : page == 1 ? "40%" : page == 2 ? "50%" : page == 3 ? "60%" : page == 4 ? "80%" : page == 5 ? "90%" : "100%" }}
+                        ></div>
+                    </div>
+                    <div className="form-container pb-5">
+                        {/* <div className="header">
   <h1>{FormTitles[page]}</h1>
 </div> */}
-                    <div className="body">{PageDisplay()}</div>
-                    <div className="footer mt-5">
-                        <button className="text-xl cursor-pointer rounded-xl border-2 border-slate-300 bg-white py-2 px-4 font-semibold uppercase text-slate-400 transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white"
-                            disabled={page == 0}
-                            onClick={() => {
-                                setPage((currPage) => currPage - 1);
-                            }}
-                        >
-                            Back
-                        </button>
-                        <button className="text-xl cursor-pointer rounded-lg bg-[#0d58ad] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white"
-                            onClick={() => {
-                                if (page === FormTitles.length - 1) {
-                                    alert("FORM SUBMITTED");
-                                    console.log(formData);
-                                } else {
-                                    setPage((currPage) => currPage + 1);
-                                }
-                            }}
-                        >
-                            {page === FormTitles.length - 2 ? "Submit" : "Continue"}
-                        </button>
+                        <div className="body">{PageDisplay()}</div>
+                        <div className="footer mt-5">
+                            <button className="sm:text-xl text-lg cursor-pointer rounded-xl border-2 border-slate-300 bg-white py-2 px-4 font-semibold uppercase text-slate-400 transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white"
+                                disabled={page === 0}
+                                onClick={() => {
+                                    setPage((currPage) => currPage - 1);
+                                }}
+                            >
+                                Back
+                            </button>
+                    {(page === 7) && <input className="sm:text-xl text-lg cursor-pointer rounded-lg bg-[#0d58ad] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white" type="submit"
+                    value="Submit"
+                    />}
+                        </div>
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
     )
 }

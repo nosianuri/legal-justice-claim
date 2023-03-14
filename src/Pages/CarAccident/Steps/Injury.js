@@ -1,7 +1,13 @@
 import React from 'react'
 import { useStepperContext } from '../Context/StepperContext';
+import {
+  useForm,
+  formProvider,
+  useFormContext,
+  Controller,
+} from "react-hook-form";
 
-const Injury = () => {
+const Injury = ({ formData, setFormData }) => {
   const { userData, setUserData } = useStepperContext();
 
   const handleChange = (e) => {
@@ -14,16 +20,16 @@ const Injury = () => {
         <div className='text-center'>
           <h2 className='text-xl font-semibold'>Did you suffer any Physical injuries in the car accident?  <em className='text-red-700'>*</em></h2>
           <div className='my-5'>
-          <div className='text-xl'>
-            <div className='radio-item'>
-              <input name='radio' id='radio1' type="radio" />
-              <label htmlFor="radio1">Yes</label>
+            <div className='text-xl'>
+              <div className='radio-item'>
+                <input name='radio' id='radio1' type="radio" onChange={handleChange} />
+                <label htmlFor="radio1">Yes</label>
+              </div>
+              <div className='radio-item'>
+                <input name='radio' id='radio2' type="radio" />
+                <label htmlFor="radio2">No</label>
+              </div>
             </div>
-            <div className='radio-item'>
-              <input name='radio' id='radio2' type="radio" />
-              <label htmlFor="radio2">No</label>
-            </div>
-          </div>
             {/* <div class="inline-block relative w-full">
               <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-blue-600 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline" name="camp_lj" id="cpform" required>
                 <option value="" selected>Please select...</option>
@@ -35,16 +41,7 @@ const Injury = () => {
               </div>
             </div> */}
           </div>
-          {/* <ul className='my-3'>
-                <li>
-                    <input id='camplejeuneYes' name='camplejeuneYes' value="Yes" type="radio" />
-                    <label htmlFor="camplejeuneYes">Yes</label>
-                </li>
-                <li>
-                    <input id='camplejeuneNo' name='camplejeuneNo' value="No" type="radio" />
-                    <label htmlFor="camplejeuneYes">No</label>
-                </li>
-               </ul> */}
+         
         </div>
       </div>
     </div>
