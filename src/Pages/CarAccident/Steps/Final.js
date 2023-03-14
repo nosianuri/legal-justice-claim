@@ -36,10 +36,11 @@ const Final = ({ register, errors }) => {
 
               })}
               placeholder='City' />
-            <p>
+            
+          </div>
+          <p>
               {errors.city?.type === 'required' && <span className="text-xs text-red-500">{errors.city.message}</span>}
             </p>
-          </div>
         </div>
         <div className=" mx-2 flex-1">
           <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
@@ -61,11 +62,12 @@ const Final = ({ register, errors }) => {
                 },
               })}
               placeholder='State' />
-            <p>
+            
+          </div>
+          <p>
               {errors.state?.type === 'required' && <span className="text-xs text-red-500">{errors.state.message}</span>}
               {errors.state?.type === 'maxLength' && <span className="text-xs text-red-500">{errors.state.message}</span>}
             </p>
-          </div>
         </div>
       </div>
 
@@ -87,10 +89,10 @@ const Final = ({ register, errors }) => {
             })}
 
             placeholder='ZIP Code' />
-          <p>
+        </div>
+        <p>
             {errors.zip_code?.type === 'required' && <span className="text-xs text-red-500">{errors.zip_code.message}</span>}
           </p>
-        </div>
       </div>
     </div>
   )

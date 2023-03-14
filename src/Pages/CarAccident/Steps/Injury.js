@@ -1,11 +1,6 @@
 import React from 'react'
 import { useStepperContext } from '../Context/StepperContext';
-import {
-  useForm,
-  formProvider,
-  useFormContext,
-  Controller,
-} from "react-hook-form";
+
 
 const Injury = ({ formData, setFormData }) => {
   const { userData, setUserData } = useStepperContext();
@@ -16,7 +11,7 @@ const Injury = ({ formData, setFormData }) => {
   };
   return (
     <div className="flex flex-col w-full">
-      <div className="mx-2  flex-1">
+      <div className="mx-2 flex-1">
         <div className='text-center'>
           <h2 className='text-xl font-semibold'>Did you suffer any Physical injuries in the car accident?  <em className='text-red-700'>*</em></h2>
           <div className='my-5'>
