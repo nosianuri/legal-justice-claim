@@ -35,7 +35,8 @@ const InjuryDate = ({ selectedDate, setSelectedDate, page, setPage }) => {
                 >
                     Back
                 </button>
-                <button onClick={handlePage} className="sm:text-xl text-lg cursor-pointer rounded-lg bg-[#0d58ad] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white">                Continue
+                <button onClick={handlePage} className="sm:text-xl text-lg cursor-pointer rounded-lg bg-[#0d58ad] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white">       
+                         Continue
                 </button>
             </div>
         </div>)

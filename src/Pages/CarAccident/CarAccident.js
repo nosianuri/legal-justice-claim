@@ -1,10 +1,16 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import './CarAccident.css'
 import MultiForm from './MultiForm'
 import StepFormBody from './StepFormBody'
 
 const CarAccident = () => {
     return (
+        <>
+        <Helmet>
+        <meta charSet="utf-8" />
+        <title>Car Accident | Legal Justice Claim</title>
+        </Helmet>
         <div className='body sg-body'>
             <div className='p-5 bg-[#273c5d] !w-full'>
                 <div className='flex gap-3 items-center cac-gamified-header-logo'>
@@ -50,6 +56,7 @@ const CarAccident = () => {
                 <p className='text-center mt-10 text-gray-600 text-xs '>Copyright © 2023 Legal Justice Claim | All rights reserved</p>
             </div>
         </div>
+        </>
     )
 }
 
