@@ -25,8 +25,8 @@ const Description = ({ page, setPage, setAllData, AllData }) => {
                 message: 'Case Description is required'
               },
               minLength: {
-                  value: 3,
-                  message: 'Must be 3 characters longer'
+                  value: 20,
+                  message: 'Must be 20 characters longer'
                 }
             })}
             required />
