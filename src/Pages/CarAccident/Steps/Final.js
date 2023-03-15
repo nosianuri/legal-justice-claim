@@ -7,7 +7,7 @@ import {
   Controller,
 } from "react-hook-form";
 
-const Final = ({ register, errors }) => {
+const Final = ({ register, errors, page, setPage, handlePage}) => {
   const { userData, setUserData } = useStepperContext();
 
   const handleChange = (e) => {
@@ -94,6 +94,23 @@ const Final = ({ register, errors }) => {
           {errors.zip_code?.type === 'required' && <span className="text-xs text-red-500">{errors.zip_code.message}</span>}
         </p>
       </div>
+      <div className="footer mt-5">
+                            {(page > 2) && <button className="sm:text-xl text-lg cursor-pointer rounded-xl border-2 border-slate-300 bg-white py-2 px-4 font-semibold uppercase text-slate-400 transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white"
+                                onClick={() => {
+                                    setPage((currPage) => currPage - 1);
+                                }}
+                            >
+                                Back
+                            </button>}
+                            {(page === 6) && <input className="sm:text-xl text-lg cursor-pointer rounded-lg bg-[#0d58ad] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white" type="submit"
+                                value="Submit"
+                            />}
+                            {(page == 3) && <button onClick={handlePage} className="sm:text-xl text-lg cursor-pointer rounded-lg bg-[#0d58ad] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white"> Continue </button>
+                            }
+                            {(page > 3 && page < 6) && <input onClick={handlePage} className="sm:text-xl text-lg cursor-pointer rounded-lg bg-[#0d58ad] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white" type="submit"
+                                value="Continue"
+                            />}
+                        </div>
     </div>
   )
 }

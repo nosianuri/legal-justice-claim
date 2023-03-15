@@ -79,7 +79,7 @@ const MultiForm = () => {
         "Final",];
     const PageDisplay = () => {
         if (page === 0) {
-            return <Injury page={page} setPage={setPage} register={register} errors={errors} />;
+            return <Injury page={page} setPage={setPage} register={register} errors={errors} handlePage={handlePage} />;
         } else if (page === 1) {
             return <Represent setCurrently={setCurrently} setPage={setPage} />;
         } else if (page === 2) {
@@ -87,9 +87,9 @@ const MultiForm = () => {
         } else if (page === 3) {
             return <InjuryDate selectedDate={selectedDate} setSelectedDate={setSelectedDate} />;
         } else if (page === 4) {
-            return <Description register={register} errors={errors} />;
+            return <Description register={register} errors={errors} page={page} setPage={setPage} />;
         } else if (page === 5) {
-            return <Details register={register} errors={errors} />;
+            return <Details register={register} errors={errors} page={page} setPage={setPage} />;
         } else {
             return <Final register={register} errors={errors} />;
         }
@@ -193,7 +193,7 @@ const MultiForm = () => {
                         
                         <div className="body">{PageDisplay()}</div>
                         <div className="footer mt-5">
-                            {(page > 2) && <button className="sm:text-xl text-lg cursor-pointer rounded-xl border-2 border-slate-300 bg-white py-2 px-4 font-semibold uppercase text-slate-400 transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white"
+                            {(page == 3 && page == 6) && <button className="sm:text-xl text-lg cursor-pointer rounded-xl border-2 border-slate-300 bg-white py-2 px-4 font-semibold uppercase text-slate-400 transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white"
                                 onClick={() => {
                                     setPage((currPage) => currPage - 1);
                                 }}
@@ -205,9 +205,7 @@ const MultiForm = () => {
                             />}
                             {(page == 3) && <button onClick={handlePage} className="sm:text-xl text-lg cursor-pointer rounded-lg bg-[#0d58ad] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white"> Continue </button>
                             }
-                            {(page > 3 && page < 6) && <input onClick={handlePage} className="sm:text-xl text-lg cursor-pointer rounded-lg bg-[#0d58ad] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white" type="submit"
-                                value="Continue"
-                            />}
+                            
                         </div>
                     </div>
                 </div>
