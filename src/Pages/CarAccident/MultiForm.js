@@ -43,7 +43,7 @@ const MultiForm = () => {
         }
         console.log(data, "so good")
         fetch('https://api.leadprosper.io/api-specs?hash=mp12bxxmarmmx', {
-            method: 'POST',
+            method: 'HEAD',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)
         })
@@ -99,10 +99,13 @@ const MultiForm = () => {
     };
 
     return (
-        <div className='mx-auto rounded-2xl bg-[#fff] text-gray-900'>            <div className="form horizontal container sm:px-10 px-3">                <div className="progressbar">                    <div style={{ width: page === 0 ? "20%" : page == 1 ? "40%" : page == 2 ? "50%" : page == 3 ? "60%" : page == 4 ? "80%" : page == 5 ? "90%" : "100%" }}
-        ></div>
-        </div>
-            <div className="form-container pb-5">                    <div className="body">{PageDisplay()}</div>
+        <div className='mx-auto rounded-2xl bg-[#fff] text-gray-900'>            <div className="form horizontal container ">
+            <div className="progressbar">
+                <div style={{ width: page === 0 ? "20%" : page == 1 ? "40%" : page == 2 ? "50%" : page == 3 ? "60%" : page == 4 ? "80%" : page == 5 ? "90%" : "100%" }}
+                ></div>
+            </div>
+            <div className="form-container pb-5 sm:px-10 px-3">
+                <div className="body">{PageDisplay()}</div>
             </div>
         </div>
         </div>

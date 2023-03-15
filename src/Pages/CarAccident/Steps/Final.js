@@ -3,9 +3,9 @@ import { useForm } from 'react-hook-form';
 
 const Final = ({ page, setPage, onSubmit }) => {
   const { register, reset, formState: { errors }, handleSubmit } = useForm();
-  
+
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full" data-aos="zoom-in-right" data-aos-delay="800" data-aos-duration="800">
       <h2 className='text-2xl font-semibold text-center'>Contact Information?  <em className='text-red-700'>*</em></h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className='flex gap-1'>

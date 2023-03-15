@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 const Description = ({ page, setPage, setAllData, AllData }) => {
 
   const { register, reset, formState: { errors }, handleSubmit } = useForm();
-  
+
   const onSubmit = (data) => {
     setAllData({
       ...AllData,
@@ -15,7 +15,7 @@ const Description = ({ page, setPage, setAllData, AllData }) => {
   }
 
   return (
-    <div>
+    <div data-aos="zoom-in-right" data-aos-delay="800" data-aos-duration="800">
       <h2 className='text-2xl font-semibold'>Case Description <em className='text-red-700'>*</em></h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className=' mt-5'>

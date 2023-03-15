@@ -1,12 +1,14 @@
 import React from 'react';
-import { useStepperContext } from '../Context/StepperContext';
+
 const Represent = ({ setCurrently, setPage }) => {
+  
   const handleChange = (e) => {
     setCurrently(e);
     setPage(2)
   };
+
   return (
-    <div className="flex flex-col w-full ">
+    <div className="flex flex-col w-full " data-aos="zoom-in-right" data-aos-delay="800" data-aos-duration="800">
       <div className="mx-2 flex-1">
         <div className='text-center'>
           <h2 className='text-xl font-semibold'>Do you currently have an Attorney for this case? <em className='text-red-700'>*</em></h2>
