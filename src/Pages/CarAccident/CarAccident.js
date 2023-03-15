@@ -6,10 +6,11 @@ import StepFormBody from './StepFormBody'
 const CarAccident = () => {
     return (
         <div className='body sg-body'>
-            <div className='p-5 bg-[#273c5d]'>
+            <div className='p-5 bg-[#273c5d] !w-full'>
                 <div className='flex gap-3 items-center cac-gamified-header-logo'>
                     <img src="https://i.ibb.co/ZcRnXkX/Asset-1-320x-8.png" alt="" className='w-10' />
                     <p className='font-bold text-white text-xl '>Legal Justice Claim</p>
+                    <div></div>
                 </div>
             </div>
 

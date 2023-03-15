@@ -18,9 +18,9 @@ const Description = ({ register, errors }) => {
               message: 'Case Description is required'
             },
             minLength: {
-                  value: 20,
-                  message: 'Must be 20 characters longer'
-                }
+              value: 20,
+              message: 'Must be 20 characters longer'
+            }
           })}
           required />
         <p>
