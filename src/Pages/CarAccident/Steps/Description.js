@@ -15,7 +15,7 @@ const Description = ({ page, setPage, setAllData, AllData }) => {
   }
 
   return (
-    <div data-aos="zoom-in-right" data-aos-delay="800" data-aos-duration="800">
+    <div data-aos="zoom-in-right" data-aos-delay="300" data-aos-duration="300">
       <h2 className='text-2xl font-semibold'>Case Description <em className='text-red-700'>*</em></h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className=' mt-5'>
@@ -24,10 +24,15 @@ const Description = ({ page, setPage, setAllData, AllData }) => {
               required: {
                 message: 'Case Description is required'
               },
+              minLength: {
+                  value: 3,
+                  message: 'Must be 3 characters longer'
+                }
             })}
             required />
           <p>
             {errors.case_description?.type === 'required' && <span className="text-xs text-red-500">{errors.case_description.message}</span>}
+            {errors.case_description?.type === 'minLength' && <span className="text-xs text-red-500">{errors.case_description.message}</span>}
           </p>
         </div>
         <div className="footer mt-5">

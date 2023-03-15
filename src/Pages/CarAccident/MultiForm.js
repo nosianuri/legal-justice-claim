@@ -20,7 +20,8 @@ const MultiForm = () => {
     const navigate = useNavigate();
     const [loading, setLoading] = useState(false);
     const [selectedDate, setSelectedDate] = useState(new Date());
-    const FormatedDate = selectedDate.getFullYear() + "/" + parseInt(selectedDate.getMonth() + 1) + "/" + selectedDate.getDate();
+    const FormatedDate = selectedDate.getFullYear() + "-" + parseInt(selectedDate.getMonth() + 1) + "-" + selectedDate.getDate();
+    
     const { register, reset, formState: { errors }, handleSubmit } = useForm();
     const [page, setPage] = useState(0);
     const [AllData, setAllData] = useState({});
@@ -32,6 +33,10 @@ const MultiForm = () => {
         setLoading(true)
         const data = {
             ...AllData,
+            lp_campaign_id: "12022",
+            lp_supplier_id: "24637",
+            lp_key: "mp12bxxmarmmx",
+            ip_address: "229.222.220.248",
             city: formData.city,
             state: formData.state,
             zip_code: formData.zip_code,
@@ -42,8 +47,8 @@ const MultiForm = () => {
             landing_page: 'https://legaljusticeclaim.com/',
         }
         console.log(data, "so good")
-        fetch('https://api.leadprosper.io/api-specs?hash=mp12bxxmarmmx', {
-            method: 'HEAD',
+        fetch('https://api.leadprosper.io/ingest', {
+            method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)
         })

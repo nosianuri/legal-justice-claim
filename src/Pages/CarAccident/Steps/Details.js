@@ -16,7 +16,7 @@ const Details = ({ page, setPage, setAllData, AllData }) => {
   }
 
   return (
-    <div className="flex flex-col w-full" data-aos="zoom-in-right" data-aos-delay="800" data-aos-duration="800">
+    <div className="flex flex-col w-full" data-aos="zoom-in-right" data-aos-delay="300" data-aos-duration="300">
       <h2 className='text-2xl font-semibold text-center'>Personal Information?  <em className='text-red-700'>*</em></h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className='flex gap-1'>
@@ -39,7 +39,9 @@ const Details = ({ page, setPage, setAllData, AllData }) => {
             </div>
             <p>
               {errors.first_name?.type === 'required' && <span className="text-xs text-red-500">{errors.first_name.message}</span>}
-            </p>            </div>
+              {errors.first_name?.type === 'minLength' && <span className="text-xs text-red-500">{errors.first_name.message}</span>}
+            </p>         
+               </div>
           <div className=" mx-2 flex-1">
             <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
               Last Name <em className='text-red-700'>*</em>              </div>
@@ -57,6 +59,7 @@ const Details = ({ page, setPage, setAllData, AllData }) => {
             </div>
             <p>
               {errors.last_name?.type === 'required' && <span className="text-xs text-red-500">{errors.last_name.message}</span>}
+              {errors.last_name?.type === 'minLength' && <span className="text-xs text-red-500">{errors.last_name.message}</span>}
             </p>
           </div>
         </div>

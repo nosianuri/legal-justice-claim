@@ -8,14 +8,14 @@ const InjuryDate = ({ selectedDate, setSelectedDate, page, setPage }) => {
     }
 
     return (
-        <div className="flex flex-col w-full" data-aos="zoom-in-right" data-aos-delay="800" data-aos-duration="800">
+        <div className="flex flex-col w-full" data-aos="zoom-in-right" data-aos-delay="300" data-aos-duration="300">
             <div className="mx-2  flex-1">
                 <div className='text-center'>
                     <h2 className='text-2xl font-semibold'>When did the accident happen <em className='text-red-700'>*</em></h2>
                     <div className='mt-5'>
                         <div className='inline-block w-full'>
                             <DatePicker
-                                className='border border-gray-500 rounded block appearance-none px-2 py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#137bb6] w-full' placeholderText='YYYY/MM/DD' dateFormat='yyyy/MM/dd' z={d => {
+                                className='border border-gray-500 rounded block appearance-none px-2 py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#137bb6] w-full' placeholderText='YYYY-MM-DD' dateFormat='yyyy-MM-dd' z={d => {
                                     return new Date() > d;
                                 }}
                                 selected={selectedDate}
