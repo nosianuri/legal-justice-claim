@@ -70,7 +70,7 @@ const MultiForm = () => {
                 return res.json();
             })
             .then(data => {
-                if (data.status === 'ACCEPTED') {
+                if (data) {
                     toast.success('Successful post data');
                     reset();
                     setLoading(false)

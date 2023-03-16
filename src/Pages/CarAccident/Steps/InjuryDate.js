@@ -12,7 +12,7 @@ const InjuryDate = ({ selectedDate, setSelectedDate, page, setPage }) => {
           >
             <div className="mx-2 flex-1">
                 <div className='text-center'>
-                    <h2 className='text-2xl font-semibold'>When did the accident happen <em className='text-red-700'>*</em></h2>
+                    <h2 className='text-2xl font-semibold'>When did the accident happen?<em className='text-red-700'>*</em></h2>
                     <div className='mt-5'>
                         <div className='w-full'>
                             <DatePicker
