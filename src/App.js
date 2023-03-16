@@ -7,6 +7,7 @@ import TermsCondition from './Pages/Terms&condition/TermsCondition';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
+import CampMultiForm from './Pages/CampMultiForm/CampMultiForm';
 
 function App() {
   useEffect(() => {
@@ -16,6 +17,7 @@ function App() {
     <>
       <Routes>
       <Route path='/car-accident' element={<CarAccident />} />
+      <Route path='/camp-lejeune' element={<CampMultiForm />} />
       <Route path='/thanks' element={<Thanks />} />
       <Route path='/terms&condition' element={<TermsCondition />} />
       <Route path='/privacy-policy' element={<Privacy />} />
