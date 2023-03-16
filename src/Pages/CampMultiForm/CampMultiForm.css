@@ -45,3 +45,18 @@
       left: 18%;
     }
   }
+
+  .progressbarcamp {
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    margin-bottom: 30px;
+    /* display: flex;
+    justify-content: center; */
+  }
+  
+  .progressbarcamp div {
+    width: 33.3%;
+    height: 100%;
+    background-color: #84754e;
+  }

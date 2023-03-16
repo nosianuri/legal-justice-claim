@@ -131,7 +131,7 @@ const MultiForm = () => {
     return (
         <div className='mx-auto rounded-2xl bg-[#e2e8f0] text-gray-900'>
             <div className="form  container ">
-                <div className="progressbar">
+                <div className="progressbarcamp">
                     <div style={{ width: page === 0 ? "20%" : page == 1 ? "40%" : page == 2 ? "50%" : page == 3 ? "60%" : page == 4 ? "80%" : "100%" }}
                     ></div>
                 </div>
