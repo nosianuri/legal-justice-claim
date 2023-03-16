@@ -77,10 +77,7 @@ const Final = ({ page, setPage, onSubmit }) => {
             {errors.zip_code?.type === 'maxLength' && <span className="text-xs text-red-500">{errors.zip_code.message}</span>}
             {errors.zip_code?.type === 'minLength' && <span className="text-xs text-red-500">{errors.zip_code.message}</span>}
           </p>
-          <input type="hidden" name="tfw_formcertid" 
-          {...register("tfw_formcertid", {
-                value: ""
-              })} />
+          
         </div>
         <div className="footer mt-5">
           <button className="sm:text-xl text-lg cursor-pointer rounded-xl border-2 border-slate-300 bg-white py-2 px-4 font-semibold uppercase text-slate-400 transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white" disabled={page === 0}

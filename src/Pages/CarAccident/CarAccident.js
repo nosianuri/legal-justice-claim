@@ -10,6 +10,7 @@ const CarAccident = () => {
         <Helmet>
         <meta charSet="utf-8" />
         <title>Car Accident | Legal Justice Claim</title>
+        
         </Helmet>
         <div className='body sg-body'>
             <div className='p-5 bg-[#273c5d] !w-full'>

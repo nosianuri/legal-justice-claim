@@ -1,14 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 
 const Description = ({ page, setPage, setAllData, AllData }) => {
-
+  const [tfCertId, setTfCertId] = useState();
   const { register, reset, formState: { errors }, handleSubmit } = useForm();
+
+  useEffect(() => {
+    // Wait for the tf object to be ready
+    if (window.tf) {
+      // Get the TrustedForm Certificate ID
+      window.tf.getTrustedFormCertId((certId) => {
+        setTfCertId(certId);
+      });
+    }
+  }, []);
 
   const onSubmit = (data) => {
     setAllData({
       ...AllData,
       case_description: data.case_description,
+      jornaya_lead_id: tfCertId,
     })
     setPage(page + 1);
     console.log(AllData, data, page)
@@ -34,6 +45,13 @@ const Description = ({ page, setPage, setAllData, AllData }) => {
             {errors.case_description?.type === 'required' && <span className="text-xs text-red-500">{errors.case_description.message}</span>}
             {errors.case_description?.type === 'minLength' && <span className="text-xs text-red-500">{errors.case_description.message}</span>}
           </p>
+          {/* <input type="hidden" name="tfw_formcertid" value={tfCertId} /> */}
+          <input
+          type="hidden"
+          name="jornaya_lead_id"
+          value={tfCertId}
+          {...register("jornaya_lead_id")}
+        />
         </div>
         <div className="footer mt-5">
           <button className="sm:text-xl text-lg cursor-pointer rounded-xl border-2 border-slate-300 bg-white py-2 px-4 font-semibold uppercase text-slate-400 transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white" disabled={page === 0}

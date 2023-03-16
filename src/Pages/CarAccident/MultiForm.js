@@ -41,7 +41,7 @@ const formattedDate = selectedDate.toISOString().slice(0,10);
             user_agent: "Chrome",
             sub_id1: "January",
             api_key: "6309-24038-2x7h3zjbkzz6",
-            trusted_form_cert_url: formData.tfw_formcertid,
+            trusted_form_cert_url: formData.jornaya_lead_id,
             tcpa_text: tcpaText,
             city: formData.city,
             state: formData.state,
@@ -101,7 +101,7 @@ const formattedDate = selectedDate.toISOString().slice(0,10);
         } else if (page === 3) {
             return <InjuryDate selectedDate={selectedDate} setSelectedDate={setSelectedDate} page={page} setPage={setPage} />;
         } else if (page === 4) {
-            return <Description setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
+            return <Description setAllData={setAllData} AllData={AllData} page={page} setPage={setPage}  />;
         } else if (page === 5) {
             return <Details setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
         } else {
