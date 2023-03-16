@@ -1,12 +1,12 @@
 .floating-icon {
-    width: 5rem;
-    height: 5rem;
+    /* width: 5rem; */
+    /* height: 5rem; */
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 10%;
+    left: 50%;
     bottom: 0;
     transform: translateX(-50%);
     cursor: pointer;
@@ -16,7 +16,7 @@
   .floating-icon a {
     /* border: 1px solid #212039; */
     width: 5rem;
-    height: 5rem;
+    /* height: 5rem; */
     border-radius: 50%;
     position: relative;
     /* left: 50%; */
