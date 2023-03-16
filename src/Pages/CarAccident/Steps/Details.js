@@ -40,8 +40,8 @@ const Details = ({ page, setPage, setAllData, AllData }) => {
             <p>
               {errors.first_name?.type === 'required' && <span className="text-xs text-red-500">{errors.first_name.message}</span>}
               {errors.first_name?.type === 'minLength' && <span className="text-xs text-red-500">{errors.first_name.message}</span>}
-            </p>         
-               </div>
+            </p>
+          </div>
           <div className=" mx-2 flex-1">
             <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
               Last Name <em className='text-red-700'>*</em>              </div>
@@ -106,14 +106,16 @@ const Details = ({ page, setPage, setAllData, AllData }) => {
             </p>
           </div>
         </div>
-        <div className="footer mt-5">              <button className="sm:text-xl text-lg cursor-pointer rounded-xl border-2 border-slate-300 bg-white py-2 px-4 font-semibold uppercase text-slate-400 transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white" disabled={page === 0}
-          onClick={() => {
-            setPage((currPage) => currPage - 1);
-          }}
-        >
-          Back
-        </button>
-          <input className="sm:text-xl text-lg cursor-pointer rounded-lg bg-[#0d58ad] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white" type="submit" value="Continue" />          </div>
+        <div className="footer mt-5">
+          <button className="sm:text-xl text-lg cursor-pointer rounded-xl border-2 border-slate-300 bg-white py-2 px-4 font-semibold uppercase text-slate-400 transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white" disabled={page === 0}
+            onClick={() => {
+              setPage((currPage) => currPage - 1);
+            }}
+          >
+            Back
+          </button>
+          <input className="sm:text-xl text-lg cursor-pointer rounded-lg bg-[#0d58ad] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white" type="submit" value="Continue" />
+        </div>
       </form>
     </div>)
 }

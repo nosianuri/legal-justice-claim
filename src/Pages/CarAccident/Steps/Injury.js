@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { useStepperContext } from '../Context/StepperContext';
 import { useNavigate } from 'react-router-dom';
 import AOS from 'aos';
 import "aos/dist/aos.css";
@@ -8,9 +7,8 @@ const Injury = ({ formData, setFormData, page, setPage }) => {
 
   useEffect(() => {
     AOS.init({ duration: 2000 });
-}, []);
+  }, []);
 
-  const { userData, setUserData } = useStepperContext();
   const navigate = useNavigate();
   const handleChange = (e) => {
     if (e === "no") {
@@ -39,6 +37,7 @@ const Injury = ({ formData, setFormData, page, setPage }) => {
           </div>
         </div>
       </div>
-    </div>)
+    </div>
+  )
 }
 export default Injury

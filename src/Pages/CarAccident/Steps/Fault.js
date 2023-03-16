@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react'
+import React from 'react';
+
 const Fault = ({ setPage, setFault }) => {
 
   const handleChange = (e) => {

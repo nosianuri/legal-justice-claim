@@ -90,6 +90,11 @@ button, input, optgroup, select, textarea {
     position: absolute;
     border-radius: 50%;
 }
+.injurydate {
+    /* font-size: 0.8em; */
+    overflow: auto !important;
+    height: auto !important;
+  }
 /* .radio-item label:after{
     height: 20px;
     width: 20px;

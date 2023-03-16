@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Represent = ({ setCurrently, setPage }) => {
-  
+
   const handleChange = (e) => {
     setCurrently(e);
     setPage(2)
@@ -22,7 +22,8 @@ const Represent = ({ setCurrently, setPage }) => {
                 <label htmlFor="radio2">No</label>
               </div>
             </div>
-          </div>      </div>
+          </div>
+        </div>
       </div>
     </div>
   )

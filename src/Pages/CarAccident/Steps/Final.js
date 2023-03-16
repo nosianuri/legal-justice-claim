@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 
 const Final = ({ page, setPage, onSubmit }) => {
+  const [tfCertUrl, setTfCertUrl] = useState();
   const { register, reset, formState: { errors }, handleSubmit } = useForm();
+
+  useEffect(() => {
+    // Wait for the tf object to be ready
+    if (window.tf) {
+      // Get the TrustedForm Cert URL
+      window.tf.getCertURL((tfCertUrl) => {
+        setTfCertUrl(tfCertUrl);
+      });
+    }
+  }, []);
 
   return (
     <div className="flex flex-col w-full" data-aos="zoom-in-right" data-aos-delay="300" data-aos-duration="300">
@@ -77,7 +88,10 @@ const Final = ({ page, setPage, onSubmit }) => {
             {errors.zip_code?.type === 'maxLength' && <span className="text-xs text-red-500">{errors.zip_code.message}</span>}
             {errors.zip_code?.type === 'minLength' && <span className="text-xs text-red-500">{errors.zip_code.message}</span>}
           </p>
-          
+          <input type="hidden" name="trusted_form_cert_url" 
+          {...register("trusted_form_cert_url", {
+            value: tfCertUrl
+              })} />
         </div>
         <div className="footer mt-5">
           <button className="sm:text-xl text-lg cursor-pointer rounded-xl border-2 border-slate-300 bg-white py-2 px-4 font-semibold uppercase text-slate-400 transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white" disabled={page === 0}
