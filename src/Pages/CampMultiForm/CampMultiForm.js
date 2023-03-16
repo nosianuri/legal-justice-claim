@@ -27,7 +27,7 @@ const CampMultiForm = () => {
                 {/* multi page start */}
 
                 <MultiForm />
-                <p className='text-xl my-4 px-3'> As of August 10th, 2022, the Camp Lejeune Justice Act, which was previously introduced as part of the PACT Act, has been passed by the U.S. Senate.  <span className='font-bold '>0$ No Obligation Expert Consultation - You have to Pay Nothing! We will provide 100% Privacy and Confidentiality about your case!</span></p>
+                <p className='text-xl mb-4 px-3 mt-8'> As of August 10th, 2022, the Camp Lejeune Justice Act, which was previously introduced as part of the PACT Act, has been passed by the U.S. Senate.  <span className='font-bold '>0$ No Obligation Expert Consultation - You have to Pay Nothing! We will provide 100% Privacy and Confidentiality about your case!</span></p>
                 <h4 className='my-8 font-semibold text-xl px-3'>Get assistance from a Camp Lejeune Expert lawyer who will protect your rights and fight for what you are owed!</h4>
 
 

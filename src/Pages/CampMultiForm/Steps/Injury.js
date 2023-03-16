@@ -22,7 +22,7 @@ const Injury = ({ formData, setFormData, page, setPage }) => {
     <div className="flex flex-col w-full" >
       <div className="mx-2  flex-1">
         <div className='text-center'>
-          <h2 className='text-xl font-semibold'>Did you suffer any Physical injuries in the car accident?  <em className='text-red-700'>*</em></h2>
+          <h2 className='text-xl font-semibold'>Did you or a loved one serve, live, or work at Camp Lejeune for at least 30 days between 1953 and 1987? <em className='text-red-700'>*</em></h2>
           <div className='my-5' >
             <div className='text-xl'>
               <div onClick={() => handleChange("yes")} className='radio-item'>

@@ -11,7 +11,7 @@ const Represent = ({ setCurrently, setPage }) => {
     <div className="flex flex-col w-full " data-aos="zoom-in-right" data-aos-delay="800" data-aos-duration="800">
       <div className="mx-2 flex-1">
         <div className='text-center'>
-          <h2 className='text-xl font-semibold'>Do you currently have an Attorney for this case? <em className='text-red-700'>*</em></h2>
+          <h2 className='text-xl font-semibold'>Do you already have an attorney representing you for this claim? <em className='text-red-700'>*</em></h2>
           <div className='my-5'>
             <div className='text-xl'>
               <div onClick={() => handleChange("yes")} className='radio-item'>

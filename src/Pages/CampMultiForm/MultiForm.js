@@ -108,10 +108,8 @@ const MultiForm = () => {
         } else if (page === 2) {
             return <Fault setFault={setFault} setPage={setPage} />;
         } else if (page === 3) {
-            return <InjuryDate selectedDate={selectedDate} setSelectedDate={setSelectedDate} page={page} setPage={setPage} />;
-        } else if (page === 4) {
             return <Description setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
-        } else if (page === 5) {
+        } else if (page === 4) {
             return <Details setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
         } else {
             return <Final onSubmit={onSubmit} setAllData={setAllData} AllData={AllData} page={page} setPage={setPage} />;
@@ -134,7 +132,7 @@ const MultiForm = () => {
         <div className='mx-auto rounded-2xl bg-[#e2e8f0] text-gray-900'>
             <div className="form  container ">
                 <div className="progressbar">
-                    <div style={{ width: page === 0 ? "20%" : page == 1 ? "40%" : page == 2 ? "50%" : page == 3 ? "60%" : page == 4 ? "80%" : page == 5 ? "90%" : "100%" }}
+                    <div style={{ width: page === 0 ? "20%" : page == 1 ? "40%" : page == 2 ? "50%" : page == 3 ? "60%" : page == 4 ? "80%" : "100%" }}
                     ></div>
                 </div>
                 <div className="form-container pb-5 sm:px-10 px-3 ">
