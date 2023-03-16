@@ -6,7 +6,7 @@ const Final = ({ page, setPage, onSubmit, submitButton }) => {
 
   return (
     <div className="flex flex-col w-full" data-aos="zoom-in-right" data-aos-delay="300" data-aos-duration="300">
-      <h2 className='text-2xl font-semibold text-center'>Contact Information?  <em className='text-red-700'>*</em></h2>
+      <h2 className='text-2xl font-semibold text-center'>Contact Information<em className='text-red-700'>*</em></h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className='flex gap-1'>
           <div className=" mx-2 flex-1">
