@@ -1,7 +1,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 
-const Final = ({ page, setPage, onSubmit }) => {
+const Final = ({ page, setPage, onSubmit, submitButton }) => {
   const { register, reset, formState: { errors }, handleSubmit } = useForm();
 
   return (
@@ -87,7 +87,7 @@ const Final = ({ page, setPage, onSubmit }) => {
           >
             Back
           </button>
-          <input className="sm:text-xl text-lg cursor-pointer rounded-lg bg-[#0d58ad] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white" type="submit" value="Submit" />
+          <input id='submitButton' className="sm:text-xl text-lg cursor-pointer rounded-lg bg-[#0d58ad] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white" type="submit" value="Submit" />
         </div>
       </form>
     </div>)
