@@ -25,7 +25,7 @@ const Details = ({ page, setPage, setAllData, AllData }) => {
               First Name<em className='text-red-700'>*</em>
             </div>
             <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">
-              <input name="first_name" className="p-1 px-2 appearance-none outline-none w-full text-gray-800"
+              <input name="first_name" className="p-1 text-[16px] px-2 appearance-none outline-none w-full text-gray-800"
                 {...register("first_name", {
                   required: {
                     value: true,
@@ -46,7 +46,8 @@ const Details = ({ page, setPage, setAllData, AllData }) => {
           <div className=" mx-2 flex-1">
             <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
               Last Name<em className='text-red-700'>*</em>              </div>
-            <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">                <input name="last_name" type="text" className="p-1 px-2 appearance-none outline-none w-full text-gray-800"                  {...register("last_name", {
+            <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">          
+                  <input name="last_name" type="text" className="text-[16px] p-1 px-2 appearance-none outline-none w-full text-gray-800"                  {...register("last_name", {
               required: {
                 value: true,
                 message: 'Last Name is required'
@@ -66,9 +67,10 @@ const Details = ({ page, setPage, setAllData, AllData }) => {
         </div>
         <div className='flex gap-1'>
           <div className=" mx-2 flex-1">
-            <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">                Email<em className='text-red-700'>*</em>              </div>
+            <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">                Email<em className='text-red-700'>*</em>          
+                </div>
             <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">
-              <input name="email" className="p-1 px-2 appearance-none outline-none w-full text-gray-800"                  {...register("email", {
+              <input name="email" className="text-[16px] p-1 px-2 appearance-none outline-none w-full text-gray-800"                  {...register("email", {
                 required: {
                   value: true,
                   message: 'Email is required'
@@ -84,7 +86,8 @@ const Details = ({ page, setPage, setAllData, AllData }) => {
             <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
               Phone Number<em className='text-red-700'>*</em>
             </div>
-            <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">                <input name="phone" type="text" className="p-1 px-2 appearance-none outline-none w-full text-gray-800"                  {...register("phone", {
+            <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">              
+               <input name="phone" type="text" className="text-[16px] p-1 px-2 appearance-none outline-none w-full text-gray-800"                  {...register("phone", {
               required: {
                 value: true,
                 message: 'Phone Number is required'

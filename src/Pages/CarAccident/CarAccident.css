@@ -61,14 +61,17 @@ div#headline h1 span {
     margin: auto;
     width: 90%;
 }
+.react-datepicker-wrapper input{
+    font-size: 18px;
+}
 
-button,
+/* button,
 input,
 optgroup,
 select,
 textarea {
     font-size: 50%;
-}
+} */
 
 .radio-item [type="radio"] {
     display: none;

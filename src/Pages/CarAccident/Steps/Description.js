@@ -18,7 +18,7 @@ const Description = ({ page, setPage, setAllData, AllData }) => {
       <h2 className='text-2xl font-semibold'>Case Description<em className='text-red-700'>*</em></h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className=' mt-5'>
-          <textarea className='border border-gray-500 rounded w-full p-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#137bb6]' id="" cols="50" rows="3" placeholder='More details about your claim' type="message"
+          <textarea className='border text-[16px] border-gray-500 rounded w-full p-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#137bb6]' id="" cols="50" rows="3" placeholder='More details about your claim' type="message"
             {...register("case_description", {
               required: {
                 message: 'Case Description is required'
