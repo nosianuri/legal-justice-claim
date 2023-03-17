@@ -16,12 +16,13 @@ const InjuryDate = ({ selectedDate, setSelectedDate, page, setPage }) => {
                     <div className='mt-5'>
                         <div className='w-full'>
                             <DatePicker
-                                className='border border-gray-500 rounded block appearance-none px-2 py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#137bb6] w-full' placeholderText='YYYY-MM-DD' dateFormat='yyyy-MM-dd' z={d => {
+                                className='border border-gray-500 rounded block  px-2 py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#137bb6] w-full' placeholderText='YYYY-MM-DD' dateFormat='yyyy-MM-dd' z={d => {
                                     return new Date() > d;
                                 }}
                                 selected={selectedDate}
                                 onChange={(date) => setSelectedDate(date)}
                                 required={true}
+                                 showYearDropdown
                             />
                         </div>
                     </div>

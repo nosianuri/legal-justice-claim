@@ -1,6 +1,6 @@
 div.cac-gamified-header-logo:after {
     position: absolute;
-    content: "Lawsuits for Personal Injury are currently being filed!"!important;
+    content: "Lawsuits for Personal Injury are currently being filed!" !important;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
@@ -10,15 +10,16 @@ div.cac-gamified-header-logo:after {
     text-align: center;
     color: #FFFFFF;
 }
+
 .body.sg-body:before {
     content: "";
     width: 100%;
     height: 100%;
     position: fixed;
-    opacity: 1!important;
-    background: url(https://i.ibb.co/7QTGg1J/car-bg.png) no-repeat!important;
-    filter: none!Important;
-    background-size: cover!important;
+    opacity: 1 !important;
+    background: url(https://i.ibb.co/7QTGg1J/car-bg.png) no-repeat !important;
+    filter: none !Important;
+    background-size: cover !important;
     z-index: -1;
     top: 0;
 }
@@ -53,6 +54,7 @@ div#headline h1 span {
     padding: 50px 50px;
     margin-top: 80px;
 }
+
 #cac-footer-legal {
     /* padding-top: 150px; */
     max-width: 1280px;
@@ -60,17 +62,23 @@ div#headline h1 span {
     width: 90%;
 }
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
     font-size: 50%;
 }
 
-.radio-item [type="radio"]{
+.radio-item [type="radio"] {
     display: none;
 }
-.radio-item + .radio-item {
+
+.radio-item+.radio-item {
     margin-top: 15px;
 }
-.radio-item label{
+
+.radio-item label {
     display: block;
     padding: 15px 50px;
     background: #fff;
@@ -84,17 +92,20 @@ button, input, optgroup, select, textarea {
     position: relative;
     transition: .4s ease-in-out 0s;
 }
+
 .radio-item label:after,
-.radio-item label:before{
+.radio-item label:before {
     content: "";
     position: absolute;
     border-radius: 50%;
 }
+
 .injurydate {
     /* font-size: 0.8em; */
     overflow: auto !important;
     height: auto !important;
-  }
+}
+
 /* .radio-item label:after{
     height: 20px;
     width: 20px;
@@ -102,22 +113,23 @@ button, input, optgroup, select, textarea {
     left: 20px;
     top: calc(50% - 12px);
 } */
-.radio-item label:before{
-   background: #0d58ad;
-   height: 10px;
-   width: 10px;
-   left: 27px;
-   top: calc(50% - 5px);
-   transform: scale(5);
-   opacity: 0;
-   visibility: hidden;
-   transition: .4s ease-in-out 0s;
+.radio-item label:before {
+    background: #0d58ad;
+    height: 10px;
+    width: 10px;
+    left: 27px;
+    top: calc(50% - 5px);
+    transform: scale(5);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s ease-in-out 0s;
 }
 
-.radio-item [type="radio"]:checked ~ label{
+.radio-item [type="radio"]:checked~label {
     border-color: #0d58ad;
 }
-.radio-item [type="radio"]:checked ~ label{
+
+.radio-item [type="radio"]:checked~label {
     opacity: 1;
     visibility: visible;
     transform: scale(1);
@@ -130,15 +142,27 @@ button, input, optgroup, select, textarea {
     margin-bottom: 30px;
     /* display: flex;
     justify-content: center; */
-  }
-  
-  .progressbar div {
+}
+
+.progressbar div {
     width: 33.3%;
     height: 100%;
     background-color: #0d58ad;
-  }
+}
 
-  .form-container {
+.react-datepicker button {
+    color: black;
+    background-color: #d3d2d0;
+}
+
+.react-datepicker__navigation--years-upcoming {
+    background-color: #d2d1cf !important;
+}
+.react-datepicker__navigation--years-previous {
+    background-color: #d2d1cf !important;
+}
+
+.form-container {
     width: 100%;
     /* height: 600px; */
     /* background-color: white; */
@@ -146,17 +170,19 @@ button, input, optgroup, select, textarea {
     /* box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4); */
     /* display: flex;
     flex-direction: column; */
-  }
-  .form-container .footer {
+}
+
+.form-container .footer {
     flex: 20%;
     display: flex;
     justify-content: center;
-  }
+}
 
 @media screen and (max-width: 780px) {
     div.cac-gamified-header-logo:after {
         display: none;
     }
+
     #cac-footer-legal {
         padding: 10px 20px;
         margin-top: 80px;
