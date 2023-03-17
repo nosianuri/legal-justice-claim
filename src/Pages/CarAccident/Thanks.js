@@ -1,8 +1,16 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import gify from '../../assets/car_anim.gif'
 
 const Thanks = () => {
     return (
+        <>
+         <Helmet>
+                <meta charSet="utf-8" />
+                <title>Thanks | Legal Justice Claim</title>
+            </Helmet>
+        <div>
+        <div className='bg-[#84754e] h-[50px]'></div>
         <div className='my-3'>
             <div className='max-w-7xl mx-auto'>
                 <div className='max-w-[700px] mx-auto text-center px-3'>
@@ -20,6 +28,8 @@ const Thanks = () => {
                 </div>
             </div>
         </div>
+        </div>
+        </>
     )
 }
 
