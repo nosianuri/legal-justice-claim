@@ -10,7 +10,7 @@ const Final = ({ page, setPage, onSubmit, submitButton }) => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className='flex gap-1'>
           <div className=" mx-2 flex-1">
-            <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">              City<em className='text-red-700'>*</em>
+            <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">  City<em className='text-red-700'>*</em>
             </div>
             <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">
               <input name="city" type="text" className="p-1 px-2 appearance-none outline-none w-full text-gray-800"

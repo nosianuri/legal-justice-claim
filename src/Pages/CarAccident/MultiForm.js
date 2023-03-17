@@ -21,7 +21,6 @@ const MultiForm = () => {
     const [loading, setLoading] = useState(false);
     const [selectedDate, setSelectedDate] = useState(new Date());
     const formattedDate = selectedDate.toISOString().slice(0, 10);
-
     const { register, reset, formState: { errors }, handleSubmit } = useForm();
     const [page, setPage] = useState(0);
     const [AllData, setAllData] = useState({});
@@ -83,15 +82,15 @@ const MultiForm = () => {
                     toast.error('Something went wrong', data.errors.message);
                     setLoading(false)
                 }
-                console.log(data, "response data");
+                // console.log(data, "response data");
             })
             .catch(error => {
-                console.error(error);
+                // console.error(error);
                 toast.error(`Error: ${error.message}`);
                 setLoading(false);
             });
     }
-    console.log(AllData, "goods")
+    // console.log(AllData, "goods")
     const FormTitles = ["Physical Injury",
         "Currently Represented",
         "At Fault",
@@ -127,7 +126,7 @@ const MultiForm = () => {
         window.dataLayer.push({
           event: "call_button"
         })
-        console.log("clicked")
+        // console.log("clicked")
       }
 
     return (
