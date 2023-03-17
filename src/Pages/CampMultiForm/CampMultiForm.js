@@ -10,8 +10,12 @@ const CampMultiForm = () => {
             <div className='bg-[#84754e] h-[50px]'></div>
             <div className='max-w-[700px] !mx-auto text-center mb-16'>
                 <div className='flex gap-5 justify-center items-center mt-10 mb-5'>
+                <a href="https://legaljusticeclaim.com/camp-lejeune">
                     <img src="https://i.ibb.co/cghPKQC/Asset-1-320x-8.png" alt="" className='lg:w-24 w-16' />
+                    </a>
+                    <a href="https://legaljusticeclaim.com/camp-lejeune">
                     <h3 className='lg:text-5xl text-2xl font-bold text-[#84754e] !leading-normal'>Legal Justice Claim</h3>
+                    </a>
                 </div>
                 <h2 className='text-[#A6192E] lg:text-3xl text-xl font-bold'>Camp Lejeune Water Contamination Lawsuit</h2>
                 <img src="https://i.ibb.co/6w6KvK1/camplejeune.png" alt="" className='mx-auto p-5 ' />

@@ -153,10 +153,10 @@ textarea {
     background-color: #0d58ad;
 }
 
-.react-datepicker button {
+/* .react-datepicker button {
     color: black;
     background-color: #d3d2d0;
-}
+} */
 
 .react-datepicker__navigation--years-upcoming {
     background-color: #d2d1cf !important;

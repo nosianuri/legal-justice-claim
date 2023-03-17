@@ -104,8 +104,8 @@ const Final = ({ page, setPage, onSubmit, submitButton }) => {
           <div className="font-bold h-6 mt-3 text-gray-500 text-xs !leading-normal uppercase">
             Zip Code<em className='text-red-700'>*</em>
           </div>
-          <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded">
-            <input name="zip_code" type="text" className="text-[16px] p-1 px-2 appearance-none outline-none w-full text-gray-800"
+          <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded mx-auto !w-96">
+            <input name="zip_code" type="text" className="text-[16px] p-1 px-2 appearance-none outline-none  text-gray-800"
               {...register("zip_code", {
                 required: {
                   value: true,
