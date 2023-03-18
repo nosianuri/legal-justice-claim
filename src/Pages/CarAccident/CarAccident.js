@@ -27,7 +27,7 @@ const CarAccident = () => {
                     <h1 className='font-bold'>Numerous USA studies have suggested the average compensation earned for <span> Car Accident or Vehicle related accident claims </span> is approximately $24,000 <span className='text-[#fac705]  !no-underline'>*</span></h1>
 
 
-                    <p className='sm:text-xl text-lg my-5'>Take this quick assessment to get a <span className='text-[#fac705]'>FREE CASE CONSULTATION </span> and <span className='text-[#fac705]'>know how much is owed to you</span>
+                    <p className='sm:text-xl text-lg my-5'>Take this quick assessment to get a <span className='text-[#fac705] drop-shadow-xl shadow-[#fac705]'>FREE CASE CONSULTATION </span> and <span className='text-[#fac705] drop-shadow-xl shadow-[#fac705]'>know how much is owed to you</span>
                     </p>
                     <MultiForm />
                     {/* <StepFormBody /> */}

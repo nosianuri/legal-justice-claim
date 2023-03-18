@@ -8,7 +8,7 @@ const InjuryDate = ({ selectedDate, setSelectedDate, page, setPage }) => {
     }
 
     return (
-        <div className="flex flex-col w-full"
+        <div className=""
         >
             <div className="mx-2 flex-1">
                 <div className='text-center'>
@@ -27,7 +27,7 @@ const InjuryDate = ({ selectedDate, setSelectedDate, page, setPage }) => {
                                 showYearDropdown
                             /> */}
                             <DatePicker
-                                className='border border-gray-500 appearance-none px-2 rounded  py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D] w-96'
+                                className='border border-gray-500 appearance-none px-2 rounded  py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#137bb6] w-96'
                                 placeholderText='YYYY-MM-DD'
                                 dateFormat='yyyy-MM-dd'
                                 filterDate={d => {

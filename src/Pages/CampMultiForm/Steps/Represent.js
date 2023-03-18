@@ -8,7 +8,7 @@ const Represent = ({ setCurrently, setPage }) => {
       setPage(2)
     }
     else if (e === "yes") {
-      navigate('/thanks')
+      navigate('/car-accident')
     }
   };
 

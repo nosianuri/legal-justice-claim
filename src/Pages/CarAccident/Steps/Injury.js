@@ -12,7 +12,7 @@ const Injury = ({ formData, setFormData, page, setPage }) => {
   const navigate = useNavigate();
   const handleChange = (e) => {
     if (e === "no") {
-      navigate('/thanks')
+      navigate('/camp-lejeune')
     }
     else if (e === "yes") {
       setPage(1)
