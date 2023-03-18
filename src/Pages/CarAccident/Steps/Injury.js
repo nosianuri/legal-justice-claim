@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
 const Injury = ({ formData, setFormData, page, setPage }) => {
-
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
@@ -12,7 +11,7 @@ const Injury = ({ formData, setFormData, page, setPage }) => {
   const navigate = useNavigate();
   const handleChange = (e) => {
     if (e === "no") {
-      navigate('/camp-lejeune')
+      window.open('https://www.r3hlvtrk.com/3J67C/8D6XXTM/');
     }
     else if (e === "yes") {
       setPage(1)
