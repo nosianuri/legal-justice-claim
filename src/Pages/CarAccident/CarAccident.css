@@ -153,15 +153,16 @@ textarea {
     background-color: #0d58ad;
 }
 
-/* .react-datepicker button {
-    color: black;
-    background-color: #d3d2d0;
-} */
 
 .react-datepicker__navigation--years-upcoming {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
     background-color: #d2d1cf !important;
 }
 .react-datepicker__navigation--years-previous {
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #d2d1cf !important;
 }
 
