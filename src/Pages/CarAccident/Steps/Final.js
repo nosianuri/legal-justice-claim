@@ -8,7 +8,7 @@ const Final = ({ page, setPage, onSubmit, submitButton }) => {
     <div className="flex flex-col w-full" data-aos="zoom-in-right" data-aos-delay="300" data-aos-duration="300">
       <h2 className='text-2xl font-semibold text-center mb-5'>Contact Information<em className='text-red-700'>*</em></h2>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <div className='flex gap-1'>
+        <div className='grid grid-cols-2 gap-1'>
           <div className=" mx-2 flex-1">
             <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">City<em className='text-red-700'>*</em>
             </div>
@@ -30,8 +30,8 @@ const Final = ({ page, setPage, onSubmit, submitButton }) => {
             <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">
               State<em className='text-red-700'>*</em>
             </div>
-            <div class="inline-block relative w-full">
-              <select class="text-[16px] block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
+            <div class="relative w-full">
+              <select class="text-[16px] block appearance-none w-full bg-white border border-gray-400 hover:border-blue-400 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
                 {...register("state", {
                   required: {
                     value: true,
@@ -104,7 +104,7 @@ const Final = ({ page, setPage, onSubmit, submitButton }) => {
           <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">
             Zip Code<em className='text-red-700'>*</em>
           </div>
-          <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded mx-auto !w-96">
+          <div className="bg-white mb-2 p-1 flex border border-gray-400 hover:border-blue-400 rounded mx-auto !w-64">
             <input name="zip_code" type="text" className="text-[16px] p-1 px-2 appearance-none outline-none  text-gray-800"
               {...register("zip_code", {
                 required: {
