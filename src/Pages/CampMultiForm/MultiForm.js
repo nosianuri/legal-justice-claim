@@ -34,7 +34,7 @@ const MultiForm = () => {
             zip_code: formData.zip_code,
         }
         console.log(data, "so good")
-        fetch('https://leadmanager.rayadvertising.com/api/woo-sender', {
+        fetch('https://api.jangl.com/v2/legal/capture', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)
