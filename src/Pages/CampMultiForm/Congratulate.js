@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import gify from '../../assets/camp-thanks.gif';
+import gify from '../../assets/camp-thank.gif';
 
 const Congratulate = () => {
   return (
