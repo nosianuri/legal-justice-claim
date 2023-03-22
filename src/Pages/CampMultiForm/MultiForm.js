@@ -54,7 +54,7 @@ const MultiForm = () => {
                     window.dataLayer.push({
                         event: data
                       })
-                    navigate("/thanks");
+                    navigate("/camplejeune-thanks");
                 } else if (data.errors) {
                     toast.error('Something went wrong', data.errors.message);
                     setLoading(false)

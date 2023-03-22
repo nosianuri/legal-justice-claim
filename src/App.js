@@ -8,6 +8,7 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import CampMultiForm from './Pages/CampMultiForm/CampMultiForm';
+import Congratulate from './Pages/CampMultiForm/Congratulate';
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function App() {
       <Route path='/car-accident' element={<CarAccident />} />
       <Route path='/camp-lejeune' element={<CampMultiForm />} />
       <Route path='/thanks' element={<Thanks />} />
+      <Route path='/camplejeune-thanks' element={<Congratulate />} />
       <Route path='/terms&condition' element={<TermsCondition />} />
       <Route path='/privacy-policy' element={<Privacy />} />
       </Routes>
