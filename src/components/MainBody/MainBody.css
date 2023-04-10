@@ -82,9 +82,9 @@
 
 .category {
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 800;
   text-transform: uppercase;
-  color: #fff;
+  /* color: #8bc53f; */
   padding: 5px 10px;
   letter-spacing: 2px;
   background-color: purple;
@@ -100,10 +100,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  border-left: 5px solid #BD902D;
+  border-left: 5px solid #198ec0;
   width: auto;
   display: block;
-  background: linear-gradient(to right, #BD902D 50%, rgb(85, 85, 85) 50%);
+  background: linear-gradient(to right, #198ec0 50%, #f6f6f6 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.5s ease-out;
@@ -111,12 +111,13 @@
 }
 
 .category1 span {
-  color: #fff;
+  /* color: #fff; */
   text-transform: capitalize;
   letter-spacing: 0;
 }
 
 .category1:hover {
+  color: #fff;
   background-position: left bottom;
 }
 
