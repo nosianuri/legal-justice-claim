@@ -1,8 +1,6 @@
 import React from 'react';
 import Category from '../Shared/Category';
 import SocialMedia from '../Shared/SocialMedia';
-import Subscribe from '../Shared/Subscribe';
-import Tpost from '../Shared/Tpost/Tpost';
 import './MainBody.css';
 
 const LawsuitField = () => {
@@ -48,8 +46,8 @@ const LawsuitField = () => {
 
       </div>
       <SocialMedia />
-      <Subscribe />
-      <Tpost />
+      {/* <Subscribe /> */}
+      {/* <Tpost /> */}
       <Category />
     </div>
   )

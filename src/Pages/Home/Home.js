@@ -4,6 +4,7 @@ import Footer from '../../components/Footer/Footer';
 import MainBody from '../../components/MainBody/MainBody';
 import { Helmet } from 'react-helmet';
 import Banner from '../../components/Banner/Banner';
+import SlidingTextAnimation from '../../components/SlidingTextAnimation';
 
 
 const Home = () => {

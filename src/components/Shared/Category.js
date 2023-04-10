@@ -7,7 +7,7 @@ const Category = () => {
   return (
     <div>
       <section className='catgorys mt-16'>
-        <Heading title='Categorys' />
+        <Heading title='Testimonials' />
         <div>
           <a href="/earplug">
             <div className='category category1'>

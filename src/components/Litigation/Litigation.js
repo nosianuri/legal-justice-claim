@@ -10,14 +10,14 @@ import Heading from '../Shared/Heading/Heading';
 const Litigation = () => {
   return (
     <div>
-      <div className='flex mt-10 space-x-6'>
+      {/* <div className='flex mt-10 space-x-6'>
         <img src={elmiron} alt="" />
         <div>
           <p className='font-semibold text-[#300303] text-lg'><a className='hover:text-[#BD902D]' href="/nec"><span>NEC</span> <span className=''>LAWSUITS ARE NOW BEING FILED</span></a></p>
           <p>TOXIC BABY FORMULA NEC LAWSUIT UPDATE JANUARY 2023 | NEC FORMULA LAWSUIT</p>
           <p className='underline text-md font-semibold text-[#BD902D]'><a className='hover:text-[#13100E]' href="/nec">Read More »</a></p>
         </div>
-      </div>
+      </div> */}
       <div className='grid lg:grid-cols-2 grid-cols-1 gap-10 my-10'>
        
         <div>

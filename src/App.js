@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import CampMultiForm from './Pages/CampMultiForm/CampMultiForm';
 import Congratulate from './Pages/CampMultiForm/Congratulate';
+import Home from './Pages/Home/Home';
 
 function App() {
   useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
       <Routes>
+      <Route path='/' element={<Home />}></Route>
       <Route path='/car-accident' element={<CarAccident />} />
       <Route path='/camp-lejeune' element={<CampMultiForm />} />
       <Route path='/thanks' element={<Thanks />} />
