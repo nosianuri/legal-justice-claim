@@ -30,8 +30,8 @@ const Final = ({ page, setPage, onSubmit, submitButton }) => {
             <div className="font-bold h-6 mt-3 text-gray-900 text-sm !leading-normal uppercase">
               State<em className='text-red-700'>*</em>
             </div>
-            <div class="relative w-full">
-              <select class="text-[16px] block appearance-none w-full bg-white border border-gray-400 hover:border-blue-400 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
+            <div className="relative w-full">
+              <select className="text-[16px] block appearance-none w-full bg-white border border-gray-400 hover:border-blue-400 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
                 {...register("state", {
                   required: {
                     value: true,
@@ -91,13 +91,13 @@ const Final = ({ page, setPage, onSubmit, submitButton }) => {
                 <option value="WI">WI</option>
                 <option value="WY">WY</option>
               </select>
-              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
+              <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
               </div>
             </div>
             <p>
               {errors.state?.type === 'required' && <span className="text-xs text-red-500">{errors.state.message}</span>}
-            </p> 
+            </p>
           </div>
         </div>
         <div className=" mx-2 flex-1">

@@ -14,6 +14,8 @@ import seen3 from '../../assets/th-logo6.png.webp';
 import seen4 from '../../assets/usa-logo7.png.webp';
 import seen5 from '../../assets/ne-logo5.png.webp';
 import seen6 from '../../assets/in-logo2.png.webp';
+import ImageSlider from '../ImageSlider';
+import LogoSlider from '../LogoSlider';
 
 
 const MainBody = () => {
@@ -23,8 +25,8 @@ const MainBody = () => {
                 <LawsuitField />
             </div>
             <div className='lawsuit_blog  '>
-                <div class="flex space-y-3 justify-between bg-[#13100E] p-5">
-                    <select name="status" id="form-select" class="border border-gray-400 block py-2 px-4 w-1/2 rounded focus:outline-none font-semibold">
+                <div className="flex space-y-3 justify-between bg-[#13100E] p-5">
+                    <select name="status" id="form-select" className="border border-gray-400 block py-2 px-4 w-1/2 rounded focus:outline-none font-semibold">
                         <option value="">Select a Lawsuit</option>
                         <option value="earplug">3M Earplugs</option>
                         <option value="caraccident">Car Accident</option>
@@ -52,29 +54,27 @@ const MainBody = () => {
                         We understand that an injury can be a life-changing event, causing physical, emotional, and financial turmoil. At our law firm, we're here to help you rise above your injury and reclaim your life. Our team of compassionate lawyers will fearlessly fight for your rights, securing the maximum compensation you're entitled to and the justice you deserve. We're committed to providing you with personalized attention and support throughout the legal process
                     </div>
                     <div className='space-y-2'>
-                        <div className='flex space-x-2 '><i class="fa-solid fa-check text-2xl text-[#BD902D] font-bold"></i><p className='lg:text-lg  font-semibold'>Get the Compensation You're Entitled to: Schedule a FREE, No-Obligation Consultation Today!
+                        <div className='flex space-x-2 '><i className="fa-solid fa-check text-2xl text-[#BD902D] font-bold"></i><p className='lg:text-lg  font-semibold'>Get the Compensation You're Entitled to: Schedule a FREE, No-Obligation Consultation Today!
                         </p></div>
-                        <div className='flex space-x-2'><i class="fa-solid fa-check text-2xl text-[#BD902D] font-bold"></i><p className='lg:text-lg font-semibold'>Our Expert Legal Team Will Fight for Your Rights, While You Pay Nothing Upfront!
+                        <div className='flex space-x-2'><i className="fa-solid fa-check text-2xl text-[#BD902D] font-bold"></i><p className='lg:text-lg font-semibold'>Our Expert Legal Team Will Fight for Your Rights, While You Pay Nothing Upfront!
                         </p></div>
-                        <div className='flex space-x-2'><i class="fa-solid fa-check text-2xl text-[#BD902D] font-bold"></i><p className='lg:text-lg font-semibold'>Rest Easy Knowing Your Information is Safe
+                        <div className='flex space-x-2'><i className="fa-solid fa-check text-2xl text-[#BD902D] font-bold"></i><p className='lg:text-lg font-semibold'>Rest Easy Knowing Your Information is Safe
                         </p></div>
                     </div>
                 </div>
                 <div>
                     <div className='text-center text-3xl text-[#000] font-bold mb-3'>As Seen In</div>
-                    <div className='flex'>
-                        <img src={seen1} alt="" />
-                        <img src={seen2} alt="" />
-                        <img src={seen3} alt="" />
-                        {/* <img src={seen4} alt="" />
-                        <img src={seen5} alt="" />
-                        <img src={seen6} alt="" /> */}
+                    <div className='max-w-[1000px] mx-auto'>
+                        <LogoSlider />
                     </div>
                 </div>
-                <div className='my-10'>
-                    <Elmiron />
+                <div className='max-w-[1020px] mx-auto my-10'>
+                    <ImageSlider />
                 </div>
-                <img src={star} alt="" className='mx-auto' />
+                {/* <div className='my-10'>
+                    <Elmiron />
+                </div> */}
+                <img src={star} alt="" className='mx-auto w-48' />
                 <div className='font-bold text-3xl text-center mt-3'>Our Personal Injury Lawyers Have <br /> </div>
                 <div className='flex items-center justify-center font-bold text-3xl mb-5'> Over 55,000 5-Star <img src={google} alt="" className='w-24 mx-2' /> Logo Reviews</div>
                 {/* <RoundUp /> */}

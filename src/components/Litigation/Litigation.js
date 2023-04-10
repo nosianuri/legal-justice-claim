@@ -19,10 +19,10 @@ const Litigation = () => {
         </div>
       </div> */}
       <div className='grid lg:grid-cols-2 grid-cols-1 gap-10 my-10'>
-       
+
         <div>
           <div className=''>
-          <Heading title='Drug Litigation' />
+            <Heading title='Drug Litigation' />
             {/* <h2 className='text-xl  text-white pl-5 py-2'>Medical Litigation</h2> */}
           </div>
 
@@ -53,7 +53,7 @@ const Litigation = () => {
         </div>
         <div className=''>
           <div className=''>
-          <Heading title='Medical Litigation' />
+            <Heading title='Medical Litigation' />
             {/* <h2 className='text-xl text-white pl-5 py-2 '>Drug Litigation</h2> */}
           </div>
 
@@ -74,7 +74,7 @@ const Litigation = () => {
             </div>
           </div>
           <div className='mt-6'>
-            <div class=" !bg-no-repeat !bg-cover" style={{
+            <div className=" !bg-no-repeat !bg-cover" style={{
               background: `url(https://i.ibb.co/Ypz3f5J/liti-bg.jpg)`
             }}>
               <div className='py-3 pl-5'>

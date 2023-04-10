@@ -8,7 +8,7 @@ const LawsuitField = () => {
     <div className='lawsuit_filed'>
       <div className='bg-[#13100E] p-3'>
         <label className='text-white text-lg py-1'>Select Lawsuit</label>
-        <select name="status" id="form-select" class="border border-gray-400 block py-2 px-4 w-full rounded focus:outline-none font-semibold mt-3">
+        <select name="status" id="form-select" className="border border-gray-400 block py-2 px-4 w-full rounded focus:outline-none font-semibold mt-3">
           <option value="">Select a Lawsuit</option>
           <option value="earplug">3M Earplugs</option>
           <option value="caraccident">Car Accident</option>

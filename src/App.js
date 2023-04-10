@@ -10,6 +10,8 @@ import { useEffect } from 'react';
 import CampMultiForm from './Pages/CampMultiForm/CampMultiForm';
 import Congratulate from './Pages/CampMultiForm/Congratulate';
 import Home from './Pages/Home/Home';
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   useEffect(() => {

@@ -74,7 +74,7 @@ const Privacy = () => {
               <p className='text-sm italic mb-3'>What Personal Information Do We Collect?</p>
               <p className='text-sm mb-3'>We collect, and have collected personal information about our visitors in the preceding 12 months in the following categories:</p>
               <div className='mb-5'>
-                <table class=" border-2 border-gray-300">
+                <table className=" border-2 border-gray-300">
                   <thead>
                     <tr className='border-2 border-gray-300'>
                       <th className='w-1/2 border-2 border-gray-300'>Categories of Personal Information (PI)</th>
