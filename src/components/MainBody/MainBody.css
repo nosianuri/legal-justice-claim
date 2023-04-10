@@ -128,10 +128,18 @@
   .lawsuit_blog {
     order: -2;
   }
-  
+
   .lawsuit_body {
     display: grid;
-  grid-template-columns: 1fr;
-  
+    grid-template-columns: 1fr;
   }
+  .lawsuit_filed {
+    /* background-color: rgba(255, 153, 0, 0.3); */
+    margin: 20px 10px;
+  }
+  
+  .lawsuit_blog {
+    margin: 20px 10px;
+  }
+  
 }

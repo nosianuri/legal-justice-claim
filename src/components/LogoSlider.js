@@ -82,7 +82,7 @@ const LogoSlider = () => {
             </div>
           ))}
         </Slider>
-        <div className="flex justify-between mt-[-50px] relative">
+        {/* <div className="flex justify-between mt-[-50px] relative">
           <button
             className="bg-gray-100 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded-l"
             onClick={handleClickPrev}
@@ -95,7 +95,7 @@ const LogoSlider = () => {
           >
             &gt;
           </button>
-        </div>
+        </div> */}
       </div>
     );
   };

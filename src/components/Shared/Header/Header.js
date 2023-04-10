@@ -7,7 +7,7 @@ import LogoWhite from '../../../assets/Asset 1@320x-8.png';
 
 const headerVariants = {
     hidden: {
-      padding: '84px 0 84px 0',
+      padding: '64px 0 64px 0',
       background: 'none',
     },
     show: {

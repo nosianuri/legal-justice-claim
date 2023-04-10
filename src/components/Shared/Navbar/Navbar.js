@@ -29,8 +29,7 @@ const Navbar = () => {
 
   return (
     <>
-    <nav className='navbar'>
-    
+    <nav className='navbar bg-[#BD902D]'>
       <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
         <img className='lg:w-24 w-16 ' src={logo} alt="" />
       </Link>
