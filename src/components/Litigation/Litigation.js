@@ -43,7 +43,7 @@ const Litigation = () => {
             </div>
           </div>
           <div className='flex space-x-5 mt-5'>
-            <img className='w-auto' src={litigation3} alt="" />
+            <img className='w-auto' src='https://i.ibb.co/7QSdd2z/camp-lejeune.png' alt="" />
             <div>
               <h3 className='text-[#13100E] text-lg'><a className='hover:text-[#198ec0]' href="/">MVA
               </a></h3>

@@ -46,6 +46,7 @@ const MainBody = () => {
                         <button className='bg-[#8bc53f] py-2 px-4 rounded'><a className='text-white text-lg font-semibold' href="/">Submit</a></button>
                         {/* <p className='underline lg:block hidden  text-white mr-10 text-xl'><a className='hover:text-[#8bc53f]' href="/">Legal News</a></p> */}
                     </div>
+                    <RoundUp />
                     <div className='my-5'>
                         <h1 className='lg:text-4xl text-2xl font-bold !leading-normal'><span className='underline'>Secure Justice and Compensation</span>  with Our Experienced Legal Team</h1>
                         {/* <h3 className='lg:text-4xl text-xl mt-3'>Find Yourself a Lawyer That Will Fight For You and Your Rights!</h3> */}

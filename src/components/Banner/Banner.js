@@ -14,7 +14,6 @@ const Banner = () => {
     }} className=' bg-hero !bg-cover'>
       {/* header */}
      <NavigationMenu />
-     
       <div className='container mx-auto lg:min-h-[580px]  min-h-[490px] flex justify-center items-center'>
         {/* text */}
         <div className='text-center flex flex-col items-center align-middle sm:mt-16'>
@@ -23,7 +22,6 @@ const Banner = () => {
             <h2 className='text-[38px] lg:text-[58px] md:text-[40px] '>Legal Justice Claim
             </h2>
             <h4 className='text-[28px] lg:text-[38px] md:text-[30px] '>Expert Legal Advocates for Winning Your Lawsuit and Maximum Compensation</h4>
-            
             <SlidingTextAnimation />
             <p></p>
           </div>
