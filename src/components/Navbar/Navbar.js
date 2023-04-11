@@ -24,18 +24,18 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden sm:block">
         <div className='flex items-center text-2xl'>
-          <a className='text-[#198ec0] font-bold' href="/">Call Guida Today <span className='text-[#8bc53f]'>1-877-232-6848</span></a>
+          <a className='text-[#198ec0] font-bold' href="/">Call Guida Today <span className='text-[#228B22]'>1-877-232-6848</span></a>
           <div className='ml-5'>
             <Social />
           </div>
         </div>
         <div className='lg:flex'>
           <ul className="menu menu-horizontal font-bold ">
-            <li className='hover:bg-[#f6f6f6] hover:text-[#8bc53f] text-[#198ec0]'><NavLink to='/' className={({ isActive }) => isActive ? 'border border-[#f6f6f6] border-b-[#198ec0]' : 'hover:bg-[#f6f6f6] hover:text-[#8bc53f]'}>LAWSUITS</NavLink></li>
-            <li className='hover:bg-[#f6f6f6] hover:text-[#8bc53f] text-[#198ec0]'><NavLink to='/contact' className={({ isActive }) => isActive ? 'border border-[#f6f6f6] border-b-[#198ec0]' : 'hover:bg-[#f6f6f6] hover:text-[#8bc53f]'}>LEGAL NEWS</NavLink></li>
-            <li className='hover:bg-[#f6f6f6] text-[#198ec0]'><NavLink to='/contact' className={({ isActive }) => isActive ? 'border border-[#f6f6f6] border-b-[#198ec0]' : 'hover:bg-[#f6f6f6] hover:text-[#8bc53f]'}>TESTIMONIALS</NavLink></li>
+            <li className='hover:bg-[#f6f6f6] hover:text-[#228B22] text-[#198ec0]'><NavLink to='/' className={({ isActive }) => isActive ? 'border border-[#f6f6f6] border-b-[#198ec0]' : 'hover:bg-[#f6f6f6] hover:text-[#228B22]'}>LAWSUITS</NavLink></li>
+            <li className='hover:bg-[#f6f6f6] hover:text-[#228B22] text-[#198ec0]'><NavLink to='/contact' className={({ isActive }) => isActive ? 'border border-[#f6f6f6] border-b-[#198ec0]' : 'hover:bg-[#f6f6f6] hover:text-[#228B22]'}>LEGAL NEWS</NavLink></li>
+            <li className='hover:bg-[#f6f6f6] text-[#198ec0]'><NavLink to='/contact' className={({ isActive }) => isActive ? 'border border-[#f6f6f6] border-b-[#198ec0]' : 'hover:bg-[#f6f6f6] hover:text-[#228B22]'}>TESTIMONIALS</NavLink></li>
             
-            <li className='hover:bg-[#f6f6f6] text-[#198ec0]'><NavLink to='/contact' className={({ isActive }) => isActive ? 'bg-[#8bc53f]' : 'hover:bg-[#f6f6f6] hover:text-[#8bc53f]'}>CONTACT</NavLink></li>
+            <li className='hover:bg-[#f6f6f6] text-[#198ec0]'><NavLink to='/contact' className={({ isActive }) => isActive ? 'bg-[#228B22]' : 'hover:bg-[#f6f6f6] hover:text-[#228B22]'}>CONTACT</NavLink></li>
           </ul>
         </div>
       </div>
@@ -64,12 +64,12 @@ const Navbar = () => {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
           </label>
           <ul tabindex="0" className="menu menu-compact text-white dropdown-content mt-3 p-2 shadow bg-[#f6f6f6] rounded w-52">
-            <li className='hover:bg-[#8bc53f] text-[#198ec0]'><NavLink to='/contact' className={({ isActive }) => isActive ? 'bg-[#8bc53f]' : 'hover:bg-[#fff] hover:text-[#8bc53f]'}>Lawsuits</NavLink></li>
-            <li className='hover:bg-[#8bc53f] text-[#198ec0]'><NavLink to='/contact' className={({ isActive }) => isActive ? 'bg-[#8bc53f]' : 'hover:bg-[#fff] hover:text-[#8bc53f]'}>Legal News</NavLink></li>
-            <li className='hover:bg-[#8bc53f] text-[#198ec0]'><NavLink to='/contact' className={({ isActive }) => isActive ? 'bg-[#8bc53f]' : 'hover:bg-[#fff] hover:text-[#8bc53f]'}>Testimonials</NavLink></li>
+            <li className='hover:bg-[#228B22] text-[#198ec0]'><NavLink to='/contact' className={({ isActive }) => isActive ? 'bg-[#228B22]' : 'hover:bg-[#fff] hover:text-[#228B22]'}>Lawsuits</NavLink></li>
+            <li className='hover:bg-[#228B22] text-[#198ec0]'><NavLink to='/contact' className={({ isActive }) => isActive ? 'bg-[#228B22]' : 'hover:bg-[#fff] hover:text-[#228B22]'}>Legal News</NavLink></li>
+            <li className='hover:bg-[#228B22] text-[#198ec0]'><NavLink to='/contact' className={({ isActive }) => isActive ? 'bg-[#228B22]' : 'hover:bg-[#fff] hover:text-[#228B22]'}>Testimonials</NavLink></li>
            
-            <li className='hover:bg-[#8bc53f] text-[#198ec0]'><NavLink to='/contact' className={({ isActive }) => isActive ? 'bg-[#8bc53f]' : 'hover:bg-[#fff] hover:text-[#8bc53f]'}>CONTACT</NavLink></li>
-            <li className='hover:bg-[#8bc53f] text-[#198ec0]'><NavLink to='/contact' className={({ isActive }) => isActive ? 'bg-[#8bc53f]' : 'hover:bg-[#fff] hover:text-[#8bc53f]'}>CONTACT</NavLink></li>
+            <li className='hover:bg-[#228B22] text-[#198ec0]'><NavLink to='/contact' className={({ isActive }) => isActive ? 'bg-[#228B22]' : 'hover:bg-[#fff] hover:text-[#228B22]'}>CONTACT</NavLink></li>
+            <li className='hover:bg-[#228B22] text-[#198ec0]'><NavLink to='/contact' className={({ isActive }) => isActive ? 'bg-[#228B22]' : 'hover:bg-[#fff] hover:text-[#228B22]'}>CONTACT</NavLink></li>
             
           </ul>
         </div>
@@ -81,7 +81,7 @@ const Navbar = () => {
         <div className=''><a className='text-[#198ec0] font-bold flex' href="/"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0l6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z" />
         </svg>
-          <span className='text-[#8bc53f] pl-3'>1-877-232-6848</span></a></div>
+          <span className='text-[#228B22] pl-3'>1-877-232-6848</span></a></div>
       </div> */}
       <div>
       </div>

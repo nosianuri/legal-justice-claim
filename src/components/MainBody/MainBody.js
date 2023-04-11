@@ -16,6 +16,7 @@ import seen5 from '../../assets/ne-logo5.png.webp';
 import seen6 from '../../assets/in-logo2.png.webp';
 import ImageSlider from '../ImageSlider';
 import LogoSlider from '../LogoSlider';
+import ExposureSlider from '../ExposureSlider';
 
 
 const MainBody = () => {
@@ -26,7 +27,7 @@ const MainBody = () => {
                     <LawsuitField />
                 </div>
                 <div className='lawsuit_blog  '>
-                    <div className="flex space-y-3 justify-between items-center bg-[#198ec0] sm:p-5 p-2">
+                    <div className="flex space-y-3 justify-between items-center bg-[#800020] sm:p-5 p-2">
                         <select name="status" id="form-select" className="border border-gray-400 block py-2 px-4 w-1/2 rounded focus:outline-none font-semibold">
                             <option value="">Select a Lawsuit</option>
                             <option value="earplug">3M Earplugs</option>
@@ -43,26 +44,35 @@ const MainBody = () => {
                             <option value="truck-accident">Truck Accident</option>
                             <option value="zantac">Zantac</option>
                         </select>
-                        <button className='bg-[#8bc53f] py-2 px-4 rounded'><a className='text-white text-lg font-semibold' href="/">Submit</a></button>
-                        {/* <p className='underline lg:block hidden  text-white mr-10 text-xl'><a className='hover:text-[#8bc53f]' href="/">Legal News</a></p> */}
+                        <button className='bg-[#228B22] py-2 px-4 rounded'><a className='text-white text-lg font-semibold' href="/">Submit</a></button>
+                        {/* <p className='underline lg:block hidden  text-white mr-10 text-xl'><a className='hover:text-[#228B22]' href="/">Legal News</a></p> */}
                     </div>
-                    <RoundUp />
-                    <div className='my-5'>
-                        <h1 className='lg:text-4xl text-2xl font-bold !leading-normal'><span className='underline'>Secure Justice and Compensation</span>  with Our Experienced Legal Team</h1>
-                        {/* <h3 className='lg:text-4xl text-xl mt-3'>Find Yourself a Lawyer That Will Fight For You and Your Rights!</h3> */}
-
+                    {/* <RoundUp /> */}
+                   <div className='sm:w-[1000px] w-[370px] mx-auto'>
+                   <ExposureSlider />
+                   </div>
+                </div>
+            </div>
+           
+            <div className='my-5 max-w-7xl mx-auto '>
                         <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-16 gap-5 lg:mb-8 '>
-                            <div className='font-medium'>
-                                We understand that an injury can be a life-changing event, causing physical, emotional, and financial turmoil. At our law firm, we're here to help you rise above your injury and reclaim your life. Our team of compassionate lawyers will fearlessly fight for your rights, securing the maximum compensation you're entitled to and the justice you deserve. We're committed to providing you with personalized attention and support throughout the legal process
+                            <div  data-aos='fade-right' data-aos-delay='300'>
+                            <h1 className='lg:text-4xl text-2xl font-semibold !leading-normal mb-2 font_verity'><span className='underline'>Secure Justice and Compensation</span>  with Our Experienced Legal Team</h1>
+                            <p className='font-medium text-lg'> We understand that an injury can be a life-changing event, causing physical, emotional, and financial turmoil. At our law firm, we're here to help you rise above your injury and reclaim your life. Our team of compassionate lawyers will fearlessly fight for your rights, securing the maximum compensation you're entitled to and the justice you deserve. We're committed to providing you with personalized attention and support throughout the legal process.</p> 
                             </div>
 
-                            <div className='space-y-2'>
-                                <div className='flex space-x-2 '><i className="fa-solid fa-check text-2xl text-[#8bc53f] font-bold"></i><p className='lg:text-lg  font-semibold'>Get the Compensation You're Entitled to: Schedule a FREE, No-Obligation Consultation Today!
+                            <div data-aos='fade-left' data-aos-delay='300'>
+                            <div className='uppercase font-semibold text-2xl my-3 font_verity'>We Help People Take Legal Action Against Those Held Accountable For Mistake.</div>
+                            <div className='space-y-2 bg-gray-200 p-4 items-center'>
+                                <div className='flex space-x-2 '><i className="fa-solid fa-check text-2xl text-[#228B22] font-bold"></i><p className='lg:text-lg  font-semibold'>Get the Compensation You're Entitled to: Schedule a FREE, No-Obligation Consultation Today!
                                 </p></div>
-                                <div className='flex space-x-2'><i className="fa-solid fa-check text-2xl text-[#8bc53f] font-bold"></i><p className='lg:text-lg font-semibold'>Our Expert Legal Team Will Fight for Your Rights, While You Pay Nothing Upfront!
+                                
+                                <div className='flex space-x-2'><i className="fa-solid fa-check text-2xl text-[#228B22] font-bold"></i><p className='lg:text-lg font-semibold'>Our Expert Legal Team Will Fight for Your Rights While You Pay Nothing Upfront!
                                 </p></div>
-                                <div className='flex space-x-2'><i className="fa-solid fa-check text-2xl text-[#8bc53f] font-bold"></i><p className='lg:text-lg font-semibold'>Rest Easy Knowing Your Information is Safe
+                                
+                                <div className='flex space-x-2'><i className="fa-solid fa-check text-2xl text-[#228B22] font-bold"></i><p className='lg:text-lg font-semibold'>Rest Easy Knowing Your Information is Safe
                                 </p></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -72,8 +82,6 @@ const MainBody = () => {
                             <LogoSlider />
                         </div>
                     </div>
-                </div>
-            </div>
             <div className=' mx-auto my-10'>
                         <ImageSlider />
                     </div>

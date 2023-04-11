@@ -4,7 +4,7 @@ import './MainBody.css';
 const LawsuitField = () => {
   return (
     <div className='lawsuit_filed'>
-      <div className='bg-[#198ec0] p-3'>
+      <div className='bg-[#800020] p-3'>
         <label className='text-white text-lg py-1'>Read Testimonial</label>
         <select name="status" id="form-select" className="border border-gray-400 block py-2 px-4 w-full rounded focus:outline-none font-semibold mt-3">
           <option value="">Select a Lawsuit</option>
@@ -24,7 +24,7 @@ const LawsuitField = () => {
         </select>
       </div>
       <div className='mt-4 bg-gray-200'>
-        <h3 className='uppercase lg:text-2xl text-xl bg-gray-700 text-white text-center py-1'>Lawsuits Being Filed</h3>
+        <h3 className='uppercase lg:text-2xl text-xl bg-gray-700 text-white text-center py-1'>Compensation Available</h3>
         <div className='p-5'>
           <p><a className='hover:text-[#8bc53f]' href="/earplug">3M Earplugs</a> </p>
           <p><a className='hover:text-[#8bc53f]' href="/firefighting">Fire Fighting</a> </p>

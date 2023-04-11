@@ -7,7 +7,7 @@ const Social = () => {
       {socialData.map((item, index) => {
         return (
           <a
-            className='border border-white/20 bg-[#8bc53f] rounded-full w-[35px] h-[35px] flex items-center justify-center text-sm text-[#fff] hover:text-[#fff] border-[#8bc53f] hover:border-[#8bc53f] hover:bg-[#198ec0] transition-all '
+            className='border border-white/20 bg-[#228B22] rounded-full w-[35px] h-[35px] flex items-center justify-center text-sm text-[#fff] hover:text-[#fff] border-[#228B22] hover:border-[#228B22] hover:bg-[#800020] transition-all '
             href={item.href}
             key={index}
           >

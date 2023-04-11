@@ -24,12 +24,12 @@ function NavigationMenu() {
                     <img className='lg:w-24 w-14' src={logo} alt="" />
                 </a>
                 <ul className={`nav-list ${isOpen ? 'active' : ''}`}>
-                    <li className='hover:border-2 border-[#f6f6f6] border-b-[#198ec0]  font-bold'><a href="#">LAWSUITS</a></li>
-                    <li className='hover:border-2 border-[#f6f6f6] border-b-[#198ec0]  font-bold'><a href="#">LEGAL NEWS</a></li>
-                    <li className='hover:border-2 border-[#f6f6f6] border-b-[#198ec0]  font-bold'><a href="#">TESTIMONIALS</a></li>
-                    <li className='hover:border-2 border-[#f6f6f6] border-b-[#198ec0] font-bold '><a href="#">CONTACT</a></li>
+                    <li className='hover:border-2 border-[#f6f6f6] border-b-[#800020]  font-bold'><a href="#">LAWSUITS</a></li>
+                    <li className='hover:border-2 border-[#f6f6f6] border-b-[#800020]  font-bold'><a href="#">LEGAL NEWS</a></li>
+                    <li className='hover:border-2 border-[#f6f6f6] border-b-[#800020]  font-bold'><a href="#">TESTIMONIALS</a></li>
+                    <li className='hover:border-2 border-[#f6f6f6] border-b-[#800020] font-bold '><a href="#">CONTACT</a></li>
                     <li className=''>
-                        <div className='border border-sky-600 rounded-lg px-3 py-1 font-medium'>
+                        <div className='border border-[#800020] rounded-lg px-3 py-1 font-medium'>
                             <input className='bg-transparent outline-none' type="text" value={searchlaw} name="search" placeholder="Search Lawsuit..." onChange={(event) => { setSearchlaw(event.target.value) }} />
                             <button onClick={() => onSearch(searchlaw)} ><FaSearch /></button>
                         </div>

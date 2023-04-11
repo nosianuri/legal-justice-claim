@@ -6,7 +6,7 @@
     background-color: transparent;
     background: #f6f6f6;
     z-index: 999;
-    color: #198ec0;
+    color: #800020;
   }
   
   .navbar {
@@ -37,7 +37,7 @@
   .social-icons a {
     display: inline-block;
     margin-right: 10px;
-    color: #198ec0;
+    color: #800020;
     font-size: 20px;
   }
   
@@ -51,7 +51,7 @@
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    border: 1px solid #198ec0;
+    border: 1px solid #800020;
     position: fixed;
     width: 210px;
     border-radius: 10px;
@@ -75,7 +75,7 @@
       left: 0;
       width: 100%;
       background-color: #f6f6f6;
-      color: #198ec0;
+      color: #800020;
       padding: 20px;
       display: none;
     }
@@ -95,7 +95,7 @@
     .navbar .menu-icon {
       display: block;
       font-size: 24px;
-      color: #198ec0;
+      color: #800020;
       cursor: pointer;
     }
     
