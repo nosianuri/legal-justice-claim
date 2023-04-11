@@ -3,6 +3,8 @@ import Header from '../Shared/Header/Header';
 import './Banner.css';
 import SlidingTextAnimation from '../SlidingTextAnimation';
 import Navbar from '../Navbar/Navbar';
+import Nav from '../Navbar/Nav';
+import NavigationMenu from '../Navbar/NavigationMenu';
 
 const Banner = () => {
 
@@ -11,8 +13,8 @@ const Banner = () => {
       background: `url(https://i.ibb.co/jzqLRW6/IMG-20230116-213604.png)`
     }} className=' bg-hero !bg-cover'>
       {/* header */}
-      {/* <Header /> */}
-      <Navbar />
+     <NavigationMenu />
+     
       <div className='container mx-auto lg:min-h-[580px]  min-h-[490px] flex justify-center items-center'>
         {/* text */}
         <div className='text-center flex flex-col items-center align-middle sm:mt-16'>

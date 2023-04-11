@@ -1,13 +1,11 @@
 import React from 'react';
-import Category from '../Shared/Category';
-import SocialMedia from '../Shared/SocialMedia';
 import './MainBody.css';
 
 const LawsuitField = () => {
   return (
     <div className='lawsuit_filed'>
       <div className='bg-[#198ec0] p-3'>
-        <label className='text-white text-lg py-1'>Select Lawsuit</label>
+        <label className='text-white text-lg py-1'>Read Testimonial</label>
         <select name="status" id="form-select" className="border border-gray-400 block py-2 px-4 w-full rounded focus:outline-none font-semibold mt-3">
           <option value="">Select a Lawsuit</option>
           <option value="earplug">3M Earplugs</option>

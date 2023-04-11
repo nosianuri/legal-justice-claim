@@ -5,6 +5,7 @@ import MainBody from '../../components/MainBody/MainBody';
 import { Helmet } from 'react-helmet';
 import Banner from '../../components/Banner/Banner';
 import SlidingTextAnimation from '../../components/SlidingTextAnimation';
+import NavigationMenu from '../../components/Navbar/NavigationMenu';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
         <meta charSet="utf-8" />
         <title>Legal Justice Claim </title>
       </Helmet>
+      
       <Banner />
       <MainBody />
       <Footer />
