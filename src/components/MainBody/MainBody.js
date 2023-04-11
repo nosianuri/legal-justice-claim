@@ -43,8 +43,8 @@ const MainBody = () => {
                             <option value="truck-accident">Truck Accident</option>
                             <option value="zantac">Zantac</option>
                         </select>
-                        <button className='bg-[#BD902D] py-2 px-4 rounded'><a className='text-white text-lg font-semibold' href="/">Submit</a></button>
-                        <p className='underline lg:block hidden  text-white mr-10 text-xl'><a className='hover:text-[#BD902D]' href="/">Legal News</a></p>
+                        <button className='bg-[#8bc53f] py-2 px-4 rounded'><a className='text-white text-lg font-semibold' href="/">Submit</a></button>
+                        {/* <p className='underline lg:block hidden  text-white mr-10 text-xl'><a className='hover:text-[#8bc53f]' href="/">Legal News</a></p> */}
                     </div>
                     <div className='my-5'>
                         <h1 className='lg:text-4xl text-2xl font-bold !leading-normal'><span className='underline'>Secure Justice and Compensation</span>  with Our Experienced Legal Team</h1>
@@ -56,11 +56,11 @@ const MainBody = () => {
                             </div>
 
                             <div className='space-y-2'>
-                                <div className='flex space-x-2 '><i className="fa-solid fa-check text-2xl text-[#BD902D] font-bold"></i><p className='lg:text-lg  font-semibold'>Get the Compensation You're Entitled to: Schedule a FREE, No-Obligation Consultation Today!
+                                <div className='flex space-x-2 '><i className="fa-solid fa-check text-2xl text-[#8bc53f] font-bold"></i><p className='lg:text-lg  font-semibold'>Get the Compensation You're Entitled to: Schedule a FREE, No-Obligation Consultation Today!
                                 </p></div>
-                                <div className='flex space-x-2'><i className="fa-solid fa-check text-2xl text-[#BD902D] font-bold"></i><p className='lg:text-lg font-semibold'>Our Expert Legal Team Will Fight for Your Rights, While You Pay Nothing Upfront!
+                                <div className='flex space-x-2'><i className="fa-solid fa-check text-2xl text-[#8bc53f] font-bold"></i><p className='lg:text-lg font-semibold'>Our Expert Legal Team Will Fight for Your Rights, While You Pay Nothing Upfront!
                                 </p></div>
-                                <div className='flex space-x-2'><i className="fa-solid fa-check text-2xl text-[#BD902D] font-bold"></i><p className='lg:text-lg font-semibold'>Rest Easy Knowing Your Information is Safe
+                                <div className='flex space-x-2'><i className="fa-solid fa-check text-2xl text-[#8bc53f] font-bold"></i><p className='lg:text-lg font-semibold'>Rest Easy Knowing Your Information is Safe
                                 </p></div>
                             </div>
                         </div>
