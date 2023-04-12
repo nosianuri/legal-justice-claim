@@ -28,7 +28,7 @@ class SlidingTextAnimation extends React.Component {
     const { text, currentIndex } = this.state;
     return (
       <div className="sliding-text-container">
-        <div className="sliding-text text-[28px] lg:text-[32px] md:text-[30px]">
+        <div className="sliding-text text-[20px] lg:text-[32px] md:text-[25px] text-white">
           {text[currentIndex]}
         </div>
       </div>

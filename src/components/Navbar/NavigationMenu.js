@@ -18,10 +18,11 @@ function NavigationMenu() {
     }
 
     return (
-        <div className="nav-container">
+        <div className="nav-container ">
             <nav className="navbar">
                 <a href="/">
-                    <img className='lg:w-24 w-14' src={logo} alt="" />
+                    <img className='lg:w-24 w-14' src={logo} alt="" /> 
+                    <p className='sm:text-xl pl-2 font-bold'>Legal Justice Claim</p>
                 </a>
                 <ul className={`nav-list ${isOpen ? 'active' : ''}`}>
                     <li className='hover:border-2 border-[#f6f6f6] border-b-[#800020]  font-bold'><a href="#">LAWSUITS</a></li>

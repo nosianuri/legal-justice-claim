@@ -1,11 +1,10 @@
 import React from 'react';
-// import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import MainBody from '../../components/MainBody/MainBody';
 import { Helmet } from 'react-helmet';
 import Banner from '../../components/Banner/Banner';
-import SlidingTextAnimation from '../../components/SlidingTextAnimation';
 import NavigationMenu from '../../components/Navbar/NavigationMenu';
+import Sidebar from '../../components/Navbar/Sidebar';
 
 
 const Home = () => {
@@ -15,7 +14,8 @@ const Home = () => {
         <meta charSet="utf-8" />
         <title>Legal Justice Claim </title>
       </Helmet>
-      
+      {/* <Sidebar /> */}
+      <NavigationMenu />
       <Banner />
       <MainBody />
       <Footer />

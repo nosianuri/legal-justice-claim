@@ -1,0 +1,39 @@
+.text-slide-container {
+    position: relative;
+  }
+  
+  .text-slide-item {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+  .show {
+    animation-name: slide-in;
+  }
+  
+  .hide {
+    animation-name: slide-out;
+  }
+  
+  @keyframes slide-in {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0;
+    }
+  }
+  
+  @keyframes slide-out {
+    from {
+      left: 0;
+    }
+    to {
+      left: -100%;
+    }
+  }
+  

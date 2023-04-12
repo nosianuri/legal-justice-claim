@@ -48,7 +48,7 @@ const ImageSlider = () => {
             <Slider {...settings}>
                 {images.map((image) => (
                     <div key={image.id}>
-                        <div className="py-5  bg-no-repeat !bg-cover" style={{
+                        <div className="sm:py-10 py-5  bg-no-repeat !bg-cover" style={{
                             background: `url(${image.url})`
                         }}>
                             <div className='elmiron-box lg:w-1/2 '>
