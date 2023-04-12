@@ -29,10 +29,6 @@
     padding: 0 30px 30px;
     
 }
-html,body{
-    overflow-x: hidden;
-  }
-
 .popup img{
     width: 100px;
     margin-top: -50px;

@@ -1,5 +1,4 @@
 .navbar {
-  /* background: #13100E; */
   height: 130px;
   display: flex;
   justify-content: center;
@@ -75,7 +74,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* height: 90vh; */
     position: absolute;
     top: 80px;
     left: -100%;
@@ -143,8 +141,4 @@
     color: #BD902D;
     transition: 250ms;
   }
-
-  /* button {
-    display: none;
-  } */
 }
