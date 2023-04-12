@@ -57,7 +57,7 @@ const MainBody = () => {
                     <div className='text-white font-bold text-xl'>Discover Our Client Testimonials
 
                     </div>
-                    <select name="status" id="form-select" className="border border-gray-400 block py-2 px-4 w-1/2 rounded focus:outline-none font-semibold">
+                    {/* <select name="status" id="form-select" className="border border-gray-400 block py-2 px-4 w-1/2 rounded focus:outline-none font-semibold">
                         <option value="">Select a Lawsuit</option>
                         <option value="earplug">3M Earplugs</option>
                         <option value="caraccident">Car Accident</option>
@@ -72,7 +72,7 @@ const MainBody = () => {
                         <option value="talcum-powder">Talcum Powder</option>
                         <option value="truck-accident">Truck Accident</option>
                         <option value="zantac">Zantac</option>
-                    </select>
+                    </select> */}
                     {/* <button className='bg-[#228B22] py-2 px-4 rounded'><a className='text-white text-lg font-semibold' href="/">Submit</a></button> */}
                 </div>
                 <div className='grid sm:grid-cols-2 grid-cols-1 max-w-7xl mx-auto'>
