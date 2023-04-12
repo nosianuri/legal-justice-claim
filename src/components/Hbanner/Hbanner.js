@@ -3,7 +3,7 @@ import React from 'react'
 const Hbanner = () => {
     return (
         <div style={{
-            background: `url(https://i.ibb.co/HCpcch9/legal1.png)`
+            background: `url(https://i.ibb.co/bJDWLCP/home-banner-new.jpg)`
           }} className=' bg-hero !bg-cover '>
           <div className='bg-black bg-opacity-50 lg:min-h-[580px]  min-h-[380px] flex  items-center '>
           <div className='mt-28 sm:px-10 px-1'>
