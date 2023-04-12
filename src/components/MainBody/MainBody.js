@@ -75,7 +75,7 @@ const MainBody = () => {
                     </select>
                     {/* <button className='bg-[#228B22] py-2 px-4 rounded'><a className='text-white text-lg font-semibold' href="/">Submit</a></button> */}
                 </div>
-                <div className='grid grid-cols-2 max-w-7xl mx-auto'>
+                <div className='grid sm:grid-cols-2 grid-cols-1 max-w-7xl mx-auto'>
                 <div data-aos='fade-right' data-aos-delay='300'>
                             <h1 className='lg:text-4xl text-2xl font-semibold !leading-normal mb-2 font_verity italic'><span className=''>Secure Justice and Compensation</span>  with Our Experienced Legal Team</h1>
                             <p className='font-medium text-lg'> We understand that an injury can be a life-changing event, causing physical, emotional, and financial turmoil. At our law firm, we're here to help you rise above your injury and reclaim your life. Our team of compassionate lawyers will fearlessly fight for your rights, securing the maximum compensation you're entitled to and the justice you deserve. We're committed to providing you with personalized attention and support throughout the legal process.</p>
