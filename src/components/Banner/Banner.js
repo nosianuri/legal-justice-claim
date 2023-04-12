@@ -20,10 +20,10 @@ const Banner = () => {
               </h2>
               <h4 className='text-[20px] lg:text-[32px] md:text-[25px] text-white'>Expert Legal Advocates for Winning Your Lawsuit and Maximum Compensation</h4>
               <div className=' mx-auto'>
-              <SlidingTextAnimation />
+              {/* <SlidingTextAnimation /> */}
               </div>
               
-              <div className="flex justify-between items-center bg-[#800020] sm:py-3 sm:px-5 p-2 mt-5 w-1/2 mx-auto">
+              <div className="flex justify-between items-center bg-[#800020] sm:py-3 sm:px-5 p-2 mt-5 sm:w-1/2 mx-auto">
                 <select name="status" id="form-select" className="border border-gray-400 block py-2 px-4 w-1/2 rounded focus:outline-none font-semibold">
                   <option value="">Select a Lawsuit</option>
                   <option value="earplug">3M Earplugs</option>

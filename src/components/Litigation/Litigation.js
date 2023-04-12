@@ -28,7 +28,7 @@ const Litigation = () => {
     },
     {
       id: 4,
-      url: 'https://i.ibb.co/VQPgs12/talcom-powder.jpg',
+      url: 'https://i.ibb.co/0ZqZ5pj/talcome.png',
       link: '/',
       title: 'Talcum Powder',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
@@ -44,7 +44,7 @@ const Litigation = () => {
     },
     {
       id: 6,
-      url: 'https://i.ibb.co/0ZqZ5pj/talcome.png',
+      url: 'https://i.ibb.co/x8czHPt/tyleon.png',
       link: '/',
       title: 'Tylenol',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
