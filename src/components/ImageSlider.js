@@ -55,7 +55,7 @@ const ImageSlider = () => {
                                 <h1 className='lg:text-4xl text-xl pt-3 lg:mb-3'>{image.title}</h1>
                                 <p className='lg:text-2xl text-md lg:mb-3'>{image.desc}</p>
                                 <a href={image.link}>
-                                    <button className='bg-[#BD902D] hover:bg-[#13100E] lg:px-3 py-1 font-semibold rounded'>Free Claim Review »</button>
+                                    <button className='bg-[#228B22] hover:bg-[#13100E] lg:px-3 py-1 font-semibold rounded'>Free Claim Review »</button>
                                 </a>
                             </div>
                         </div>

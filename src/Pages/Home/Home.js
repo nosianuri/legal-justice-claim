@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 import Banner from '../../components/Banner/Banner';
 import NavigationMenu from '../../components/Navbar/NavigationMenu';
 import Sidebar from '../../components/Navbar/Sidebar';
+import Hbanner from '../../components/Hbanner/Hbanner';
 
 
 const Home = () => {
@@ -16,7 +17,8 @@ const Home = () => {
       </Helmet>
       {/* <Sidebar /> */}
       <NavigationMenu />
-      <Banner />
+      <Hbanner />
+      {/* <Banner /> */}
       <MainBody />
       <Footer />
     </div>

@@ -54,7 +54,9 @@ const MainBody = () => {
             </div> */}
             <div className=' mt-[50px]'>
                 <div className="flex justify-between items-center bg-[#800020] sm:py-3 sm:px-5 p-2 mt-5 max-w-[1280px] mx-auto">
-                <div className='text-white font-bold text-xl'>Read Testimonial</div>
+                <div className='text-white font-bold text-xl'>Discover Our Client Testimonials
+
+</div>
                 <select name="status" id="form-select" className="border border-gray-400 block py-2 px-4 w-1/2 rounded focus:outline-none font-semibold">
                   <option value="">Select a Lawsuit</option>
                   <option value="earplug">3M Earplugs</option>
