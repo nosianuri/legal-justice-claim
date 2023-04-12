@@ -4,21 +4,12 @@ import Elmiron from '../Elmiron/Elmiron';
 import RoundUp from '../RoundUp/RoundUp';
 import RoundUpProduct from '../RoundUpProduct/RoundUpProduct';
 import Litigation from '../Litigation/Litigation';
-import Additional from '../Additional/Additional';
-import LawsuitField from './LawsuitField';
+
 import star from '../../assets/citrus-stars.svg';
 import google from '../../assets/google.svg';
-import seen1 from '../../assets/in-logo2.png.webp';
-import seen2 from '../../assets/nb-logo.png.webp';
-import seen3 from '../../assets/th-logo6.png.webp';
-import seen4 from '../../assets/usa-logo7.png.webp';
-import seen5 from '../../assets/ne-logo5.png.webp';
-import seen6 from '../../assets/in-logo2.png.webp';
 import ImageSlider from '../ImageSlider';
 import LogoSlider from '../LogoSlider';
 import ExposureSlider from '../ExposureSlider';
-import BlogPost from '../BlogPost/BlogPost';
-
 
 const MainBody = () => {
     return (
@@ -53,7 +44,7 @@ const MainBody = () => {
                 </div>
             </div> */}
             <div className=' mt-[50px]'>
-                <div className="flex justify-between items-center bg-[#800020] sm:py-3 sm:px-5 p-2 mt-5 max-w-[1280px] mx-auto">
+                <div className="flex justify-between items-center bg-[#E1251A] sm:py-3 sm:px-5 p-2 mt-5 max-w-[1280px] mx-auto">
                     <div className='text-white font-bold text-xl'>Discover Our Client Testimonials
 
                     </div>
