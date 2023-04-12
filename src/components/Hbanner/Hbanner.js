@@ -39,10 +39,13 @@ const Hbanner = () => {
                     <div className='bg-[#373536] mt-10 text-[#fff] py-5 px-10 mb-10 '>
                         <strong className='text-[#F8F8F8] uppercase  fnt'>Find the Lawsuit</strong>
                         <div className='mt-2'>
-                            <div className='border border-[#fff] bg-[#fff] pl-3 py-1 font-medium '>
-                            <input className='bg-transparent outline-none w-1/2 text-lg text-[#000]' type="text" value={searchlaw} name="search" placeholder="Search Lawsuit..." onChange={(event) => { setSearchlaw(event.target.value) }} />
-                                
+                            <div className='border border-[#fff] bg-[#fff]  p-1 font-medium sm:flex'>
+                            <div>
+                            <input className='bg-transparent outline-none w-full text-lg text-[#000] py-4 pl-3 pr-32' type="text" value={searchlaw} name="search" placeholder="Search Lawsuit..." onChange={(event) => { setSearchlaw(event.target.value) }} />
+                            </div>
+                                <div className='text-center'>
                                 <button onClick={() => onSearch(searchlaw)} ><div className='bg-[#E1251A] font-[800] !text-[17.776px] py-4 px-16 '>File Lawsuit Now!</div></button>
+                                </div>
                             </div>
                             {/* <div className='dropdown'>
                                 {data.filter(item => {
