@@ -12,7 +12,7 @@ const Litigation = () => {
     },
     {
       id: 2,
-      url: 'https://i.ibb.co/7QSdd2z/camp-lejeune.png',
+      url: 'https://i.ibb.co/QFfr78N/camp.png',
       link: '/',
       title: 'Camp Lejeune',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
@@ -20,7 +20,7 @@ const Litigation = () => {
     },
     {
       id: 3,
-      url: 'https://i.ibb.co/ww8PhkP/car.png',
+      url: 'https://i.ibb.co/hm3FyP3/auto.png',
       link: '/',
       title: 'MVA',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
@@ -44,7 +44,7 @@ const Litigation = () => {
     },
     {
       id: 6,
-      url: 'https://i.ibb.co/Wv6nDYR/NEC-1.jpg',
+      url: 'https://i.ibb.co/0ZqZ5pj/talcome.png',
       link: '/',
       title: 'Tylenol',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
@@ -52,7 +52,7 @@ const Litigation = () => {
     },
     {
       id: 7,
-      url: 'https://i.ibb.co/Wv6nDYR/NEC-1.jpg',
+      url: 'https://i.ibb.co/jDMBy6L/firefighter.png',
       link: '/',
       title: 'Fire Fighter Foam',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
@@ -60,13 +60,18 @@ const Litigation = () => {
     },
     {
       id: 8,
-      url: 'https://i.ibb.co/Wv6nDYR/NEC-1.jpg',
+      url: 'https://i.ibb.co/t2ycKvT/hair.png',
       link: '/',
       title: 'Hair Relaxer',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
       desc: 'The average verdict or settlement payout in a sampling of recent malpractice lawsuits for NEC in premature infants was around $3.5 million, but some cases may be worth more or less than that. The estimated settlement amounts for NEC lawsuits may range between $5,000 to over $500,000, but these are not guaranteed and depend on the outcome of each case. The compensation amount for NEC lawsuits may vary depending on the severity of the injury, the fault of the defendant, the future medical expenses, and other factors...',
     },
   ];
+  
+
+
+
+
   return (
     <div className='max-w-7xl mx-auto px-1'>
       <div className='grid lg:grid-cols-4 grid-cols-1 gap-10 my-10' >

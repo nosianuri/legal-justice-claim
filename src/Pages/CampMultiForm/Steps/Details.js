@@ -117,6 +117,7 @@ const Details = ({ page, setPage, setAllData, AllData }) => {
           <input className="sm:text-xl text-lg cursor-pointer rounded-lg bg-[#0d58ad] py-2 px-4 font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-[#002f65] hover:text-white" type="submit" value="Continue" />
         </div>
       </form>
-    </div>)
+    </div>
+    )
 }
 export default Details

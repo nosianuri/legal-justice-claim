@@ -13,7 +13,6 @@ const Banner = () => {
       <div className='bg-black bg-opacity-40'>
         {/* <NavigationMenu /> */}
         <div className='container mx-auto lg:min-h-[580px]  min-h-[490px] flex justify-center items-center'>
-          {/* text */}
           <div className='text-center flex flex-col sm:mt-16'>
             <div
               className='font-primary italic lg:font-bold mb-1 lg:px-36 md:px-8 lg:mx-36 pt-16 px-5'>
