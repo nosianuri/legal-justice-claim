@@ -44,9 +44,9 @@ const BannerSlider = () => {
                         }}>
                             <div className='bg-black bg-opacity-50 lg:min-h-[580px]  min-h-[380px] flex  items-center'>
                                 <div className='sm:mt-10 mt-8 sm:px-10 px-1'>
-                                    <img src="https://i.ibb.co/HqmYDxT/Scale.png" alt="" className='!w-16 mx-auto ' />
-                                    <h4 className='text-[23px] lg:text-[45px] md:text-[40px] expert text-white text-center'>Expert Legal Advocates for <br /> Winning Your</h4>
-                                    <h5 className="sliding-text text-[23px] lg:text-[45px] md:text-[40px] text-white font-medium compensation text-center tracking-widest">Lawsuit <br /> Compensation</h5>
+                                    <img src="https://i.ibb.co/HqmYDxT/Scale.png" alt="" className='!w-24 mx-auto ' />
+                                    <h4 className='text-[23px] lg:text-[38px] md:text-[32px] expert text-white text-center leading-tight'>Expert Legal Advocates for <br /> Winning Your</h4>
+                                    <h5 className="sliding-text text-[23px] lg:text-[45px] md:text-[40px] text-white font-medium compensation text-center tracking-widest leading-tight">Lawsuit <br /> Compensation</h5>
 
                                     <div className='bg-[#373536] mt-10 text-[#fff] py-5 px-10 mb-10 '>
                                         <strong className='text-[#F8F8F8] uppercase  fnt'>Find the Lawsuit</strong>
