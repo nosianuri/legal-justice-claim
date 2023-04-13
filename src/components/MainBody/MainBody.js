@@ -47,13 +47,10 @@ const MainBody = () => {
             </div> */}
             <div className='sm:mx-0 mx-2'>
                 <div className=' mt-[50px]'>
-                    {/* <div className="flex justify-between items-center bg-[#E1251A] sm:py-3 sm:px-5 p-2 mt-5 max-w-[1280px] mx-auto">
-                    <div className='text-white font-bold text-xl'>Discover Our Client Testimonials
-
-                    </div>
-                   
-                </div> */}
                     <div className='grid sm:grid-cols-2 grid-cols-1 max-w-7xl mx-auto'>
+                        <div>
+                            <img src="https://i.ibb.co/S5DS19z/claim-spot-removebg-preview.png" alt="" />
+                        </div>
                         <div>
                             <h1 className='lg:text-4xl text-2xl font-semibold !leading-normal mb-2 font_verity italic'><span className=''>Secure Justice and Compensation</span>  with Our Experienced Legal Team</h1>
                             <p className='font-medium text-lg'> We understand that an injury can be a life-changing event, causing physical, emotional, and financial turmoil. At our law firm, we're here to help you rise above your injury and reclaim your life. Our team of compassionate lawyers will fearlessly fight for your rights, securing the maximum compensation you're entitled to and the justice you deserve. We're committed to providing you with personalized attention and support throughout the legal process.</p>
@@ -91,9 +88,7 @@ const MainBody = () => {
                         </div>
 
                     </div> */}
-                        <div>
-                            <img src="https://i.ibb.co/fFKFtLF/book-appointment-lg.png" alt="" />
-                        </div>
+
                     </div>
                     <div className='sm:mb-16 mt-16'>
                         <div className='text-center text-3xl text-[#000] font-bold mb-3'>As Seen In</div>
