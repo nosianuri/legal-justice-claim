@@ -15,7 +15,7 @@ const BreakingTitle = () => {
                     Our Compassionate Lawyers Will Fight for Your Rightful Compensation
                     </li>
                     <li>
-                    Let Our Skilled Lawyers Fight for Your Rights and Recovery"
+                    Let Our Skilled Lawyers Fight for Your Rights and Recovery
                     </li>
                 </ul>
             </div>

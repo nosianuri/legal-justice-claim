@@ -112,6 +112,7 @@
   color: white;
   font-weight: bold;
   z-index: 200;
+  font-size: 25px;
 }
 
 .news-container ul {
@@ -126,6 +127,7 @@
   padding: 10px 24px;
   color: #E1251A;
   position: relative;
+  font-size: 22px;
 }
 
 .news-container ul li::after {
@@ -149,12 +151,18 @@
 
   to {
       transform: translateX(-1083px);
-
   }
 }
 
 @media screen and (max-width: 780px) {
   .news-container {
     overflow-x: hidden;
+  }
+  .news-container .title {
+font-size: 16px;
+padding: 0 2px;
+  }
+  .news-container ul li {
+    font-size: 14px;
   }
 }
