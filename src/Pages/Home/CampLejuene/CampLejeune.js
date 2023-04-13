@@ -9,12 +9,12 @@ import Footer from '../../../components/Footer/Footer'
 const CampLejeune = () => {
   return (
     <div>
-    <NavigationMenu />
-        <CampHead />
-        <CampForm />
-        <CampWork />
-        <CampHelp />
-        <Footer />
+      <NavigationMenu />
+      <CampHead />
+      <CampForm />
+      <CampWork />
+      <CampHelp />
+      <Footer />
     </div>
   )
 }

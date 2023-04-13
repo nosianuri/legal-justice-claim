@@ -27,7 +27,7 @@ const GetInTouch = () => {
                         <div class="card">
                             <img src={img2} class="card-img-top" alt="..." />
                             <div class="card-body">
-                                <h6 class="card-title text-center">CATASTROPHIC INJURIES</h6>
+                                <h6 class="card-title mx-auto text-center">CATASTROPHIC INJURIES</h6>
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ const GetInTouch = () => {
                         <div class="card">
                             <img src={img3} class="card-img-top" alt="..." />
                             <div class="card-body">
-                                <h6 class="card-title text-center">NECK INJURIES</h6>
+                                <h6 class="card-title mx-auto">NECK INJURIES</h6>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const GetInTouch = () => {
                         <div class="card">
                             <img src={img4} class="card-img-top" alt="..." />
                             <div class="card-body">
-                                <h6 class="card-title  text-center">BRAIN INJURIES</h6>
+                                <h6 class="card-title mx-auto">BRAIN INJURIES</h6>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const GetInTouch = () => {
                         <div class="card">
                             <img src={img5} class="card-img-top" alt="..." />
                             <div class="card-body">
-                                <h6 class="card-title text-center">BROKEN BONE INJURIES</h6>
+                                <h6 class="card-title mx-auto text-center">BROKEN BONE INJURIES</h6>
                             </div>
                         </div>
                     </div>

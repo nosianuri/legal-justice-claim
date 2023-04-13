@@ -4,7 +4,6 @@ import Elmiron from '../Elmiron/Elmiron';
 import RoundUp from '../RoundUp/RoundUp';
 import RoundUpProduct from '../RoundUpProduct/RoundUpProduct';
 import Litigation from '../Litigation/Litigation';
-
 import star from '../../assets/citrus-stars.svg';
 import google from '../../assets/google.svg';
 import ImageSlider from '../ImageSlider';
@@ -130,8 +129,9 @@ const MainBody = () => {
                         </div>
                     </div>
                 </div> */}
-                <GetInTouch />
-
+                    <div id='why-us'>
+                        <GetInTouch />
+                    </div>
                     <img src={star} alt="" className='mx-auto w-48' />
                     <div className='font-bold sm:text-3xl text-center mt-3'>Our Personal Injury Lawyers Have <br /> </div>
                     <div className='flex items-center justify-center font-bold sm:text-3xl mb-5'> Over 55,000 5-Star <img src={google} alt="" className='sm:w-24 w-16 mx-2' /> Logo Reviews</div>

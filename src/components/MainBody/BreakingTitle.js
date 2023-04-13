@@ -5,7 +5,7 @@ const BreakingTitle = () => {
         <div>
             <div class="news-container">
                 <div class="title">
-                Discover Our Client 
+                <a href="#why-us">Discover Our Achievement</a> 
                 </div>
                 <ul>
                     <li>
