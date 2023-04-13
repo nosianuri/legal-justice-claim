@@ -14,8 +14,8 @@ import BreakingTitle from './BreakingTitle';
 
 const MainBody = () => {
     return (
-        <div className='sm:mx-0 mx-2'>
-        <BreakingTitle />
+        <div>
+            <BreakingTitle />
             {/* <div className='sm:flex gap-10 justify-between'>
                 <div className=''>
                     <LawsuitField />
@@ -45,32 +45,33 @@ const MainBody = () => {
                     </div>
                 </div>
             </div> */}
-            <div className=' mt-[50px]'>
-                {/* <div className="flex justify-between items-center bg-[#E1251A] sm:py-3 sm:px-5 p-2 mt-5 max-w-[1280px] mx-auto">
+            <div className='sm:mx-0 mx-2'>
+                <div className=' mt-[50px]'>
+                    {/* <div className="flex justify-between items-center bg-[#E1251A] sm:py-3 sm:px-5 p-2 mt-5 max-w-[1280px] mx-auto">
                     <div className='text-white font-bold text-xl'>Discover Our Client Testimonials
 
                     </div>
                    
                 </div> */}
-                <div className='grid sm:grid-cols-2 grid-cols-1 max-w-7xl mx-auto'>
-                    <div>
-                        <h1 className='lg:text-4xl text-2xl font-semibold !leading-normal mb-2 font_verity italic'><span className=''>Secure Justice and Compensation</span>  with Our Experienced Legal Team</h1>
-                        <p className='font-medium text-lg'> We understand that an injury can be a life-changing event, causing physical, emotional, and financial turmoil. At our law firm, we're here to help you rise above your injury and reclaim your life. Our team of compassionate lawyers will fearlessly fight for your rights, securing the maximum compensation you're entitled to and the justice you deserve. We're committed to providing you with personalized attention and support throughout the legal process.</p>
-                        <div className='mt-2'>
-                            {/* <div className='uppercase font-semibold text-2xl my-3 font_verity italic'>We Help People Take Legal Action Against Those Held Accountable For Mistake.</div> */}
-                            <div className='space-y-2 bg-gray-200 p-4 items-center'>
-                                <div className='flex space-x-2 '><i className="fa-solid fa-check text-2xl text-[#228B22] font-bold"></i><p className='lg:text-lg  font-semibold'>Get the Compensation You're Entitled to: Schedule a FREE, No-Obligation Consultation Today!
-                                </p></div>
+                    <div className='grid sm:grid-cols-2 grid-cols-1 max-w-7xl mx-auto'>
+                        <div>
+                            <h1 className='lg:text-4xl text-2xl font-semibold !leading-normal mb-2 font_verity italic'><span className=''>Secure Justice and Compensation</span>  with Our Experienced Legal Team</h1>
+                            <p className='font-medium text-lg'> We understand that an injury can be a life-changing event, causing physical, emotional, and financial turmoil. At our law firm, we're here to help you rise above your injury and reclaim your life. Our team of compassionate lawyers will fearlessly fight for your rights, securing the maximum compensation you're entitled to and the justice you deserve. We're committed to providing you with personalized attention and support throughout the legal process.</p>
+                            <div className='mt-2'>
+                                {/* <div className='uppercase font-semibold text-2xl my-3 font_verity italic'>We Help People Take Legal Action Against Those Held Accountable For Mistake.</div> */}
+                                <div className='space-y-2 bg-gray-200 p-4 items-center'>
+                                    <div className='flex space-x-2 '><i className="fa-solid fa-check text-2xl text-[#228B22] font-bold"></i><p className='lg:text-lg  font-semibold'>Get the Compensation You're Entitled to: Schedule a FREE, No-Obligation Consultation Today!
+                                    </p></div>
 
-                                <div className='flex space-x-2'><i className="fa-solid fa-check text-2xl text-[#228B22] font-bold"></i><p className='lg:text-lg font-semibold'>Our Expert Legal Team Will Fight for Your Rights While You Pay Nothing Upfront!
-                                </p></div>
+                                    <div className='flex space-x-2'><i className="fa-solid fa-check text-2xl text-[#228B22] font-bold"></i><p className='lg:text-lg font-semibold'>Our Expert Legal Team Will Fight for Your Rights While You Pay Nothing Upfront!
+                                    </p></div>
 
-                                <div className='flex space-x-2'><i className="fa-solid fa-check text-2xl text-[#228B22] font-bold"></i><p className='lg:text-lg font-semibold'>Rest Easy Knowing Your Information is Safe
-                                </p></div>
+                                    <div className='flex space-x-2'><i className="fa-solid fa-check text-2xl text-[#228B22] font-bold"></i><p className='lg:text-lg font-semibold'>Rest Easy Knowing Your Information is Safe
+                                    </p></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    {/* <div className=' '>
+                        {/* <div className=' '>
                         <h3 className='uppercase lg:text-2xl text-xl bg-gray-700 text-white text-center py-1 px-2 font_verity'>Compensation <span className='text-gray-700'>-</span> Available</h3>
                         <div className='p-5'>
                             <p><a className='hover:text-[#8bc53f]' href="/earplug">3M Earplugs</a> </p>
@@ -90,27 +91,27 @@ const MainBody = () => {
                         </div>
 
                     </div> */}
-                    <div>
-                        <img src="https://i.ibb.co/fFKFtLF/book-appointment-lg.png" alt="" />
+                        <div>
+                            <img src="https://i.ibb.co/fFKFtLF/book-appointment-lg.png" alt="" />
+                        </div>
+                    </div>
+                    <div className='sm:mb-16 mt-16'>
+                        <div className='text-center text-3xl text-[#000] font-bold mb-3'>As Seen In</div>
+                        <div className='max-w-7xl mx-auto'>
+                            <LogoSlider />
+                        </div>
+                    </div>
+                    <div className='mx-auto my-10'>
+                        <ImageSlider />
                     </div>
                 </div>
-                <div className='sm:mb-16 mt-16'>
-                    <div className='text-center text-3xl text-[#000] font-bold mb-3'>As Seen In</div>
-                    <div className='max-w-7xl mx-auto'>
-                        <LogoSlider />
+                <div className=''>
+
+                    <div className='mx-auto'>
+                        <ExposureSlider />
                     </div>
-                </div>
-                <div className='mx-auto my-10'>
-                    <ImageSlider />
-                </div>
-            </div>
-            <div className=''>
 
-                <div className='mx-auto'>
-                    <ExposureSlider />
-                </div>
-
-                {/* <div className='my-5 max-w-7xl mx-auto '>
+                    {/* <div className='my-5 max-w-7xl mx-auto '>
                     <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-16 gap-5 lg:mb-8 '>
                         <div data-aos='fade-right' data-aos-delay='300'>
                             <h1 className='lg:text-4xl text-2xl font-semibold !leading-normal mb-2 font_verity italic'><span className=''>Secure Justice and Compensation</span>  with Our Experienced Legal Team</h1>
@@ -129,12 +130,12 @@ const MainBody = () => {
                     </div>
                 </div> */}
 
-                <img src={star} alt="" className='mx-auto w-48' />
-                <div className='font-bold sm:text-3xl text-center mt-3'>Our Personal Injury Lawyers Have <br /> </div>
-                <div className='flex items-center justify-center font-bold sm:text-3xl mb-5'> Over 55,000 5-Star <img src={google} alt="" className='sm:w-24 w-16 mx-2' /> Logo Reviews</div>
-                <Litigation />
+                    <img src={star} alt="" className='mx-auto w-48' />
+                    <div className='font-bold sm:text-3xl text-center mt-3'>Our Personal Injury Lawyers Have <br /> </div>
+                    <div className='flex items-center justify-center font-bold sm:text-3xl mb-5'> Over 55,000 5-Star <img src={google} alt="" className='sm:w-24 w-16 mx-2' /> Logo Reviews</div>
+                    <Litigation />
+                </div>
             </div>
-
         </div>
     )
 }
