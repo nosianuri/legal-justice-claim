@@ -12,10 +12,10 @@ const Hbanner = () => {
             background: `url(https://i.ibb.co/bJDWLCP/home-banner-new.jpg)`
         }} className=' bg-hero !bg-cover '>
             <div className='bg-black bg-opacity-50 lg:min-h-[580px]  min-h-[380px] flex  items-center '>
-                <div className='sm:mt-28 mt-8 sm:px-10 px-1'>
+                <div className='sm:mt-16 mt-8 sm:px-10 px-1'>
                     {/* <h2 className='text-[38px] lg:text-[58px] md:text-[40px] font-bold text-white sm:pt-16'>Legal Justice Claim
                     </h2> */}
-                    <h4 className='text-[30px] lg:text-[45px] md:text-[40px] font-bold text-white sm:pt-16 sm:w-[500px]'>Expert Legal Advocates for Winning Your Lawsuit and Maximum Compensation.</h4>
+                    <h4 className='text-[30px] lg:text-[45px] md:text-[40px] font-bold text-white sm:pt-16 sm:w-[800px]'>Expert Legal Advocates for Winning Your Lawsuit and Maximum Compensation.</h4>
                     <h5 className="sliding-text text-[20px] lg:text-[32px] md:text-[25px] text-white">Over $900 Million Recovered for 5,000+ Clients</h5>
                     {/* <div className="flex justify-between items-center bg-[#800020] sm:py-3 sm:px-5 p-2 mt-5 sm:w-2/3 mb-10">
                 <select name="status" id="form-select" className="border border-gray-400 block py-2 px-4 w-1/2 rounded focus:outline-none font-semibold">
