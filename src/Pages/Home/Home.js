@@ -6,6 +6,7 @@ import Banner from '../../components/Banner/Banner';
 import NavigationMenu from '../../components/Navbar/NavigationMenu';
 import Sidebar from '../../components/Navbar/Sidebar';
 import Hbanner from '../../components/Hbanner/Hbanner';
+import LegalHeader from '../../components/LegalHeader/LegalHeader';
 
 
 const Home = () => {
@@ -15,10 +16,9 @@ const Home = () => {
         <meta charSet="utf-8" />
         <title>Legal Justice Claim </title>
       </Helmet>
-      {/* <Sidebar /> */}
-      <NavigationMenu />
+      {/* <NavigationMenu /> */}
+      <LegalHeader />
       <Hbanner />
-      {/* <Banner /> */}
       <MainBody />
       <Footer />
     </div>

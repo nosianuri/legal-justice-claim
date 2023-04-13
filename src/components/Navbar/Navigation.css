@@ -63,6 +63,12 @@
     text-align: start;
     margin: 2px 10px;
   }
+  .legal{
+    font-family: 'Squada One', cursive;
+  }
+  .lehead{
+    background-image: linear-gradient(to left, #ffffffbf, #A9B8C3,#ffffffbf);
+  }
   
   @media only screen and (max-width: 768px) {
     .nav-list {
