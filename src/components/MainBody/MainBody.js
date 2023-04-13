@@ -11,6 +11,7 @@ import ImageSlider from '../ImageSlider';
 import LogoSlider from '../LogoSlider';
 import ExposureSlider from '../ExposureSlider';
 import BreakingTitle from './BreakingTitle';
+import GetInTouch from '../GetInTouch/GetInTouch';
 
 const MainBody = () => {
     return (
@@ -129,6 +130,7 @@ const MainBody = () => {
                         </div>
                     </div>
                 </div> */}
+                <GetInTouch />
 
                     <img src={star} alt="" className='mx-auto w-48' />
                     <div className='font-bold sm:text-3xl text-center mt-3'>Our Personal Injury Lawyers Have <br /> </div>
