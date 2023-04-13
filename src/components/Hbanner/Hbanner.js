@@ -12,7 +12,7 @@ const Hbanner = () => {
             background: `url(https://i.ibb.co/bJDWLCP/home-banner-new.jpg)`
         }} className=' bg-hero !bg-cover '>
             <div className='bg-black bg-opacity-50 lg:min-h-[580px]  min-h-[380px] flex  items-center '>
-                <div className='sm:mt-16 mt-8 sm:px-10 px-1'>
+                <div className='sm:mt-10 mt-8 sm:px-10 px-1'>
                     {/* <h2 className='text-[38px] lg:text-[58px] md:text-[40px] font-bold text-white sm:pt-16'>Legal Justice Claim
                     </h2> */}
                     <h4 className='text-[30px] lg:text-[45px] md:text-[40px] font-bold text-white sm:pt-16 sm:w-[800px]'>Expert Legal Advocates for Winning Your Lawsuit and Maximum Compensation.</h4>

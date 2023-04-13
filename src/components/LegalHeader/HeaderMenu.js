@@ -6,12 +6,8 @@ var data = require("../../LOW_DATA.json")
 const HeaderMenu = () => {
     const [searchlaw, setSearchlaw] = useState("");
     const [showDropdown, setShowDropdown] = useState(false);
-    const [showTestimonial, setShowTestimonial] = useState(false);
 
     const handleDropdown = () => {
-        setShowDropdown(!showDropdown);
-    };
-    const handleTestimonial = () => {
         setShowDropdown(!showDropdown);
     };
    

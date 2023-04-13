@@ -10,10 +10,12 @@ import google from '../../assets/google.svg';
 import ImageSlider from '../ImageSlider';
 import LogoSlider from '../LogoSlider';
 import ExposureSlider from '../ExposureSlider';
+import BreakingTitle from './BreakingTitle';
 
 const MainBody = () => {
     return (
-        <div className='mx-2'>
+        <div className='sm:mx-0 mx-2'>
+        <BreakingTitle />
             {/* <div className='sm:flex gap-10 justify-between'>
                 <div className=''>
                     <LawsuitField />
@@ -44,28 +46,12 @@ const MainBody = () => {
                 </div>
             </div> */}
             <div className=' mt-[50px]'>
-                <div className="flex justify-between items-center bg-[#E1251A] sm:py-3 sm:px-5 p-2 mt-5 max-w-[1280px] mx-auto">
+                {/* <div className="flex justify-between items-center bg-[#E1251A] sm:py-3 sm:px-5 p-2 mt-5 max-w-[1280px] mx-auto">
                     <div className='text-white font-bold text-xl'>Discover Our Client Testimonials
 
                     </div>
-                    {/* <select name="status" id="form-select" className="border border-gray-400 block py-2 px-4 w-1/2 rounded focus:outline-none font-semibold">
-                        <option value="">Select a Lawsuit</option>
-                        <option value="earplug">3M Earplugs</option>
-                        <option value="caraccident">Car Accident</option>
-                        <option value="fire-fighting">Fire Fighting</option>
-                        <option value="medical-malpractice">Medical Malpractice</option>
-                        <option value="mesothelioma">Mesothelioma</option>
-                        <option value="motorcycle-accident">Motorcycle Accident</option>
-                        <option value="out-for-delivery">NEC</option>
-                        <option value="personal-injury">Personal Injury</option>
-                        <option value="roundup">Roundup</option>
-                        <option value="sex-abuse">Sex Abuse</option>
-                        <option value="talcum-powder">Talcum Powder</option>
-                        <option value="truck-accident">Truck Accident</option>
-                        <option value="zantac">Zantac</option>
-                    </select> */}
-                    {/* <button className='bg-[#228B22] py-2 px-4 rounded'><a className='text-white text-lg font-semibold' href="/">Submit</a></button> */}
-                </div>
+                   
+                </div> */}
                 <div className='grid sm:grid-cols-2 grid-cols-1 max-w-7xl mx-auto'>
                     <div>
                         <h1 className='lg:text-4xl text-2xl font-semibold !leading-normal mb-2 font_verity italic'><span className=''>Secure Justice and Compensation</span>  with Our Experienced Legal Team</h1>
