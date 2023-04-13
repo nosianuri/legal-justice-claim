@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import './LegalHeader.css';
+import { FaSearch } from 'react-icons/fa';
+var data = require("../../LOW_DATA.json")
 
 const HeaderMenu = () => {
+    const [searchlaw, setSearchlaw] = useState("");
     const [showDropdown, setShowDropdown] = useState(false);
     const [showTestimonial, setShowTestimonial] = useState(false);
 
@@ -11,6 +14,11 @@ const HeaderMenu = () => {
     const handleTestimonial = () => {
         setShowDropdown(!showDropdown);
     };
+   
+    const onSearch = (searchTerm) => {
+        setSearchlaw(searchTerm);
+        console.log('search', searchTerm);
+    }
     return (
         <div className='bg-[#131416] text-[#fff] py-2'>
             <div className='sm:block hidden'>
@@ -35,6 +43,24 @@ const HeaderMenu = () => {
                     </div>
                     <div className='text-[16px] px-8 py-2 border border-[#131416] border-r-gray-400 font-semibold hover:bg-[#333] hover:bg-opacity-30'><a href="/">BLOG</a></div>
                     <div className='text-[16px] px-8 py-2 border border-[#131416] border-r-gray-400 font-semibold hover:bg-[#333] hover:bg-opacity-30'><a href="/">CONTACT</a></div>
+                    <div>
+                    <div className=''>
+                        <div className='border-2 border-[#fff] rounded px-3 py-2 font-medium'>
+                            <input className='bg-transparent outline-none' type="text" value={searchlaw} name="search" placeholder="Search Lawsuit..." onChange={(event) => { setSearchlaw(event.target.value) }} />
+                            <button onClick={() => onSearch(searchlaw)} ><FaSearch /></button>
+                        </div>
+                        <div className='dropdown'>
+                            {data.filter(item => {
+                                const searchTerm = searchlaw.toLowerCase();
+                                const fullName = item.name.toLowerCase();
+                                return searchTerm && fullName.startsWith(searchTerm) && fullName !== searchTerm
+                            }).slice(0, 10)
+                                .map((item) => (
+                                    <div key={item._id} className='dropdown-row' onClick={() => onSearch(item.name)}>{item.name}</div>
+                                ))}
+                        </div>
+                    </div>
+                    </div>
                 </div>
             </div>
             <div className='block sm:hidden'>

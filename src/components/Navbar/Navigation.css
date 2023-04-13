@@ -64,7 +64,7 @@
     margin: 2px 10px;
   }
   .legal{
-    font-family: 'Squada One', cursive;
+    font-family: 'Shrikhand', cursive !important;
   }
   .lehead{
     background-image: linear-gradient(to left, #bfbcbcbf,#ffffffbf);
