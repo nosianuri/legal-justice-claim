@@ -7,6 +7,7 @@ import NavigationMenu from '../../components/Navbar/NavigationMenu';
 import Sidebar from '../../components/Navbar/Sidebar';
 import Hbanner from '../../components/Hbanner/Hbanner';
 import LegalHeader from '../../components/LegalHeader/LegalHeader';
+import BannerSlider from '../../components/BannerSlider';
 
 
 const Home = () => {
@@ -18,7 +19,8 @@ const Home = () => {
       </Helmet>
       {/* <NavigationMenu /> */}
       <LegalHeader />
-      <Hbanner />
+      <BannerSlider />
+      {/* <Hbanner /> */}
       <MainBody />
       <Footer />
     </div>
