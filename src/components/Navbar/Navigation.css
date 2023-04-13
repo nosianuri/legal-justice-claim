@@ -67,7 +67,7 @@
     font-family: 'Squada One', cursive;
   }
   .lehead{
-    background-image: linear-gradient(to left, #ffffffbf, #A9B8C3,#ffffffbf);
+    background-image: linear-gradient(to left, #bfbcbcbf,#ffffffbf);
   }
   
   @media only screen and (max-width: 768px) {

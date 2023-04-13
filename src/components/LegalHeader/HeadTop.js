@@ -19,7 +19,7 @@ const HeadTop = () => {
         <div className='sm:block hidden'>
             <div className='bg-[#cf2e2e] text-[#fff] px-4 py-2 font-medium text-[22px] hover:underline' >Free Consultation</div>
             <div className='mt-2'>
-                        <div className='border-2 border-gray-800 rounded px-3 py-1 font-medium'>
+                        <div className='border-2 border-gray-800 rounded px-3 py-2 font-medium'>
                             <input className='bg-transparent outline-none' type="text" value={searchlaw} name="search" placeholder="Search Lawsuit..." onChange={(event) => { setSearchlaw(event.target.value) }} />
                             <button onClick={() => onSearch(searchlaw)} ><FaSearch /></button>
                         </div>
