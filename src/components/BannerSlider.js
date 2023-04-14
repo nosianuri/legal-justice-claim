@@ -29,7 +29,7 @@ const BannerSlider = () => {
         autoplay: true,
         autoplaySpeed: 3000,
     };
-    
+
     const onSearch = (searchTerm) => {
         setSearchlaw(searchTerm);
         console.log('search', searchTerm);
@@ -49,11 +49,24 @@ const BannerSlider = () => {
                                     <h5 className="sliding-text text-[23px] lg:text-[45px] md:text-[40px] text-white font-medium compensation text-center tracking-widest leading-tight">Lawsuit <br /> Compensation</h5>
 
                                     <div className='bg-[#373536] mt-10 text-[#fff] py-5 px-10 mb-10 '>
-                                        <strong className='text-[#F8F8F8] uppercase  fnt'>Find the Lawsuit</strong>
+                                        <strong className='text-[#F8F8F8] uppercase fnt'>Find the Lawsuit</strong>
                                         <div className='mt-2'>
                                             <div className='border border-[#fff] bg-[#fff]  p-1 font-medium grid sm:grid-cols-2 grid-cols-1'>
                                                 <div>
-                                                    <input className='bg-transparent outline-none w-full text-lg text-[#000] py-4 pl-3 pr-32' type="text" value={searchlaw} name="search" placeholder="Select Lawsuit..." onChange={(event) => { setSearchlaw(event.target.value) }} />
+                                                    <div className='z-50'>
+                                                        <input className='bg-transparent outline-none w-full text-lg text-[#000] py-4 pl-3 pr-32' type="text" value={searchlaw} name="search" placeholder="Select Lawsuit..." onChange={(event) => { setSearchlaw(event.target.value) }} />
+                                                    </div>
+
+                                                    <div className='dropdown fixed'>
+                                                        {data.filter(item => {
+                                                            const searchTerm = searchlaw.toLowerCase();
+                                                            const fullName = item.name.toLowerCase();
+                                                            return searchTerm && fullName.startsWith(searchTerm) && fullName !== searchTerm
+                                                        }).slice(0, 10)
+                                                            .map((item) => (
+                                                                <div key={item._id} className='dropdown-row' onClick={() => onSearch(item.name)}>{item.name}</div>
+                                                            ))}
+                                                    </div>
                                                 </div>
                                                 <div className='text-center bg-[#E1251A]'>
                                                     <button onClick={() => onSearch(searchlaw)} ><div className=' font-[800] !text-[17.776px] py-4  '>File Lawsuit Now!</div></button>
