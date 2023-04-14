@@ -34,7 +34,7 @@ const ImageSlider = () => {
         },
     ];
     const settings = {
-        dots: true,
+        // dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -53,9 +53,9 @@ const ImageSlider = () => {
                         }}>
                             <div className='elmiron-box lg:w-1/2 '>
                                 <h1 className='lg:text-4xl text-xl pt-3 lg:mb-3 !leading-normal'>{image.title}</h1>
-                                <p className='lg:text-2xl text-md lg:mb-3'>{image.desc}</p>
+                                <p className='lg:text-2xl text-md lg:mb-3 mb-1'>{image.desc}</p>
                                 <a href={image.link}>
-                                    <button className='bg-[#228B22] hover:bg-[#13100E] lg:px-3 py-1 font-semibold rounded'>Free Claim Review »</button>
+                                    <button className='bg-[#228B22] hover:text-[#E1251A] hover:bg-[#fff] lg:px-3 px-2 lg:py-2 py-1 font-semibold rounded sm:text-[25px] text-sm '>Free Claim Review »</button>
                                 </a>
                             </div>
                         </div>
