@@ -17,7 +17,7 @@ const MainBody = () => {
         <div>
             {/* <BreakingTitle /> */}
             <div class="ticker-container flex items-center shadow-md">
-                <div class="title sm:w-[380px] sm:py-1 sm:text-2xl bg-[#E1251A] sm:font-bold text-white text-center">
+                <div class="title sm:w-[380px] sm:py-2 sm:px-2 sm:text-2xl bg-[#E1251A] sm:font-bold text-white text-center">
                     <a className='hover:underline' href="#why-us">Discover Our Achievement</a>
                 </div>
                 <marquee behavior="scroll" direction="left" scrollamount="6">
@@ -59,8 +59,11 @@ const MainBody = () => {
             <div className='sm:mx-0 mx-2'>
                 <div className=' mt-[50px]'>
                     <div className='grid sm:grid-cols-2 grid-cols-1 max-w-7xl mx-auto'>
+
                         <div>
-                            <img src="https://i.ibb.co/S5DS19z/claim-spot-removebg-preview.png" alt="" />
+                            <a href="#testimonial">
+                                <img src="https://i.ibb.co/S5DS19z/claim-spot-removebg-preview.png" alt="" />
+                            </a>
                         </div>
                         <div>
                             <h1 className='lg:text-4xl text-2xl font-semibold !leading-normal mb-2 font_verity italic'><span className=''>Secure Justice and Compensation</span>  with Our Experienced Legal Team</h1>
@@ -107,8 +110,31 @@ const MainBody = () => {
                             <LogoSlider />
                         </div>
                     </div>
-                    <div className='mx-auto my-10'>
-                        <ImageSlider />
+                    <div className='mx-auto my-10 max-w-7xl' id="testimonial">
+                        <div className='sm:flex gap-10'>
+                            <div className=' bg-gray-200 sm:w-[1700px]'>
+                                <h3 className='uppercase lg:text-2xl text-xl bg-gray-700 text-white text-center py-1 px-2 font_verity'>Compensation  <span className='pl-2 font_verity'>Available</span></h3>
+                                <div className='p-5'>
+                                    <p><a className='hover:text-[#8bc53f]' href="/earplug">3M Earplugs</a> </p>
+                                    <p><a className='hover:text-[#8bc53f]' href="/firefighting">Fire Fighting</a> </p>
+                                    <p><a className='hover:text-[#8bc53f]' href="/personalinjury">Medical Malpractice</a> </p>
+                                    <p><a className='hover:text-[#8bc53f]' href="/personalinjury">Car Accident</a> </p>
+                                    <p><a className='hover:text-[#8bc53f]' href="/camplejeune">Camp Lejeune</a> </p>
+                                    <p><a className='hover:text-[#8bc53f]' href="/">Mesothelioma</a> </p>
+                                    <p><a className='hover:text-[#8bc53f]' href="/personalinjury">Motorcycle Accident</a> </p>
+                                    <p><a className='hover:text-[#8bc53f]' href="/nec">NEC</a> </p>
+                                    <p><a className='hover:text-[#8bc53f]' href="/zantac">Zantac</a> </p>
+                                    <p><a className='hover:text-[#8bc53f]' href="/personalinjury">Truck Accident</a> </p>
+                                    <p><a className='hover:text-[#8bc53f]' href="/">Talcum Powder</a> </p>
+                                    <p><a className='hover:text-[#8bc53f]' href="/sexabuse">Sex Abuse</a> </p>
+                                    <p><a className='hover:text-[#8bc53f]' href="/roundup">Roundup</a> </p>
+                                    <p><a className='hover:text-[#8bc53f]' href="/personalinjury">Personal Injury</a> </p>
+                                </div>
+
+                            </div>
+                            <ImageSlider />
+                        </div>
+
                     </div>
                 </div>
                 <div className=''>
