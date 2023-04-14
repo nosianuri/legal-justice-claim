@@ -46,7 +46,7 @@ const BannerSlider = () => {
                                 <div className='sm:mt-10 mt-8 sm:px-10 px-1'>
                                     <img src="https://i.ibb.co/HqmYDxT/Scale.png" alt="" className='!w-24 mx-auto ' />
                                     <h4 className='text-[23px] lg:text-[38px] md:text-[32px] expert text-white text-center leading-tight'>Expert Legal Advocates for <br /> Winning Your</h4>
-                                    <h5 className="sliding-text text-[23px] lg:text-[45px] md:text-[40px] text-white font-medium compensation text-center tracking-widest leading-tight">Lawsuit <br /> Compensation</h5>
+                                    <h5 className="sliding-text text-[23px] lg:text-[45px] md:text-[40px] text-white font-medium compensation text-center tracking-widest leading-tight !max-h-13 !overflow-y-hidden">Lawsuit <br /> Compensation</h5>
 
                                     <div className='bg-[#373536] mt-10 text-[#fff] py-5 px-10 mb-10 '>
                                         <strong className='text-[#F8F8F8] uppercase fnt'>Find the Lawsuit</strong>
@@ -68,7 +68,7 @@ const BannerSlider = () => {
                                                             ))}
                                                     </div>
                                                 </div>
-                                                <div className='text-center bg-[#E1251A]'>
+                                                <div className='text-center bg-[#E1251A] hover:border border-[#E1251A] hover:bg-[#fff] hover:text-[#E1251A]'>
                                                     <button onClick={() => onSearch(searchlaw)} ><div className=' font-[800] !text-[17.776px] py-4  '>File Lawsuit Now!</div></button>
                                                 </div>
                                             </div>

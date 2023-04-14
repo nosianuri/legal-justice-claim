@@ -92,6 +92,7 @@
 .category1 span:hover {
   color: #fff;
 }
+
 /* breaking */
 .news-container {
   position: relative;
@@ -131,7 +132,7 @@
 }
 
 .news-container ul li::after {
-  content:"";
+  content: "";
   width: 1px;
   height: 100%;
   background: #b8b8b8;
@@ -146,22 +147,25 @@
 
 @keyframes scroll {
   from {
-      transform: translateX(100%);
+    transform: translateX(100%);
   }
 
   to {
-      transform: translateX(-1083px);
+    transform: translateX(-1083px);
   }
 }
 
 @media screen and (max-width: 780px) {
-  .news-container {
+  /* .news-container {
     overflow-x: hidden;
-  }
+  } */
+
   .news-container .title {
-font-size: 16px;
-padding: 0 2px;
+    font-size: 12px;
+    padding: 0 2px;
+    width: 80px;
   }
+
   .news-container ul li {
     font-size: 14px;
   }
