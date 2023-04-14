@@ -11,6 +11,7 @@ import Home from './Pages/Home/Home';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import CampLejeune from './Pages/Home/CampLejuene/CampLejeune';
+import LegalNews from './Pages/LegalNews/LegalNews';
 
 function App() {
 //   useEffect(() => {
@@ -27,6 +28,7 @@ Aos.init({
       <Route path='/car-accident' element={<CarAccident />} />
       <Route path='/camp-lejeune' element={<CampMultiForm />} />
       <Route path='/camplejeune' element={<CampLejeune />} />
+      <Route path='/legal-news' element={<LegalNews />} />
       <Route path='/thanks' element={<Thanks />} />
       <Route path='/camplejeune-thanks' element={<Congratulate />} />
       <Route path='/terms&condition' element={<TermsCondition />} />
