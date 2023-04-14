@@ -15,7 +15,18 @@ import GetInTouch from '../GetInTouch/GetInTouch';
 const MainBody = () => {
     return (
         <div>
-            <BreakingTitle />
+            {/* <BreakingTitle /> */}
+            <div class="ticker-container flex items-center shadow-md">
+                <div class="title sm:w-[380px] sm:py-1 sm:text-2xl bg-[#E1251A] sm:font-bold text-white text-center">
+                    <a className='hover:underline' href="#why-us">Discover Our Achievement</a>
+                </div>
+                <marquee behavior="scroll" direction="left" scrollamount="6">
+
+                    <span className='px-5 border border-[#f3f3f3] border-r-[#222] text-[#E1251A]'>Over $900 Million Recovered for 5,000+ Clients</span>
+                    <span className='px-5 border border-[#f3f3f3] border-r-[#222] text-[#E1251A]'>Our Compassionate Lawyers Will Fight for Your Rightful Compensation</span>
+                    <span className='px-5 border border-[#f3f3f3] border-r-[#222] text-[#E1251A]'>Let Our Skilled Lawyers Fight for Your Rights and Recovery</span>
+                </marquee>
+            </div>
             {/* <div className='sm:flex gap-10 justify-between'>
                 <div className=''>
                     <LawsuitField />
