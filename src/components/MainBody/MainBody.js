@@ -22,9 +22,9 @@ const MainBody = () => {
                 </div>
                 <marquee behavior="scroll" direction="left" scrollamount="6">
 
-                    <span className='px-5 border border-[#f3f3f3] border-r-[#222] text-[#E1251A]'>Over $900 Million Recovered for 5,000+ Clients</span>
-                    <span className='px-5 border border-[#f3f3f3] border-r-[#222] text-[#E1251A]'>Our Compassionate Lawyers Will Fight for Your Rightful Compensation</span>
-                    <span className='px-5 border border-[#f3f3f3] border-r-[#222] text-[#E1251A]'>Let Our Skilled Lawyers Fight for Your Rights and Recovery</span>
+                    <span className='px-5 border border-[#f3f3f3] border-r-[#bfbbbb] text-[#E1251A]'>Over $900 Million Recovered for 5,000+ Clients</span>
+                    <span className='px-5 border border-[#f3f3f3] border-r-[#bfbbbb] text-[#E1251A]'>Our Compassionate Lawyers Will Fight for Your Rightful Compensation</span>
+                    <span className='px-5 border border-[#f3f3f3] border-r-[#bfbbbb] text-[#E1251A]'>Let Our Skilled Lawyers Fight for Your Rights and Recovery</span>
                 </marquee>
             </div>
             {/* <div className='sm:flex gap-10 justify-between'>
