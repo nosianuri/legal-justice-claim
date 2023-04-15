@@ -12,18 +12,18 @@ import BannerSlider from '../../components/BannerSlider';
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Helmet>
         <meta charSet="utf-8" />
         <title>Legal Justice Claim </title>
       </Helmet>
-      {/* <NavigationMenu /> */}
-      <LegalHeader />
-      <BannerSlider />
-      {/* <Hbanner /> */}
-      <MainBody />
-      <Footer />
-    </div>
+      <div>
+        <LegalHeader />
+        <BannerSlider />
+        <MainBody />
+        <Footer />
+      </div>
+    </>
   )
 }
 

@@ -7,18 +7,25 @@ import CampHelp from './CampHelp';
 import Footer from '../../../components/Footer/Footer';
 import CampReview from './CampReview';
 import LegalHeader from '../../../components/LegalHeader/LegalHeader';
+import { Helmet } from 'react-helmet';
 
 const CampLejeune = () => {
   return (
-    <div>
-      <LegalHeader />
-      <CampHead />
-      <CampForm />
-      <CampWork />
-      <CampHelp />
-      <CampReview />
-      <Footer />
-    </div>
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Legal Justice Claim </title>
+      </Helmet>
+      <div>
+        <LegalHeader />
+        <CampHead />
+        <CampForm />
+        <CampWork />
+        <CampHelp />
+        <CampReview />
+        <Footer />
+      </div>
+    </>
   )
 }
 

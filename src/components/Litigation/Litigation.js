@@ -12,7 +12,7 @@ const Litigation = () => {
     },
     {
       id: 2,
-      url: 'https://i.ibb.co/VprScgG/camp-forces.png',
+      url: 'https://i.ibb.co/rmqppBZ/camp.png',
       link: '/camplejeune',
       title: 'Camp Lejeune',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
@@ -28,7 +28,7 @@ const Litigation = () => {
     },
     {
       id: 4,
-      url: 'https://i.ibb.co/X2ZZj82/talcom-powder.png',
+      url: 'https://i.ibb.co/cDWBrW5/talcum.png',
       link: '/talcome',
       title: 'Talcum Powder',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
@@ -52,7 +52,7 @@ const Litigation = () => {
     },
     {
       id: 7,
-      url: 'https://i.ibb.co/TkbkcJq/fire-fighter.png',
+      url: 'https://i.ibb.co/d5CBS1d/fire.png',
       link: '/fire-fighter-foam',
       title: 'Fire Fighter Foam',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
@@ -60,7 +60,7 @@ const Litigation = () => {
     },
     {
       id: 8,
-      url: 'https://i.ibb.co/7JK2bnW/hair-relaxer-img.png',
+      url: 'https://i.ibb.co/Qn5182C/hair-relaxer.jpg',
       link: '/hair-relaxer',
       title: 'Hair Relaxer',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
@@ -76,7 +76,7 @@ const Litigation = () => {
             <div className='flex-wrap  mt-5'>
               <div className='image-box'>
               <a href={blog.link}>
-              <img className='w-auto h-auto' src={blog.url} alt="" />
+              <img className='!w-96 h-48' src={blog.url} alt="" />
               </a>
               </div>
               <div>
