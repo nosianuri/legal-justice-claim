@@ -5,10 +5,10 @@ const CampReview = () => {
   return (
     <div>
     <div className='sm:flex'>
-        <div className='sm:flex justify-between gap-5 items-center sm:w-[1500px]'>
-        <img src="https://i.ibb.co/hRcJ07v/testimonials-img-01.png" alt="" className='sm:w-[800px] !w-auto h-auto' />
+        <div className='sm:flex justify-between gap-1 items-center sm:w-[1500px]'>
+        <img src="https://i.ibb.co/hRcJ07v/testimonials-img-01.png" alt="" className='!sm:w-[800px] !w-auto h-auto' />
         <div className='px-2 py-2 text-center'>
-            <h2 className='text-2xl font-bold'>Legal Justice Claim Between Us and Our Customers</h2>
+            <h2 className='text-2xl font-bold'> Between Us and Our Customers</h2>
         </div>
         </div>
         <div>

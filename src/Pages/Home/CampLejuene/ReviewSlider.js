@@ -117,13 +117,6 @@ const ReviewSlider = () => {
             <Slider {...settings} ref={sliderRef}>
                 {logos.map((logo) => (
                     <div key={logo.id} className='p-5'>
-                    {/* <div className='flex'>
-                            <img src='https://i.ibb.co/3sLppLT/redstar.png' alt="logo" className="w-5" />
-                            <img src='https://i.ibb.co/3sLppLT/redstar.png' alt="logo" className=" w-5" />
-                            <img src='https://i.ibb.co/3sLppLT/redstar.png' alt="logo" className=" w-5" />
-                            <img src='https://i.ibb.co/3sLppLT/redstar.png' alt="logo" className=" w-5" />
-                            <img src='https://i.ibb.co/3sLppLT/redstar.png' alt="logo" className=" w-5" />
-                            </div> */}
                             <img src="https://i.ibb.co/9g0VDYP/reviewthunder-removebg-preview.png" alt="" className='!w-24' />
                         <div className='text-[13px] mt-3'>{logo.shorts}</div>
                         <div className='flex justify-between items-center mt-2'>
