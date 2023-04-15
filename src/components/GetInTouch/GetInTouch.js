@@ -1,10 +1,13 @@
 import React from 'react';
 import './GetInTouch.css';
-import img1 from '../../assets/spine-injuries.svg';
-import img2 from '../../assets/wheel-chair.svg';
-import img3 from '../../assets/neck-bone.svg';
-import img4 from '../../assets/brain-injuries.svg';
-import img5 from '../../assets/broken-bone.svg';
+import img1 from '../../assets/1.svg';
+import img2 from '../../assets/2.svg';
+import img3 from '../../assets/3.svg';
+import img4 from '../../assets/4.svg';
+import img5 from '../../assets/5.svg';
+// import img6 from '../../assets/6.svg';
+import img7 from '../../assets/7.svg';
+import img8 from '../../assets/8.svg';
 
 const GetInTouch = () => {
     return (
@@ -17,7 +20,7 @@ const GetInTouch = () => {
                     <div class="col ">
                     <a href="/camplejeune">
                         <div class="card bg-white">
-                         <img src={img1} class="card-img-top" alt="..." />
+                         <img src={img1} class="card-img-top w-16" alt="..." />
                             <div class="card-body">
                                 {/* <h6 class="card-title mx-auto">SPINE INJURIES</h6> */}
                                 <div className='item'>
@@ -63,7 +66,7 @@ const GetInTouch = () => {
                     <div class="col ">
                     <a href="/hair-relaxer">
                         <div class="card bg-white">
-                            <img src={img3} class="card-img-top" alt="..." />
+                            <img src={img5} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 {/* <h6 class="card-title mx-auto">NECK INJURIES</h6> */}
                                 <div className='item'>
@@ -85,7 +88,7 @@ const GetInTouch = () => {
                     <div class="col ">
                     <a href="/fire-fighter-foam">
                         <div class="card bg-white">
-                            <img src={img4} class="card-img-top" alt="..." />
+                            <img src={img8} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 {/* <h6 class="card-title mx-auto">BRAIN INJURIES</h6> */}
                                 <div className='item'>
@@ -107,7 +110,7 @@ const GetInTouch = () => {
                     <div class="col ">
                     <a href="/roundup">
                         <div class="card bg-white">
-                            <img src={img5} class="card-img-top" alt="..." />
+                            <img src={img4} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 {/* <h6 class="card-title mx-auto text-center">BROKEN BONE INJURIES</h6> */}
                                 <div className='item'>
@@ -151,7 +154,7 @@ const GetInTouch = () => {
                     <div class="col ">
                     <a href="/nec">
                         <div class="card bg-white">
-                            <img src={img5} class="card-img-top" alt="..." />
+                            <img src={img7} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 {/* <h6 class="card-title mx-auto text-center">BROKEN BONE INJURIES</h6> */}
                                 <div className='item'>
@@ -173,7 +176,7 @@ const GetInTouch = () => {
                     <div class="col ">
                     <a href="/mva">
                         <div class="card bg-white">
-                            <img src={img5} class="card-img-top" alt="..." />
+                            <img src={img3} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 {/* <h6 class="card-title mx-auto text-center">BROKEN BONE INJURIES</h6> */}
                                 <div className='item'>

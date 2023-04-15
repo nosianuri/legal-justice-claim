@@ -4,7 +4,7 @@ const CampHead = () => {
     return (
         <div>
             <div className='bg-[#800020]'>
-                <h2 className='text-[28px] lg:text-[32px] md:text-[40px] text-white sm:mt-28 text-center py-5 font-primary italic mt-20 font-bold'>Camp Lejeuune Water Contamination Lawsuits are now being filed!
+                <h2 className='text-[28px] lg:text-[32px] md:text-[40px] text-white sm:mt-0 text-center py-5 font-primary italic mt-0 font-bold'>Camp Lejeuune Water Contamination Lawsuits are now being filed!
                 </h2>
             </div>
             <div className="  bg-no-repeat !bg-cover" style={{
