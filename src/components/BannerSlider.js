@@ -54,19 +54,14 @@ const BannerSlider = () => {
                                             <div className='border border-[#fff] bg-[#fff]  p-1 font-medium grid sm:grid-cols-2 grid-cols-1'>
                                                 <select name="status" id="form-select" className="border border-white text-[#333] block py-2 px-4 w-full rounded focus:outline-none font-semibold">
                                                     <option value="">Select a Lawsuit</option>
-                                                    <option value="earplug">3M Earplugs</option>
-                                                    <option value="caraccident">Car Accident</option>
-                                                    <option value="fire-fighting">Fire Fighting</option>
-                                                    <option value="medical-malpractice">Medical Malpractice</option>
-                                                    <option value="mesothelioma">Mesothelioma</option>
-                                                    <option value="motorcycle-accident">Motorcycle Accident</option>
-                                                    <option value="out-for-delivery">NEC</option>
-                                                    <option value="personal-injury">Personal Injury</option>
+                                                    <option value="tylenol">Tylenol</option>
+                                                    <option value="mva">MVA</option>
+                                                    <option value="fire-fighter-foam">Fire Fighting Foam</option>
+                                                    <option value="hair-relaxer">Hair Relaxer</option>
+                                                    <option value="nec">NEC</option>
                                                     <option value="roundup">Roundup</option>
-                                                    <option value="sex-abuse">Sex Abuse</option>
-                                                    <option value="talcum-powder">Talcum Powder</option>
-                                                    <option value="truck-accident">Truck Accident</option>
-                                                    <option value="zantac">Zantac</option>
+                                                    <option value="camplejeune">Camp Lejeune</option>
+                                                    <option value="talcome">Talcum Powder</option>
                                                 </select>
                                                 {/* <div>
                                                     <div className='z-50'>
