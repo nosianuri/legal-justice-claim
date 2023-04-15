@@ -186,9 +186,9 @@ const GetInTouch = () => {
                             </div>
                         </div>
                         </a>
-                        <div className='text-center mt-2'>
+                        <div className='text-center mt-2 sm:text-[25px] !text-[30px]'>
                             <a href="/">
-                                <button className=' text-white hover:underline  lg:px-3 px-2 lg:py-2 py-1 font-semibold rounded sm:text-[25px] text-sm '>Free Consultation »</button>
+                                <button className=' text-white hover:underline lg:px-3 px-0 lg:py-2 py-0 font-semibold'>Free Consultation »</button>
                             </a>
                         </div>
                     </div>

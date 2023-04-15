@@ -42,13 +42,13 @@ const BannerSlider = () => {
                         <div className=" bg-no-repeat bg-hero !bg-cover" style={{
                             background: `url(${image.url})`
                         }}>
-                            <div className='bg-black bg-opacity-50 lg:min-h-[580px]  min-h-[380px] flex  items-center'>
+                            <div className='bg-black bg-opacity-50 lg:min-h-[580px]  min-h-[380px] flex sm:justify-start justify-center items-center'>
                                 <div className='sm:mt-10 mt-8 sm:px-10 px-1'>
                                     <img src="https://i.ibb.co/HqmYDxT/Scale.png" alt="" className='!w-24 mx-auto ' />
                                     <h4 className='text-[23px] lg:text-[38px] md:text-[32px] expert text-white text-center leading-tight'>Expert Legal Advocates for <br /> Winning Your</h4>
                                     <h5 className="sliding-text text-[23px] lg:text-[45px] md:text-[40px] text-white font-medium compensation text-center tracking-widest leading-tight !max-h-13 !overflow-y-hidden">Lawsuit <br /> Compensation</h5>
 
-                                    <div className='bg-[#373536] mt-10 text-[#fff] py-5 px-10 mb-24 sm:w-[700px]'>
+                                    <div className='bg-[#373536] mt-10 text-[#fff] py-5 px-10 mb-24 sm:w-[700px] '>
                                         <strong className='text-[#F8F8F8] uppercase fnt'>Find the Lawsuit</strong>
                                         <div className='mt-2'>
                                             <div className='border border-[#fff] bg-[#fff]  p-1 font-medium grid sm:grid-cols-2 grid-cols-1'>
@@ -91,6 +91,7 @@ const BannerSlider = () => {
 
                                         </div>
                                     </div>
+                                  
                                 </div>
                             </div>
                         </div>

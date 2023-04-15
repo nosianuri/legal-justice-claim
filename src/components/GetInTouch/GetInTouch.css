@@ -61,6 +61,12 @@
 }
 @media screen and (max-width: 780px) {
     .getintouch h2{
-        font-size: 40px;
+        font-size: 30px;
+    }
+    .item strong {
+        font-size: 25px;
+    }
+    .item p{
+        font-size: 16px;
     }
 }

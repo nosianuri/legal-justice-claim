@@ -17,7 +17,7 @@ const MainBody = () => {
         <div>
             {/* <BreakingTitle /> */}
             <div class="ticker-container flex items-center shadow-md">
-                <div class="title sm:w-[380px] sm:py-2 sm:px-2 sm:text-2xl bg-[#E1251A] sm:font-bold text-white text-center">
+                <div class="title sm:w-[380px] sm:py-2 py-1 sm:px-2 sm:text-2xl bg-[#E1251A] sm:font-bold text-white text-center">
                     <a className='hover:underline' href="#why-us">Discover Our Achievement</a>
                 </div>
                 <marquee behavior="scroll" direction="left" scrollamount="6">
