@@ -48,11 +48,27 @@ const BannerSlider = () => {
                                     <h4 className='text-[23px] lg:text-[38px] md:text-[32px] expert text-white text-center leading-tight'>Expert Legal Advocates for <br /> Winning Your</h4>
                                     <h5 className="sliding-text text-[23px] lg:text-[45px] md:text-[40px] text-white font-medium compensation text-center tracking-widest leading-tight !max-h-13 !overflow-y-hidden">Lawsuit <br /> Compensation</h5>
 
-                                    <div className='bg-[#373536] mt-10 text-[#fff] py-5 px-10 mb-24 '>
+                                    <div className='bg-[#373536] mt-10 text-[#fff] py-5 px-10 mb-24 sm:w-[700px]'>
                                         <strong className='text-[#F8F8F8] uppercase fnt'>Find the Lawsuit</strong>
                                         <div className='mt-2'>
                                             <div className='border border-[#fff] bg-[#fff]  p-1 font-medium grid sm:grid-cols-2 grid-cols-1'>
-                                                <div>
+                                                <select name="status" id="form-select" className="border border-white text-[#333] block py-2 px-4 w-full rounded focus:outline-none font-semibold">
+                                                    <option value="">Select a Lawsuit</option>
+                                                    <option value="earplug">3M Earplugs</option>
+                                                    <option value="caraccident">Car Accident</option>
+                                                    <option value="fire-fighting">Fire Fighting</option>
+                                                    <option value="medical-malpractice">Medical Malpractice</option>
+                                                    <option value="mesothelioma">Mesothelioma</option>
+                                                    <option value="motorcycle-accident">Motorcycle Accident</option>
+                                                    <option value="out-for-delivery">NEC</option>
+                                                    <option value="personal-injury">Personal Injury</option>
+                                                    <option value="roundup">Roundup</option>
+                                                    <option value="sex-abuse">Sex Abuse</option>
+                                                    <option value="talcum-powder">Talcum Powder</option>
+                                                    <option value="truck-accident">Truck Accident</option>
+                                                    <option value="zantac">Zantac</option>
+                                                </select>
+                                                {/* <div>
                                                     <div className='z-50'>
                                                         <input className='bg-transparent outline-none w-full text-lg text-[#000] py-4 pl-3 pr-32' type="text" value={searchlaw} name="search" placeholder="Select Lawsuit..." onChange={(event) => { setSearchlaw(event.target.value) }} />
                                                     </div>
@@ -67,8 +83,8 @@ const BannerSlider = () => {
                                                                 <div key={item._id} className='dropdown-row' onClick={() => onSearch(item.name)}>{item.name}</div>
                                                             ))}
                                                     </div>
-                                                </div>
-                                                <div className='text-center bg-[#E1251A] hover:border border-[#E1251A] hover:bg-[#fff] hover:text-[#E1251A]'>
+                                                </div> */}
+                                                <div className='text-center bg-[#E1251A] border border-[#E1251A] hover:bg-[#fff] hover:text-[#E1251A]'>
                                                     <button onClick={() => onSearch(searchlaw)} ><div className=' font-[800] !text-[17.776px] py-4  '>File Lawsuit Now!</div></button>
                                                 </div>
                                             </div>
