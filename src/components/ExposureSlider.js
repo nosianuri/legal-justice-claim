@@ -57,7 +57,7 @@ const ExposureSlider = () => {
                 {images.map((image) => (
                     <div key={image.id}>
                         <div>
-                            <h1 className='lg:text-6xl text-2xl mt-2 mb-5'>RoundUp Exposure linked to Cancer</h1>
+                            <h1 className='lg:text-6xl text-2xl mt-2 mb-5 overflow-y-hidden'>RoundUp Exposure linked to Cancer</h1>
                             <div className='lg:w-full w-full h-[1px] bg-gray-700'></div>
                             <div className='lg:flex space-y-3 mt-10 '>
                                 <div className='mr-5'>

@@ -20,9 +20,9 @@ const HeaderMenu = () => {
             <div className='sm:block hidden'>
                 <div className='flex justify-center gap-5 '>
                     <div className='text-[16px] px-8 py-2 border border-[#131416] border-r-gray-400 font-semibold hover:bg-[#333] hover:bg-opacity-30'><a href="/">HOME</a></div>
-                    <div className='text-[16px] px-8 py-2 border border-[#131416] border-r-gray-400 font-semibold navigation__item hover:bg-[#333] hover:bg-opacity-30' onMouseEnter={handleDropdown}>LAWSUITS <i class="fa-solid fa-angle-down pl-1"></i>
+                    <div className='text-[16px] px-8 py-2 border border-[#131416] border-r-gray-400 font-semibold navigation__item hover:bg-[#333] hover:bg-opacity-30 overflow-y-hidden' onMouseEnter={handleDropdown}>LAWSUITS <i class="fa-solid fa-angle-down pl-1"></i>
                         {showDropdown && (
-                            <ul className="dropdown_nav mt-2 z-50">
+                            <ul className="dropdown_nav mt-2 !z-50">
                                 <li className="dropdown__item border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Rounpdup</a></li>
                                 <li className="dropdown__item border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Camp Lejeune </a></li>
                                 <li className="dropdown__item border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">MVA</a></li>

@@ -12,6 +12,13 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import CampLejeune from './Pages/Home/CampLejuene/CampLejeune';
 import LegalNews from './Pages/LegalNews/LegalNews';
+import Nec from './Pages/NEC/Nec';
+import Mva from './Pages/MVA/Mva';
+import RoundUp from './components/RoundUp/RoundUp';
+import HairRelaxer from './Pages/HairRelaxer/HairRelaxer';
+import Talcome from './Pages/Talcome/Talcome';
+import Tylenol from './Pages/Tylenol/Tylenol';
+import FighterFoam from './Pages/FighterFoam/FighterFoam';
 
 function App() {
 //   useEffect(() => {
@@ -28,7 +35,13 @@ Aos.init({
       <Route path='/car-accident' element={<CarAccident />} />
       <Route path='/camp-lejeune' element={<CampMultiForm />} />
       <Route path='/camplejeune' element={<CampLejeune />} />
-      <Route path='/legal-news' element={<LegalNews />} />
+      <Route path='/nec' element={<Nec />} />
+      <Route path='/mva' element={<Mva />} />
+      <Route path='/roundup' element={<RoundUp />} />
+      <Route path='/hair-relaxer' element={<HairRelaxer />} />
+      <Route path='/talcome' element={<Talcome />} />
+      <Route path='/tylenol' element={<Tylenol />} />
+      <Route path='/fire-fighter-foam' element={<FighterFoam />} />
       <Route path='/thanks' element={<Thanks />} />
       <Route path='/camplejeune-thanks' element={<Congratulate />} />
       <Route path='/terms&condition' element={<TermsCondition />} />
