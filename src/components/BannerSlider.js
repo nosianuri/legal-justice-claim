@@ -48,7 +48,7 @@ const BannerSlider = () => {
                                     <h4 className='text-[23px] lg:text-[38px] md:text-[32px] expert text-white text-center leading-tight'>Expert Legal Advocates for <br /> Winning Your</h4>
                                     <h5 className="sliding-text text-[23px] lg:text-[45px] md:text-[40px] text-white font-medium compensation text-center tracking-widest leading-tight !max-h-13 !overflow-y-hidden">Lawsuit <br /> Compensation</h5>
 
-                                    <div className='bg-[#373536] mt-10 text-[#fff] py-5 px-10 mb-10 '>
+                                    <div className='bg-[#373536] mt-10 text-[#fff] py-5 px-10 mb-24 '>
                                         <strong className='text-[#F8F8F8] uppercase fnt'>Find the Lawsuit</strong>
                                         <div className='mt-2'>
                                             <div className='border border-[#fff] bg-[#fff]  p-1 font-medium grid sm:grid-cols-2 grid-cols-1'>

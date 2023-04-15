@@ -12,7 +12,7 @@ const Litigation = () => {
     },
     {
       id: 2,
-      url: 'https://i.ibb.co/QFfr78N/camp.png',
+      url: 'https://i.ibb.co/VprScgG/camp-forces.png',
       link: '/',
       title: 'Camp Lejeune',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
@@ -20,7 +20,7 @@ const Litigation = () => {
     },
     {
       id: 3,
-      url: 'https://i.ibb.co/hm3FyP3/auto.png',
+      url: 'https://i.ibb.co/hB2yH6n/car-mva.png',
       link: '/',
       title: 'MVA',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
@@ -28,7 +28,7 @@ const Litigation = () => {
     },
     {
       id: 4,
-      url: 'https://i.ibb.co/0ZqZ5pj/talcome.png',
+      url: 'https://i.ibb.co/X2ZZj82/talcom-powder.png',
       link: '/',
       title: 'Talcum Powder',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
@@ -44,7 +44,7 @@ const Litigation = () => {
     },
     {
       id: 6,
-      url: 'https://i.ibb.co/x8czHPt/tyleon.png',
+      url: 'https://i.ibb.co/3MywvNN/tylenol-service.png',
       link: '/',
       title: 'Tylenol',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
@@ -52,7 +52,7 @@ const Litigation = () => {
     },
     {
       id: 7,
-      url: 'https://i.ibb.co/jDMBy6L/firefighter.png',
+      url: 'https://i.ibb.co/TkbkcJq/fire-fighter.png',
       link: '/',
       title: 'Fire Fighter Foam',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
@@ -60,17 +60,13 @@ const Litigation = () => {
     },
     {
       id: 8,
-      url: 'https://i.ibb.co/t2ycKvT/hair.png',
+      url: 'https://i.ibb.co/7JK2bnW/hair-relaxer-img.png',
       link: '/',
       title: 'Hair Relaxer',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',
       desc: 'The average verdict or settlement payout in a sampling of recent malpractice lawsuits for NEC in premature infants was around $3.5 million, but some cases may be worth more or less than that. The estimated settlement amounts for NEC lawsuits may range between $5,000 to over $500,000, but these are not guaranteed and depend on the outcome of each case. The compensation amount for NEC lawsuits may vary depending on the severity of the injury, the fault of the defendant, the future medical expenses, and other factors...',
     },
   ];
-  
-
-
-
 
   return (
     <div className='max-w-7xl mx-auto px-1'>
@@ -83,53 +79,10 @@ const Litigation = () => {
               </div>
               <div>
                 <h3 className='text-[#13100E]  text-lg'><a className='hover:text-[#800020]' href="/zantac">{blog.title}</a></h3>
-                <h5 className='text-[#300303] text-md leading-none mb-1'>{blog.subTitle}</h5>
-                <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-[#800020] font-bold'><a className='hover:text-[#13100E]' href={blog.link}> MORE »</a></span></p>
+                <h5 className='text-[#300303] text-md leading-none mb-1 overflow-y-hidden'>{blog.subTitle}</h5>
+                <p className='text-xs '>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-[#800020] font-bold'><a className='hover:text-[#13100E]' href={blog.link}> MORE »</a></span></p>
               </div>
             </div>
-            {/* <div className='flex-wrap  mt-5'>
-              <div className='image-box'>
-                <img className='w-auto h-auto' src='https://i.ibb.co/7QSdd2z/camp-lejeune.png' alt="" />
-              </div>
-              <div>
-                <h3 className='text-[#13100E]  text-lg'><a className='hover:text-[#800020]' href="/">Camp Lejeune</a></h3>
-                <h5 className='text-[#300303] text-md leading-none mb-1'>FDA calls for Zantac to be pulled from market immediately</h5>
-                <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-[#800020] font-bold'><a className='hover:text-[#13100E]' href="/">MORE »</a></span></p>
-              </div>
-            </div> */}
-            {/* <div className='flex-wrap  mt-5'>
-              <div className='image-box'>
-                <img className='w-auto' src='https://i.ibb.co/ww8PhkP/car.png' alt="" />
-              </div>
-              <div>
-                <h3 className='text-[#13100E] text-lg'><a className='hover:text-[#800020]' href="/">MVA
-                </a></h3>
-                <h5 className='text-[#300303] text-md leading-none mb-1'>FDA calls for Zantac to be pulled from market immediately</h5>
-                <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-[#800020] font-bold'><a className='hover:text-[#13100E]' href="/">MORE »</a></span></p>
-              </div>
-            </div> */}
-            {/* <div className='flex-wrap  mt-5'>
-              <div className='image-box'>
-                <img className='w-auto h-auto' src='https://i.ibb.co/VQPgs12/talcom-powder.jpg' alt="" />
-              </div>
-              <div>
-                <h3 className='text-[#13100E] text-lg'><a className='hover:text-[#800020]' href="/">Talcom Powder</a></h3>
-                <h5 className='text-[#300303] text-md leading-none mb-1'>FDA calls for Zantac to be pulled from market immediately</h5>
-                <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-[#800020] font-bold'><a className='hover:text-[#13100E]' href="/">MORE »</a></span></p>
-              </div>
-            </div> */}
-            {/* <div className='flex-wrap mt-5'>
-              <div className='image-box'>
-                <img className='w-auto h-auto' src='https://i.ibb.co/Wv6nDYR/NEC-1.jpg' alt="" />
-              </div>
-              <div>
-                <h3 className='text-[#13100E]  text-lg'><a className='hover:text-[#800020]' href="/">NEC
-                </a></h3>
-                <h5 className='text-[#300303] text-md leading-none mb-1'>FDA calls for Zantac to be pulled from market immediately</h5>
-                <p className='text-xs'>The FDA has warned that Zantac® may be contaminated with cancer-causing agent...<span className='text-[#800020] font-bold'><a className='hover:text-[#13100E]' href="/">MORE »</a></span></p>
-              </div>
-            </div> */}
-            
           </div>
         ))}
       </div>
