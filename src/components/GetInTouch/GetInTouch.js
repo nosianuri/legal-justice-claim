@@ -15,7 +15,7 @@ const GetInTouch = () => {
             <div className='injuries px-10 pb-10'>
                 <div class="grid grid-cols-1 sm:grid-cols-4 gap-10  space-y-2 sm:space-y-0">
                     <div class="col ">
-                    <a href="/">
+                    <a href="/camplejeune">
                         <div class="card bg-white">
                          <img src={img1} class="card-img-top" alt="..." />
                             <div class="card-body">
@@ -31,7 +31,7 @@ const GetInTouch = () => {
                         </div>
                         </a>
                         <div className='text-center mt-2'>
-                            <a href="/">
+                            <a href="/camplejeune">
                                 <button className=' text-white hover:underline  lg:px-3 px-2 lg:py-2 py-1 font-semibold rounded sm:text-[26px] text-[22px] '>Free Consultation »</button>
                             </a>
                         </div>
@@ -39,7 +39,7 @@ const GetInTouch = () => {
                     </div>
 
                     <div class="col ">
-                    <a href="/">
+                    <a href="/talcome">
                         <div class="card bg-white">
                             <img src={img2} class="card-img-top" alt="..." />
                             <div class="card-body">
@@ -55,13 +55,13 @@ const GetInTouch = () => {
                         </div>
                         </a>
                         <div className='text-center mt-2'>
-                            <a href="/">
+                            <a href="/talcome">
                                 <button className=' text-white hover:underline  lg:px-3 px-2 lg:py-2 py-1 font-semibold rounded sm:text-[26px] text-[22px] '>Free Consultation »</button>
                             </a>
                         </div>
                     </div>
                     <div class="col ">
-                    <a href="/">
+                    <a href="/hair-relaxer">
                         <div class="card bg-white">
                             <img src={img3} class="card-img-top" alt="..." />
                             <div class="card-body">
@@ -77,13 +77,13 @@ const GetInTouch = () => {
                         </div>
                         </a>
                         <div className='text-center mt-2'>
-                            <a href="/">
+                            <a href="/hair-relaxer">
                                 <button className=' text-white hover:underline  lg:px-3 px-2 lg:py-2 py-1 font-semibold rounded sm:text-[26px] text-[22px] '>Free Consultation »</button>
                             </a>
                         </div>
                     </div>
                     <div class="col ">
-                    <a href="/">
+                    <a href="/fire-fighter-foam">
                         <div class="card bg-white">
                             <img src={img4} class="card-img-top" alt="..." />
                             <div class="card-body">
@@ -99,13 +99,13 @@ const GetInTouch = () => {
                         </div>
                         </a>
                         <div className='text-center mt-2'>
-                            <a href="/">
+                            <a href="/fire-fighter-foam">
                                 <button className=' text-white hover:underline  lg:px-3 px-2 lg:py-2 py-1 font-semibold rounded sm:text-[26px] text-[22px] '>Free Consultation »</button>
                             </a>
                         </div>
                     </div>
                     <div class="col ">
-                    <a href="/">
+                    <a href="/roundup">
                         <div class="card bg-white">
                             <img src={img5} class="card-img-top" alt="..." />
                             <div class="card-body">
@@ -121,13 +121,13 @@ const GetInTouch = () => {
                         </div>
                         </a>
                         <div className='text-center mt-2'>
-                            <a href="/">
+                            <a href="/roundup">
                                 <button className=' text-white hover:underline  lg:px-3 px-2 lg:py-2 py-1 font-semibold rounded sm:text-[26px] text-[22px] '>Free Consultation »</button>
                             </a>
                         </div>
                     </div>
                     <div class="col ">
-                    <a href="/">
+                    <a href="/tylenol">
                         <div class="card bg-white">
                             <img src={img5} class="card-img-top" alt="..." />
                             <div class="card-body">
@@ -143,13 +143,13 @@ const GetInTouch = () => {
                         </div>
                         </a>
                         <div className='text-center mt-2'>
-                            <a href="/">
+                            <a href="/tylenol">
                                 <button className=' text-white hover:underline  lg:px-3 px-2 lg:py-2 py-1 font-semibold rounded sm:text-[26px] text-[22px] '>Free Consultation »</button>
                             </a>
                         </div>
                     </div>
                     <div class="col ">
-                    <a href="/">
+                    <a href="/nec">
                         <div class="card bg-white">
                             <img src={img5} class="card-img-top" alt="..." />
                             <div class="card-body">
@@ -165,13 +165,13 @@ const GetInTouch = () => {
                         </div>
                         </a>
                         <div className='text-center mt-2'>
-                            <a href="/">
+                            <a href="/nec">
                                 <button className=' text-white hover:underline  lg:px-3 px-2 lg:py-2 py-1 font-semibold rounded sm:text-[26px] text-[22px] '>Free Consultation »</button>
                             </a>
                         </div>
                     </div>
                     <div class="col ">
-                    <a href="/">
+                    <a href="/mva">
                         <div class="card bg-white">
                             <img src={img5} class="card-img-top" alt="..." />
                             <div class="card-body">
@@ -187,7 +187,7 @@ const GetInTouch = () => {
                         </div>
                         </a>
                         <div className='text-center mt-2'>
-                            <a href="/">
+                            <a href="/mva">
                                 <button className=' text-white hover:underline lg:px-3 px-0 lg:py-2 py-0 font-semibold sm:text-[26px] text-[22px]'>Free Consultation »</button>
                             </a>
                         </div>

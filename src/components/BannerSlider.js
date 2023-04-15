@@ -54,14 +54,20 @@ const BannerSlider = () => {
                                             <div className='border border-[#fff] bg-[#fff]  p-1 font-medium grid sm:grid-cols-2 grid-cols-1'>
                                                 <select name="status" id="form-select" className="border border-white text-[#333] block py-2 px-4 w-full rounded focus:outline-none font-semibold">
                                                     <option value="">Select a Lawsuit</option>
-                                                    <option value="tylenol">Tylenol</option>
-                                                    <option value="mva">MVA</option>
-                                                    <option value="fire-fighter-foam">Fire Fighting Foam</option>
-                                                    <option value="hair-relaxer">Hair Relaxer</option>
-                                                    <option value="nec">NEC</option>
-                                                    <option value="roundup">Roundup</option>
-                                                    <option value="camplejeune">Camp Lejeune</option>
-                                                    <option value="talcome">Talcum Powder</option>
+                                                    <option value="tylenol"><a href="/tylenol">Tylenol</a></option>
+                                                    <option value="mva"><a href="/mva">MVA</a></option>
+                                                    <option value="fire-fighter-foam"><a href="/fire-fighter-foam">Fire Fighting Foam</a></option>
+                                                    <option value="hair-relaxer"><a href="/hair-relaxer">Hair Relaxer</a></option>
+                                                    <option value="nec"><a href="/nec">
+                                                    NEC
+                                                    </a></option>
+                                                    <option value="roundup"><a href="/roundup">
+                                                    Roundup
+                                                    </a></option>
+                                                    <option value="camplejeune"><a href="/camplejeune">
+                                                    Camp Lejeune
+                                                    </a></option>
+                                                    <option value="talcome"><a href="/talcome">Talcum Powder</a></option>
                                                 </select>
                                                 {/* <div>
                                                     <div className='z-50'>

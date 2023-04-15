@@ -114,20 +114,14 @@ const MainBody = () => {
                             <div className=' bg-gray-200 sm:w-[1700px]'>
                                 <h3 className='uppercase lg:text-2xl text-xl bg-gray-700 text-white text-center py-1 px-2 font_verity'>Compensation  <span className='pl-2 font_verity'>Available</span></h3>
                                 <div className='p-5'>
-                                    <p><a className='hover:text-[#8bc53f]' href="/earplug">3M Earplugs</a> </p>
-                                    <p><a className='hover:text-[#8bc53f]' href="/firefighting">Fire Fighting</a> </p>
-                                    <p><a className='hover:text-[#8bc53f]' href="/personalinjury">Medical Malpractice</a> </p>
-                                    <p><a className='hover:text-[#8bc53f]' href="/personalinjury">Car Accident</a> </p>
-                                    <p><a className='hover:text-[#8bc53f]' href="/camplejeune">Camp Lejeune</a> </p>
-                                    <p><a className='hover:text-[#8bc53f]' href="/">Mesothelioma</a> </p>
-                                    <p><a className='hover:text-[#8bc53f]' href="/personalinjury">Motorcycle Accident</a> </p>
-                                    <p><a className='hover:text-[#8bc53f]' href="/nec">NEC</a> </p>
-                                    <p><a className='hover:text-[#8bc53f]' href="/zantac">Zantac</a> </p>
-                                    <p><a className='hover:text-[#8bc53f]' href="/personalinjury">Truck Accident</a> </p>
-                                    <p><a className='hover:text-[#8bc53f]' href="/">Talcum Powder</a> </p>
-                                    <p><a className='hover:text-[#8bc53f]' href="/sexabuse">Sex Abuse</a> </p>
-                                    <p><a className='hover:text-[#8bc53f]' href="/roundup">Roundup</a> </p>
-                                    <p><a className='hover:text-[#8bc53f]' href="/personalinjury">Personal Injury</a> </p>
+                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/tylenol">Tylenol</a> </p>
+                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/fire-fighter-foam">Fire Fighting Foam</a> </p>
+                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/camplejeune">Camp Lejeune</a> </p>
+                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/hair-relaxer">Hair Relaxer</a> </p>
+                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/nec">NEC</a> </p>
+                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/mva">MVA</a> </p>
+                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/talcome">Talcum Powder</a> </p>
+                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/roundup">Roundup</a> </p>
                                 </div>
 
                             </div>
