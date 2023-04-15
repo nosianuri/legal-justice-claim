@@ -4,7 +4,6 @@ import CarAccident from './Pages/CarAccident/CarAccident';
 import Thanks from './Pages/CarAccident/Thanks';
 import Privacy from './Pages/Privacy/Privacy';
 import TermsCondition from './Pages/Terms&condition/TermsCondition';
-import { useEffect } from 'react';
 import CampMultiForm from './Pages/CampMultiForm/CampMultiForm';
 import Congratulate from './Pages/CampMultiForm/Congratulate';
 import Home from './Pages/Home/Home';
@@ -19,6 +18,8 @@ import HairRelaxer from './Pages/HairRelaxer/HairRelaxer';
 import Talcome from './Pages/Talcome/Talcome';
 import Tylenol from './Pages/Tylenol/Tylenol';
 import FighterFoam from './Pages/FighterFoam/FighterFoam';
+import Testimonial from './Pages/Testimonial/Testimonial';
+import About from './Pages/About/About';
 
 function App() {
 //   useEffect(() => {
@@ -43,6 +44,9 @@ Aos.init({
       <Route path='/tylenol' element={<Tylenol />} />
       <Route path='/fire-fighter-foam' element={<FighterFoam />} />
       <Route path='/thanks' element={<Thanks />} />
+      <Route path='/testimonial' element={<Testimonial />} />
+      <Route path='/legal-news' element={<LegalNews />} />
+      <Route path='/about-us' element={<About />} />
       <Route path='/camplejeune-thanks' element={<Congratulate />} />
       <Route path='/terms&condition' element={<TermsCondition />} />
       <Route path='/privacy-policy' element={<Privacy />} />

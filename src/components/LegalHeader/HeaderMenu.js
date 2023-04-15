@@ -38,10 +38,10 @@ const HeaderMenu = () => {
                             </ul>
                         )}
                     </div>
-                    <div className='text-[16px] px-8 py-2 border border-[#131416] border-r-gray-400 font-semibold hover:bg-[#333] hover:bg-opacity-30'><a href="/">LEGAL NEWS</a></div>
-                    <div className='text-[16px] px-8 py-2 border border-[#131416] border-r-gray-400 font-semibold hover:bg-[#333] hover:bg-opacity-30'><a href="/">TESTIMONIAL</a>
+                    <div className='text-[16px] px-8 py-2 border border-[#131416] border-r-gray-400 font-semibold hover:bg-[#333] hover:bg-opacity-30'><a href="/legal-news">LEGAL NEWS</a></div>
+                    <div className='text-[16px] px-8 py-2 border border-[#131416] border-r-gray-400 font-semibold hover:bg-[#333] hover:bg-opacity-30'><a href="/testimonial">TESTIMONIAL</a>
                     </div>
-                    <div className='text-[16px] px-8 py-2 border border-[#131416] border-r-gray-400 font-semibold hover:bg-[#333] hover:bg-opacity-30'><a href="/">ABOUT</a></div>
+                    <div className='text-[16px] px-8 py-2 border border-[#131416] border-r-gray-400 font-semibold hover:bg-[#333] hover:bg-opacity-30'><a href="/about-us">ABOUT</a></div>
                     <div>
                         <div className=''>
                             <div className='border-2 border-[#fff] rounded px-3 py-2 font-medium'>
