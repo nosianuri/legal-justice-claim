@@ -61,7 +61,7 @@ const MainBody = () => {
                     <div className='grid sm:grid-cols-2 grid-cols-1 max-w-7xl mx-auto'>
                         <div>
                             <a href="#testimonial">
-                                <img src="https://i.ibb.co/S5DS19z/claim-spot-removebg-preview.png" alt="" />
+                                <img src="https://i.ibb.co/s59ZR4B/Teal-Yellow-Modern-Customer-Testimonial-Instagram-Post-4320-4320-px-removebg-preview.png" alt="" />
                             </a>
                         </div>
                         <div>
