@@ -6,14 +6,30 @@ var data = require("../../LOW_DATA.json")
 const HeaderMenu = () => {
     const [searchlaw, setSearchlaw] = useState("");
     const [showDropdown, setShowDropdown] = useState(false);
-    const [showMenu, setShowMenu] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
+    const sectionRef = useRef(null);
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+          if (sectionRef.current && !sectionRef.current.contains(event.target)) {
+            setIsOpen(false);
+          }
+        };
+    
+        document.addEventListener('click', handleClickOutside);
+    
+        return () => {
+          document.removeEventListener('click', handleClickOutside);
+        };
+      }, [sectionRef]);
+
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+  };
 
     const handleDropdown = () => {
         setShowDropdown(!showDropdown);
     };
-    const handleMenu = () => {
-        setShowMenu(!showMenu);
-    };
+   
 
     const onSearch = (searchTerm) => {
         setSearchlaw(searchTerm);
@@ -27,14 +43,14 @@ const HeaderMenu = () => {
                     <div className='text-[16px] px-8 py-2 border border-[#131416] border-r-gray-400 font-semibold navigation__item hover:bg-[#333] hover:bg-opacity-30 !z-50 overflow-y-visible' onMouseEnter={handleDropdown}>LAWSUITS <i class="fa-solid fa-angle-down pl-1"></i>
                         {showDropdown && (
                             <ul className="dropdown_nav mt-2 fixed z-50">
-                                <li className="dropdown__item py-1 pl-4 border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Roundup</a></li>
-                                <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Camp Lejeune </a></li>
-                                <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">MVA</a></li>
-                                <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Talcome Powder</a></li>
-                                <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">NEC</a></li>
-                                <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Tylenol</a></li>
-                                <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Fire Fighter Foam</a></li>
-                                <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Hair Relaxer</a></li>
+                                <li className="dropdown__item py-1 pl-4 border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/roundup">Roundup</a></li>
+                                <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/camplejeune">Camp Lejeune </a></li>
+                                <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/mva">MVA</a></li>
+                                <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/talcome">Talcome Powder</a></li>
+                                <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/nec">NEC</a></li>
+                                <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/tylenol">Tylenol</a></li>
+                                <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/fire-fighter-foam">Fire Fighter Foam</a></li>
+                                <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/hair-relaxer">Hair Relaxer</a></li>
                             </ul>
                         )}
                     </div>
@@ -63,21 +79,21 @@ const HeaderMenu = () => {
                 </div>
             </div>
             <div className='block sm:hidden'>
-                <div  className='text-[16px] px-8 py-2 border border-[#131416] border-r-gray-400 font-semibold navigation__item hover:bg-[#333] hover:bg-opacity-30' onMouseEnter={handleMenu}>Menu <i class="fa-solid fa-angle-down pl-1"></i>
-                    {showMenu && (
+                <div  className='text-[16px] px-8 py-2 border border-[#131416] border-r-gray-400 font-semibold navigation__item hover:bg-[#333] hover:bg-opacity-30' ref={sectionRef} onClick={handleClick}>Menu <i class="fa-solid fa-angle-down pl-1"></i>
+                    {isOpen && (
                         <ul className="dropdown_nav mt-2 fixed z-50">
                             <li className="dropdown__item py-1 pl-4 border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Home</a></li>
-                            <li className="dropdown__item py-1 pl-4 border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Roundup</a></li>
-                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Camp Lejeune </a></li>
-                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">MVA</a></li>
-                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Talcome Powder</a></li>
-                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">NEC</a></li>
-                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Tylenol</a></li>
-                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Fire Fighter Foam</a></li>
-                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Hair Relaxer</a></li>
-                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Legal News</a></li>
-                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Testimonial</a></li>
-                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">About Us</a></li>
+                            <li className="dropdown__item py-1 pl-4 border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/roundup">Roundup</a></li>
+                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/camplejeune">Camp Lejeune </a></li>
+                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/mva">MVA</a></li>
+                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/talcome">Talcome Powder</a></li>
+                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/nec">NEC</a></li>
+                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/tylenol">Tylenol</a></li>
+                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/fire-fighter-foam">Fire Fighter Foam</a></li>
+                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/hair-relaxer">Hair Relaxer</a></li>
+                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/legal-news">Legal News</a></li>
+                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/testimonial">Testimonial</a></li>
+                            <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/about-us">About Us</a></li>
                         </ul>
                     )}
                 </div>
