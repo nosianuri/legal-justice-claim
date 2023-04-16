@@ -45,18 +45,18 @@
   .menu-icon{
     display: none;
   }
-  .dropdown{
-    background-color: #E1251A;
+  .dropdownS{
+    background-color: #E1251A !important;
     color: #fff;
     display: flex;
     flex-direction: column;
     border: 1px solid #E1251A;
-    /* position: fixed; */
+    position: fixed;
     width: 210px;
     border-radius: 10px;
     margin-left: 2px;
   }
-  .dropdown:empty {
+  .dropdownS:empty {
     border: none;
   }
   .dropdown-row{

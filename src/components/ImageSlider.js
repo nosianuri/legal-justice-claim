@@ -23,7 +23,7 @@ const ImageSlider = () => {
             url: 'https://i.ibb.co/t4Zv1qF/legal-web-image-3.png',
             link: '/',
             title: 'Have you used Telcome?',
-            desc: 'FDA calls for heartburn drug Zantac to be pulled from market immediately, April 1, 2020',
+            desc: 'Johnson & Johnson paid $100,000,000 to settle a group of 1,000 talcum powder lawsuits.',
         },
         {
             id: 4,

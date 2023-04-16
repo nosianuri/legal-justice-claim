@@ -1,7 +1,7 @@
 import React from 'react'
 import HeaderMenu from './HeaderMenu';
 import HeadTop from './HeadTop';
-import Navbar from './Navbar';
+import MenuNav from './MenuNav';
 
 const LegalHeader = () => {
   return (
