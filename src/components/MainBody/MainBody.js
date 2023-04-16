@@ -111,7 +111,7 @@ const MainBody = () => {
                     </div>
                     <div className='mx-auto my-10 max-w-7xl' id="testimonial">
                         <div className='sm:flex gap-10'>
-                            <div className=' bg-gray-200 sm:w-[1900px]'>
+                            <div className=' bg-gray-200 sm:w-[2800px]'>
                                 <h3 className='uppercase lg:text-2xl text-xl bg-gray-700 text-white text-center py-1 px-2 font_verity'>Compensation  <span className='pl-2 font_verity'>Available</span></h3>
                                 <div className='p-5'>
                                     <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/tylenol">Tylenol</a> </p>

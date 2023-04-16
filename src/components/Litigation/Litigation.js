@@ -36,7 +36,7 @@ const Litigation = () => {
     },
     {
       id: 5,
-      url: 'https://i.ibb.co/Wv6nDYR/NEC-1.jpg',
+      url: 'https://i.ibb.co/G5n0s1t/nec-baby.png',
       link: '/nec',
       title: 'NEC',
       subTitle: 'FDA calls for Zantac to be pulled from market immediately',

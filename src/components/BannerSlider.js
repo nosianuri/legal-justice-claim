@@ -6,6 +6,11 @@ var data = require("../LOW_DATA.json")
 
 const BannerSlider = () => {
     const [searchlaw, setSearchlaw] = useState("");
+    const [selectedValue, setSelectedValue] = useState('');
+
+    const handleSelectChange = (event) => {
+      setSelectedValue(event.target.value);
+    };
     const images = [
         {
             id: 1,
@@ -34,6 +39,7 @@ const BannerSlider = () => {
         setSearchlaw(searchTerm);
         console.log('search', searchTerm);
     }
+   
     return (
         <div className="">
             <Slider {...settings}>
@@ -52,47 +58,30 @@ const BannerSlider = () => {
                                         <strong className='text-[#F8F8F8] uppercase fnt'>Find the Lawsuit</strong>
                                         <div className='mt-2'>
                                             <div className='border border-[#fff] bg-[#fff]  p-1 font-medium grid sm:grid-cols-2 grid-cols-1'>
-                                                <select name="status" id="form-select" className="border border-white text-[#333] block py-2 px-4 w-full rounded focus:outline-none font-semibold">
+                                                <select name="status" id="select-option" value={selectedValue} onChange={handleSelectChange} className="border border-white text-[#333] block py-2 px-4 w-full rounded focus:outline-none font-semibold" >
                                                     <option value="">Select a Lawsuit</option>
-                                                    <option value="tylenol"><a href="/tylenol">Tylenol</a></option>
-                                                    <option value="mva"><a href="/mva">MVA</a></option>
-                                                    <option value="fire-fighter-foam"><a href="/fire-fighter-foam">Fire Fighting Foam</a></option>
-                                                    <option value="hair-relaxer"><a href="/hair-relaxer">Hair Relaxer</a></option>
-                                                    <option value="nec"><a href="/nec">
+                                                    <option value="tylenol">Tylenol</option>
+                                                    <option value="mva">MVA</option>
+                                                    <option value="fire-fighter-foam">Fire Fighting Foam</option>
+                                                    <option value="hair-relaxer">Hair Relaxer</option>
+                                                    <option value="nec">
                                                     NEC
-                                                    </a></option>
-                                                    <option value="roundup"><a href="/roundup">
+                                                    </option>
+                                                    <option value="roundup">
                                                     Roundup
-                                                    </a></option>
-                                                    <option value="camplejeune"><a href="/camplejeune">
+                                                    </option>
+                                                    <option value="camplejeune">
                                                     Camp Lejeune
-                                                    </a></option>
-                                                    <option value="talcome"><a href="/talcome">Talcum Powder</a></option>
+                                                    </option>
+                                                    <option value="talcome">Talcum Powder</option>
                                                 </select>
-                                                {/* <div>
-                                                    <div className='z-50'>
-                                                        <input className='bg-transparent outline-none w-full text-lg text-[#000] py-4 pl-3 pr-32' type="text" value={searchlaw} name="search" placeholder="Select Lawsuit..." onChange={(event) => { setSearchlaw(event.target.value) }} />
-                                                    </div>
-
-                                                    <div className='dropdown fixed'>
-                                                        {data.filter(item => {
-                                                            const searchTerm = searchlaw.toLowerCase();
-                                                            const fullName = item.name.toLowerCase();
-                                                            return searchTerm && fullName.startsWith(searchTerm) && fullName !== searchTerm
-                                                        }).slice(0, 10)
-                                                            .map((item) => (
-                                                                <div key={item._id} className='dropdown-row' onClick={() => onSearch(item.name)}>{item.name}</div>
-                                                            ))}
-                                                    </div>
-                                                </div> */}
+                                                                               
                                                 <div className='text-center bg-[#E1251A] border border-[#E1251A] hover:bg-[#fff] hover:text-[#E1251A]'>
                                                     <button onClick={() => onSearch(searchlaw)} ><div className=' font-[800] !text-[17.776px] py-4  '>File Lawsuit Now!</div></button>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
-                                  
                                 </div>
                             </div>
                         </div>

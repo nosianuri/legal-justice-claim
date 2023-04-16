@@ -7,6 +7,7 @@ import CampWork from '../Home/CampLejuene/CampWork'
 import CampHelp from '../Home/CampLejuene/CampHelp'
 import CampReview from '../Home/CampLejuene/CampReview'
 import Footer from '../../components/Footer/Footer'
+import MvaHead from './MvaHead'
 
 const Mva = () => {
   return (
@@ -17,7 +18,7 @@ const Mva = () => {
     </Helmet>
     <div>
       <LegalHeader />
-      <CampHead />
+      <MvaHead />
       <CampForm />
       <CampWork />
       <CampHelp />
