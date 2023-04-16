@@ -7,111 +7,69 @@ const NewsCards = () => {
     const blogs = [
         {
             "_id": 1,
-            "name": "Brazil virtual numbers",
-            "link": "/",
+            "name": "Round Up",
+            "link": "https://www.forbes.com/advisor/legal/product-liability/roundup-lawsuit-update/",
             "date": "Jan 18, 2023",
             "time": "4 min read",
-            "desc": "A person is directly related to technology. Previously, we used to leave the house for purchases, study and watching movies, but today everything is available online. There are thousands of apps on the network for ordering food at home, education, entertainment and more. To get access to this ecosystem, much is not …"
+            "desc": "Monsanto has settled over 100,000 Roundup lawsuits, paying out about $11 billion as of May 2022. The recent Roundup settlement will pay as much as $9.6 billion to resolve victims involved in current litigation and set aside $1.25 billion to pay future claims as part of separate class-action lawsuits. The average Roundup lawsuit payout for Round One settlements was in the $120,000 to $180,000 per person range.     …"
         },
         {
             "_id": 2,
-            "name": "How to create a Classic Rummy account without a phone number",
-            "link": "/",
+            "name": "Camp Lejeune",
+            "link": "https://www.elglaw.com/faq/expected-camp-lejeune-settlement-amount/",
             "date": "Jan 18, 2023",
             "time": "4 min read",
-            "desc": "When it comes to card games in India, it is difficult to find a person who is not familiar with Rummy. This is a game with a rich history which allows not only to have fun, but also to earn money. Previously, people gathered at the same table to arrange Rummy competitions. Over time, websites and apps began to appear …"
+            "desc": "Camp Lejeune lawsuit settlement payouts for contaminated water exposure is estimated to be over $6.7 billion. Victims who pursue a Camp lejeune toxic water claim will receive lucrative settlements which could be well over $1 million in some cases. However, another renowned law firm stated that settlement payouts for Camp Lejeune toxic exposure victims are estimated at $6.7 billion, individuals who file a claim will receive between $25,000 and $1 million or more, depending on the severity of their illness.…"
         },
         {
             "_id": 3,
-           "name": "How to create a Dahadaha account without a phone number",
-            "link": "/",
+           "name": "Mva",
+            "link": "https://www.forbes.com/advisor/legal/auto-accident/typical-car-settlement-amounts/",
             "date": "Jan 18, 2023",
             "time": "4 min read",
-            "desc": "Dahadaha is a local app for residents of Turkey, which was developed by Coca-Cola Company. The purpose of the app is to motivate people to buy branded fizzy drink (Coca-Cola, Fanta, Sprite). For this, users receive various bonuses: chances to win big prizes, coupons for stores and much more. To use Dahadaha, it is …"
+            "desc": "The Insurance Information Institute reports that the typical car accident settlement amount for bodily injury was $15,785 and the average compensation for property damage was $3,841 in 20181. Forbes also reports that the median amount awarded in auto accident cases was $16,000…"
         },
         {
             "_id": 4,
-            "name": "How to create a Mail.ru account without a phone number",
-            "link": "/",
+            "name": "Talcom Powder",
+            "link": "https://www.millerandzois.com/products-liability/medical-device-lawsuits/talcum-powder/",
             "date": "Jan 18, 2023",
             "time": "4 min read",
-            "desc": "E-mail remains one of the main means of communication for Internet users, even despite the emergence and development of social networks. In Russia, Mail.ru is the most popular because it provides all the necessary tools for communication by mail (cloud, filters, the ability to send files, and so forth). Also, …"
+            "desc": "Johnson & Johnson paid $100,000,000 to settle a group of 1,000 talcum powder lawsuits.Johnson & Johnson announced that it will pay $8.9 billion to settle talcum powder lawsuits. The average compensation payout for talc powder victims is $4.4 million. Legal-Bay LLC reports that Johnson & Johnson will pay out $8.9 billion in damages to settle the talcum powder lawsuit.…"
         },
         {
             "_id": 5,
-            "name": "How to create an Eneba account without a phone number",
-            "link": "/",
+            "name": "NEC",
+            "link": "https://www.torhoermanlaw.com/toxic-baby-formula-nec-lawsuit/nec-lawsuit-payout-settlements/",
             "date": "Jan 18, 2023",
             "time": "4 min read",
-            "desc": "Eneba online store is popular among gamers. License keys to games, gift cards, paid programs and much more are sold here. The project has been working since 2018 and officially cooperates with Steam, therefore it has established itself among users. There are about 15 thousand different games in the Eneba collection. To …"
+            "desc": "The average verdict or settlement payout in a sampling of recent malpractice lawsuits for NEC in premature infants was around $3.5 million, but some cases may be worth more or less than that. The estimated settlement amounts for NEC lawsuits may range between $5,000 to over $500,000, but these are not guaranteed and depend on the outcome of each case. The compensation amount for NEC lawsuits may vary depending on the severity of the injury, the fault of the defendant, the future medical expenses, and other factors.…"
         },
         {
             "_id": 6,
-            "name": "Virtual numbers for Gmail",
-            "link": "/",
+            "name": "Tylenol Autism Lawsuit",
+            "link": "https://www.millerandzois.com/products-liability/tylenol-autism/",
             "date": "Jan 18, 2023",
             "time": "4 min read",
-            "desc": "Gmail is a free web-service of email provided by Google Corporation. Gmail allows users to send and receive emails, filter messages and block spam. The advantage of the service is that it provides 15GB for storing email data. There is also an opportunity to use the voice and video chat function, provided that a …"
+            "desc": "A Tylenol autism class action lawsuit has been certified and it is estimated that over 100,000 victims will file a lawsuit. While it's too early to provide a solid dollar amount estimate for settlements, based on prior results in similar dangerous drug lawsuits, it is projected that Tylenol Autism ADHD Lawsuit Payouts could be between $50,000 and $500,000+ depending on the strength of the claim and direction of the litigation. The potential compensation amount is significant and could provide much-needed financial support to those who have been affected by the dangerous side effects of Tylenol. This lawsuit not only aims to provide justice for victims but also aims to protect unborn children through the addition of a new warning label. The settlement of these lawsuits is expected in 2023, and victims can take action now to hold the manufacturers accountable and receive the compensation they deserve.…"
         },
         {
             "_id": 7,
-            "name": "How to create a Chispa Dating Latino account without a phone number",
+            "name": "Fire Fighting Foam",
             "link": "/",
             "date": "Jan 18, 2023",
             "time": "4 min read",
-            "desc": "It seems that dating applications Tinder or Badoo are known to everyone. It is sometimes difficult to find a couple in such services, because users are gathered from different parts of the world. In this case, local applications have been developed, for example, Chispa Dating Latino-a place where single Latinos gather. …"
+            "desc": "AFFF firefighting foam cases could result in significant compensation payouts for victims, with top tier settlements ranging from $300,000 to $600,000 on average. Second tier cases may receive an estimated value of $150,000 to $280,000. These payouts are based on previous mass tort cases involving cancer, and demonstrate the potential for victims to receive much-needed financial support. It's important for those affected by AFFF firefighting foam to take action now and hold manufacturers accountable for their negligence, to ensure they receive the compensation they deserve.…"
         },
         {
             "_id": 8,
-            "name": "Virtual numbers for Clubhouse",
-            "link": "/",
+            "name": "Hair Relaxer",
+            "link": "https://www.theguardian.com/us-news/2023/feb/06/loreal-hair-relaxer-lawsuit-cancer",
             "date": "Jan 18, 2023",
             "time": "4 min read",
-            "desc": "Clubhouse is a voice-based social network allowing people to talk, tell stories, share ideas, strengthen friendships and become acquainted. Log into different chats, on different topics, communicate in person or in groups. You have the opportunity to engage in frank conversations with famous and influential people. …"
-        },
-        {
-            "_id": 9,
-            "name": "How to create a Swagbucks account without a phone number",
-            "link": "/",
-            "date": "Jan 18, 2023",
-            "time": "4 min read",
-            "desc": "If you are a lover of saving money or earning on simple actions, Swagbucks will help you with this. The service is known for literally giving money to users. For registration, filling in the profile and installing the extension, you get about 50 SB (local currency), which is pegged to the dollar-50SB=0.5$. The project …"
-        },
-        {
-            "_id": 10,
-            "name": "How to create an Airbnb account without a phone number",
-            "link": "/",
-            "date": "Jan 18, 2023",
-            "time": "4 min read",
-            "desc": "Airbnb is an online market connecting people who want to rent out their apartments with people who are looking for accommodation in certain places. Here landlords earn on their property, and travelers save and find more comfortable accommodation than hotels at a low price. Today, the Airbnb database has a huge number …"
-        },
-        {
-            "_id": 11,
-            "name": "Brazil virtual numbers",
-            "link": "/",
-            "date": "Jan 18, 2023",
-            "time": "4 min read",
-            "desc": "A person is directly related to technology. Previously, we used to leave the house for purchases, study and watching movies, but today everything is available online. There are thousands of apps on the network for ordering food at home, education, entertainment and more. To get access to this ecosystem, much is not …"
+            "desc": "The potential value of hair relaxer lawsuits can range from $300,000 to $1,750,000. However, the amount of compensation you may be able to receive in a hair relaxer lawsuit depends on different factors of your case.…"
         }
-    ]
-
-    // useEffect(() => {
-    //     fetch('blog.json')
-    //         .then(res => res.json())
-    //         .then(data => {
-    //             setBlogs(data);
-    //         })
-    // });
-
-    // useEffect(() => {
-    //     fetch('blog.json')
-    //         .then(res => res.json())
-    //         .then(data => {
-    //             const count = data.count;
-    //             const pages = Math.ceil(count / 10);
-    //             setPageCount(pages);
-    //         })
-    // });
+    ];
     return (
         <div className='my-4 mr-8'>
             <div className='space-y-5'>
