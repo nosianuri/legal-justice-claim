@@ -7,6 +7,11 @@ import CampWork from '../Home/CampLejuene/CampWork'
 import CampHelp from '../Home/CampLejuene/CampHelp'
 import CampReview from '../Home/CampLejuene/CampReview'
 import Footer from '../../components/Footer/Footer'
+import NecHead from './NecHead'
+import NecHelp from './NecHelp'
+import NecWork from './NecWork'
+import NecReview from './NecReview'
+import NecForm from './NecForm'
 
 const Nec = () => {
   return (
@@ -17,11 +22,11 @@ const Nec = () => {
     </Helmet>
     <div>
       <LegalHeader />
-      <CampHead />
-      <CampForm />
-      <CampWork />
-      <CampHelp />
-      <CampReview />
+      <NecHead />
+      <NecForm />
+      <NecWork />
+      <NecHelp />
+      <NecReview />
       <Footer />
     </div>
   </>

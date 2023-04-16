@@ -7,6 +7,11 @@ import CampWork from '../Home/CampLejuene/CampWork'
 import CampHelp from '../Home/CampLejuene/CampHelp'
 import CampReview from '../Home/CampLejuene/CampReview'
 import Footer from '../../components/Footer/Footer'
+import TalcomHead from './TalcomHead'
+import TalcomForm from './TalcomForm'
+import TalcomHelp from './TalcomHelp'
+import TalcomReview from './TalcomReview'
+import TalcomWork from './TalcomWork'
 
 const Talcome = () => {
   return (
@@ -17,11 +22,11 @@ const Talcome = () => {
     </Helmet>
     <div>
       <LegalHeader />
-      <CampHead />
-      <CampForm />
-      <CampWork />
-      <CampHelp />
-      <CampReview />
+      <TalcomHead />
+      <TalcomForm />
+      <TalcomWork />
+      <TalcomHelp />
+      <TalcomReview />
       <Footer />
     </div>
   </>

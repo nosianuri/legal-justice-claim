@@ -7,6 +7,11 @@ import CampWork from '../Home/CampLejuene/CampWork'
 import CampHelp from '../Home/CampLejuene/CampHelp'
 import CampReview from '../Home/CampLejuene/CampReview'
 import Footer from '../../components/Footer/Footer'
+import HairRelaxerHeader from './HairRelaxerHeader'
+import HairRelaxerForm from './HairRelaxerForm'
+import HairRelaxerWork from './HairRelaxerWork'
+import HairRelaxerHelp from './HairRelaxerHelp'
+import HairRelaxerReview from './HairRelaxerReview'
 
 const HairRelaxer = () => {
   return (
@@ -17,11 +22,11 @@ const HairRelaxer = () => {
     </Helmet>
     <div>
       <LegalHeader />
-      <CampHead />
-      <CampForm />
-      <CampWork />
-      <CampHelp />
-      <CampReview />
+      <HairRelaxerHeader />
+      <HairRelaxerForm />
+      <HairRelaxerWork />
+      <HairRelaxerHelp />
+      <HairRelaxerReview />
       <Footer />
     </div>
   </>

@@ -114,28 +114,24 @@ const MainBody = () => {
                             <div className=' bg-gray-200 sm:w-[2800px]'>
                                 <h3 className='uppercase lg:text-2xl text-xl bg-gray-700 text-white text-center py-1 px-2 font_verity'>Compensation  <span className='pl-2 font_verity'>Available</span></h3>
                                 <div className='p-5'>
-                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/tylenol">Tylenol</a> </p>
-                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/fire-fighter-foam">Fire Fighting Foam</a> </p>
-                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/camplejeune">Camp Lejeune</a> </p>
-                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/hair-relaxer">Hair Relaxer</a> </p>
-                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/nec">NEC</a> </p>
-                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/mva">MVA</a> </p>
+                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/tylenol#reviews">Tylenol</a> </p>
+                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/fire-fighter-foam#reviews">Fire Fighting Foam</a> </p>
+                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/camplejeune#reviews">Camp Lejeune</a> </p>
+                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/hair-relaxer#reviews">Hair Relaxer</a> </p>
+                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/nec#reviews">NEC</a> </p>
+                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/mva#reviews">MVA</a> </p>
                                     <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/talcome">Talcum Powder</a> </p>
-                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/roundup">Roundup</a> </p>
+                                    <p className='text-xl'><a className='hover:text-[#8bc53f]' href="/roundup#reviews">Roundup</a> </p>
                                 </div>
-
                             </div>
                             <ImageSlider />
                         </div>
-
                     </div>
                 </div>
                 <div className=''>
-
                     <div className='mx-auto'>
                         <ExposureSlider />
                     </div>
-
                     {/* <div className='my-5 max-w-7xl mx-auto '>
                     <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-16 gap-5 lg:mb-8 '>
                         <div data-aos='fade-right' data-aos-delay='300'>

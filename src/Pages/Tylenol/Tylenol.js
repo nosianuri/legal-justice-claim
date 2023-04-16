@@ -7,6 +7,11 @@ import CampWork from '../Home/CampLejuene/CampWork'
 import CampHelp from '../Home/CampLejuene/CampHelp'
 import CampReview from '../Home/CampLejuene/CampReview'
 import Footer from '../../components/Footer/Footer'
+import TylenolHead from './TylenolHead'
+import TylenolForm from './TylenolForm'
+import TylenolWork from './TylenolWork'
+import TylenolHelp from './TylenolHelp'
+import TylenolReview from './TylenolReview'
 
 const Tylenol = () => {
   return (
@@ -17,11 +22,11 @@ const Tylenol = () => {
     </Helmet>
     <div>
       <LegalHeader />
-      <CampHead />
-      <CampForm />
-      <CampWork />
-      <CampHelp />
-      <CampReview />
+      <TylenolHead />
+      <TylenolForm />
+      <TylenolWork />
+      <TylenolHelp />
+      <TylenolReview />
       <Footer />
     </div>
   </>

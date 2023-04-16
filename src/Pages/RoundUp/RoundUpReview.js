@@ -1,7 +1,7 @@
 import React from 'react'
 import ReviewSlider from './ReviewSlider'
 
-const CampReview = () => {
+const RoundUpReview = () => {
   return (
     <div id='reviews'>
     <div className='sm:flex'>
@@ -19,4 +19,4 @@ const CampReview = () => {
   )
 }
 
-export default CampReview
+export default RoundUpReview

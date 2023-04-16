@@ -7,6 +7,11 @@ import CampWork from '../Home/CampLejuene/CampWork'
 import CampHelp from '../Home/CampLejuene/CampHelp'
 import CampReview from '../Home/CampLejuene/CampReview'
 import Footer from '../../components/Footer/Footer'
+import RoundUpHead from './RoundUpHead'
+import RounUpForm from './RounUpForm'
+import RoundUpWork from './RoundUpWork'
+import RoundUpHelp from './RoundUpHelp'
+import RoundUpReview from './RoundUpReview'
 
 const RoundUp = () => {
   return (
@@ -17,11 +22,11 @@ const RoundUp = () => {
     </Helmet>
     <div>
       <LegalHeader />
-      <CampHead />
-      <CampForm />
-      <CampWork />
-      <CampHelp />
-      <CampReview />
+      <RoundUpHead />
+      <RounUpForm />
+      <RoundUpWork />
+      <RoundUpHelp />
+      <RoundUpReview />
       <Footer />
     </div>
   </>

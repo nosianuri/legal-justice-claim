@@ -8,6 +8,10 @@ import CampHelp from '../Home/CampLejuene/CampHelp'
 import CampReview from '../Home/CampLejuene/CampReview'
 import Footer from '../../components/Footer/Footer'
 import MvaHead from './MvaHead'
+import MvaWork from './MvaWork'
+import MvaHelp from './MvaHelp'
+import MvaReview from './MvaReview'
+import MvaForm from './MvaForm'
 
 const Mva = () => {
   return (
@@ -19,10 +23,10 @@ const Mva = () => {
     <div>
       <LegalHeader />
       <MvaHead />
-      <CampForm />
-      <CampWork />
-      <CampHelp />
-      <CampReview />
+      <MvaForm />
+      <MvaWork />
+      <MvaHelp />
+      <MvaReview />
       <Footer />
     </div>
   </>

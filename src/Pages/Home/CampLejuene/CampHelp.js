@@ -19,7 +19,9 @@ const CampHelp = () => {
             </div>
             <div className='mt-16'>
                 <h2 className='font-bold text-[35px] text-center'>Complete the <span className='text-[#228B22]'>online form</span> above for a FREE <br />claim evaluation.</h2>
+                <a href="#get-claim">
                 <div className='bg-[#228B22] sm:text-[25px] text-white text-center sm:w-2/4 w-3/4 mx-auto py-2 px-4 rounded-full cursor-pointer mt-2'>Time is Limited. Get Started Today. </div>
+                </a>
             </div>
         </div>
     )

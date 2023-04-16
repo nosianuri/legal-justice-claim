@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MvaWork = () => {
+const TalcomWork = () => {
   return (
     <div className='bg-slate-200 my-10'>
     <div className='max-w-[900px] mx-auto py-10'>
@@ -26,4 +26,4 @@ const MvaWork = () => {
   )
 }
 
-export default MvaWork
+export default TalcomWork

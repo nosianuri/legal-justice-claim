@@ -7,6 +7,11 @@ import CampWork from '../Home/CampLejuene/CampWork'
 import CampHelp from '../Home/CampLejuene/CampHelp'
 import CampReview from '../Home/CampLejuene/CampReview'
 import Footer from '../../components/Footer/Footer'
+import FireFighterHead from './FireFighterHead'
+import FireFighterForm from './FireFighterForm'
+import FireFighterHelp from './FireFighterHelp'
+import FireFighterReview from './FireFighterReview'
+import FireFighterWork from './FireFighterWork'
 
 const FighterFoam = () => {
   return (
@@ -17,11 +22,11 @@ const FighterFoam = () => {
     </Helmet>
     <div>
       <LegalHeader />
-      <CampHead />
-      <CampForm />
-      <CampWork />
-      <CampHelp />
-      <CampReview />
+      <FireFighterHead />
+      <FireFighterForm />
+      <FireFighterWork />
+      <FireFighterHelp />
+      <FireFighterReview />
       <Footer />
     </div>
   </>
