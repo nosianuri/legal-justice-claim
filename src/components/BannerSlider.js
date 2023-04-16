@@ -2,14 +2,43 @@ import React, { useState } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useNavigate } from 'react-router-dom';
 var data = require("../LOW_DATA.json")
 
 const BannerSlider = () => {
     const [searchlaw, setSearchlaw] = useState("");
     const [selectedValue, setSelectedValue] = useState('');
-
+    const navigate = useNavigate();
     const handleSelectChange = (event) => {
-      setSelectedValue(event.target.value);
+        setSelectedValue(event.target.value);
+        // console.log(event.target.value);
+        if (event.target.value == 'camplejeune') {
+            navigate('/camplejeune');
+        }
+        else if(event.target.value == 'nec'){
+            navigate('/nec');
+        }
+        else if(event.target.value == 'mva'){
+            navigate('/mva');
+        }
+        else if(event.target.value == 'roundup'){
+            navigate('/roundup');
+        }
+        else if(event.target.value == 'hair-relaxer'){
+            navigate('/hair-relaxer');
+        }
+        else if(event.target.value == 'talcome'){
+            navigate('/talcome');
+        }
+        else if(event.target.value == 'tylenol'){
+            navigate('/tylenol');
+        }
+        else if(event.target.value == 'fire-fighter-foam'){
+            navigate('/fire-fighter-foam');
+        }
+        else{
+            navigate('/');
+        }
     };
     const images = [
         {
@@ -39,7 +68,7 @@ const BannerSlider = () => {
         setSearchlaw(searchTerm);
         console.log('search', searchTerm);
     }
-   
+
     return (
         <div className="">
             <Slider {...settings}>
@@ -65,17 +94,18 @@ const BannerSlider = () => {
                                                     <option value="fire-fighter-foam">Fire Fighting Foam</option>
                                                     <option value="hair-relaxer">Hair Relaxer</option>
                                                     <option value="nec">
-                                                    NEC
+                                                        NEC
                                                     </option>
                                                     <option value="roundup">
-                                                    Roundup
+                                                        Roundup
                                                     </option>
                                                     <option value="camplejeune">
-                                                    Camp Lejeune
+                                                        Camp Lejeune
                                                     </option>
                                                     <option value="talcome">Talcum Powder</option>
                                                 </select>
-                                                                               
+
+
                                                 <div className='text-center bg-[#E1251A] border border-[#E1251A] hover:bg-[#fff] hover:text-[#E1251A]'>
                                                     <button onClick={() => onSearch(searchlaw)} ><div className=' font-[800] !text-[17.776px] py-4  '>File Lawsuit Now!</div></button>
                                                 </div>
