@@ -11,7 +11,7 @@ const ReviewSlider = () => {
             name: "Bartol Stone",
             image: star,
             desc: "I've had the pleasure of working with Legal Justice Claim on multiple occasions, and I can honestly say they are one of the best law firms in the country. Their attorneys, John Smith and Sarah Lee, both partners at the firm, are incredibly knowledgeable and dedicated to their clients, and they consistently achieve outstanding results. Based in New York City, they are a go-to firm for personal injury and toxic tort cases.",
-            shorts: "I've had the pleasure of working with Legal Justice Claim on multiple occasions, and I can honestly say they are one of the best law firms in the country...",
+            shorts: "I've had the pleasure of working with Legal Justice Claim on multiple occasions, and I can honestly say they are one of the best law firms in the...",
         },
         {
             id: 2,
@@ -25,7 +25,7 @@ const ReviewSlider = () => {
             name: "Patricia T.",
             image: star,
             desc: "I've had the privilege of collaborating with Legal Justice Claim on several complex cases, and I am always impressed by their level of professionalism, expertise, and compassion. Their lead attorney, Lisa Williams, is a seasoned litigator with years of experience in personal injury and mass tort cases. Based in Chicago, she is a true asset to the legal community.",
-            shorts: "I've had the privilege of collaborating with Legal Justice Claim on several complex cases, and I am always impressed by their level of professionalism...",
+            shorts: "I've had the privilege of collaborating with Legal Justice Claim on several complex cases, and I am always impressed by their level of...",
         },
         {
             id: 4,
@@ -67,7 +67,7 @@ const ReviewSlider = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true, // Set autoplay to true
         autoplaySpeed: 3000, // Set autoplay speed to 3 seconds
