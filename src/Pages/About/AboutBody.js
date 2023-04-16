@@ -24,36 +24,40 @@ const AboutBody = () => {
 
                 <div className='bg-[#333] text-[#fff] p-5 text-[18px] mt-2 sm:w-[800px] mb-5'>Legal Justice Claim has a rich history of helping people win their lawsuits. Our website was founded by a team of experienced lawyers who saw a need for a more affordable and accessible legal services platform. Since then, we have helped countless clients achieve justice and recover compensation for their losses.</div>
                 <div className='bg-[#333] text-[#fff] p-5'>
-                    <strong className='text-[35px]'>Keep It Safe & <br />
-                        Choose Legal Justice Claim</strong>
+                    <strong className='text-[35px] about-heading'>Fight for justice and hold wrongdoers
+                        <br />
+                         accountable with an attorney
+                        </strong>
                     <div className='w-[850px] mx-auto'>
                         <div className='grid grid-cols-2 gap-5'>
                             <div className='flex gap-5 mt-3'>
-                            <i class="fa-regular fa-copy text-[45px]"></i>
+                                <i class="fa-regular fa-copy text-[45px]"></i>
                                 <div>
                                     <h3 className='text-xl'>100% Satisfaction Guarantee</h3>
-                                    <h5 className='mt-2'>You’ll get an extra level of protection and peace of mind with our UWin Guarantee.</h5>
+                                    <h5 className='mt-2'>With our legal services, we offer a 100% satisfaction guarantee. Our team of experienced attorneys will work tirelessly to ensure that you receive the justice you deserve.
+                                    </h5>
                                 </div>
                             </div>
                             <div className='flex gap-5 mt-3'>
-                            <i class="fa-regular fa-handshake text-[45px]"></i>
+                                <i class="fa-regular fa-handshake text-[45px]"></i>
                                 <div>
-                                    <h3 className='text-xl'>Local Technicians You Can Trust</h3>
-                                    <h5 className='mt-2'>All Mister Sparky techs are trained, licensed, insured, and local.</h5>
+                                    <h3 className='text-xl'>Local Attorneys You Can Trust</h3>
+                                    <h5 className='mt-2'>Our attorneys are local, licensed, and fully qualified to represent you in your legal claim. You can trust us to handle your case with the utmost professionalism and dedication.
+                                    </h5>
                                 </div>
                             </div>
                             <div className='flex gap-5 mt-3'>
-                            <i class="fa-solid fa-tags text-[45px]"></i>
+                                <i class="fa-solid fa-tags text-[45px]"></i>
                                 <div>
-                                    <h3 className='text-xl'>StraightForward Pricing®</h3>
-                                    <h5 className='mt-2'>We’ll give you options for your service so you know exactly what you’re getting.</h5>
+                                    <h3 className='text-xl'>Free Quote for Affordable Legal Representation</h3>
+                                    <h5 className='mt-2'>At our law firm, we believe in making legal services affordable and accessible to everyone. That's why we offer a free quote for our services, so you can get the legal representation you need without any hidden fees or surprises.</h5>
                                 </div>
                             </div>
                             <div className='flex gap-5 mt-3'>
-                            <i class="fa-regular fa-hourglass-half text-[45px] leading-normal"></i>
+                                <i class="fa-regular fa-hourglass-half text-[45px] leading-normal"></i>
                                 <div>
                                     <h3 className='text-xl'>24/7 Emergency Services</h3>
-                                    <h5 className='mt-2'>Our electricians are here for you, no matter the time of day…or night!</h5>
+                                    <h5 className='mt-2'>Our attorneys are available 24/7 to provide you with emergency legal services. No matter the time of day or night, you can count on us to be there for you when you need us most.</h5>
                                 </div>
                             </div>
                         </div>

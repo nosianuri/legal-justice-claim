@@ -63,8 +63,8 @@ const HeaderMenu = () => {
                 </div>
             </div>
             <div className='block sm:hidden'>
-                <div className='text-[16px] px-8 py-2 border border-[#131416] border-r-gray-400 font-semibold navigation__item hover:bg-[#333] hover:bg-opacity-30' onMouseEnter={handleMenu}>Menu <i class="fa-solid fa-angle-down pl-1"></i>
-                    {showDropdown && (
+                <div  className='text-[16px] px-8 py-2 border border-[#131416] border-r-gray-400 font-semibold navigation__item hover:bg-[#333] hover:bg-opacity-30' onMouseEnter={handleMenu}>Menu <i class="fa-solid fa-angle-down pl-1"></i>
+                    {showMenu && (
                         <ul className="dropdown_nav mt-2 fixed z-50">
                             <li className="dropdown__item py-1 pl-4 border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Home</a></li>
                             <li className="dropdown__item py-1 pl-4 border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Roundup</a></li>
