@@ -75,7 +75,7 @@
   
   /* Dropdown */
   .dropdown {
-    position: relative;
+    position: fixed;
   }
   
   .dropdown-menu {

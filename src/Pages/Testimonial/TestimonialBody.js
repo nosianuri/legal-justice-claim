@@ -170,13 +170,14 @@ const TestimonialBody = () => {
                     <div className='grid sm:grid-cols-3 grid-cols-1 gap-10'>
                         {services.slice(0, showMore ? services.length : 9).map(city => (
                             <div key={city} className=" bg-[#f4f6f7] font-semibold text-xl p-5 shadow-md rounded my-5 ">
-                                <div className='flex'>
+                                {/* <div className='flex'>
                                     <img src='https://i.ibb.co/3sLppLT/redstar.png' alt="logo" className=" w-8" />
                                     <img src='https://i.ibb.co/3sLppLT/redstar.png' alt="logo" className=" w-8" />
                                     <img src='https://i.ibb.co/3sLppLT/redstar.png' alt="logo" className=" w-8" />
                                     <img src='https://i.ibb.co/3sLppLT/redstar.png' alt="logo" className=" w-8" />
                                     <img src='https://i.ibb.co/3sLppLT/redstar.png' alt="logo" className=" w-8" />
-                                </div>
+                                </div> */}
+                                <img src="https://i.ibb.co/9g0VDYP/reviewthunder-removebg-preview.png" alt="" />
 
                                 <div className='text-[14px] mt-2'>{city.desc}</div>
                                 <div className='flex justify-between items-center mt-2'>
