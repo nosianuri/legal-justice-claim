@@ -13,13 +13,13 @@ import CampLejeune from './Pages/Home/CampLejuene/CampLejeune';
 import LegalNews from './Pages/LegalNews/LegalNews';
 import Nec from './Pages/NEC/Nec';
 import Mva from './Pages/MVA/Mva';
-import RoundUp from './components/RoundUp/RoundUp';
 import HairRelaxer from './Pages/HairRelaxer/HairRelaxer';
 import Talcome from './Pages/Talcome/Talcome';
 import Tylenol from './Pages/Tylenol/Tylenol';
 import FighterFoam from './Pages/FighterFoam/FighterFoam';
 import Testimonial from './Pages/Testimonial/Testimonial';
 import About from './Pages/About/About';
+import RoundUp from './Pages/RoundUp/RoundUp';
 
 function App() {
 //   useEffect(() => {
