@@ -10,7 +10,7 @@ const TermsCondition = () => {
       </Helmet>
       <div>
         <div>
-          <div className='p-5 bg-[#273c5d] !w-full'>
+          <div className='p-5 bg-[#800020] !w-full'>
           </div>
           <div className='px-5 pt-5'>
             <div className='container'>

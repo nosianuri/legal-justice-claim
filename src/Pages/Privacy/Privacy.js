@@ -10,7 +10,7 @@ const Privacy = () => {
       </Helmet>
       <div>
         <div>
-          <div className='p-5 bg-[#273c5d] !w-full'>
+          <div className='p-5 bg-[#800020] !w-full'>
           </div>
           <div className='my-5 mx-3'>
             <div className='container'>

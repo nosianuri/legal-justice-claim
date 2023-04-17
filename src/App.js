@@ -20,6 +20,7 @@ import FighterFoam from './Pages/FighterFoam/FighterFoam';
 import Testimonial from './Pages/Testimonial/Testimonial';
 import About from './Pages/About/About';
 import RoundUp from './Pages/RoundUp/RoundUp';
+import CaliforniaPrivacy from './Pages/CaliforniaPrivacy/CaliforniaPrivacy';
 
 function App() {
 //   useEffect(() => {
@@ -50,6 +51,7 @@ Aos.init({
       <Route path='/camplejeune-thanks' element={<Congratulate />} />
       <Route path='/terms&condition' element={<TermsCondition />} />
       <Route path='/privacy-policy' element={<Privacy />} />
+      <Route path='/california-privacy-rights' element={<CaliforniaPrivacy />} />
       </Routes>
     </>
   );
