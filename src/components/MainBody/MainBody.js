@@ -66,7 +66,7 @@ const MainBody = () => {
                         </div>
                         <div>
                             <h1 className='lg:text-4xl text-2xl font-semibold !leading-normal mb-2 font_verity italic'><span className=''>Secure Justice and Compensation</span>  with Our Experienced Legal Team</h1>
-                            <p className='font-medium text-lg'> We understand that an injury can be a life-changing event, causing physical, emotional, and financial turmoil. At our law firm, we're here to help you rise above your injury and reclaim your life. Our team of compassionate lawyers will fearlessly fight for your rights, securing the maximum compensation you're entitled to and the justice you deserve. We're committed to providing you with personalized attention and support throughout the legal process.</p>
+                            <p className='font-medium text-lg text-justify'> We understand that an injury can be a life-changing event, causing physical, emotional, and financial turmoil. At our law firm, we're here to help you rise above your injury and reclaim your life. Our team of compassionate lawyers will fearlessly fight for your rights, securing the maximum compensation you're entitled to and the justice you deserve. We're committed to providing you with personalized attention and support throughout the legal process.</p>
                             <div className='mt-2'>
                                 {/* <div className='uppercase font-semibold text-2xl my-3 font_verity italic'>We Help People Take Legal Action Against Those Held Accountable For Mistake.</div> */}
                                 <div className='space-y-2 bg-gray-200 p-4 items-center'>

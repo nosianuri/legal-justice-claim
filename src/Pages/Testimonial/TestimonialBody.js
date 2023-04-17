@@ -179,7 +179,7 @@ const TestimonialBody = () => {
                                 </div> */}
                                 <img src="https://i.ibb.co/9g0VDYP/reviewthunder-removebg-preview.png" alt="" />
 
-                                <div className='text-[14px] mt-2'>{city.desc}</div>
+                                <div className='text-[16px] mt-2 text-justify'>{city.desc}</div>
                                 <div className='flex justify-between items-center mt-2'>
                                     <h4 className='text-xl'>- {city.name}</h4>
                                     <p className='hover:underline text-sm text-red-600'>Read More</p>

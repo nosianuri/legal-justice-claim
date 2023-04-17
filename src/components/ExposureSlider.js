@@ -76,7 +76,7 @@ const ExposureSlider = () => {
                             <div className='lg:flex space-y-3 mt-10 '>
                                 <div className='mr-5'>
                                     <h3 className='lg:text-3xl text-xl text-[#800020] font-bold'><a className='hover:text-[#228B22]' href="/roundup">{image.title}</a></h3>
-                                    <p className='text-lg mt-2'>{image.desc}<span className='font-bold text-[#800020] underline'><a className='hover:text-[#228B22]' href={image.link}> Read More »</a></span></p>
+                                    <p className='text-lg mt-2 text-justify'>{image.desc}<span className='font-bold text-[#800020] underline'><a className='hover:text-[#228B22]' href={image.link}> Read More »</a></span></p>
                                 </div>
                                 <div className='image-box w-[100%]'>
                                     <img className='' src={image.url} alt="" />

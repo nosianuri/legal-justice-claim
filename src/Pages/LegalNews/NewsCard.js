@@ -9,7 +9,7 @@ const NewsCard = (props) => {
                 <div><i class="fa fa-calendar pr-2" aria-hidden="true"></i>{date}</div>
                 <div><i class="fa-solid fa-mug-saucer pr-2"></i>{time}</div>
             </div>
-            <p className='mt-3 text-md sm:text-sm'>{desc}</p>
+            <p className='mt-3 text-md sm:text-[16px] text-justify'>{desc}</p>
             <p className='text-red-600 hover:underline mt-2'>Read More</p>
         </div>
     )
