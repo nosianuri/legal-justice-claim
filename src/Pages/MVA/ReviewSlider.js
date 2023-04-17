@@ -108,7 +108,7 @@ const ReviewSlider = () => {
         {logos.map((logo) => (
           <div key={logo.id} className='p-5'>
             <img src="https://i.ibb.co/9g0VDYP/reviewthunder-removebg-preview.png" alt="" className='!w-24' />
-            <div className='text-[13px] mt-3'>{logo.shorts}</div>
+            <div className='text-[16px] mt-3 text-justify'>{logo.shorts}</div>
             <div className='flex justify-between items-center mt-2'>
               <h4 className='sm:text-[18px] text-[12px]'>{logo.name}</h4>
               <p className='hover:underline sm:text-sm text-xs text-red-600'>Read More</p>
