@@ -3,27 +3,31 @@ import React from 'react'
 const RoundUpHelp = () => {
   return (
     <div className='max-w-7xl mx-auto mb-5 sm:mt-16'>
-    <div className='grid sm:grid-cols-2 grid-cols-1 gap-10 justify-center'>
-      <div className='bg-slate-200 p-5 rounded-xl'>
-        <h2 className='font-bold text-[32px] text-[#228B22]'>What's happening?</h2>
-        <p className='mt-5'>Back in 1982, routine water testing at Camp Lejeune uncovered some startling findings. The drinking water sources were contaminated with a dangerous cocktail of benzene, trichloroethylene (TCE), tetrachloroethylene, or perchloroethylene (PCE), and vinyl chloride (VC). These hazardous chemicals are known to be carcinogenic and pose serious risks to human health. But get this: the contamination levels were off the charts! We're talking up to 300 times the acceptable levels in some cases! It's a wonder anyone survived drinking that toxic water. It's no wonder there are legal claims still being made today.
-        </p>
+      <div className='grid sm:grid-cols-2 grid-cols-1 gap-10 justify-center'>
+        <div className='bg-slate-200 p-5 rounded-xl'>
+          <h2 className='font-bold text-[32px] text-[#228B22]'>What's happening?</h2>
+          <p className='mt-5'>Monsanto has settled over 100,000 Roundup lawsuits, paying out about $11 billion as of May 2022. The recent Roundup settlement will pay as much as $9.6 billion to resolve victims involved in current litigation and set aside $1.25 billion to pay future claims as part of separate class-action lawsuits. The average Roundup lawsuit payout for Round One settlements was in the $120,000 to $180,000 per person range.</p>
+          <p className='mt-2'>Monsanto, a well-known agricultural company, has been at the center of controversy over its Roundup weed killer for years. In recent times, the company has faced a flood of lawsuits from individuals claiming that the product caused them to develop cancer. Despite denying these allegations, Monsanto has settled over 100,000 Roundup lawsuits, shelling out a staggering $11 billion as of May 2022. </p>
+          <p className='mt-2'>The latest Roundup settlement is expected to pay out as much as $9.6 billion to victims currently involved in ongoing litigation, with an additional $1.25 billion set aside for future class-action lawsuits. This move is a significant step towards resolving the controversy surrounding the product and compensating those who have suffered as a result of its use.</p>
+          <p className='mt-2'>If you or someone you know has been affected by Roundup exposure, this news may be of interest to you. The average payout for Round One settlements ranged from $120,000 to $180,000 per person, making it a substantial sum of money that can help cover medical expenses, lost wages, and other damages resulting from the use of this harmful product.</p>
+          <p className='mt-2'>It's important to note that the recent settlement is not an admission of guilt by Monsanto, but rather a means to provide compensation to those who have been impacted. If you believe you have a case against Monsanto and wish to pursue legal action, now is the time to act. Don't wait until it's too late to seek justice.
+          </p>
+          <p className='mt-2'>In conclusion, Monsanto's settlement over the Roundup controversy is a significant development in the ongoing fight for justice for those affected by the product. If you or someone you know has been impacted by Roundup exposure, seek legal help today and join the many others who have already received compensation for their suffering.</p>
+        </div>
+        <div className='p-5'>
+          <h2 className='font-bold text-[32px] text-[#228B22]'>How we can help ?</h2>
+          <p className='mt-5'>Once you submit your claim form, the real work begins! Our team of expert attorneys will evaluate your case to determine your eligibility and identify the best next steps. We'll be your advocates, fighting tooth and nail to get you the compensation you deserve for the damages you've suffered. The best part? You don't have to pay us a dime upfront! That's right, we work on a contingency basis, which means we only get paid if we recover the damage expenses you incurred. So, what are you waiting for? Let us fight for you!
+          </p>
+
+        </div>
       </div>
-      <div className='p-5'>
-        <h2 className='font-bold text-[32px] text-[#228B22]'>How we can help ?</h2>
-        <p className='mt-5'>Once you submit your claim form, the real work begins! Our team of expert attorneys will evaluate your case to determine your eligibility and identify the best next steps. We'll be your advocates, fighting tooth and nail to get you the compensation you deserve for the damages you've suffered. The best part? You don't have to pay us a dime upfront! That's right, we work on a contingency basis, which means we only get paid if we recover the damage expenses you incurred. So, what are you waiting for? Let us fight for you!
-        </p>
-        <p className='mt-3'>We, the Legal Justice Claim Website, do not operate as a law firm and do not provide legal advice. Our services are free of charge and aim to connect you with third-party law firms to discuss your legal claims. We do not endorse or recommend any of the law firms participating in our network. By clicking "Do I Qualify?", you acknowledge and agree to the Terms of Service and Privacy Policy of our website. You also provide express written consent via electronic signature, authorizing Legal Justice Claim Website, along with one or more law firms, their agents, and marketing partners, to contact you regarding your case and other related legal products and services. This includes contacting you via calls, text messages, pre-recorded messages, and artificial voice messages using an autodialer system, even if your telephone number is currently listed on any state, federal, or corporate "Do Not Call" list. We understand that your consent is not a condition of purchasing any goods or services, and standard message and data rates may apply. For California residents, please refer to our separate notice.
-        </p>
+      <div className='mt-16'>
+        <h2 className='font-bold text-[35px] text-center'>Complete the <span className='text-[#228B22]'>online form</span> above for a FREE <br />claim evaluation.</h2>
+        <a href="#get-claim">
+          <div className='bg-[#228B22] sm:text-[25px] text-white text-center sm:w-2/4 w-3/4 mx-auto py-2 px-4 rounded-full cursor-pointer mt-2'>Time is Limited. Get Started Today. </div>
+        </a>
       </div>
     </div>
-    <div className='mt-16'>
-      <h2 className='font-bold text-[35px] text-center'>Complete the <span className='text-[#228B22]'>online form</span> above for a FREE <br />claim evaluation.</h2>
-      <a href="#get-claim">
-        <div className='bg-[#228B22] sm:text-[25px] text-white text-center sm:w-2/4 w-3/4 mx-auto py-2 px-4 rounded-full cursor-pointer mt-2'>Time is Limited. Get Started Today. </div>
-      </a>
-    </div>
-  </div>
   )
 }
 

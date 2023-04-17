@@ -18,7 +18,7 @@ const GetInTouch = () => {
                 Why Trust Us?
             </h2>
             <div className='injuries px-10 pb-10'>
-                <div class="grid grid-cols-1 sm:grid-cols-4 gap-10  space-y-2 sm:space-y-0">
+                <div class="grid grid-cols-1 sm:grid-cols-4 gap-10 mx-auto space-y-2 sm:space-y-0">
                     <div class="col ">
                     <a href="/camplejeune">
                         <div class="card bg-white">
