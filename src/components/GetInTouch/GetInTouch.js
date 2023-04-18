@@ -54,7 +54,7 @@ const GetInTouch = () => {
                                         <span>$27.5</span>
                                         Million
                                     </strong>
-                                    <p>Talcome Powder Lawsuit Recovered</p>
+                                    <p>Talcum Powder Lawsuit Recovered</p>
                                 </div>
                             </div>
                         </div>

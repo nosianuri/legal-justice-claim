@@ -79,20 +79,20 @@ const BannerTop = () => {
                         <div className='border border-[#fff] bg-[#fff]  p-1 font-medium grid sm:grid-cols-2 grid-cols-1'>
                             <select name="status" id="select-option" value={selectedValue} onChange={handleSelectChange} className="border border-white text-[#333] block py-2 px-4 w-full rounded focus:outline-none font-semibold" >
                                 <option value="">Select a Lawsuit</option>
-                                <option value="tylenol">Tylenol</option>
-                                <option value="mva">MVA</option>
+                                <option value="camplejeune">
+                                    Camp Lejeune
+                                </option>
                                 <option value="fire-fighter-foam">Fire Fighting Foam</option>
                                 <option value="hair-relaxer">Hair Relaxer</option>
+                                <option value="mva">MVA</option>
                                 <option value="nec">
                                     NEC
                                 </option>
                                 <option value="roundup">
                                     Roundup
                                 </option>
-                                <option value="camplejeune">
-                                    Camp Lejeune
-                                </option>
                                 <option value="talcome">Talcum Powder</option>
+                                <option value="tylenol">Tylenol</option>
                             </select>
 
 
