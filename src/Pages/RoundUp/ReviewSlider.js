@@ -109,7 +109,7 @@ const ReviewSlider = () => {
           <img src="https://i.ibb.co/9g0VDYP/reviewthunder-removebg-preview.png" alt="" className='!w-24' />
           <div className='text-[16px] mt-3 text-justify'>{logo.shorts}</div>
           <div className='flex justify-between items-center mt-2'>
-            <h4 className='sm:text-[18px] text-[12px]'>{logo.name}</h4>
+            <h4 className='sm:text-[19px] text-[12px]'>{logo.name}</h4>
             <p className='hover:underline sm:text-sm text-xs text-red-600'>Read More</p>
           </div>
         </div>

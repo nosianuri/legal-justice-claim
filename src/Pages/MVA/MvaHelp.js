@@ -13,6 +13,11 @@ const MvaHelp = () => {
           <p className='mt-2 text-justify text-[18px]'>However, it's important to note that every case is unique, and settlement amounts can vary widely depending on the circumstances of the accident. Factors such as the severity of the injuries, the extent of property damage, and the insurance policies involved can all play a role in determining the final settlement amount.</p>
           <p className='mt-2 text-justify text-[18px]'>If you've been in a car accident, it's essential to seek legal help to ensure that you receive the compensation you deserve. Experienced attorneys can help you navigate the complex legal process and negotiate with insurance companies to get the best possible outcome for your case.</p>
           <p className='mt-2 text-justify text-[18px]'>In conclusion, the average car accident settlement amounts for bodily injury and property damage are significant, with many victims receiving compensation in the tens of thousands of dollars. However, every case is unique, and it's essential to seek legal help to ensure that you receive the full compensation you deserve. Don't let a car accident derail your life - take action today and get the justice you deserve.</p>
+          <div className='sm:hidden block'>
+            <a href="#get-claim">
+              <div className='bg-[#228B22] sm:text-[25px] text-white text-center sm:w-2/4 w-3/4 mx-auto py-2 px-4 rounded-full cursor-pointer mt-2'>Free Claim Review </div>
+            </a>
+          </div>
         </div>
         <div className='p-5'>
           <h2 className='font-bold text-[32px] text-[#228B22]'>How we can help ?</h2>

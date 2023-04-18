@@ -13,12 +13,17 @@ const RoundUpHelp = () => {
           <p className='mt-2 text-justify text-[18px]'>It's important to note that the recent settlement is not an admission of guilt by Monsanto, but rather a means to provide compensation to those who have been impacted. If you believe you have a case against Monsanto and wish to pursue legal action, now is the time to act. Don't wait until it's too late to seek justice.
           </p>
           <p className='mt-2 text-justify text-[18px]'>In conclusion, Monsanto's settlement over the Roundup controversy is a significant development in the ongoing fight for justice for those affected by the product. If you or someone you know has been impacted by Roundup exposure, seek legal help today and join the many others who have already received compensation for their suffering.</p>
+          <div className='sm:hidden block'>
+            <a href="#get-claim">
+              <div className='bg-[#228B22] sm:text-[25px] text-white text-center sm:w-2/4 w-3/4 mx-auto py-2 px-4 rounded-full cursor-pointer mt-2'>Free Claim Review </div>
+            </a>
+          </div>
         </div>
         <div className='p-5'>
           <h2 className='font-bold text-[32px] text-[#228B22]'>How we can help ?</h2>
           <p className='mt-5 text-justify text-[18px]'>Once you submit your claim form, the real work begins! Our team of expert attorneys will evaluate your case to determine your eligibility and identify the best next steps. We'll be your advocates, fighting tooth and nail to get you the compensation you deserve for the damages you've suffered. The best part? You don't have to pay us a dime upfront! That's right, we work on a contingency basis, which means we only get paid if we recover the damage expenses you incurred. So, what are you waiting for? Let us fight for you!
           </p>
-
+          
         </div>
       </div>
       <div className='mt-16'>

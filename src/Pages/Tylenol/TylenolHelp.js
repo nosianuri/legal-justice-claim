@@ -14,6 +14,11 @@ const TylenolHelp = () => {
           <p className='mt-2 text-justify text-[18px]'>The aim of the lawsuit is not only to provide justice for victims but also to protect unborn children through the addition of a new warning label. This means that future generations will be better protected against the harmful effects of the medication.</p>
 
           <p className='mt-2 text-justify text-[18px]'>The settlement of these lawsuits is expected in 2023, and victims can take action now to hold the manufacturers accountable and receive the compensation they deserve. If you or a loved one has been affected by the dangerous side effects of Tylenol, it's important to speak with an experienced attorney to learn about your legal options and seek justice.</p>
+          <div className='sm:hidden block'>
+            <a href="#get-claim">
+              <div className='bg-[#228B22] sm:text-[25px] text-white text-center sm:w-2/4 w-3/4 mx-auto py-2 px-4 rounded-full cursor-pointer mt-2'>Free Claim Review </div>
+            </a>
+          </div>
         </div>
         <div className='p-5'>
           <h2 className='font-bold text-[32px] text-[#228B22]'>How we can help ?</h2>

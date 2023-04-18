@@ -19,6 +19,11 @@ const FireFighterHelp = () => {
 
           <p className='mt-2 text-justify text-[18px]'>Overall, the AFFF lawsuits seek to hold manufacturers accountable for their alleged negligence in producing and distributing a product that has caused widespread harm. The potential compensation for victims is significant and could provide much-needed financial support for medical bills, lost wages, and other damages.</p>
           <p className='mt-2 text-justify text-[18px]'>It's crucial for those affected by AFFF firefighting foam to take action now and hold manufacturers accountable for their negligence. By filing a lawsuit, victims can not only receive the financial compensation they deserve but also send a message to manufacturers that they will be held responsible for the harm caused by their products. So if you or someone you know has been impacted by AFFF, don't wait - take action now to seek justice and the compensation you deserve.</p>
+          <div className='sm:hidden block'>
+            <a href="#get-claim">
+              <div className='bg-[#228B22] sm:text-[25px] text-white text-center sm:w-2/4 w-3/4 mx-auto py-2 px-4 rounded-full cursor-pointer mt-2'>Free Claim Review </div>
+            </a>
+          </div>
         </div>
         <div className='p-5'>
           <h2 className='font-bold text-[32px] text-[#228B22]'>How we can help ?</h2>

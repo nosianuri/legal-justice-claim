@@ -16,6 +16,11 @@ const HairRelaxerHelp = () => {
           <p className='mt-2 text-justify text-[18px]'>Since then, many more lawsuits have been filed against other hair relaxer manufacturers, including Just For Me, Motions, and Pro-Line. The lawsuits have gained momentum in recent years, with many victims coming forward to share their experiences and seek justice.</p>
           <p className='mt-2 text-justify text-[18px]'>Furthermore, it's important to note that the compensation amount may also vary depending on the strength of your case and the direction of the litigation. It's essential to consult with an experienced attorney who can evaluate your case and help you pursue the maximum compensation possible.</p>
           <p className='mt-2 text-justify text-[18px]'>Overall, if you have suffered injuries or health problems as a result of using hair relaxers, you may be entitled to significant compensation. It's crucial to take action now and hold the manufacturers accountable for their negligence to ensure that you receive the financial support you deserve.</p>
+          <div className='sm:hidden block'>
+            <a href="#get-claim">
+              <div className='bg-[#228B22] sm:text-[25px] text-white text-center sm:w-2/4 w-3/4 mx-auto py-2 px-4 rounded-full cursor-pointer mt-2'>Free Claim Review </div>
+            </a>
+          </div>
         </div>
         <div className='p-5'>
           <h2 className='font-bold text-[32px] text-[#228B22]'>How we can help ?</h2>

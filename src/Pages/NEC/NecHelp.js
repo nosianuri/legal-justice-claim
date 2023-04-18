@@ -16,6 +16,11 @@ const NecHelp = () => {
 
           <p className='mt-2 text-justify text-[18px]'>If you're considering filing a NEC lawsuit, it's essential to seek legal help to ensure that you receive the full compensation you deserve. Experienced attorneys can help you navigate the complex legal process and negotiate with the defendants to get the best possible outcome for your case.</p>
           <p className='mt-2 text-justify text-[18px]'>In conclusion, while the estimated settlement amounts for NEC lawsuits may vary widely, pursuing legal action can provide much-needed compensation and a sense of justice for parents of premature infants affected by this condition. If you believe you have a case, don't hesitate to take action and seek legal help today.</p>
+          <div className='sm:hidden block'>
+            <a href="#get-claim">
+              <div className='bg-[#228B22] sm:text-[25px] text-white text-center sm:w-2/4 w-3/4 mx-auto py-2 px-4 rounded-full cursor-pointer mt-2'>Free Claim Review </div>
+            </a>
+          </div>
         </div>
         <div className='p-5'>
           <h2 className='font-bold text-[32px] text-[#228B22]'>How we can help ?</h2>

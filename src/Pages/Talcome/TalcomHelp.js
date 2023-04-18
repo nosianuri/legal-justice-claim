@@ -15,6 +15,11 @@ const TalcomHelp = () => {
 
           <p className='mt-2 text-justify text-[18px]'>If you or a loved one has been affected by talcum powder, it's important to seek legal help to ensure that you receive the compensation you deserve. Experienced attorneys can help you navigate the complex legal process and negotiate with Johnson & Johnson to get the best possible outcome for your case.</p>
           <p className='mt-2 text-justify text-[18px]'>In conclusion, the Johnson & Johnson talcum powder settlement is a significant development in the fight for justice for those affected by this harmful product. With an average compensation payout of $4.4 million and a total settlement of $8.9 billion, this is a substantial sum of money that can help provide closure and compensation for those impacted. If you believe you have a case against Johnson & Johnson, don't hesitate to take action and seek legal help today.</p>
+          <div className='sm:hidden block'>
+            <a href="#get-claim">
+              <div className='bg-[#228B22] sm:text-[25px] text-white text-center sm:w-2/4 w-3/4 mx-auto py-2 px-4 rounded-full cursor-pointer mt-2'>Free Claim Review </div>
+            </a>
+          </div>
         </div>
         <div className='p-5'>
           <h2 className='font-bold text-[32px] text-[#228B22]'>How we can help ?</h2>

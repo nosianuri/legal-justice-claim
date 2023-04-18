@@ -16,6 +16,11 @@ const CampHelp = () => {
                     <p className='mt-2 text-justify text-[18px]'>If you or a loved one were stationed at Camp Lejeune between the 1950s and 1980s and have been diagnosed with a health condition related to the water contamination, you may be eligible for compensation. The process of filing a claim can be complex, but with the help of experienced attorneys, you can get the justice you deserve.</p>
 
                     <p className='mt-2 text-justify text-[18px]'>In conclusion, the Camp Lejeune lawsuit settlement payouts provide a glimmer of hope for those who have suffered as a result of the contaminated water. The compensation can not only help cover medical expenses and other damages but also provide a sense of closure for those impacted. If you believe you have a claim, don't hesitate to take action and seek legal help today.</p>
+                    <div className='sm:hidden block'>
+                        <a href="#get-claim">
+                            <div className='bg-[#228B22] sm:text-[25px] text-white text-center sm:w-2/4 w-3/4 mx-auto py-2 px-4 rounded-full cursor-pointer mt-2'>Free Claim Review </div>
+                        </a>
+                    </div>
                 </div>
                 <div className='p-5'>
                     <h2 className='font-bold text-[32px] text-[#228B22]'>How we can help ?</h2>
