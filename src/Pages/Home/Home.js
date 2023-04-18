@@ -8,6 +8,7 @@ import Sidebar from '../../components/Navbar/Sidebar';
 import Hbanner from '../../components/Hbanner/Hbanner';
 import LegalHeader from '../../components/LegalHeader/LegalHeader';
 import BannerSlider from '../../components/BannerSlider';
+import BackgroundSlide from '../../components/BackgroundSlide';
 
 
 const Home = () => {
@@ -19,7 +20,8 @@ const Home = () => {
       </Helmet>
       <div>
         <LegalHeader />
-        <BannerSlider />
+        {/* <BannerSlider /> */}
+        <BackgroundSlide />
         <MainBody />
         <Footer />
       </div>
