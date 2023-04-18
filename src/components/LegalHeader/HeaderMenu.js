@@ -134,7 +134,16 @@ const HeaderMenu = () => {
                         <ul className="dropdown_nav mt-2 absolute z-50">
                             <li className="dropdown__item py-1 pl-4 border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/">Home</a></li>
                             <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]" onClick={toggleShowMore}> {open ? 'Lawsuits' : 'Lawsuits'}<i class="fa-solid fa-angle-down pl-1"></i>
-                                {open && (
+                                <div className=''>
+                                    {menus.slice(0, open ? menus.length : 6).map(city => (
+                                        <div key={city} className=" ">
+                                            <span className="">
+                                                <li className=" py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href={city.Link}>{city.name} </a></li>
+                                            </span>
+                                        </div>
+                                    ))}
+                                </div>
+                                {/* {open && (
                                     <ul className=" mt-2 ">
                                         <li className=" py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/camplejeune">Camp Lejeune </a></li>
                                         <li className=" py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/fire-fighter-foam">Fire Fighter Foam</a></li>
@@ -145,7 +154,7 @@ const HeaderMenu = () => {
                                         <li className=" py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/talcome">Talcome Powder</a></li>
                                         <li className=" py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/tylenol">Tylenol</a></li>
                                     </ul>
-                                )}
+                                )} */}
                             </li>
                             <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/legal-news">Legal News</a></li>
                             <li className="dropdown__item py-1 pl-4  border border-[#cf2e2e] border-b-[#be2929] hover:bg-[#cc4545]"><a href="/testimonial">Testimonial</a></li>
