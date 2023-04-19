@@ -8,9 +8,9 @@ const TylenolHead = () => {
                 </h2>
             </div>
             <div className="  bg-no-repeat !bg-cover" style={{
-                background: `url(https://i.ibb.co/jVL0c75/talcum-board.png)`
+                background: `url(https://i.ibb.co/yQy6519/tylenolo-banner.png)`
             }}>
-                <div className='bg-black bg-opacity-60'>
+                <div className='bg-black bg-opacity-70'>
                     <div className='container mx-auto lg:min-h-[320px]  min-h-[200px] flex justify-center items-center'>
                         <div className='text-center flex flex-col'>
                             <div

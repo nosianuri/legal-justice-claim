@@ -13,7 +13,7 @@ const AboutBody = () => {
                         <h4 className='text-[17px] text-justify'>Welcome to Legal Justice Claim, your ultimate destination for lawsuit claim victories! We are a leading website that specializes in providing our clients with top-notch legal services to ensure that they receive the justice they deserve. Our team of expert lawyers has helped countless individuals and businesses navigate the complexities of the legal system to win their lawsuits.</h4>
                     </div>
                     <div>
-                        <img src="https://i.ibb.co/vsCYxq4/sidenav-img-01.jpg" className='w-auto h-auto' alt="" />
+                        <img src="https://i.ibb.co/JHVxk04/legal-about.png" className='w-auto h-auto' alt="" />
                     </div>
                 </div>
                 <h3 className='text-2xl font-semibold '>Legal Justice Claim Difference</h3>
