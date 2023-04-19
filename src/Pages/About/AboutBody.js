@@ -30,8 +30,8 @@ const AboutBody = () => {
                         </strong>
                     <div className='w-[850px] mx-auto'>
                         <div className='grid grid-cols-2 gap-5'>
-                            <div className='flex gap-5 mt-3'>
-                                <i class="fa-regular fa-copy text-[45px]"></i>
+                            <div className='flex gap-0 mt-3'>
+                            <img src="https://i.ibb.co/5Lk6rKP/dollarpng.png" alt="" className='w-full h-full' />
                                 <div>
                                     <h3 className='text-xl'>100% Satisfaction Guarantee</h3>
                                     <h5 className='mt-2 text-justify'>With our legal services, we offer a 100% satisfaction guarantee. Our team of experienced attorneys will work tirelessly to ensure that you receive the justice you deserve.
@@ -39,7 +39,10 @@ const AboutBody = () => {
                                 </div>
                             </div>
                             <div className='flex gap-5 mt-3'>
-                                <i class="fa-regular fa-handshake text-[45px]"></i>
+                            
+                                <img src="https://i.ibb.co/r3mHGsY/handshake.png" alt="" className='w-full h-full' />
+                            
+                                {/* <i class="fa-regular fa-handshake text-[45px]"></i> */}
                                 <div>
                                     <h3 className='text-xl'>Local Attorneys You Can Trust</h3>
                                     <h5 className='mt-2 text-justify'>Our attorneys are local, licensed, and fully qualified to represent you in your legal claim. You can trust us to handle your case with the utmost professionalism and dedication.
@@ -47,14 +50,20 @@ const AboutBody = () => {
                                 </div>
                             </div>
                             <div className='flex gap-5 mt-3'>
-                                <i class="fa-solid fa-tags text-[45px]"></i>
+                           
+                                <img src="https://i.ibb.co/pQSr7hB/like.png" alt="" className='w-full h-4/5' />
+                           
+                                {/* <i class="fa-solid fa-tags text-[45px]"></i> */}
                                 <div>
                                     <h3 className='text-xl'>Free Quote for Affordable Legal Representation</h3>
                                     <h5 className='mt-2 text-justify'>At our law firm, we believe in making legal services affordable and accessible to everyone. That's why we offer a free quote for our services, so you can get the legal representation you need without any hidden fees or surprises.</h5>
                                 </div>
                             </div>
                             <div className='flex gap-5 mt-3'>
-                                <i class="fa-regular fa-hourglass-half text-[45px] leading-normal"></i>
+                           
+                                <img src="https://i.ibb.co/g6Kr5Fy/24-hour.png" alt="" className='w-full h-4/5' />
+                            
+                                {/* <i class="fa-regular fa-hourglass-half text-[45px] leading-normal"></i> */}
                                 <div>
                                     <h3 className='text-xl'>24/7 Emergency Services</h3>
                                     <h5 className='mt-2 text-justify'>Our attorneys are available 24/7 to provide you with emergency legal services. No matter the time of day or night, you can count on us to be there for you when you need us most.</h5>
