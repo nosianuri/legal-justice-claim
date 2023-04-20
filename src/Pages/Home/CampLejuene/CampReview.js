@@ -6,8 +6,8 @@ const CampReview = () => {
     <div id='reviews'>
     <div className='sm:flex'>
         <div className='sm:flex justify-between gap-1 items-center sm:w-[2000px] mx-2'>
-        <img src="https://i.ibb.co/hRcJ07v/testimonials-img-01.png" alt="" className='!sm:w-[800px] !w-auto h-auto' />
-        <div className='px-2 py-2 text-center'>
+        <img src="https://i.ibb.co/VvhqyqP/reviews-client3.png" alt="" className='!w-auto h-auto' />
+        <div className='px-2 py-2 text-center sm:w-[550px] mx-auto'>
             <h2 className='text-2xl font-bold'> Between Us & Our Clients</h2>
         </div>
         </div>
